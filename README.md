@@ -5,6 +5,7 @@ Conținutul fiecărei materii este pe un **branch** separat. Schimbă branch-ul 
 ## Branch-uri disponibile
 
 - [`SDD`](../../tree/SDD) — Structuri de Date
+<!-- BRANCHES_END -->
 
 ## Cum funcționează
 
