@@ -1,0 +1,17 @@
+# Toate fisierele text -> LF in repo, auto-conversie la checkout pe Windows
+* text=auto eol=lf
+
+# Exceptii — fisiere care TREBUIE sa fie CRLF (pentru a functiona pe Windows)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Fisiere binare — fara conversie
+*.exe binary
+*.obj binary
+*.pdb binary
+*.dll binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
