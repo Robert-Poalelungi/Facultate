@@ -18,6 +18,21 @@ Fiecare branch e independent (orphan branch — istoric separat). Asta înseamn�
 
 ## Adăugare materie nouă
 
+**Varianta rapidă — script:**
+
+```bash
+./add-materie.sh POO /c/Users/Robert/Desktop/poo "Programare Orientată Obiect"
+```
+
+Argumente:
+1. **Numele branch-ului** (ex. `POO`, `BD`, `Algo`)
+2. **Folderul sursă** cu conținutul materiei
+3. **Numele complet** (opțional, doar pentru README)
+
+Scriptul verifică că branch-ul nu există deja, comută pe main, creează orphan branch, copiază conținutul, commit + push automat.
+
+**Varianta manuală** (dacă preferi pas cu pas):
+
 ```bash
 git checkout main
 git checkout --orphan <nume-materie>
