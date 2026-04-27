@@ -4,7 +4,7 @@ Conținutul fiecărei materii este pe un **branch** separat. Schimbă branch-ul 
 
 ## Branch-uri disponibile
 
-- [`sdd`](../../tree/sdd) — Structuri de date
+- [`SDD`](../../tree/SDD) — Structuri de Date
 
 ## Cum funcționează
 
@@ -13,7 +13,7 @@ Fiecare branch e independent (orphan branch — istoric separat). Asta înseamn�
 - Fiecare materie e izolată
 - Pentru a clona o materie specifică:
   ```
-  git clone -b sdd https://github.com/Robert-Poalelungi/Facultate.git
+  git clone -b SDD https://github.com/Robert-Poalelungi/Facultate.git
   ```
 
 ## Adăugare materie nouă
