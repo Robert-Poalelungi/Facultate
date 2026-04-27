@@ -74,9 +74,37 @@ git checkout main
 echo ">>> [2/6] Creez orphan branch '$BRANCH'..."
 git checkout --orphan "$BRANCH"
 
-echo ">>> [3/6] Curat staging area si copiez continutul din '$SOURCE'..."
+echo ">>> [3/6] Curat staging si untracked, apoi copiez din '$SOURCE'..."
 git rm -rf . > /dev/null 2>&1 || true
+# Sterge si fisierele untracked / ignored (ex. practice/ leftover din alte branch-uri)
+git clean -fdx > /dev/null 2>&1 || true
 cp -r "$SOURCE"/. .
+
+# Daca sursa nu are .gitignore, creez unul default ca sa NU se traceze accidental
+# practice/, build artifacts, .vs/, etc.
+if [ ! -f .gitignore ]; then
+    cat > .gitignore <<'EOF'
+# Codul de drill local
+practice/
+
+# Build artifacts (MSVC / VS)
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+Debug/
+Release/
+x64/
+.vs/
+
+# Editor / OS
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+EOF
+fi
 
 echo ">>> [4/6] Commit + push branch '$BRANCH'..."
 git add .
