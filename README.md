@@ -4,8 +4,8 @@ Conținutul fiecărei materii este pe un **branch** separat. Schimbă branch-ul 
 
 ## Branch-uri disponibile
 
-- [`SDD`](../../tree/SDD) — Structuri de Date
-- [`DSAD`](../../tree/DSAD) — Dezvoltare Software Pentru Analiza De Date
+- [`SDD`](../../tree/SDD) — Structuri de date
+- [`DSAD`](../../tree/DSAD) — Dezvoltare Software pentru analiza datelor
 - [`PAW`](../../tree/PAW) — Programarea aplicațiilor Windows
 <!-- BRANCHES_END -->
 
