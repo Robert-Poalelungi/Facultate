@@ -7,6 +7,7 @@ Conținutul fiecărei materii este pe un **branch** separat. Schimbă branch-ul 
 - [`SDD`](../../tree/SDD) — Structuri de date
 - [`DSAD`](../../tree/DSAD) — Dezvoltare Software pentru analiza datelor
 - [`PAW`](../../tree/PAW) — Programarea aplicațiilor Windows
+- [`CTS`](../../tree/CTS) — Calitate
 <!-- BRANCHES_END -->
 
 ## Cum funcționează
