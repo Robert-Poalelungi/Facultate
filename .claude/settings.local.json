@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(mkdir -p 'C:/Users/Robert/Desktop/pachete/materiale seminar/Python')",
+      "Bash(mkdir -p 'C:/Users/Robert/Desktop/pachete/materiale seminar/SAS')",
+      "Bash(mv 'C:/Users/Robert/Desktop/pachete/materiale seminar/PACHETE SOFTWARE_SEMINAR_1_INTRODUCERE_PYTHON.pptx' 'C:/Users/Robert/Desktop/pachete/materiale seminar/Python/01_Introducere_Python.pptx')",
+      "Bash(mv 'C:/Users/Robert/Desktop/pachete/materiale seminar/s1' 'C:/Users/Robert/Desktop/pachete/materiale seminar/Python/02_Script_Introducere')",
+      "Bash(mv 'C:/Users/Robert/Desktop/pachete/materiale seminar/seminar_3_pandas_recapitulare' 'C:/Users/Robert/Desktop/pachete/materiale seminar/Python/03_Pandas_Recapitulare')",
+      "Bash(python3 -c \" import sys sys.stdout.reconfigure\\(encoding='utf-8'\\) from docx import Document doc = Document\\('Seminar programare SAS 4.docx'\\) for p in doc.paragraphs: if p.text.strip\\(\\): print\\(p.text\\) \")",
+      "Bash(python3 -c \" import sys sys.stdout.reconfigure\\(encoding='utf-8'\\) import pdfplumber with pdfplumber.open\\('01_Introducere_Python.pdf'\\) as pdf: for i, page in enumerate\\(pdf.pages\\): text = page.extract_text\\(\\) if text: print\\(f'--- Pagina {i+1} ---'\\) print\\(text\\) \")",
+      "Bash(python3 -c \" import sys sys.stdout.reconfigure\\(encoding='utf-8'\\) import pdfplumber with pdfplumber.open\\('01_Introducere_Python.pdf'\\) as pdf: for i, page in enumerate\\(pdf.pages\\): if i < 63: continue text = page.extract_text\\(\\) if text: print\\(f'--- Pagina {i+1} ---'\\) print\\(text\\) \")",
+      "Bash(python3 -c \" import sys sys.stdout.reconfigure\\(encoding='utf-8'\\) import pdfplumber with pdfplumber.open\\('kmeans.pdf'\\) as pdf: print\\(f'Total pagini: {len\\(pdf.pages\\)}'\\) for i, page in enumerate\\(pdf.pages\\): text = page.extract_text\\(\\) if text: print\\(f'--- Pagina {i+1} ---'\\) print\\(text\\) \")",
+      "Bash(python3 -c \" import sys sys.stdout.reconfigure\\(encoding='utf-8'\\) import pdfplumber with pdfplumber.open\\('04_Pandas_Library.pdf'\\) as pdf: print\\(f'Total pagini: {len\\(pdf.pages\\)}'\\) for i, page in enumerate\\(pdf.pages\\): text = page.extract_text\\(\\) if text: print\\(f'--- Pagina {i+1} ---'\\) print\\(text[:600]\\) \")",
+      "Bash(python3 *)"
+    ]
+  }
+}
