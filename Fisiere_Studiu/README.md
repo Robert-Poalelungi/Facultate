@@ -108,15 +108,6 @@ Toate fișierele de studiu conțin **exclusiv** teorie din `materiale-seminar/`.
 
 ---
 
-## Fișiere suplimentare
-
-| Fișier | Descriere |
-|--------|-----------|
-| [STUDIU_SAS.md](./STUDIU_SAS.md) | Versiune alternativă SAS |
-| [STUDIU_PYTHON.md](./STUDIU_PYTHON.md) | Versiune alternativă Python |
-
----
-
 ## Notă despre acoperire
 
 | Material seminar | Acoperit în |
