@@ -9,7 +9,6 @@ Conținutul fiecărei materii este pe un **branch** separat. Schimbă branch-ul 
 - [`PAW`](../../tree/PAW) — Programarea aplicațiilor Windows
 - [`CTS`](../../tree/CTS) — Calitate
 - [`PSW`](../../tree/PSW) — Pachete software
-- [`PSW`](../../tree/PSW) — Pachete software
 <!-- BRANCHES_END -->
 
 ## Cum funcționează
