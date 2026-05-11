@@ -233,7 +233,7 @@ System.out.println("Total: " + comanda.getTotal()); // 6.3
 
 ---
 
-### 09. ADAPTER
+### 08. ADAPTER
 **Seminar:** IPrizaAmerica (target) + PrizaEuropa (existing) + AdapterEuropaToAmerica (class adapter)
 
 ```java
@@ -278,7 +278,7 @@ telefon.chargeUSBc(new Adaptor(new MicroUSB()));
 
 ---
 
-### 08. FACADE
+### 09. FACADE
 ```java
 public class SubsistemA { public void operatieA() { System.out.println("A"); } }
 public class SubsistemB { public void operatieB() { System.out.println("B"); } }

@@ -13,7 +13,7 @@ Ordonate după probabilitatea de apariție la test (bazat pe S01–S14).
 | ⭐⭐⭐⭐⭐ (5/14) | ✅ S08 | **Proxy** | [02](02_Proxy/README.md) | intermediar cu aceeași interfață ca originalul | „modul intermediar", „fără modificarea codului existent", control acces |
 | ⭐⭐⭐⭐ (4/14) | ✅ S03, S10 | **Strategy** | [03](03_Strategy/README.md) | algoritm interschimbabil la runtime | „clientul poate alege între", „mai mulți algoritmi pentru aceeași problemă" |
 | ⭐⭐⭐ (3/14) | ✅ S09 | **Chain of Responsibility** | [04](04_Chain_of_Responsibility/README.md) | cererea trece prin handlere în lanț | „adăugare noi tipuri cu minim modificare", „ordine schimbabilă", „etape înlănțuite" |
-| ⭐⭐⭐ (3/14) | 📖 | **Flyweight** | [05](05_Flyweight/README.md) | partajare obiecte pentru reducerea memoriei | „număr limitat de X reutilizat de N instanțe", „optimizare memorie", „stocare centralizată" |
+| ⭐⭐⭐ (3/14) | ✅ S11 | **Flyweight** | [05](05_Flyweight/README.md) | partajare obiecte pentru reducerea memoriei | „număr limitat de X reutilizat de N instanțe", „optimizare memorie", „stocare centralizată" |
 | ⭐ (1/14) | ✅ S08 | **Decorator** | [06](06_Decorator/README.md) | stivuiești „învelitori" peste un obiect | „topping", „fără modificare preț de bază", „adăugare dinamică de specificuri" |
 | ⭐ (1/14) | ✅ S10 | **Observer** | [07](07_Observer/README.md) | mai mulți ascultători notificați la un eveniment | „notificare", „abonare/dezabonare", „email și/sau telefon" |
 | 0/14 | 📖 | **Adapter** | [08](08_Adapter/README.md) | face două interfețe incompatibile să lucreze împreună | „legacy", „nu poți modifica clasa", „integrare" |
