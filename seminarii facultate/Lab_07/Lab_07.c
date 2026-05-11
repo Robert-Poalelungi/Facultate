@@ -1,14 +1,6 @@
-// Lab 07 — Heap (max-heap pe vector)
-// Compilare: gcc Lab_07.c -o Lab_07
-// Rulare:   pune scheduler.txt langa executabil, apoi ./Lab_07
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-// ============================================================
-// 1. DATA — Task
-// ============================================================
 
 typedef struct {
     char* description;
@@ -18,10 +10,6 @@ typedef struct {
 void printTask(Task task) {
     printf("[Priority %d] %s\n", task.priority, task.description);
 }
-
-// ============================================================
-// 2. HEAP — max-heap pe vector dinamic
-// ============================================================
 
 typedef struct {
     Task* tasks;
@@ -119,10 +107,6 @@ void freeHeap(Heap* heap) {
     heap->size = 0;
 }
 
-// ============================================================
-// 3. LOADER — CSV -> Task -> heap
-// ============================================================
-
 int loadTasks(const char* filename, Heap* heap) {
     FILE* f = fopen(filename, "r");
     if (f == NULL) {
@@ -151,10 +135,6 @@ int loadTasks(const char* filename, Heap* heap) {
     fclose(f);
     return count;
 }
-
-// ============================================================
-// 4. MAIN
-// ============================================================
 
 int main() {
 

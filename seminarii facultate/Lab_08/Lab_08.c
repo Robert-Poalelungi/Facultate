@@ -1,14 +1,6 @@
-// Lab 08 — Binary Search Tree (BST)
-// Compilare: gcc Lab_08.c -o Lab_08
-// Rulare:   pune games.csv langa executabil, apoi ./Lab_08
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-// ============================================================
-// 1. DATA — VideoGame
-// ============================================================
 
 typedef struct {
     unsigned int gameID;
@@ -20,10 +12,6 @@ typedef struct {
 void printGame(const VideoGame* game) {
     printf("[%u] %s - %s (%d)\n", game->gameID, game->title, game->studio, game->releaseYear);
 }
-
-// ============================================================
-// 2. BST — TreeNode
-// ============================================================
 
 typedef struct TreeNode {
     VideoGame* data;
@@ -193,10 +181,6 @@ void freeTree(TreeNode* root) {
     }
 }
 
-// ============================================================
-// 3. LOADER — CSV -> VideoGame -> BST
-// ============================================================
-
 int loadGames(const char* filename, TreeNode** root) {
     FILE* f = fopen(filename, "r");
     if (f == NULL) {
@@ -232,10 +216,6 @@ int loadGames(const char* filename, TreeNode** root) {
     fclose(f);
     return count;
 }
-
-// ============================================================
-// 4. MAIN
-// ============================================================
 
 int main() {
 

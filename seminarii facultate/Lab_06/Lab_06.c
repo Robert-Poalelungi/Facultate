@@ -1,14 +1,6 @@
-// Lab 06 — Hash Table (one-file)
-// Compilare: gcc Lab_06.c -o Lab_06
-// Rulare:   pune teams.csv langa executabil, apoi ./Lab_06
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-// ============================================================
-// 1. DATA — FootballTeam
-// ============================================================
 
 typedef struct {
     char* country;
@@ -19,10 +11,6 @@ typedef struct {
 void printTeam(const FootballTeam* team) {
     printf("Group %c | %s - Matches played: %d\n", team->group, team->country, team->matchesPlayed);
 }
-
-// ============================================================
-// 2. HASH TABLE — array de buckets (liste simple inlantuite)
-// ============================================================
 
 typedef struct Node {
     FootballTeam* data;
@@ -46,9 +34,11 @@ HashTable initHashTable(int size) {
     HashTable ht;
     ht.size = size;
     ht.buckets = malloc(size * sizeof(Node*));
+
     for (int i = 0; i < size; i++) {
         ht.buckets[i] = NULL;
     }
+
     return ht;
 }
 
@@ -133,10 +123,6 @@ void freeHashTable(HashTable* ht) {
     ht->size = 0;
 }
 
-// ============================================================
-// 3. LOADER — CSV -> FootballTeam -> hash table
-// ============================================================
-
 int loadTeams(const char* filename, HashTable* ht) {
     FILE* f = fopen(filename, "r");
     if (f == NULL) {
@@ -167,10 +153,6 @@ int loadTeams(const char* filename, HashTable* ht) {
     fclose(f);
     return count;
 }
-
-// ============================================================
-// 4. MAIN
-// ============================================================
 
 int main() {
 
