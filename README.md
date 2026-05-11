@@ -1,71 +1,66 @@
-# Materiale CTS — Design Patterns
+# Materiale CTS — Design Patterns (Test 2)
 
-Implementări pentru testul 2: **Chain of Responsibility** (comportamental) + **Composite** (structural).
+Repo organizat pentru pregătirea testului 2 de Design Patterns.
+
+---
+
+## Structura
 
 ```
-CoR/
-├── Problema1_CreditBoolean/     Chain of Responsibility — decizie boolean (credit aprobat/respins)
-│   ├── Persoana.java
-│   ├── AVerificator.java        handler abstract
-│   ├── VerificatorBirouCredit.java
-│   ├── VerificatorVechime.java
-│   ├── VerificatorGradIndatorare.java
-│   └── Main.java
-│
-├── Problema2_CreditMaxim/       Chain of Responsibility — suma maxima eligibila sau exceptie
-│   ├── Persoana.java
-│   ├── CreditRefuzatException.java
-│   ├── ALimitator.java          handler abstract
-│   ├── VerificatorEligibilitateMinima.java
-│   ├── LimitatorVechime.java
-│   ├── LimitatorVenit.java
-│   ├── LimitatorScorCredit.java
-│   └── Main.java
-│
-└── Problema3_PreproText/        Chain of Responsibility — preprocesare text prin filtre
-    ├── AFiltru.java             handler abstract
-    ├── LowerCaseFilter.java
-    ├── RemoveExtraSpacesFilter.java
-    ├── TrimFilter.java
-    ├── RemovePunctuationFilter.java
-    ├── ReplaceDiacriticsFilter.java
-    ├── StopWordsFilter.java
-    ├── ShortWordFilter.java
-    ├── DuplicateWordRemover.java
-    └── Main.java
+Teorie_DP/               ghiduri teoretice per pattern (README + cod seminar + cod curs)
+├── README.md            index ordonat după probabilitate
+├── CHEAT_SHEET.md       referință rapidă cu cod seminar pentru toate DP-urile
+├── 01_Composite/
+├── 02_Proxy/
+├── 03_Strategy/
+├── 04_Chain_of_Responsibility/
+├── 05_Flyweight/
+├── 06_Decorator/
+├── 07_Observer/
+├── 08_Adapter/
+├── 09_Facade/
+└── 10_Command/
 
-Composite/
-├── Problema4_OrgStructura/      Composite — ierarhie companie (departamente + angajati)
-│   ├── AComponenta.java         nod abstract
-│   ├── Angajat.java             leaf
-│   ├── Departament.java         composite
-│   └── Main.java
-│
-└── Problema5_FileSystem/        Composite — sistem de fisiere (foldere + fisiere)
-    ├── AElementSistem.java      nod abstract
-    ├── Fisier.java              leaf
-    ├── Folder.java              composite
-    └── Main.java
+Subiecte/                subiecte din sesiunile anterioare (S01–S14)
+├── README.md            analiză frecvențe + pattern per cerință pentru toate subiectele
+├── S01_Spital_Proxy_Memento/
+├── S02_Restaurant_Composite_Memento_2025/
+...
+└── S14_MagazinOnline_Proxy_Memento/
+
+Exercitii_DP_Seminar/    exerciții rezolvate la seminar
+├── CoR/
+│   ├── Problema1_CreditBoolean/
+│   ├── Problema2_CreditMaxim/
+│   └── Problema3_PreproText/
+└── Composite/
+    ├── Problema4_OrgStructura/
+    └── Problema5_FileSystem/
 ```
 
-## Pattern-uri
+---
 
-### Chain of Responsibility
-- Handler abstract cu `setUrmator()` care returneaza handlerul urmator (permite chaining fluent)
-- `pasezaMailDeparte()` delegheaza daca exista urmator
-- **P1**: returneaza `boolean` — lanțul se opreste la primul `false`
-- **P2**: returneaza `double` (suma maxima), aruncă `CreditRefuzatException` dacă nu e eligibil
-- **P3**: returneaza `String` modificat progresiv
+## Pattern-uri la test (ordonate după frecvență în subiecte)
 
-### Composite
-- Nod abstract cu operatiile comune + `adauga/elimina/cauta` care arunca `UnsupportedOperationException` in leaf
-- **Leaf** (Angajat, Fisier): implementeaza operatiile pe element simplu
-- **Composite** (Departament, Folder): agrega recursiv valorile din copii
+| # | Pattern | Tip | Frecvență |
+|---|---------|-----|-----------|
+| 1 | Composite | structural | 6/14 |
+| 2 | Proxy | structural | 5/14 |
+| 3 | Strategy | comportamental | 4/14 |
+| 4 | Chain of Responsibility | comportamental | 3/14 |
+| 5 | Flyweight | structural | 3/14 |
+| 6 | Decorator | structural | 1/14 |
+| 7 | Observer | comportamental | 1/14 |
+| 8 | Adapter | structural | — |
+| 9 | Facade | structural | — |
+| 10 | Command | comportamental | — |
 
-## Compilare si rulare (fara IDE)
+> Memento, Template Method și State **nu intră la test**.
 
-```bash
-cd CoR/Problema1_CreditBoolean
-javac *.java
-java Main
-```
+---
+
+## Fiecare folder `Teorie_DP/XX_Pattern/` conține
+
+- `README.md` — participanți, explicație pas cu pas, cod seminar, structură la examen, cum recunoști
+- `cod_seminar/` — codul exact din seminarul G1093
+- `cod_curs/` — codul din cursul profesorului
