@@ -16,7 +16,7 @@ Ordonate după probabilitatea de apariție la test (bazat pe S01–S14).
 | ⭐⭐⭐ (3/14) | ✅ S11 | **Flyweight** | [05](05_Flyweight/README.md) | partajare obiecte pentru reducerea memoriei | „număr limitat de X reutilizat de N instanțe", „optimizare memorie", „stocare centralizată" |
 | ⭐ (1/14) | ✅ S08 | **Decorator** | [06](06_Decorator/README.md) | stivuiești „învelitori" peste un obiect | „topping", „fără modificare preț de bază", „adăugare dinamică de specificuri" |
 | ⭐ (1/14) | ✅ S10 | **Observer** | [07](07_Observer/README.md) | mai mulți ascultători notificați la un eveniment | „notificare", „abonare/dezabonare", „email și/sau telefon" |
-| 0/14 | ✅ S10, S11 | **Adapter** | [08](08_Adapter/README.md) | face două interfețe incompatibile să lucreze împreună | „legacy", „nu poți modifica clasa", „integrare" |
+| 0/14 | 📖 | **Adapter** | [08](08_Adapter/README.md) | face două interfețe incompatibile să lucreze împreună | „legacy", „nu poți modifica clasa", „integrare" |
 | 0/14 | 📖 | **Facade** | [09](09_Facade/README.md) | o interfață simplă peste un subsistem complex | „simplifică", „un singur punct de intrare", mai multe subsisteme |
 | 0/14 | 📖 | **Command** | [10](10_Command/README.md) | acțiunea e un obiect — se poate pune în coadă/undo | „coadă de comenzi", „execuție amânată", „undo" |
 
@@ -40,22 +40,22 @@ Ordonate după probabilitatea de apariție la test (bazat pe S01–S14).
 
 ## Template răspuns rapid la examen
 
-**Composite**: interfață comună + nod container (`List<INod>`, `for` recursiv) + frunză (returnează valoarea proprie, aruncă excepție la metodele de container)
+**Composite**: `AComponenta` abstract + `Leaf` simplu + `Composite` cu `List<AComponenta>` recursiv
 
-**Proxy**: interfață + RealSubject + Proxy (implementează interfața, ține `private IReal real`, adaugă logică înainte de delegare)
+**Proxy**: interfață + RealSubject + Proxy (implementează interfața, ține RealSubject, adaugă logică)
 
-**Strategy**: `IStrategie` + strategii concrete + Context (ține `private IStrategie s`, `setStrategie()`, delegă în metodă)
+**Strategy**: `IStrategie` + strategii concrete + Context (ține IStrategie, delegă) + Main setează strategia
 
-**CoR**: `IHandler` + `AbstractHandler` (ține `private IHandler next`) + handlere concrete (procesează, pasează la `getNextHandler()`) + Main leagă lanțul
+**CoR**: `AHandler` cu `setUrmator()` + `pasezaMailDeparte()` → handlere concrete → Main leagă și trimite
 
-**Flyweight**: `IFlyweight` + flyweight concret (stare intrinsecă) + `FabricaDeXxx` cu `static Map` + `static {}` + stare extrinsecă pasată la metodă
+**Flyweight**: `IFlyweight` + `FlyweightConcret` (stare intrinsecă) + `FabricaDeXxx` cu `HashMap` + Client cu stare extrinsecă
 
-**Decorator**: interfață + bază concretă + decorator abstract (ține `private IComanda c`, delegă toate) + decorator concret (suprascrie cu `super.metoda()`)
+**Decorator**: `AComponenta` abstract + `ConcreteBase` + `ADecorator` (extinde AComponenta, ține AComponenta) + decoratori concreti cu `super.metoda() + adaos`
 
-**Observer**: `IObserver` + `ISubiect` + subiect concret (`List<IObserver>`, `for` în `notifica()`, notifică în setter) + observatori concreti
-
-**Adapter**: interfață target + Adaptee (existentă) + Adapter (implementează target, traduce apelul spre Adaptee)
+**Observer**: `IObserver` + `ISubiect` + Subject concret (cu `List<IObserver>` + `notifyAll()`) + observatori
 
 **Facade**: câteva clase subsistem + `Facade` care le orchestrează + Main apelează Facade
 
-**Command**: `IComanda` + Receiver + comenzi concrete (țin Receiver) + Invoker (`List<IComanda>`) + Main
+**Adapter**: interfață target + Adaptee (existentă) + Adapter (implementează target, ține Adaptee, traduce)
+
+**Command**: `IComanda` + Receiver + comenzi concrete (țin Receiver) + Invoker (List<IComanda>) + Main
