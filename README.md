@@ -7,7 +7,7 @@ Repo organizat pentru pregătirea testului 2 de Design Patterns.
 ## Structura
 
 ```
-Teorie_DP/               ghiduri teoretice per pattern (README + cod seminar + cod curs)
+01_Teorie/               ghiduri teoretice per pattern (README + cod seminar + cod curs)
 ├── README.md            index ordonat după probabilitate
 ├── CHEAT_SHEET.md       referință rapidă cu cod seminar pentru toate DP-urile
 ├── 01_Composite/
@@ -21,45 +21,37 @@ Teorie_DP/               ghiduri teoretice per pattern (README + cod seminar + c
 ├── 09_Facade/
 └── 10_Command/
 
-Subiecte/                subiecte din sesiunile anterioare (S01–S14)
+02_Subiecte/             subiecte din sesiunile anterioare + cerințe diverse
 ├── README.md            analiză frecvențe + pattern per cerință pentru toate subiectele
 ├── S01_Spital_Proxy_Memento/
 ├── S02_Restaurant_Composite_Memento_2025/
 ...
-└── S14_MagazinOnline_Proxy_Memento/
-
-Exercitii_DP_Seminar/    exerciții rezolvate la seminar
-├── CoR/
-│   ├── Problema1_CreditBoolean/
-│   ├── Problema2_CreditMaxim/
-│   └── Problema3_PreproText/
-└── Composite/
-    ├── Problema4_OrgStructura/
-    └── Problema5_FileSystem/
+├── S14_MagazinOnline_Proxy_Memento/
+└── Cerinte_Diverse/     cerințe suplimentare date de profesoară
 ```
 
 ---
 
 ## Pattern-uri la test (ordonate după frecvență în subiecte)
 
-| # | Pattern | Tip | Frecvență |
-|---|---------|-----|-----------|
-| 1 | Composite | structural | 6/14 |
-| 2 | Proxy | structural | 5/14 |
-| 3 | Strategy | comportamental | 4/14 |
-| 4 | Chain of Responsibility | comportamental | 3/14 |
-| 5 | Flyweight | structural | 3/14 |
-| 6 | Decorator | structural | 1/14 |
-| 7 | Observer | comportamental | 1/14 |
-| 8 | Adapter | structural | — |
-| 9 | Facade | structural | — |
-| 10 | Command | comportamental | — |
+| # | Pattern | Tip | Seminar | Frecvență |
+|---|---------|-----|---------|-----------|
+| 1 | Composite | structural | ✅ | 6/14 |
+| 2 | Proxy | structural | ✅ | 5/14 |
+| 3 | Strategy | comportamental | ✅ | 4/14 |
+| 4 | Chain of Responsibility | comportamental | ✅ | 3/14 |
+| 5 | Flyweight | structural | ✅ | 3/14 |
+| 6 | Decorator | structural | ✅ | 1/14 |
+| 7 | Observer | comportamental | ✅ | 1/14 |
+| 8 | Adapter | structural | ✅ | — |
+| 9 | Facade | structural | 📖 | — |
+| 10 | Command | comportamental | 📖 | — |
 
 > Memento, Template Method și State **nu intră la test**.
 
 ---
 
-## Fiecare folder `Teorie_DP/XX_Pattern/` conține
+## Fiecare folder `01_Teorie/XX_Pattern/` conține
 
 - `README.md` — participanți, explicație pas cu pas, cod seminar, structură la examen, cum recunoști
 - `cod_seminar/` — codul exact din seminarul G1093
