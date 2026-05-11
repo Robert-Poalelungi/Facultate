@@ -10,13 +10,12 @@
 | **PROXY** | S01, S10, S11, S13, S14 | ⭐⭐⭐⭐⭐ |
 | **STRATEGY** | S03, S04, S05, S09 | ⭐⭐⭐⭐ |
 | **CHAIN OF RESPONSIBILITY** | S03, S04, S05 | ⭐⭐⭐ |
-| **MEMENTO** | S01, S02, S14 | ⭐⭐⭐ |
 | **FLYWEIGHT** | S08, S12, S13 | ⭐⭐⭐ |
-| **TEMPLATE METHOD** | S07, S08 | ⭐⭐ |
 | **DECORATOR** | S06 | ⭐ |
 | **OBSERVER** | S09 | ⭐ |
 
-> **Facade, Adapter, Command, State nu apar în niciun subiect.**
+> **Facade, Adapter, Command nu apar în niciun subiect.**
+> **Memento și Template Method apar în subiecte vechi dar NU intră la testul tău.**
 >
 > **Cele mai probabile la testul tău: COMPOSITE + PROXY sau STRATEGY + CoR**
 
@@ -119,9 +118,7 @@
 | „poate alege între", „algoritm interschimbabil", „moduri diferite de..." | **STRATEGY** |
 | „adăugare noi tipuri cu minim modificări", „rearanjare ordine", „ignorat dacă nu e setat" | **CHAIN OF RESPONSIBILITY** |
 | „notificări", „abonare/dezabonare", „email și/sau telefon", „mai mulți clienți interesați" | **OBSERVER** |
-| „revenire la stare anterioară", „salvare", „restaurare", „undo", „coș anterior salvat" | **MEMENTO** |
 | „topping", „fără modificare preț de bază", „adăugare dinamic", „specificuri noi" | **DECORATOR** |
-| „protocol fix de pași", „același algoritm, comportament diferit în subclase" | **TEMPLATE METHOD** |
 | „optimizare memorie", „număr limitat de seturi reutilizate de N ori", „stocare centralizată" | **FLYWEIGHT** |
 
 ---
@@ -143,14 +140,8 @@
 ### OBSERVER
 > Am ales pattern-ul **Observer** deoarece există o relație one-to-many: un subiect (magazinul) trebuie să notifice automat mai mulți observatori (clienți prin email/telefon) la apariția unui eveniment (reducere de preț). Clienții se pot abona/dezabona dinamic fără modificarea subiectului.
 
-### MEMENTO
-> Am ales pattern-ul **Memento** deoarece se dorește salvarea și restaurarea stării anterioare a unui obiect (coș de cumpărături / afișare) fără a expune detaliile implementării. Originator-ul creează un Memento cu starea curentă, iar Caretaker-ul îl gestionează fără să cunoască conținutul.
-
 ### DECORATOR
 > Am ales pattern-ul **Decorator** deoarece se dorește adăugarea dinamică de comportament (topping specific) unui obiect existent (produs), fără modificarea clasei de bază și fără explozie de subclase. Decoratorul implementează aceeași interfață `IProdus` și adaugă funcționalitate prin delegare.
-
-### TEMPLATE METHOD
-> Am ales pattern-ul **Template Method** deoarece există un algoritm cu structură fixă (protocol de urgențe / procedură de votare) în care anumiți pași diferă între implementări (spital stat vs. privat / secție în țară vs. în străinătate). Clasa abstractă definește scheletul (`final`), iar subclasele implementează doar pașii variabili.
 
 ### FLYWEIGHT
 > Am ales pattern-ul **Flyweight** deoarece există un număr limitat de obiecte (seturi de recomandări / virusuri unice) care sunt reutilizate de un număr mare de instanțe (rețete / tulpini). Starea intrinsecă (comună, neschimbată) e stocată o singură dată în flyweight, iar starea extrinsecă (specifică fiecărei utilizări) e pasată ca parametru. Astfel se optimizează consumul de memorie.
