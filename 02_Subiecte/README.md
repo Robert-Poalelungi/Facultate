@@ -201,6 +201,21 @@ private StrategieCard strategie;
 
 ---
 
+## Cerinte_Diverse — cerințe suplimentare de la profesoară
+
+Folderul `Cerinte_Diverse/` conține cerințe practice (nu subiecte de examen anterioare):
+
+| Cerință | Pattern |
+|---------|---------|
+| Telecomandă universală (locuință inteligentă) | **Command** |
+| Sistem tranzacționare bursă (cumpărare/vânzare) | **Command** |
+| Telefon USB-C + încărcător MicroUSB | **Adapter** |
+| Referendum (secții → județe → național) | **Composite** |
+| Companie design interior (vizualizare 2D/3D/Detalii) | **Strategy** |
+| Randări AI camere (bucătărie, baie, living, dining) | **Flyweight** |
+
+---
+
 ## Structura unui fișier Main tipic
 
 ```java
