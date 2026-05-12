@@ -1,6 +1,5 @@
 # Lab 08 — Binary Search Tree (BST) — walkthrough complet
 
-**Sursa codului:** `S10_05052025/main.c` din github.com/tcervinski-csie/DS2025
 **Pre-requisites:** Lab 3 (recursivitate pe pointeri), `Node**` pattern.
 
 ---
@@ -21,336 +20,388 @@
 ## 1. Headere si structuri
 
 ```c
-#define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#define LINESIZE 128
-#define COUNT 10
+typedef struct {
+    unsigned int gameID;
+    char* title;
+    char* studio;
+    int releaseYear;
+} VideoGame;
 
-typedef struct FileProperties FileProperties;
-typedef struct TreeNode TreeNode;
-
-struct FileProperties {
-    int id;
-    char* filename;
-};
-
-struct TreeNode {
-    FileProperties fp;
-    TreeNode* left;       // copilul stang (chei MAI MICI)
-    TreeNode* right;      // copilul drept (chei MAI MARI)
-};
+typedef struct TreeNode {
+    VideoGame* data;
+    struct TreeNode* left;
+    struct TreeNode* right;
+} TreeNode;
 ```
 
 **Pas cu pas:**
-- `LINESIZE 128` — buffer de citire pe linie.
-- `COUNT 10` — pas de indentare la afisarea arborelui (rotit cu 90 grade).
-- `FileProperties` = datele utile (un id si un filename).
-- `TreeNode` = nodul din arbore: are date + 2 pointeri (`left`, `right`).
+- `VideoGame` = datele utile: un ID (unsigned int), titlu, studio, an.
+- `TreeNode` = nodul din arbore: pointer la datele unui joc + 2 pointeri (`left`, `right`).
+- `data` e `VideoGame*` (pointer) — nodul nu contine struct-ul inline, ci un pointer la el.
 
-**Diferenta vs lista:** in loc de un singur pointer `next`, ai 2 pointeri (`left` si `right`). Asta-i tot.
+**Cheie de sortare in BST:** `gameID`. Stanga → ID mai mic, dreapta → ID mai mare.
+
+**Diferenta vs lista:** in loc de un singur pointer `next`, ai 2 pointeri (`left` si `right`).
 
 ---
 
-## 2. `insertTreeNode` — inserare recursiva
+## 2. `printGame` — afisare
 
 ```c
-void insertTreeNode(TreeNode** root, FileProperties fp) {
-    if (*root) {
-        if (fp.id < (*root)->fp.id) {
-            insertTreeNode(&(*root)->left, fp);     // mai mic -> stanga
-        }
-        else {
-            insertTreeNode(&(*root)->right, fp);    // mai mare/egal -> dreapta
-        }
-    }
-    else {
-        // gasit loc liber, creeaza nodul
+void printGame(const VideoGame* game) {
+    printf("[%u] %s - %s (%d)\n", game->gameID, game->title, game->studio, game->releaseYear);
+}
+```
+
+Format: `[105] Elden Ring - FromSoftware (2022)`.
+
+---
+
+## 3. `insert` — inserare recursiva
+
+```c
+void insert(TreeNode** root, VideoGame* game) {
+    if (*root == NULL) {
         TreeNode* newNode = malloc(sizeof(TreeNode));
-        newNode->fp = fp;
+        newNode->data = game;
         newNode->left = NULL;
         newNode->right = NULL;
         *root = newNode;
     }
+    else if (game->gameID < (*root)->data->gameID) {
+        insert(&(*root)->left, game);
+    }
+    else {
+        insert(&(*root)->right, game);
+    }
 }
 ```
 
 **Pas cu pas:**
 
-**Bloc 1 — exista nod la pozitia curenta?**
+**Caz de baza — loc liber, creezi nodul:**
 ```c
-if (*root) {
+if (*root == NULL) {
+    TreeNode* newNode = malloc(sizeof(TreeNode));
+    newNode->data = game;
+    newNode->left = NULL;
+    newNode->right = NULL;
+    *root = newNode;
+}
 ```
-- `*root` = nodul de pe pozitia curenta.
-- Daca nu e NULL → exista, recurg.
-- Daca e NULL → e loc liber, creez nodul nou.
+Aloci nodul, ii dai pointerul la `game` si setezi copiii la NULL.
+`*root = newNode` — atribui in pointerul parintelui (sau radacina daca e primul nod).
 
-**Bloc 2 — recurgi pe stanga sau dreapta:**
+**Recurgie pe stanga sau dreapta:**
 ```c
-if (fp.id < (*root)->fp.id) {
-    insertTreeNode(&(*root)->left, fp);
+else if (game->gameID < (*root)->data->gameID) {
+    insert(&(*root)->left, game);
 }
 else {
-    insertTreeNode(&(*root)->right, fp);
+    insert(&(*root)->right, game);
 }
 ```
-- Compari cheia noua cu cheia nodului curent.
-- **Mai mic** → recurgi pe `left`. Pasezi `&(*root)->left` (adresa pointerului stang) ca sa il poti modifica.
-- **Mai mare sau egal** → recurgi pe `right`.
 
-**Bloc 3 — caz de baza: loc liber, creezi nodul:**
-```c
-TreeNode* newNode = malloc(sizeof(TreeNode));
-newNode->fp = fp;
-newNode->left = NULL;
-newNode->right = NULL;
-*root = newNode;
-```
-- Aloci memorie pentru nod.
-- Setezi datele si pointerii copiilor la NULL (e frunza).
-- `*root = newNode;` — atribui pointer-ul la pozitia parintelui (sau radacina daca e primul nod).
-
-**De ce `TreeNode**`?** Pentru ca atunci cand ajungi la pozitia goala (NULL), trebuie sa modifici **pointerul** care pointeaza la acel NULL — adica `parent->left` sau `parent->right`. Asta e exact ce face `*root = newNode` la baza recursivitatii. Daca foloseai `TreeNode*`, copia locala s-ar pierde la return.
-
-**Mnemonic:** "Daca exista, recurg pe partea corecta. Daca nu, creez aici."
+**De ce `TreeNode**`?** Trebuie sa modifici `parent->left` sau `parent->right`. Cu `TreeNode*` copia locala s-ar pierde la return.
 
 ---
 
-## 3. `printTree` — afisare cu rotire vizuala
+## 4. `search` — cautare recursiva
 
 ```c
-void printTree(TreeNode* tree, int space) {
-    if (tree) {
+TreeNode* search(TreeNode* root, unsigned int gameID) {
+    if (root == NULL) return NULL;
 
-        space += COUNT;
+    if (gameID == root->data->gameID) return root;
+    else if (gameID < root->data->gameID) return search(root->left, gameID);
+    else return search(root->right, gameID);
+}
+```
 
-        printTree(tree->right, space);
+**Pas cu pas:**
+1. Caz de baza: NULL → nu s-a gasit, returneaza NULL.
+2. Egalitate → gasit, returneaza nodul.
+3. Mai mic → cauta in stanga, mai mare → cauta in dreapta.
 
+**Complexitate:** O(log n) pe un arbore balansat, O(n) in cel mai rau caz (arbore degenerat).
+
+---
+
+## 5. `findMin` / `findMax`
+
+```c
+TreeNode* findMin(TreeNode* root) {
+    if (root == NULL) return NULL;
+    if (root->left == NULL) return root;
+    return findMin(root->left);
+}
+
+TreeNode* findMax(TreeNode* root) {
+    if (root == NULL) return NULL;
+    if (root->right == NULL) return root;
+    return findMax(root->right);
+}
+```
+
+**Idee:** minimul e mereu cel mai din stanga (continua pe `left` pana nu mai poti). Maximul — cel mai din dreapta.
+
+**Folosit in `deleteNode`** pentru a gasi in-order successorul.
+
+---
+
+## 6. `height` si `countNodes`
+
+```c
+int height(TreeNode* root) {
+    if (root == NULL) return 0;
+    int leftHeight = height(root->left);
+    int rightHeight = height(root->right);
+    return 1 + (leftHeight > rightHeight ? leftHeight : rightHeight);
+}
+
+int countNodes(TreeNode* root) {
+    if (root == NULL) return 0;
+    return 1 + countNodes(root->left) + countNodes(root->right);
+}
+```
+
+**`height`:** recursiv, returnezi `1 + max(inaltime_stanga, inaltime_dreapta)`. Identic cu `treeHeight` din AVL.
+
+**`countNodes`:** parcurgi tot arborele, numeri fiecare nod = 1 + stanga + dreapta.
+
+---
+
+## 7. `deleteNode` — stergere cu 3 cazuri
+
+```c
+void deleteNode(TreeNode** root, unsigned int gameID) {
+    if (*root == NULL) { printf("Game with ID %u not found.\n", gameID); return; }
+
+    if (gameID < (*root)->data->gameID)      deleteNode(&(*root)->left, gameID);
+    else if (gameID > (*root)->data->gameID) deleteNode(&(*root)->right, gameID);
+    else {
+        // Caz 1: frunza
+        // Caz 2a: doar copil drept
+        // Caz 2b: doar copil stang
+        // Caz 3: 2 copii — inlocuieste cu in-order successor
+    }
+}
+```
+
+**Cele 3 cazuri:**
+
+**Caz 1 — frunza (fara copii):**
+```c
+if ((*root)->left == NULL && (*root)->right == NULL) {
+    free((*root)->data->title);
+    free((*root)->data->studio);
+    free((*root)->data);
+    free(*root);
+    *root = NULL;
+}
+```
+Eliberezi tot (string-uri → struct → nod) si setezi pointerul la NULL.
+
+**Caz 2 — un singur copil:**
+```c
+TreeNode* toDelete = *root;
+*root = (*root)->right;  // sau ->left
+free(toDelete->data->title); free(toDelete->data->studio);
+free(toDelete->data); free(toDelete);
+```
+Parintele "sare" peste nodul sters, pointand direct la copilul ramas.
+
+**Caz 3 — doi copii:**
+```c
+TreeNode* successor = findMin((*root)->right);
+// Deep copy din successor in nodul curent
+free((*root)->data->title); free((*root)->data->studio);
+(*root)->data->gameID = successor->data->gameID;
+(*root)->data->releaseYear = successor->data->releaseYear;
+(*root)->data->title = malloc(...); strcpy(...);
+(*root)->data->studio = malloc(...); strcpy(...);
+// Sterge succesorul (are cel mult 1 copil)
+deleteNode(&(*root)->right, successor->data->gameID);
+```
+In-order successorul = cel mai mic din sub-arborele drept. Il copiezi in locul nodului de sters, apoi stergi succesorul (care are cel mult un copil drept).
+
+---
+
+## 8. Cele 3 parcurgeri (in cod)
+
+```c
+void inorder(TreeNode* root) {
+    if (root) { inorder(root->left); printGame(root->data); inorder(root->right); }
+}
+void preorder(TreeNode* root) {
+    if (root) { printGame(root->data); preorder(root->left); preorder(root->right); }
+}
+void postorder(TreeNode* root) {
+    if (root) { postorder(root->left); postorder(root->right); printGame(root->data); }
+}
+```
+
+| Parcurgere | Ordine | Rezultat |
+|-----------|--------|---------|
+| inorder | stanga → radacina → dreapta | **sortat crescator dupa ID** |
+| preorder | radacina → stanga → dreapta | util pentru clonare |
+| postorder | stanga → dreapta → radacina | util pentru free (copii inainte de parinte) |
+
+**Mnemonic:** "Pozitia lui R (radacina) in nume iti spune cand proceseaza."
+
+---
+
+## 9. `printTree` — vizualizare arbore rotit
+
+```c
+void printTree(TreeNode* root, int space) {
+    if (root) {
+        space += 6;
+        printTree(root->right, space);
         printf("\n");
-        for (int i = COUNT; i < space; i++) {
-            printf(" ");
-        }
-        printf("%d", tree->fp.id);
-
-        printTree(tree->left, space);
-
+        for (int i = 6; i < space; i++) printf(" ");
+        printf("[%u]", root->data->gameID);
+        printTree(root->left, space);
     }
 }
 ```
 
 **Pas cu pas:**
+- `space += 6` — indentare cu 6 spatii per nivel.
+- **Dreapta prima** — arborele e afisat rotit cu 90 grade (radacina la stanga, copii la dreapta pe ecran).
+- Afiseaza `[gameID]` cu indentare proportionala cu adancimea.
 
-**Bloc 1 — daca arborele e gol, ies (caz de baza):**
-```c
-if (tree) {
-```
-
-**Bloc 2 — creste indentarea:**
-```c
-space += COUNT;
-```
-La fiecare nivel, indentezi cu inca 10 spatii.
-
-**Bloc 3 — recursivitate pe DREAPTA prima:**
-```c
-printTree(tree->right, space);
-```
-**De ce dreapta prima?** Pentru ca afisam arborele rotit cu 90 grade — radacina la stanga, copii la dreapta. Daca afisai stanga prima, ar fi afisat invers.
-
-**Bloc 4 — afiseaza cheia curenta cu indentare corecta:**
-```c
-printf("\n");
-for (int i = COUNT; i < space; i++) {
-    printf(" ");
-}
-printf("%d", tree->fp.id);
-```
-Salt de linie + spatii proportional cu adancimea + cheia.
-
-**Bloc 5 — recursivitate pe STANGA:**
-```c
-printTree(tree->left, space);
-```
-
-**Trick vizual:** parcurgere right-radacina-left = "in-order invers" = arborele apare rotit corect cand intorci capul cu 90 grade.
+**Apel din main:** `printTree(root, 0)`.
 
 ---
 
-## 4. Cele 3 parcurgeri (NU sunt in cod, dar trebuie sa le stii)
-
-Toate sunt recursive. Difera doar **ordinea** in care apelezi:
-
-### In-order (LRR): stanga -> radacina -> dreapta
-Da elementele in **ordine sortata** (de la cel mai mic la cel mai mare).
-```c
-void inOrder(TreeNode* tree) {
-    if (tree) {
-        inOrder(tree->left);
-        printf("%d ", tree->fp.id);    // proceseaza radacina
-        inOrder(tree->right);
-    }
-}
-```
-
-### Pre-order (RLR): radacina -> stanga -> dreapta
-Util pentru clonare (proceseaza parintele inainte de copii).
-```c
-void preOrder(TreeNode* tree) {
-    if (tree) {
-        printf("%d ", tree->fp.id);    // radacina prima
-        preOrder(tree->left);
-        preOrder(tree->right);
-    }
-}
-```
-
-### Post-order (LRR): stanga -> dreapta -> radacina
-Util pentru `freeTree` (elibereaza copiii inainte de parinte).
-```c
-void postOrder(TreeNode* tree) {
-    if (tree) {
-        postOrder(tree->left);
-        postOrder(tree->right);
-        printf("%d ", tree->fp.id);    // radacina ultima
-    }
-}
-```
-
-**Mnemonic:** "Pozitia lui R (radacina) in numele parcurgerii iti spune unde proceseaza."
-
----
-
-## 5. `readDataFromFile` — citire CSV
+## 10. `freeTree` — eliberare recursiva (post-order)
 
 ```c
-void readDataFromFile(TreeNode** tree, const char* fileName) {
-    FILE* f = fopen(fileName, "r");
-    if (!f) {
-        printf("Error: cannot open '%s'\n", fileName);
-        return;
-    }
-
-    char buffer[LINESIZE];
-
-    while (fgets(buffer, LINESIZE, f) != NULL) {
-        FileProperties fp;
-
-        char* token = strtok(buffer, ",");
-        fp.id = atoi(token);
-
-        token = strtok(NULL, ",");
-        token[strcspn(token, "\n")] = '\0';
-        fp.filename = malloc((strlen(token) + 1) * sizeof(char));
-        strcpy(fp.filename, token);
-
-        insertTreeNode(tree, fp);
-    }
-
-    fclose(f);
-}
-```
-
-**Pas cu pas:**
-
-Identic cu Lab 3-7 — schelet CSV standard:
-1. `fopen` + check NULL
-2. `while (fgets(...) != NULL)` — pattern corect (NU `feof`)
-3. `strtok` cu `buffer` (prima oara), apoi cu `NULL`
-4. `atoi` pentru int, `malloc + strcpy` pentru string
-5. `strcspn(token, "\n")` — scoate `\n` din ultimul camp
-6. `insertTreeNode(tree, fp)` — insereaza in arbore
-
-**Singura diferenta vs lista:** apelezi `insertTreeNode` in loc de `addToEnd`.
-
----
-
-## 6. `main`
-
-```c
-int main(void) {
-
-    TreeNode* tree = NULL;
-
-    readDataFromFile(&tree, "files.txt");
-    printTree(tree, 20);
-    printf("\n");
-
-    return 0;
-}
-```
-
-**Pas cu pas:**
-1. `TreeNode* tree = NULL;` — pornesti cu arbore gol.
-2. `readDataFromFile(&tree, ...)` — pasezi `&tree` (TreeNode**) ca sa poata fi modificata radacina.
-3. `printTree(tree, 20)` — afiseaza arborele. `20` = padding initial.
-
-**Atentie:** in cod NU se apeleaza `freeTree` — codul de la seminar lasa memory leak. Pentru igiena, adaugi tu (vezi sectiunea de mai jos).
-
----
-
-# Functii utile (NU sunt in cod, le adaugi tu)
-
-## A. `freeTree` — eliberare recursiva (post-order)
-
-```c
-void freeTree(TreeNode** tree) {
-    if (*tree) {
-        freeTree(&(*tree)->left);
-        freeTree(&(*tree)->right);
-        free((*tree)->fp.filename);
-        free(*tree);
-        *tree = NULL;
+void freeTree(TreeNode* root) {
+    if (root) {
+        freeTree(root->left);
+        freeTree(root->right);
+        free(root->data->title);
+        free(root->data->studio);
+        free(root->data);
+        free(root);
     }
 }
 ```
 
 **De ce post-order?** Trebuie sa eliberezi copiii **inainte** de parinte, altfel pierzi accesul la ei.
 
-**Pas cu pas:**
-1. Recurs stanga (elibereaza intreg sub-arborele stang)
-2. Recurs dreapta (elibereaza intreg sub-arborele drept)
-3. `free` la string-ul intern (filename)
-4. `free` la nodul curent
-5. Setezi pointer-ul la NULL (in caz ca apelantul mai foloseste *tree)
+Eliberezi: string-urile → struct-ul VideoGame → nodul TreeNode.
 
-## B. `treeHeight` — inaltimea arborelui
+---
+
+## 11. `loadGames` — citire CSV
 
 ```c
-int treeHeight(TreeNode* tree) {
-    if (tree) {
-        int hLeft = treeHeight(tree->left);
-        int hRight = treeHeight(tree->right);
-        return 1 + (hLeft > hRight ? hLeft : hRight);
+int loadGames(const char* filename, TreeNode** root) {
+    FILE* f = fopen(filename, "r");
+    if (f == NULL) { printf("Error: ..."); return -1; }
+
+    char line[256];
+    int count = 0;
+
+    while (fgets(line, sizeof(line), f) != NULL) {
+        VideoGame* game = malloc(sizeof(VideoGame));
+
+        char* token = strtok(line, ",");
+        game->gameID = (unsigned int)atoi(token);
+
+        token = strtok(NULL, ",");
+        game->title = malloc(strlen(token) + 1);
+        strcpy(game->title, token);
+
+        token = strtok(NULL, ",");
+        game->studio = malloc(strlen(token) + 1);
+        strcpy(game->studio, token);
+
+        token = strtok(NULL, ",");
+        token[strcspn(token, "\n")] = '\0';
+        game->releaseYear = atoi(token);
+
+        insert(root, game);
+        count++;
     }
-    else {
-        return 0;
-    }
-}
-```
 
-**Pas cu pas:**
-1. Caz de baza: NULL → inaltime 0.
-2. Calculezi recursiv inaltimea stanga si dreapta.
-3. Returnezi `1 + max(stanga, dreapta)` — adica inaltimea maxima din copii + 1 pentru nodul curent.
-
-**Folosit la AVL** pentru `balanceFactor`. Important.
-
-## C. Numarare cu conditie
-
-```c
-int countByCondition(TreeNode* tree, /* parametri */) {
-    if (!tree) return 0;
-    int count = (/* CONDITIA TA */) ? 1 : 0;
-    count += countByCondition(tree->left, /* parametri */);
-    count += countByCondition(tree->right, /* parametri */);
+    fclose(f);
     return count;
 }
 ```
 
-**Idee:** parcurgi recursiv tot arborele si numeri nodurile care indeplinesc conditia.
+**Format games.csv:** `gameID,titlu,studio,an` — ex. `105,Elden Ring,FromSoftware,2022`
+
+**Pas cu pas:**
+1. `fopen` + check NULL → return `-1`.
+2. `fgets` loop (NU `feof`).
+3. 4 campuri: `strtok` de 4 ori. `strcspn` scoate `\n` de pe ultimul camp.
+4. `malloc` pentru fiecare string — deep copy.
+5. Returneaza numarul de jocuri citite.
+
+---
+
+## 12. `main`
+
+```c
+int main() {
+    TreeNode* root = NULL;
+    int count = loadGames("games.csv", &root);
+    // printTree, inorder, preorder, postorder
+    // height, countNodes, findMin, findMax
+    // search(root, 105)
+    // deleteNode(&root, 108)
+    freeTree(root);
+    return 0;
+}
+```
+
+Demo-uri in main:
+1. **printTree** — vizualizare grafica (rotita cu 90 grade).
+2. **Cele 3 parcurgeri** — verifica ca inorder da sortat.
+3. **height + countNodes** — info despre structura arborelui.
+4. **findMin + findMax** — jocul cu ID-ul cel mai mic/mare.
+5. **search** — gaseste jocul cu ID 105.
+6. **deleteNode** — sterge radacina (ID 108) si afiseaza arborele dupa.
+
+---
+
+# Functii pentru testul 2
+
+## A. Numarare cu conditie
+
+```c
+int countByCondition(TreeNode* root, /* parametri */) {
+    if (!root) return 0;
+    int count = (/* CONDITIA TA — ex. root->data->releaseYear > 2019 */) ? 1 : 0;
+    count += countByCondition(root->left, /* parametri */);
+    count += countByCondition(root->right, /* parametri */);
+    return count;
+}
+```
+
+Parcurgi recursiv TOT arborele (nu poti optimiza pe BST ca la search).
+
+## B. Cautare cu conditie pe string
+
+```c
+TreeNode* findByTitle(TreeNode* root, const char* title) {
+    if (!root) return NULL;
+    if (strcmp(root->data->title, title) == 0) return root;
+    TreeNode* found = findByTitle(root->left, title);
+    if (found) return found;
+    return findByTitle(root->right, title);
+}
+```
+
+Cand conditia NU e pe cheie (nu e pe `gameID`), trebuie sa parcurgi **ambele sub-arbori**.
 
 ---
 
@@ -358,22 +409,25 @@ int countByCondition(TreeNode* tree, /* parametri */) {
 
 | Capcana | Antidot |
 |---------|---------|
-| Confuzia `TreeNode*` vs `TreeNode**` | Modifici radacina/copilul -> `**`. Doar citesti -> `*`. |
-| Egalitate la insert: stanga sau dreapta? | Conventie. Codul de la seminar pune `>=` la dreapta. La examen, fii consecvent. |
-| Recursivitate pe NULL | Mereu testeaza `if (tree)` la inceput. Ramura false returneaza 0/NULL. |
-| Crezi ca BST e mereu balansat | NU. Daca inserezi 1,2,3,4,5 in ordine -> arborele degenereaza in lista. AVL fixeaza asta. |
-| `feof` anti-pattern | La examen, prefera `while (fgets(...) != NULL)`. |
-| Free in ordine gresita (parinte inainte de copii) | Mereu post-order: copii intai, parinte la final. |
+| Confuzia `TreeNode*` vs `TreeNode**` | Modifici radacina/copilul → `**`. Doar citesti → `*`. |
+| Crezi ca `freeTree` ia `TreeNode**` | NU in acest cod. Ia `TreeNode*` (nu seteaza pointerul la NULL dupa free). |
+| Recursivitate pe NULL fara guard | Mereu `if (!root) return ...` la inceputul functiei. |
+| Crezi ca BST e mereu balansat | NU. Daca inserezi 101,102,...,115 in ordine → lista inlantuita. AVL fixeaza asta. |
+| `feof` anti-pattern | Foloseste `while (fgets(...) != NULL)`. |
+| Free in ordine gresita | Post-order: copii intai, parinte la final. |
+| search si findMin/findMax iau `TreeNode*`, nu `**` | Returneaza pointer, nu modifica structura → `*` e suficient. |
 
 ---
 
 # Self-test (fara cod deschis)
 
-- [ ] Pot desena BST-ul din inserarea: 8,9,10,7,6,12,11,4,5,3.
-- [ ] Pot scrie `insertTreeNode` recursiv in 4 min.
+- [ ] Pot desena BST-ul din inserarea: 108, 104, 112, 102, 106, 110, 114.
+- [ ] Pot scrie `insert` recursiv in 4 min.
+- [ ] Pot scrie `search` in 2 min.
+- [ ] Pot scrie `findMin` si `findMax` in 2 min.
 - [ ] Pot scrie cele 3 parcurgeri (in/pre/post) in 5 min.
-- [ ] Pot scrie `freeTree` in 3 min, post-order.
-- [ ] Pot scrie `treeHeight` in 2 min.
+- [ ] Pot scrie `deleteNode` cu cele 3 cazuri in 10 min.
+- [ ] Pot scrie `freeTree` post-order in 2 min.
 - [ ] Pot explica de ce in-order da elementele sortate.
 
-Daca bifezi 6/6 -> esti gata pentru AVL.
+Daca bifezi 7/8 → esti gata pentru AVL.
