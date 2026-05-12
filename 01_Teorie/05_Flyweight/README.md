@@ -167,6 +167,75 @@ for (int i = 0; i < 10; i++) {
 
 ---
 
+## Cod seminar (S12 — joc: Monstru/Vrajitor)
+
+Al doilea exemplu din seminar — factory cu `List` în loc de `Map`, returnează un personaj random. Starea extrinsecă = pozitia (x, y) + canvas-ul.
+
+```java
+public interface IFlyweight {
+    void pozitionare(int x, int y, Canvas canvas);
+    void ataca();
+}
+
+public class Monstru implements IFlyweight {
+    private List<Integer> textura;  // stare intrinsecă
+    private int dimensiune;
+    private String culoare;
+
+    public Monstru(List<Integer> textura, int dimensiune, String culoare) { ... }
+
+    @Override
+    public void pozitionare(int x, int y, Canvas canvas) {
+        if (canvas.adauga(x, y)) {
+            System.out.println("Monstrul de dimensiune " + dimensiune + " a fost pozitionat pe: " + x + " " + y);
+            ataca();
+        } else System.out.println("Pozitia este deja folosita");
+    }
+
+    @Override public void ataca() { System.out.println("Monstrul a atacat"); }
+}
+
+public class FlyweightFactory {
+    private List<IFlyweight> colectie = new ArrayList<>();
+
+    public FlyweightFactory() { initColectie(); }
+
+    public void initColectie() {
+        colectie.add(new Vrajitor("Vrajitor cu aripi", List.of(1, 2)));
+        colectie.add(new Vrajitor("Vrajitor cu tepi", List.of(3, 2)));
+        colectie.add(new Monstru(List.of(1, 2), 10, "negru"));
+        colectie.add(new Monstru(List.of(2, 2), 10, "rosu"));
+        colectie.add(new Monstru(List.of(5, 2), 20, "rosu"));
+    }
+
+    public IFlyweight getPersonaj() {
+        return colectie.get(new Random().nextInt(colectie.size())); // returnează ACELAȘI obiect din listă
+    }
+}
+
+// Main
+FlyweightFactory factory = new FlyweightFactory();
+Canvas canvas = new Canvas(200, 200);
+
+factory.getPersonaj().pozitionare(10, 100, canvas);
+factory.getPersonaj().pozitionare(10, 100, canvas); // poziție ocupată
+factory.getPersonaj().pozitionare(20, 100, canvas);
+```
+
+**Diferența față de S11:** S11 folosește `static Map` + cheie string; S12 folosește `List` + index random. Principiul e același — obiectele flyweight sunt create o singură dată și reutilizate.
+
+---
+
+## Structura la examen
+
+1. **Interfață** `IRecomandare` cu metoda care primește starea extrinsecă ca parametru
+2. **Flyweight concret** `Recomandare` — câmp cu starea intrinsecă în constructor
+3. **Factory** `FabricaDeRecomandari` — `static Map<String, IRecomandare>`, populat în `static { }`, metodă `getRecomandare(cheie)`
+4. **Stare extrinsecă** `Reteta` — creată nou de fiecare dată, pasată la metodă
+5. **Main** — apelează factory, pasează starea extrinsecă
+
+---
+
 ## Cum recunoști
 
 - „număr limitat de seturi reutilizate de un număr mare de instanțe"
