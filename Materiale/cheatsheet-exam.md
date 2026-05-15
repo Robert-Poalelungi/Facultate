@@ -301,33 +301,105 @@ else if (f.Status == StatusFactura.Platita)
 
 ## 6. LINQ — operatii frecvente la examen
 
+LINQ functioneaza pe liste. Toate operatiile se scriu ca un lant si la final obtii un rezultat.
+`f` e numele pe care il dai tu fiecarui element — putea fi orice: `x`, `factura`, `item`.
+
+### Where — filtrare
+
+Pastreaza doar elementele care respecta o conditie.
+
 ```csharp
-var lista = MainForm.Facturi;
+// O conditie simpla
+var expirate = MainForm.Facturi.Where(f => f.EsteExpirata);
 
-// Filtrare
-lista.Where(f => f.EsteExpirata)
+// Conditii multiple cu && (si)
+var expirateNePlatite = MainForm.Facturi
+    .Where(f => f.EsteExpirata && f.Status == StatusFactura.Emisa);
 
-// Sortare crescatoare / descrescatoare
-lista.OrderBy(f => f.DataScadenta)
-lista.OrderByDescending(f => f.SumaDePlata)
+// Conditii multiple cu || (sau)
+var serieFK = MainForm.Facturi
+    .Where(f => f.Serie.StartsWith("F") || f.Serie.StartsWith("K"));
+```
 
-// Suma
-lista.Sum(f => f.SumaDePlata)
+### OrderBy / OrderByDescending — sortare
 
-// Numarare
-lista.Count(f => f.Status == StatusFactura.Platita)
+```csharp
+// Crescator dupa data scadenta (cel mai vechi primul)
+var sortate = MainForm.Facturi.OrderBy(f => f.DataScadenta);
 
-// Maxim / Minim
-lista.Max(f => f.SumaDePlata)
-lista.Min(f => f.DataEmitere)
+// Descrescator dupa suma (cel mai mare primul)
+var sortate = MainForm.Facturi.OrderByDescending(f => f.SumaDePlata);
 
-// Filtru pe string
-lista.Where(f => f.Serie.StartsWith("F"))
-lista.Where(f => f.DenumireClient.Contains("SRL"))
+// Alfabetic dupa nume
+var sortate = MainForm.Facturi.OrderBy(f => f.DenumireClient);
+```
 
-// Combinat
-lista.Where(f => f.EsteExpirata && f.Status == StatusFactura.Emisa)
-     .Sum(f => f.SumaDePlata)
+### Sum — suma
+
+```csharp
+// Suma tuturor facturilor
+decimal total = MainForm.Facturi.Sum(f => f.SumaDePlata);
+
+// Suma doar a celor expirate (Where + Sum inlantuite)
+decimal totalExpirate = MainForm.Facturi
+    .Where(f => f.EsteExpirata)
+    .Sum(f => f.SumaDePlata);
+```
+
+### Count — numarare
+
+```csharp
+// Cate facturi sunt in total
+int total = MainForm.Facturi.Count();
+
+// Cate facturi sunt platite
+int platite = MainForm.Facturi.Count(f => f.Status == StatusFactura.Platita);
+```
+
+### Max / Min — maxim si minim
+
+```csharp
+decimal maxSuma = MainForm.Facturi.Max(f => f.SumaDePlata);
+decimal minSuma = MainForm.Facturi.Min(f => f.SumaDePlata);
+DateTime primaData = MainForm.Facturi.Min(f => f.DataEmitere);
+```
+
+### StartsWith / Contains / EndsWith — filtrare pe text
+
+```csharp
+.Where(f => f.Serie.StartsWith("F"))        // incepe cu F
+.Where(f => f.Serie.EndsWith("X"))          // se termina cu X
+.Where(f => f.DenumireClient.Contains("SRL")) // contine SRL oriunde
+```
+
+**Atentie:** toate sunt case-sensitive — `"F"` nu e acelasi cu `"f"`.
+
+### Cum se inlantuiesc
+
+```csharp
+decimal rezultat = MainForm.Facturi
+    .Where(f => f.EsteExpirata)            // 1. filtreaza
+    .Where(f => f.Serie.StartsWith("F"))   // 2. filtreaza din nou
+    .OrderBy(f => f.SumaDePlata)           // 3. sorteaza
+    .Sum(f => f.SumaDePlata);              // 4. calculeaza suma
+```
+
+Ordinea conteaza: `Where` mereu inainte de `Sum`/`Count`/`Max`/`Min`.
+
+### ToList() — cand il folosesti
+
+Obligatoriu inainte de `foreach`:
+
+```csharp
+var facturi = MainForm.Facturi
+    .Where(f => f.EsteExpirata)
+    .OrderBy(f => f.DataScadenta)
+    .ToList();  // <-- obligatoriu inainte de foreach
+
+foreach (var f in facturi)
+{
+    dgvFacturi.Rows.Add(...);
+}
 ```
 
 ---
