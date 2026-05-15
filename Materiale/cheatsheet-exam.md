@@ -552,12 +552,69 @@ Diferenta fata de proprietatea simpla:
 
 ---
 
-## 14. Repository + FakeDatabase
+## 14. Date de test (IncarcaDateTest)
 
-Pattern din Seminar 6 — date stocate intr-o clasa statica separata.
+Varianta cea mai simpla la examen — lista statica in MainForm + metoda care adauga obiecte hardcodate pentru testare:
 
 ```csharp
-// FakeDatabase.cs — stocheaza datele
+public partial class MainForm : Form
+{
+    public static List<Factura> Facturi = new List<Factura>();
+
+    public MainForm()
+    {
+        InitializeComponent();
+        IncarcaDateTest();
+    }
+
+    private void IncarcaDateTest()
+    {
+        Facturi.Add(new Factura
+        {
+            DataEmitere = new DateTime(2024, 11, 1),
+            DataScadenta = new DateTime(2024, 12, 1),
+            Serie = "F",
+            Numar = 1001,
+            DenumireClient = "SC Alpha SRL",
+            SumaDePlata = 1500.00m,
+            Status = StatusFactura.Emisa
+        });
+        Facturi.Add(new Factura
+        {
+            DataEmitere = new DateTime(2024, 10, 5),
+            DataScadenta = new DateTime(2024, 11, 5),
+            Serie = "K",
+            Numar = 2001,
+            DenumireClient = "SC Beta SRL",
+            SumaDePlata = 3200.00m,
+            Status = StatusFactura.Emisa
+        });
+        Facturi.Add(new Factura
+        {
+            DataEmitere = new DateTime(2025, 1, 10),
+            DataScadenta = new DateTime(2025, 2, 10),
+            Serie = "F",
+            Numar = 1002,
+            DenumireClient = "SC Omega SRL",
+            SumaDePlata = 2000.00m,
+            Status = StatusFactura.Platita
+        });
+    }
+}
+```
+
+**De ce e bine:** datele apar automat la pornire, poti testa imediat fara sa adaugi manual.
+
+**Regula:** pune date variate — unele expirate, unele nu, serii diferite, statusuri diferite — ca sa poti verifica ca LINQ-ul filtreaza corect.
+
+---
+
+## 14b. Repository + FakeDatabase (varianta seminar)
+
+Pattern din Seminar 6 — date stocate intr-o clasa statica separata, operatii intr-un repository.
+
+```csharp
+// FakeDatabase.cs
 public static class FakeDatabase
 {
     public static List<Carte> Carti = new List<Carte>
@@ -567,23 +624,14 @@ public static class FakeDatabase
     };
 }
 
-// CarteRepository.cs — operatii CRUD pe FakeDatabase
+// CarteRepository.cs
 public class CarteRepository
 {
-    public List<Carte> GetAll()
-    {
-        return FakeDatabase.Carti;
-    }
+    public List<Carte> GetAll() => FakeDatabase.Carti;
 
-    public Carte GetById(Guid id)
-    {
-        return FakeDatabase.Carti.FirstOrDefault(c => c.Id == id);
-    }
+    public Carte GetById(Guid id) => FakeDatabase.Carti.FirstOrDefault(c => c.Id == id);
 
-    public void Add(Carte carte)
-    {
-        FakeDatabase.Carti.Add(carte);
-    }
+    public void Add(Carte carte) => FakeDatabase.Carti.Add(carte);
 
     public void Update(Carte carte)
     {
@@ -594,11 +642,7 @@ public class CarteRepository
         existent.Gen = carte.Gen;
     }
 
-    public void Delete(Guid id)
-    {
-        var carte = GetById(id);
-        FakeDatabase.Carti.Remove(carte);
-    }
+    public void Delete(Guid id) => FakeDatabase.Carti.Remove(GetById(id));
 }
 ```
 
