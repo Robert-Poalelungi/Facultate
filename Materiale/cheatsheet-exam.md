@@ -424,20 +424,398 @@ private void dgvFacturi_SelectionChanged(object sender, EventArgs e)
 
 ---
 
-## 11. Structura tipica subiect examen
+## 11. Mostenire (Inheritance)
+
+```csharp
+// Clasa de baza
+public class Bilet
+{
+    public string NumeFilm { get; set; }
+    public double PretBaza { get; set; }
+
+    public virtual double CalculeazaPretFinal()
+    {
+        return PretBaza - GetReducere();
+    }
+
+    public virtual double GetReducere()
+    {
+        return 0;  // clasa de baza nu are reducere
+    }
+}
+
+// Clasa derivata — mosteneste din Bilet
+public class BiletStudent : Bilet
+{
+    public string NumarLegitimatie { get; set; }
+
+    // override = suprascrie metoda din clasa de baza
+    public override double GetReducere()
+    {
+        return PretBaza * 0.20;  // 20% reducere
+    }
+}
+
+// Alta clasa derivata
+public class BiletSenior : Bilet
+{
+    public override double GetReducere()
+    {
+        return PretBaza * 0.15;  // 15% reducere
+    }
+}
+```
+
+**Reguli:**
+- `virtual` in clasa de baza = poate fi suprascris
+- `override` in clasa derivata = suprascrie metoda
+- `base.MetodaParinte()` = apeleaza metoda din clasa parinte
+- Clasa derivata mosteneste toate proprietatile si metodele parintelui
+
+```csharp
+// Polimorfism — apelezi metoda pe tipul de baza
+Bilet b = new BiletStudent { PretBaza = 30, NumarLegitimatie = "123" };
+double pret = b.CalculeazaPretFinal();  // apeleaza override-ul din BiletStudent
+```
+
+---
+
+## 12. Interfete (Interfaces)
+
+```csharp
+// Definire interfata — doar semnaturi, fara implementare
+public interface IPretCalculabil
+{
+    double CalculeazaPretFinal();
+    double GetReducere();
+}
+
+public interface IValidabil
+{
+    bool EsteValid();
+}
+
+// Clasa care implementeaza interfetele
+public class Bilet : IPretCalculabil, IValidabil
+{
+    public double CalculeazaPretFinal() { return PretBaza; }
+    public double GetReducere() { return 0; }
+    public bool EsteValid() { return ExpiraLa > DateTime.Now; }
+}
+```
+
+**Reguli:**
+- Interfata defineste CE trebuie sa faca o clasa, nu CUM
+- O clasa poate implementa mai multe interfete (spre deosebire de mostenire unde e doar una)
+- Toate metodele din interfata TREBUIE implementate in clasa
+
+---
+
+## 13. Proprietati cu validare (backing field)
+
+Cand vrei sa validezi valoarea la setare:
+
+```csharp
+public class Bilet
+{
+    // Backing field — campul privat care stocheaza valoarea
+    private int _numarLoc;
+
+    public int NumarLoc
+    {
+        get { return _numarLoc; }
+        set
+        {
+            if (value < 1 || value > 200)
+                throw new ArgumentException("Numarul locului este invalid");
+            _numarLoc = value;
+        }
+    }
+
+    private double _pretBaza;
+    public double PretBaza
+    {
+        get { return _pretBaza; }
+        set
+        {
+            if (value <= 0)
+                throw new ArgumentException("Pretul de baza este invalid");
+            _pretBaza = value;
+        }
+    }
+}
+```
+
+Diferenta fata de proprietatea simpla:
+- `public int X { get; set; }` — fara validare
+- `private int _x; public int X { get { return _x; } set { /* validare */ _x = value; } }` — cu validare
+
+---
+
+## 14. Repository + FakeDatabase
+
+Pattern din Seminar 6 — date stocate intr-o clasa statica separata.
+
+```csharp
+// FakeDatabase.cs — stocheaza datele
+public static class FakeDatabase
+{
+    public static List<Carte> Carti = new List<Carte>
+    {
+        new Carte { Id = Guid.NewGuid(), Titlu = "Ion", Autor = "Rebreanu", AnAparitie = 1920, Gen = GenCarte.Roman },
+        new Carte { Id = Guid.NewGuid(), Titlu = "Morometii", Autor = "Preda", AnAparitie = 1955, Gen = GenCarte.Roman },
+    };
+}
+
+// CarteRepository.cs — operatii CRUD pe FakeDatabase
+public class CarteRepository
+{
+    public List<Carte> GetAll()
+    {
+        return FakeDatabase.Carti;
+    }
+
+    public Carte GetById(Guid id)
+    {
+        return FakeDatabase.Carti.FirstOrDefault(c => c.Id == id);
+    }
+
+    public void Add(Carte carte)
+    {
+        FakeDatabase.Carti.Add(carte);
+    }
+
+    public void Update(Carte carte)
+    {
+        var existent = GetById(carte.Id);
+        existent.Titlu = carte.Titlu;
+        existent.Autor = carte.Autor;
+        existent.AnAparitie = carte.AnAparitie;
+        existent.Gen = carte.Gen;
+    }
+
+    public void Delete(Guid id)
+    {
+        var carte = GetById(id);
+        FakeDatabase.Carti.Remove(carte);
+    }
+}
+```
+
+**Folosire in Form:**
+```csharp
+private CarteRepository _repo = new CarteRepository();
+
+private void RefreshList()
+{
+    lvCarti.Items.Clear();
+    foreach (var c in _repo.GetAll())
+    {
+        var item = new ListViewItem(c.Titlu);
+        item.SubItems.Add(c.Autor);
+        item.Tag = c;
+        lvCarti.Items.Add(item);
+    }
+}
+```
+
+---
+
+## 15. Form de editare cu parametru
+
+Pattern din Seminar 5/6 — acelasi form pentru adaugare SI editare.
+
+```csharp
+public partial class FormCarte : Form
+{
+    private Carte _carteEditare;
+    private bool _esteAdaugare;
+
+    // Constructorul primeste id-ul null pentru adaugare, sau id-ul cartii pentru editare
+    public FormCarte(Guid? id = null)
+    {
+        InitializeComponent();
+
+        if (id == null)
+        {
+            Text = "Adauga carte";
+            _esteAdaugare = true;
+            _carteEditare = new Carte();
+        }
+        else
+        {
+            Text = "Editeaza carte";
+            _esteAdaugare = false;
+            _carteEditare = new CarteRepository().GetById(id.Value);
+
+            // Precompletare campuri
+            txtTitlu.Text = _carteEditare.Titlu;
+            txtAutor.Text = _carteEditare.Autor;
+        }
+    }
+
+    private void btnSalveaza_Click(object sender, EventArgs e)
+    {
+        if (!ValidateForm()) return;
+
+        _carteEditare.Titlu = txtTitlu.Text.Trim();
+        _carteEditare.Autor = txtAutor.Text.Trim();
+
+        var repo = new CarteRepository();
+        if (_esteAdaugare)
+        {
+            _carteEditare.Id = Guid.NewGuid();
+            repo.Add(_carteEditare);
+        }
+        else
+        {
+            repo.Update(_carteEditare);
+        }
+
+        DialogResult = DialogResult.OK;
+    }
+}
+```
+
+**Alternativa din Seminar 5** — form primeste obiectul direct si returneaza rezultatul printr-o proprietate publica:
+
+```csharp
+public partial class FormAngajat : Form
+{
+    public Angajat AngajatModificat { get; private set; }  // rezultatul
+
+    public FormAngajat(Angajat angajat = null)  // null = adaugare, obiect = editare
+    {
+        InitializeComponent();
+
+        if (angajat != null)
+        {
+            txtNume.Text = angajat.Nume;
+            txtPrenume.Text = angajat.Prenume;
+            // ... precompletare
+        }
+    }
+
+    private void btnSalveaza_Click(object sender, EventArgs e)
+    {
+        if (!ValidateForm()) return;
+
+        AngajatModificat = new Angajat
+        {
+            Nume = txtNume.Text.Trim(),
+            Prenume = txtPrenume.Text.Trim(),
+        };
+
+        DialogResult = DialogResult.OK;
+    }
+}
+
+// Folosire din MainForm:
+var form = new FormAngajat(angajatSelectat);  // editare
+if (form.ShowDialog() == DialogResult.OK)
+{
+    var angajatNou = form.AngajatModificat;  // ia rezultatul
+    RefreshList();
+}
+```
+
+---
+
+## 16. Evenimente (Events)
+
+```csharp
+// EventArgs custom — datele trimise cu evenimentul
+public class ComandaLivrataEventArgs : EventArgs
+{
+    public string NumarComanda { get; set; }
+    public DateTime DataLivrare { get; set; }
+}
+
+// Clasa care declanseaza evenimentul
+public class Depozit
+{
+    // Declarare eveniment
+    public event EventHandler<ComandaLivrataEventArgs> ComandaLivrata;
+
+    public void LivreazaComanda(string numar)
+    {
+        // ... logica livrare
+
+        // Declanseaza evenimentul
+        ComandaLivrata?.Invoke(this, new ComandaLivrataEventArgs
+        {
+            NumarComanda = numar,
+            DataLivrare = DateTime.Now
+        });
+    }
+}
+
+// Clasa care asculta evenimentul
+public class NotificareClient
+{
+    public void Aboneaza(Depozit depozit)
+    {
+        depozit.ComandaLivrata += OnComandaLivrata;
+    }
+
+    private void OnComandaLivrata(object sender, ComandaLivrataEventArgs e)
+    {
+        Console.WriteLine("Comanda " + e.NumarComanda + " livrata la " + e.DataLivrare);
+    }
+}
+```
+
+---
+
+## 17. Controale suplimentare
+
+### NumericUpDown
+```csharp
+// Valoarea curenta
+int an = (int)numAn.Value;
+decimal suma = numSuma.Value;
+
+// Setare limite in Designer: Minimum, Maximum, DecimalPlaces
+```
+
+### CheckBox
+```csharp
+bool estePermanent = chkEstePermanent.Checked;  // true / false
+
+// Setare programatic
+chkEstePermanent.Checked = true;
+```
+
+### ComboBox populat cu enum
+```csharp
+// In constructor / Form_Load — adauga valorile enumului
+cmbGen.Items.AddRange(Enum.GetNames(typeof(GenCarte)));
+cmbGen.SelectedIndex = 0;
+
+// La salvare — citire din ComboBox
+var gen = (GenCarte)Enum.Parse(typeof(GenCarte), cmbGen.SelectedItem.ToString());
+
+// SAU daca enum-ul incepe de la 0 (mai simplu):
+var gen = (GenCarte)cmbGen.SelectedIndex;
+```
+
+---
+
+## 18. Structura tipica subiect examen
 
 ```
-1. Model (clasa + enum + proprietate calculata)
+1. Model (clasa + mostenire + enum + proprietate calculata)
 2. MainForm:
-   - Lista statica
-   - Buton deschide FacturiForm (MDI)
+   - Lista statica SAU Repository + FakeDatabase
+   - Buton deschide ListaForm (MDI)
    - Buton calcul LINQ + MessageBox
-   - Buton deschide AdaugaFacturaForm (dialog)
-3. FacturiForm / ListaForm:
+   - Buton deschide AdaugaForm (dialog)
+3. ListaForm:
    - DataGridView SAU ListView cu coloane
-   - Incarcare date din lista statica, sortate
-4. AdaugaForm:
-   - Campuri + DateTimePicker + ComboBox
+   - Incarcare date, sortate
+   - Butoane Adauga / Editeaza / Sterge
+4. AdaugaForm / EditeazaForm (sau unul singur cu parametru):
+   - Campuri + DateTimePicker + ComboBox + NumericUpDown + CheckBox
    - ValidateForm() cu ErrorProvider
-   - Salvare in lista statica + DialogResult.OK
+   - Salvare + DialogResult.OK
 ```
