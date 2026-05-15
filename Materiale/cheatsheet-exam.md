@@ -96,54 +96,94 @@ this.IsMdiContainer = true;
 
 ---
 
-## 3. FacturiForm — DataGridView cu date
+## 3. FacturiForm — DataGridView vs ListView
+
+Coloanele se adauga din **Designer** (click dreapta pe control → Edit Columns).
+Ordinea coloanelor din Designer trebuie sa corespunda cu ordinea valorilor din cod.
+
+**Setari Designer:**
+- DataGridView: `ReadOnly = true`, `AutoSizeColumnsMode = Fill`, `SelectionMode = FullRowSelect`
+- ListView: `View = Details`, `FullRowSelect = true`, `GridLines = true`
+
+### DataGridView
 
 ```csharp
-public partial class FacturiForm : Form
+private void IncarcaDate()
 {
-    public FacturiForm()
+    dgvFacturi.Rows.Clear();
+
+    var facturi = MainForm.Facturi
+        .OrderBy(f => f.DataScadenta)
+        .ToList();
+
+    foreach (var f in facturi)
     {
-        InitializeComponent();
-        IncarcaDate();
-    }
-
-    private void IncarcaDate()
-    {
-        dgvFacturi.Rows.Clear();
-
-        var facturi = MainForm.Facturi
-            .OrderBy(f => f.DataScadenta)
-            .ToList();
-
-        foreach (var f in facturi)
-        {
-            int i = dgvFacturi.Rows.Add(
-                f.Serie,
-                f.Numar,
-                f.DenumireClient,
-                f.DataEmitere.ToString("dd.MM.yyyy"),
-                f.DataScadenta.ToString("dd.MM.yyyy"),
-                f.SumaDePlata.ToString("N2"),
-                f.Status,
-                f.EsteExpirata ? "Da" : "Nu"
-            );
-            dgvFacturi.Rows[i].Tag = f;  // stocheaza obiectul in rand!
-        }
+        int i = dgvFacturi.Rows.Add(
+            f.Serie,
+            f.Numar,
+            f.DenumireClient,
+            f.DataEmitere.ToString("dd.MM.yyyy"),
+            f.DataScadenta.ToString("dd.MM.yyyy"),
+            f.SumaDePlata.ToString("N2"),
+            f.Status,
+            f.EsteExpirata ? "Da" : "Nu"
+        );
+        dgvFacturi.Rows[i].Tag = f;  // stocheaza obiectul in rand!
     }
 }
-```
 
-**Coloane DataGridView** (adaugate in Designer via Edit Columns sau cod):
-- Ordinea din `Rows.Add(...)` trebuie sa corespunda cu ordinea coloanelor
-- `dgvFacturi.ReadOnly = true;`
-- `dgvFacturi.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;`
-
-### Recuperare obiect din randul selectat (pattern seminar)
-```csharp
-// In SelectionChanged sau la click pe buton:
-if (dgvFacturi.SelectedRows.Count == 0) return;
+// Recuperare obiect selectat:
 var factura = dgvFacturi.SelectedRows[0].Tag as Factura;
 ```
+
+### ListView
+
+```csharp
+private void IncarcaDate()
+{
+    lvFacturi.Items.Clear();
+
+    var facturi = MainForm.Facturi
+        .OrderBy(f => f.DataScadenta)
+        .ToList();
+
+    foreach (var f in facturi)
+    {
+        var item = new ListViewItem(f.Serie);                     // prima coloana
+        item.SubItems.Add(f.Numar.ToString());                    // coloana 2
+        item.SubItems.Add(f.DenumireClient);                      // coloana 3
+        item.SubItems.Add(f.DataEmitere.ToString("dd.MM.yyyy"));  // coloana 4
+        item.SubItems.Add(f.DataScadenta.ToString("dd.MM.yyyy")); // coloana 5
+        item.SubItems.Add(f.SumaDePlata.ToString("N2"));          // coloana 6
+        item.SubItems.Add(f.Status.ToString());                   // coloana 7
+        item.SubItems.Add(f.EsteExpirata ? "Da" : "Nu");          // coloana 8
+        item.Tag = f;  // stocheaza obiectul!
+        lvFacturi.Items.Add(item);
+    }
+}
+
+// Recuperare obiect selectat:
+var factura = lvFacturi.SelectedItems[0].Tag as Factura;
+```
+
+### Colorare conditionata (ambele)
+```csharp
+// DataGridView
+dgvFacturi.Rows[i].DefaultCellStyle.BackColor = Color.LightCoral;
+
+// ListView
+item.BackColor = Color.LightCoral;
+```
+
+### Comparatie rapida
+
+| | DataGridView | ListView |
+|---|---|---|
+| Adaugare rand | `int i = Rows.Add(v1, v2, ...)` | `new ListViewItem(v1)` + `SubItems.Add(v2)` |
+| Stocheaza obiect | `Rows[i].Tag = f` | `item.Tag = f` |
+| Recupereaza obiect | `SelectedRows[0].Tag as Factura` | `SelectedItems[0].Tag as Factura` |
+| Curatare | `Rows.Clear()` | `Items.Clear()` |
+| Verifica selectie | `SelectedRows.Count == 0` | `SelectedItems.Count == 0` |
 
 ---
 
@@ -208,98 +248,7 @@ public partial class AdaugaFacturaForm : Form
 
 ---
 
-## 5. ListView — pattern complet
-
-### Designer (setari obligatorii)
-```
-View = Details
-FullRowSelect = true
-GridLines = true
-```
-
-### Adaugare coloane (in Designer sau cod)
-```csharp
-lvFacturi.Columns.Add("Serie", 80, HorizontalAlignment.Left);
-lvFacturi.Columns.Add("Numar", 60, HorizontalAlignment.Right);
-lvFacturi.Columns.Add("Client", 150, HorizontalAlignment.Left);
-lvFacturi.Columns.Add("Data Emitere", 100, HorizontalAlignment.Center);
-lvFacturi.Columns.Add("Suma", 100, HorizontalAlignment.Right);
-lvFacturi.Columns.Add("Status", 80, HorizontalAlignment.Left);
-lvFacturi.Columns.Add("Expirata", 70, HorizontalAlignment.Center);
-```
-
-### Incarcare date
-```csharp
-private void IncarcaDate()
-{
-    lvFacturi.Items.Clear();
-
-    var facturi = MainForm.Facturi
-        .OrderBy(f => f.DataScadenta)
-        .ToList();
-
-    foreach (var f in facturi)
-    {
-        var item = new ListViewItem(f.Serie);                    // prima coloana
-        item.SubItems.Add(f.Numar.ToString());                   // coloana 2
-        item.SubItems.Add(f.DenumireClient);                     // coloana 3
-        item.SubItems.Add(f.DataEmitere.ToString("dd.MM.yyyy")); // coloana 4
-        item.SubItems.Add(f.SumaDePlata.ToString("N2"));         // coloana 5
-        item.SubItems.Add(f.Status.ToString());                  // coloana 6
-        item.SubItems.Add(f.EsteExpirata ? "Da" : "Nu");         // coloana 7
-
-        // Optional: coloreaza rand dupa conditie
-        if (f.EsteExpirata)
-            item.BackColor = Color.LightCoral;
-
-        lvFacturi.Items.Add(item);
-    }
-}
-```
-
-### Obtine elementul selectat (cu Tag — pattern seminar)
-```csharp
-// La incarcare, stocheaza obiectul in Tag:
-item.Tag = f;
-lvFacturi.Items.Add(item);
-
-// La buton sterge / editeaza:
-private void btnSterge_Click(object sender, EventArgs e)
-{
-    if (lvFacturi.SelectedItems.Count == 0)
-    {
-        MessageBox.Show("Selectati o factura!", "Atentie",
-            MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        return;
-    }
-
-    var factura = lvFacturi.SelectedItems[0].Tag as Factura;  // recuperezi obiectul
-    MainForm.Facturi.Remove(factura);
-    IncarcaDate();
-}
-```
-
-### Diferenta fata de DataGridView
-
-| | DataGridView | ListView |
-|---|---|---|
-| Adaugare rand | `int i = Rows.Add(v1, v2)` | `new ListViewItem(v1)` + `SubItems.Add(v2)` |
-| Stocheaza obiect | `Rows[i].Tag = f` | `item.Tag = f` |
-| Recupereaza obiect | `SelectedRows[0].Tag as Factura` | `SelectedItems[0].Tag as Factura` |
-| Curatare | `Rows.Clear()` | `Items.Clear()` |
-| Culoare rand | `Rows[i].DefaultCellStyle.BackColor` | `item.BackColor` |
-
-### Colorare conditionata
-```csharp
-if (f.EsteExpirata)
-    item.BackColor = Color.LightCoral;
-else if (f.Status == StatusFactura.Platita)
-    item.BackColor = Color.LightGreen;
-```
-
----
-
-## 6. LINQ — operatii frecvente la examen
+## 5. LINQ — operatii frecvente la examen
 
 LINQ functioneaza pe liste. Toate operatiile se scriu ca un lant si la final obtii un rezultat.
 `f` e numele pe care il dai tu fiecarui element — putea fi orice: `x`, `factura`, `item`.
