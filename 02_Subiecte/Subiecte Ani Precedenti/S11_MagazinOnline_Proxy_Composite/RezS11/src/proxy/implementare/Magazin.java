@@ -16,7 +16,12 @@ public class Magazin implements IMagazin{
             transport = 25;
         }
         double total = totalCos + transport;
-        System.out.println(client + "\nTotal cos: " + totalCos + "\ntransport: " + transport + "\nTotal cu transport:" + total + "\n------------------------------------");
+        System.out.println(
+                client
+                + "\nTotal cos: "
+                + totalCos + "\ntransport: "
+                + transport + "\nTotal cu transport:"
+                + total + "\n------------------------------------");
 
         return total;
     }
