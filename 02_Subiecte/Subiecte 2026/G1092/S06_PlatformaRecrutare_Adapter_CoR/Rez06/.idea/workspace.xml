@@ -5,12 +5,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="877257e1-cf82-4dd9-92a3-23f7eed982cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../S06_PlatformaRecrutare_Adapter_CoR.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interfete.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../S07_TransportUrban_Strategy_Composite/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../S07_TransportUrban_Strategy_Composite/S07_TransportUrban_Strategy_Composite.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../S07_TransportUrban_Strategy_Composite/interfete.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S02_PlatformaElearning_Adapter_Proxy/RezS02/src/Adapter/implemetare/AbstractLectiePlatforma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S02_PlatformaElearning_Adapter_Proxy/RezS02/src/Adapter/implemetare/AdaptorLectie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S02_PlatformaElearning_Adapter_Proxy/RezS02/src/Adapter/implemetare/LectieExterna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S02_PlatformaElearning_Adapter_Proxy/RezS02/src/Adapter/implemetare/LectieInterna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S02_PlatformaElearning_Adapter_Proxy/RezS02/src/Proxy/implementare/AbstractCurs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S02_PlatformaElearning_Adapter_Proxy/RezS02/src/Proxy/implementare/Curs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S02_PlatformaElearning_Adapter_Proxy/RezS02/src/Proxy/implementare/ProxyCurs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S02_PlatformaElearning_Adapter_Proxy/RezS02/src/Proxy/program/MainProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Command/implementare/AbstractActiuneComanda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Command/implementare/ActiuneAnuleaza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Command/implementare/ActiuneRepeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Command/implementare/ActiuneSalveaza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Command/implementare/ActiuneTrimite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Command/implementare/Comanda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Command/implementare/ManagerComenzi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/implementare/AbstractProdusRestaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/implementare/DecoratorAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/implementare/DecoratorAmbalaj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/implementare/DecoratorBranza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/implementare/DecoratorLivrare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/implementare/DecoratorSos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/implementare/DecoratorTopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/implementare/Produs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AnSuplimentar/S04_Restaurant_Command_Decorator/RezS04/src/Decorator/program/MainDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Decorator/implementare/AbstractFisaMedicala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Decorator/implementare/DecoratorAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Decorator/implementare/DecoratorImagistica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Decorator/implementare/DecoratorLaborator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Decorator/implementare/DecoratorNutritie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Decorator/implementare/FisaMedicala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Observer/implementare/AbstractModulNotificare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Observer/implementare/AbstractPacientMonitorizat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Observer/implementare/ModulAlertareMedic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Observer/implementare/ModulIstoric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Observer/implementare/ModulNotificariPacient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Observer/implementare/ModulProgramari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Observer/implementare/Pacient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S01_SistemMedical_Decorator_Observer/RezS01/src/Observer/program/MainObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/composite/implementare/AbstractUnitateCazare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/composite/implementare/Apartament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/composite/implementare/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/composite/implementare/Etaj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/composite/implementare/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/flyweight/implementare/AbstractPictogramaFacilitate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/flyweight/implementare/PictogramaFacilitate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/flyweight/implementare/PictogramaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../G1089/S03_Hotel_Composite_Flyweight/RezS03/src/flyweight/program/MainFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cor/implementare/FiltrareCandidatCompetente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cor/implementare/FiltrareCandidatExperienta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cor/implementare/FiltruCandidatDisponibilitateInterviu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cor/implementare/FiltruCandidatSalariu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cor/program/MainCoR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/Rez06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/CoR/implementare/AbstractFiltruCandidat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/CoR/implementare/Candidat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/adapter/implementare/AbstractCandidatPlatforma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/adapter/implementare/AdapterCvExtern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/adapter/implementare/CvExtern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/adapter/implementare/CvIntern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/adapter/program/MainAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/S06_PlatformaRecrutare_Adapter_CoR.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S06_PlatformaRecrutare_Adapter_CoR/interfete.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/RezS07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/composite/implementare/AbstractElementTransport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/composite/implementare/INod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/composite/implementare/NodTransport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/composite/implementare/Statie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/composite/program/MainComposite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/strategy/implementare/AbstractAlgoritmRuta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/strategy/implementare/AlgoritmCelMaiMicNumarDeStatii.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/strategy/implementare/AlgoritmCostMinim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/strategy/implementare/AlgoritmTimpMinim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/strategy/implementare/ReteaTransport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/strategy/implementare/Ruta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/strategy/implementare/StrategyContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/RezS07/src/strategy/program/MainStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/S07_TransportUrban_Strategy_Composite.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AnSuplimentar/S07_TransportUrban_Strategy_Composite/interfete.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../S02_PlatformaElearning_Adapter_Proxy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../S02_PlatformaElearning_Adapter_Proxy/S02_PlatformaElearning_Adapter_Proxy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../S02_PlatformaElearning_Adapter_Proxy/interfete.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../S04_Restaurant_Command_Decorator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../S04_Restaurant_Command_Decorator/S04_Restaurant_Command_Decorator.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../S04_Restaurant_Command_Decorator/interfete.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +109,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7" />
+    <option name="cachedIndexableFilesCount" value="19" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="SimpleSourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -31,54 +123,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Robert-Poalelungi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Robert-Poalelungi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Robert-Poalelungi/Facultate.git",
-    "accountId": "ff993de3-2e1a-4b2b-a309-36bcfe63f1c3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Robert-Poalelungi/Facultate.git&quot;,
+    &quot;accountId&quot;: &quot;ff993de3-2e1a-4b2b-a309-36bcfe63f1c3&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3DoIcvj3QFmGzElaFFkEtUKAZL7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainAdapter.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "CTS",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Robert/Desktop/inv/Facultate/02_Subiecte/Subiecte 2026/G1092/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/Main.java",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainAdapter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCoR.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;CTS&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Robert/Desktop/inv/Facultate/02_Subiecte/Subiecte 2026/G1092/S06_PlatformaRecrutare_Adapter_CoR/Rez06/src/Main.java&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +187,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778942080833</updated>
-      <workItem from="1778942082081" duration="3789000" />
+      <workItem from="1778942082081" duration="3040000" />
+      <workItem from="1779025268863" duration="1765000" />
+      <workItem from="1779027059826" duration="3164000" />
+      <workItem from="1779080993609" duration="188000" />
     </task>
     <servers />
   </component>
