@@ -1,14 +1,6 @@
-// Lab 09 — AVL Tree (BST auto-balansat prin rotatii)
-// Compilare: gcc Lab_09.c -o Lab_09
-// Rulare:   pune games.csv langa executabil, apoi ./Lab_09
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-// ============================================================
-// 1. DATA — VideoGame
-// ============================================================
 
 typedef struct {
     unsigned int gameID;
@@ -21,19 +13,11 @@ void printGame(const VideoGame* game) {
     printf("[%u] %s - %s (%d)\n", game->gameID, game->title, game->studio, game->releaseYear);
 }
 
-// ============================================================
-// 2. AVL NODE
-// ============================================================
-
 typedef struct AVLNode {
     VideoGame* data;
     struct AVLNode* left;
     struct AVLNode* right;
 } AVLNode;
-
-// ============================================================
-// 3. AVL HELPERS — height, balanceFactor
-// ============================================================
 
 int avlHeight(AVLNode* root) {
     if (root == NULL) return 0;
@@ -47,15 +31,6 @@ int avlBalanceFactor(AVLNode* root) {
     return avlHeight(root->right) - avlHeight(root->left);
 }
 
-// ============================================================
-// 4. ROTATII
-// ============================================================
-
-//        (*root)               aux
-//        /     \              /   \
-//      aux      C    ->      A   (*root)
-//      / \                       /    \
-//     A   B                     B      C
 void avlRotateRight(AVLNode** root) {
     AVLNode* aux = (*root)->left;
     (*root)->left = aux->right;
@@ -63,11 +38,6 @@ void avlRotateRight(AVLNode** root) {
     *root = aux;
 }
 
-//   (*root)                   aux
-//   /     \                  /   \
-//  A       aux    ->    (*root)   C
-//          / \           /   \
-//         B   C         A     B
 void avlRotateLeft(AVLNode** root) {
     AVLNode* aux = (*root)->right;
     (*root)->right = aux->left;
@@ -80,26 +50,22 @@ static void rebalance(AVLNode** root) {
 
     if (balance == 2) {
         if (avlBalanceFactor((*root)->right) >= 0) {
-            avlRotateLeft(root);                             // RR
+            avlRotateLeft(root);
         } else {
             avlRotateRight(&(*root)->right);
-            avlRotateLeft(root);                             // RL
+            avlRotateLeft(root);
         }
     }
 
     if (balance == -2) {
         if (avlBalanceFactor((*root)->left) <= 0) {
-            avlRotateRight(root);                            // LL
+            avlRotateRight(root);
         } else {
             avlRotateLeft(&(*root)->left);
-            avlRotateRight(root);                            // LR
+            avlRotateRight(root);
         }
     }
 }
-
-// ============================================================
-// 5. INSERT cu rebalansare automata
-// ============================================================
 
 void avlInsert(AVLNode** root, VideoGame* game) {
     if (*root == NULL) {
@@ -116,10 +82,6 @@ void avlInsert(AVLNode** root, VideoGame* game) {
         rebalance(root);
     }
 }
-
-// ============================================================
-// 6. SEARCH, FINDMIN, FINDMAX, COUNTNODES
-// ============================================================
 
 AVLNode* avlSearch(AVLNode* root, unsigned int gameID) {
     if (root == NULL)                 return NULL;
@@ -144,10 +106,6 @@ int avlCountNodes(AVLNode* root) {
     if (root == NULL) return 0;
     return 1 + avlCountNodes(root->left) + avlCountNodes(root->right);
 }
-
-// ============================================================
-// 7. DELETE cu rebalansare
-// ============================================================
 
 void avlDeleteNode(AVLNode** root, unsigned int gameID) {
     if (*root == NULL) {
@@ -200,10 +158,6 @@ void avlDeleteNode(AVLNode** root, unsigned int gameID) {
     if (*root) rebalance(root);
 }
 
-// ============================================================
-// 8. TRAVERSARI + PRINT + FREE
-// ============================================================
-
 void avlInorder(AVLNode* root) {
     if (root) { avlInorder(root->left); printGame(root->data); avlInorder(root->right); }
 }
@@ -237,10 +191,6 @@ void avlFreeTree(AVLNode* root) {
         free(root);
     }
 }
-
-// ============================================================
-// 9. LOADER — CSV -> VideoGame -> AVL
-// ============================================================
 
 int avlLoadGames(const char* filename, AVLNode** root) {
     FILE* f = fopen(filename, "r");
@@ -277,10 +227,6 @@ int avlLoadGames(const char* filename, AVLNode** root) {
     fclose(f);
     return count;
 }
-
-// ============================================================
-// 10. MAIN
-// ============================================================
 
 int main() {
 
