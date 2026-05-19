@@ -120,7 +120,63 @@ void freeHeap(Heap* heap) {
 }
 
 // ============================================================
-// 3. LOADER — CSV -> Task -> heap
+// 3. MIN-HEAP — aceleasi functii, comparatia inversata
+// ============================================================
+//
+// Diferenta fata de max-heap:
+//   heapify:    cauta SMALLEST (< in loc de >)
+//   insertHeap: sift-up cu < in loc de >
+//   deleteFromHeap: extrage MINIMUL (radacina), structura identica
+
+static void minHeapify(Heap* heap, int index) {
+    int smallest = index;
+    int left  = 2 * index + 1;
+    int right = 2 * index + 2;
+
+    if (left < heap->size && heap->tasks[left].priority < heap->tasks[smallest].priority) {
+        smallest = left;
+    }
+
+    if (right < heap->size && heap->tasks[right].priority < heap->tasks[smallest].priority) {
+        smallest = right;
+    }
+
+    if (smallest != index) {
+        swapTask(&heap->tasks[smallest], &heap->tasks[index]);
+        minHeapify(heap, smallest);
+    }
+}
+
+void minInsertHeap(Heap* heap, Task task) {
+    heap->size++;
+    heap->tasks = realloc(heap->tasks, heap->size * sizeof(Task));
+
+    int index  = heap->size - 1;
+    heap->tasks[index] = task;
+
+    int parent = (index - 1) / 2;
+
+    while (index > 0 && heap->tasks[index].priority < heap->tasks[parent].priority) {
+        swapTask(&heap->tasks[index], &heap->tasks[parent]);
+        index  = parent;
+        parent = (index - 1) / 2;
+    }
+}
+
+Task minDeleteFromHeap(Heap* heap) {
+    Task top = heap->tasks[0];
+
+    heap->tasks[0] = heap->tasks[heap->size - 1];
+    heap->size--;
+    heap->tasks = realloc(heap->tasks, heap->size * sizeof(Task));
+
+    minHeapify(heap, 0);
+
+    return top;
+}
+
+// ============================================================
+// 4. LOADER — CSV -> Task -> heap
 // ============================================================
 
 int loadTasks(const char* filename, Heap* heap) {
@@ -199,6 +255,33 @@ int main() {
     printHeap(&heap2);
 
     freeHeap(&heap2);
+
+    printf("\n--- Min-heap demo (extrage in ordine CRESCATOARE) ---\n\n");
+
+    Task tasks2[] = {
+        {"Fix typo in docs",        3},
+        {"Patch SQL injection",     28},
+        {"Update dependencies",     6},
+        {"Resolve merge conflict",  11},
+        {"Rotate API keys",         20},
+        {"Restart hung service",    15},
+        {"Archive old logs",        2}
+    };
+
+    Heap minHeap = initHeap();
+    int size2 = sizeof(tasks2) / sizeof(Task);
+    for (int i = 0; i < size2; i++) {
+        minInsertHeap(&minHeap, tasks2[i]);
+    }
+
+    printf("Processing tasks by priority (ascending):\n");
+    while (minHeap.size > 0) {
+        Task t = minDeleteFromHeap(&minHeap);
+        printf("Processing: ");
+        printTask(t);
+    }
+
+    freeHeap(&minHeap);
 
     return 0;
 }
