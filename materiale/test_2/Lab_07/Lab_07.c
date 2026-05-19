@@ -66,8 +66,6 @@ void insertHeap(Heap* heap, Task task) {
 
     int index = heap->size - 1;
     heap->tasks[index] = task;
-    heap->tasks[index].description = malloc(strlen(task.description) + 1);
-    strcpy(heap->tasks[index].description, task.description);
 
     int parent = (index - 1) / 2;
 
@@ -103,8 +101,6 @@ Heap buildHeap(Task* tasks, int size) {
 
     for (int i = 0; i < size; i++) {
         heap.tasks[i] = tasks[i];
-        heap.tasks[i].description = malloc(strlen(tasks[i].description) + 1);
-        strcpy(heap.tasks[i].description, tasks[i].description);
     }
 
     for (int i = heap.size / 2 - 1; i >= 0; i--) {
@@ -182,8 +178,6 @@ void minInsertHeap(Heap* heap, Task task) {
 
     int index  = heap->size - 1;
     heap->tasks[index] = task;
-    heap->tasks[index].description = malloc(strlen(task.description) + 1);
-    strcpy(heap->tasks[index].description, task.description);
 
     int parent = (index - 1) / 2;
 
@@ -228,7 +222,8 @@ int loadTasks(const char* filename, Heap* heap) {
 
         token = strtok(NULL, ",");
         token[strcspn(token, "\n")] = '\0';
-        task.description = token;
+        task.description = malloc(strlen(token) + 1);
+        strcpy(task.description, token);
 
         insertHeap(heap, task);
         count++;
