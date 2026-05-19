@@ -1,0 +1,10 @@
+1,Database connection pool exhausted,Database,8,15
+2,SSL certificate expired,API Gateway,6,30
+3,Memory leak in auth service,Auth Service,9,10
+4,DDoS attack detected,Load Balancer,10,5
+5,Disk space critical,File Storage,7,20
+6,Unauthorized login attempt,Identity Provider,8,12
+7,Service timeout cascade,Microservices,9,8
+8,Data breach detected,Customer Database,10,3
+9,Config file corrupted,Deployment Service,5,45
+10,Network partition,Message Queue,7,25
