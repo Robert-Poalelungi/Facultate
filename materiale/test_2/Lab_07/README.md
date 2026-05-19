@@ -402,6 +402,95 @@ int main() {
 
 ---
 
+# Functii suplimentare (in cod)
+
+## `deleteByCondition` — sterge elemente care indeplinesc o conditie
+
+```c
+void deleteByCondition(Heap* heap, int minPriority) {
+    int i = 0;
+    while (i < heap->size) {
+        if (heap->tasks[i].priority < minPriority) {
+            free(heap->tasks[i].description);   // doar daca description e malloc-uit
+            heap->tasks[i] = heap->tasks[heap->size - 1];
+            heap->size--;
+            heap->tasks = realloc(heap->tasks, heap->size * sizeof(Task));
+            heapify(heap, i);
+            // NU i++ !
+        } else {
+            i++;
+        }
+    }
+}
+```
+
+**Pas cu pas:**
+1. Parcurgi vectorul cu `while` (nu `for` — size-ul se schimba).
+2. Conditia e indeplinita:
+   - `free(description)` dacă e alocat dinamic (din CSV).
+   - Suprascrie pozitia `i` cu ultimul element.
+   - Scade `size`, realloc.
+   - `heapify(heap, i)` — noul element de pe pozitia `i` poate incalca proprietatea.
+   - **NU incrementa `i`** — elementul care a venit pe pozitia `i` trebuie si el verificat.
+3. Conditia NU e indeplinita → `i++`.
+
+**Atentie la `free`:**
+- Taskuri din `loadTasks` (CSV) → **dai `free`** (description e `malloc`-uit).
+- Taskuri din array hardcodat `{"text", 5}` → **NU dai `free`** (string literal, crash sigur).
+
+---
+
+## Min-Heap — aceleasi functii, comparatia inversata
+
+Diferenta fata de max-heap: schimbi `>` cu `<` in 2 locuri.
+
+| Functie | Max-Heap | Min-Heap |
+|---------|----------|----------|
+| `heapify` | cauta `largest`, conditie `>` | cauta `smallest`, conditie `<` |
+| `insertHeap` sift-up | urca cat timp `copil > parinte` | urca cat timp `copil < parinte` |
+| `deleteFromHeap` | extrage **maximul** | extrage **minimul** |
+| Extragere in ordine | **descrescatoare** | **crescatoare** |
+
+```c
+static void minHeapify(Heap* heap, int index) {
+    int smallest = index;
+    int left  = 2 * index + 1;
+    int right = 2 * index + 2;
+
+    if (left  < heap->size && heap->tasks[left].priority  < heap->tasks[smallest].priority) smallest = left;
+    if (right < heap->size && heap->tasks[right].priority < heap->tasks[smallest].priority) smallest = right;
+
+    if (smallest != index) {
+        swapTask(&heap->tasks[smallest], &heap->tasks[index]);
+        minHeapify(heap, smallest);
+    }
+}
+
+void minInsertHeap(Heap* heap, Task task) {
+    heap->size++;
+    heap->tasks = realloc(heap->tasks, heap->size * sizeof(Task));
+    int index = heap->size - 1;
+    heap->tasks[index] = task;
+    int parent = (index - 1) / 2;
+    while (index > 0 && heap->tasks[index].priority < heap->tasks[parent].priority) {
+        swapTask(&heap->tasks[index], &heap->tasks[parent]);
+        index = parent;
+        parent = (index - 1) / 2;
+    }
+}
+
+Task minDeleteFromHeap(Heap* heap) {
+    Task top = heap->tasks[0];
+    heap->tasks[0] = heap->tasks[heap->size - 1];
+    heap->size--;
+    heap->tasks = realloc(heap->tasks, heap->size * sizeof(Task));
+    minHeapify(heap, 0);
+    return top;
+}
+```
+
+---
+
 # Functii pentru testul 2
 
 Acestea NU sunt in cod — le scrii TU. Patternuri:
@@ -486,7 +575,9 @@ Task* saveMatching(Heap* heap, /* parametri */, int* outSize) {
 - [ ] Pot scrie `heapify` recursiv cu `Heap*` in 5 min.
 - [ ] Pot scrie `deleteFromHeap` cu un singur `heapify(heap, 0)` in 4 min.
 - [ ] Pot scrie `buildHeap` cu `size/2 - 1` corect.
+- [ ] Pot scrie `deleteByCondition` cu pattern-ul while + NU i++ in 5 min.
+- [ ] Pot scrie `minInsertHeap` si `minHeapify` (schimb `>` cu `<`) in 4 min.
 - [ ] Pot scrie cele 3 functii pentru testul 2 (count, delete, save) in 15 min.
 - [ ] Pot explica de ce `buildHeap` e O(n), nu O(n log n).
 
-Daca bifezi 7/8 -> stapanesti Heap.
+Daca bifezi 8/10 -> stapanesti Heap.
