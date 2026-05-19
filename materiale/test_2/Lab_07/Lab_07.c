@@ -120,7 +120,32 @@ void freeHeap(Heap* heap) {
 }
 
 // ============================================================
-// 3. MIN-HEAP — aceleasi functii, comparatia inversata
+// 3. DELETE BY CONDITION
+// ============================================================
+//
+// Pattern: parcurge vectorul, cand conditia e indeplinita
+//   → swap cu ultimul, scade size, heapify pe pozitia curenta
+//   → NU incrementa i (noul element de pe pozitia i poate si el sa indeplineasca conditia)
+// Cand conditia NU e indeplinita → i++
+
+void deleteByCondition(Heap* heap, int minPriority) {
+    int i = 0;
+    while (i < heap->size) {
+        if (heap->tasks[i].priority < minPriority) {
+            free(heap->tasks[i].description);
+            heap->tasks[i] = heap->tasks[heap->size - 1];
+            heap->size--;
+            heap->tasks = realloc(heap->tasks, heap->size * sizeof(Task));
+            heapify(heap, i);
+            // NU i++ — elementul nou de pe pozitia i trebuie verificat
+        } else {
+            i++;
+        }
+    }
+}
+
+// ============================================================
+// 4. MIN-HEAP — aceleasi functii, comparatia inversata
 // ============================================================
 //
 // Diferenta fata de max-heap:
@@ -255,6 +280,19 @@ int main() {
     printHeap(&heap2);
 
     freeHeap(&heap2);
+
+    printf("\n--- deleteByCondition: sterge taskurile cu priority < 10 ---\n\n");
+
+    Heap heap3 = initHeap();
+    int count3 = loadTasks("scheduler.txt", &heap3);
+    if (count3 > 0) {
+        printf("Inainte:\n");
+        printHeap(&heap3);
+        deleteByCondition(&heap3, 10);
+        printf("\nDupa (priority < 10 sterse):\n");
+        printHeap(&heap3);
+        freeHeap(&heap3);
+    }
 
     printf("\n--- Min-heap demo (extrage in ordine CRESCATOARE) ---\n\n");
 
