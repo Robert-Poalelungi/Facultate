@@ -1,0 +1,19 @@
+# Codul de drill local
+practice/
+
+# Build artifacts (MSVC / VS)
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+Debug/
+Release/
+x64/
+.vs/
+
+# Editor / OS
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

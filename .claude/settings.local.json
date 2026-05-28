@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Command *)",
+      "PowerShell($word = New-Object -ComObject Word.Application -ErrorAction SilentlyContinue; if \\($word\\) { \"Word available\"; $word.Quit\\(\\) } else { \"Word not available\" })"
+    ]
+  }
+}
