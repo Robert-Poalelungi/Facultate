@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "PowerShell(Get-Command *)",
-      "PowerShell($word = New-Object -ComObject Word.Application -ErrorAction SilentlyContinue; if \\($word\\) { \"Word available\"; $word.Quit\\(\\) } else { \"Word not available\" })"
+      "PowerShell($word = New-Object -ComObject Word.Application -ErrorAction SilentlyContinue; if \\($word\\) { \"Word available\"; $word.Quit\\(\\) } else { \"Word not available\" })",
+      "Bash(mkdir -p cursuri legi grile)",
+      "Bash(mv Csie_C*.pdf cursuri/)",
+      "Bash(mv legea-societatilor-nr-31-1990-2.pdf ordonanta-de-urgenta-nr-44-2008-privind-desfasurarea-activitatilor-economice-de-catre-persoanele-fizice-autorizate-intreprinderile-individuale-si-intreprinderile-familiale.pdf legi/)",
+      "Bash(mv grile-drept-*.json grile/)",
+      "Bash(mv rezumat-dreptul-afacerilor.md README.md)"
     ]
   }
 }

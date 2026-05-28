@@ -1,0 +1,3078 @@
+[
+  {
+    "id": 1,
+    "question": "\"Clauza penală\" (Daunele-interese forfetare) dintr-un contract are urmatoarea finalitate juridică",
+    "answers": [
+      {
+        "text": "Evaluează convențional și anticipat cuantumul despăgubirilor în caz de neexecutare sau întârziere",
+        "isCorrect": true
+      },
+      {
+        "text": "Îl scutește pe creditor de dificultatea de a dovedi în fața instanței mărimea prejudiciului suferit",
+        "isCorrect": true
+      },
+      {
+        "text": "Oferă debitorului dreptul de a nu mai executa obligația principală dacă a plătit penalizarea",
+        "isCorrect": false
+      },
+      {
+        "text": "Transferă riscul contractual către stat în caz de pandemie (forță majoră)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "\"Dorești să îmi cumperi mașina cu 10.000 lei?\" întreabă A. B răspunde: \"Da, sunt de acord să o cumpăr cu 10.000 lei, dar cu condiția să îmi lași în ea sistemul audio scump din portbagaj.\"",
+    "answers": [
+      {
+        "text": "A este obligat legal prin forța de constrângere a statului să accepte noile condiții",
+        "isCorrect": false
+      },
+      {
+        "text": "Răspunsul lui B valorează \"contraofertă\" deoarece conține completări (rezerve) care nu corespund ofertei inițiale, și nu reprezintă o acceptare care să formeze contractul imediat",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul e lovit instantaneu de viciul de consimțământ numit leziune",
+        "isCorrect": false
+      },
+      {
+        "text": "S-a realizat un acord deplin și valabil de voințe, sistemul audio fiind considerat un simplu accesoriu subînțeles",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Compania A semnează un contract cu distribuitorul regional Compania B, stipulând explicit o clauză a clientului favorit (cel mai favorizat client). Care va fi impactul operațional direct al acestei clauze asupra Companiei A?",
+    "answers": [
+      {
+        "text": "Compania B devine automat singurul și unicul client favorit, furnizorul fiind forțat să respingă toți viitorii parteneri comerciali (monopol artificial)",
+        "isCorrect": false
+      },
+      {
+        "text": "Obligă Compania A la preluarea oricărui produs stricat de la clienți cu un preț penalizator",
+        "isCorrect": false
+      },
+      {
+        "text": "Clauza transformă prețurile pe factură în monede străine (gen Euro sau Dolari) indiferent de piață",
+        "isCorrect": false
+      },
+      {
+        "text": "Dacă vreodată Compania A îi acordă cuiva din piață un discount spectaculos sau o condiție comercială mult mai avantajoasă, ea e obligată juridic să aducă și contractul ei cu Compania B la acel nou standard favorabil (să-i scadă prețul egalând discountul)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Acțiunile cu \"dividend prioritar, fără drept de vot\" au urmatoarele limitări/caracteristici:",
+    "answers": [
+      {
+        "text": "Titularul este lipsit de dreptul de a vota în cadrul adunărilor generale",
+        "isCorrect": true
+      },
+      {
+        "text": "Titularul primește garantat dividendul cu prioritate din profitul distribuibil",
+        "isCorrect": true
+      },
+      {
+        "text": "Pot reprezenta până la 100% din capitalul social, dacă asociații sunt de acord",
+        "isCorrect": false
+      },
+      {
+        "text": "Legea stipulează că valoarea totală nu poate depăși o pătrime (1/4) din capitalul social",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Administratorul unic (și co-asociat) al unei agenții imobiliare SRL transferă 20.000 euro din contul agenției în propriul cont bancar personal, folosind banii la un cazino online. Ce măsuri au ceilalți asociați?",
+    "answers": [
+      {
+        "text": "Ei trebuie să convoace o AGA în care să dizolve și să radieze automat agenția de la RC",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu au absolut nicio pârghie legală, el fiind reprezentantul suprem cu \"semnătura\" pe firmă",
+        "isCorrect": false
+      },
+      {
+        "text": "Pot cere prin intermediul instanței de judecată \"excluderea\" lui din SRL (sancțiune aplicabilă asociaților-administratori care folosesc fondurile firmei în scop propriu), pe lângă tragerea sa la răspundere",
+        "isCorrect": true
+      },
+      {
+        "text": "Trebuie să se adreseze exclusiv Consiliului Concurenței",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Administratorul unui SRL demisionează prin notificare trimisă asociaților, dar asociații refuză să îi accepte demisia.",
+    "answers": [
+      {
+        "text": "Administratorul poate fi obligat la daune dacă demisia e intempestivă și păguboasă",
+        "isCorrect": true
+      },
+      {
+        "text": "Instanța trebuie să aprobe demisia",
+        "isCorrect": false
+      },
+      {
+        "text": "Administratorul rămâne legat prin contract până la numirea unuia nou",
+        "isCorrect": false
+      },
+      {
+        "text": "Demisia este un act juridic unilateral și produce efecte indiferent de acceptarea asociaților",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "AGA a unei societăți pe acțiuni, unde X are doar 2%, votează cu entuziasm mutarea sediului general al firmei din București în Dubai. X votează ferm \"împotrivă\" dar hotărârea trece cu brio. Ce soartă juridică va avea acționarul X?",
+    "answers": [
+      {
+        "text": "Fiind într-o societate de capitaluri aspră, el este \"prizonier\" al votului majorității, neputând pleca sub nicio formă",
+        "isCorrect": false
+      },
+      {
+        "text": "Întrucât a votat contra mutării sediului în străinătate (unul dintre cele 4 motive exprese din lege), X are dreptul sacru să se \"retragă\" din SA, forțând societatea să îi răscumpere echitabil pachetul de acțiuni",
+        "isCorrect": true
+      },
+      {
+        "text": "X poate bloca prin veto orice decizie dacă are cel puțin 1 acțiune",
+        "isCorrect": false
+      },
+      {
+        "text": "X devine automat dizolvat civilmente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Aportul în creanțe este considerat inadmisibil (interzis) în cazul:",
+    "answers": [
+      {
+        "text": "Tuturor persoanelor fizice autorizate",
+        "isCorrect": false
+      },
+      {
+        "text": "Societăților în Nume Colectiv (SNC)",
+        "isCorrect": false
+      },
+      {
+        "text": "Societăților în Comandită pe Acțiuni (SCA) și SA prin subscripție publică",
+        "isCorrect": true
+      },
+      {
+        "text": "Societăților cu Răspundere Limitată (SRL)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Aportul în industrie (munca sau serviciile prestate de un asociat):",
+    "answers": [
+      {
+        "text": "Dă dreptul la o cotă de participare la profit",
+        "isCorrect": true
+      },
+      {
+        "text": "Este luat în considerare la calculul capitalului social",
+        "isCorrect": false
+      },
+      {
+        "text": "Este permis pentru asociații din SNC și comanditații din SCS",
+        "isCorrect": true
+      },
+      {
+        "text": "Este interzis cu desăvârșire la Societatea cu Răspundere Limitată (SRL)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Aportul în numerar la constituirea unei societăți:",
+    "answers": [
+      {
+        "text": "Nu e necesar dacă asociații aduc doar aport în industrie",
+        "isCorrect": false
+      },
+      {
+        "text": "Este opțional, dacă se aduc suficiente bunuri imobile",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu poate fi niciodată mai mic de 10.000 euro",
+        "isCorrect": false
+      },
+      {
+        "text": "Este obligatoriu la constituirea oricărui tip de societate comercială reglementat de lege",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Bunicul își redactează și semnează singur, cu lux de amănunte, testamentul său, fără să spună absolut nimănui conținutul acestuia. Testamentul reprezintă un:",
+    "answers": [
+      {
+        "text": "Act de dispoziție cu titlu oneros",
+        "isCorrect": false
+      },
+      {
+        "text": "Contract sinalagmatic (deoarece moștenitorii vor primi bunuri)",
+        "isCorrect": false
+      },
+      {
+        "text": "Act juridic unilateral, strict personal (exprimă voința unei singure persoane pentru a produce efecte după moarte)",
+        "isCorrect": true
+      },
+      {
+        "text": "Act juridic bilateral imperfect",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Când intervine viciul numit \"Leziune\"?",
+    "answers": [
+      {
+        "text": "Când contractul este semnat fără oponenți, adică în unanimitate",
+        "isCorrect": false
+      },
+      {
+        "text": "Când rezultă o disproporție considerabilă între valoarea prestațiilor părților chiar de la data încheierii actului",
+        "isCorrect": true
+      },
+      {
+        "text": "Atunci când o parte profită de starea de nevoie, lipsa de experiență sau de cunoștințe a celeilalte părți",
+        "isCorrect": true
+      },
+      {
+        "text": "Când un bun se strică fizic imediat după vânzare din cauza unui defect din fabrică",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Care dintre urmatoarele reprezintă clasificări ale actelor juridice după efectele produse în patrimoniu?",
+    "answers": [
+      {
+        "text": "Acte oneroase și gratuite",
+        "isCorrect": false
+      },
+      {
+        "text": "Acte declarative de drepturi (recunosc/consolidează drepturi preexistente, ex. tranzacția)",
+        "isCorrect": true
+      },
+      {
+        "text": "Acte constitutive de drepturi (creează drepturi noi, ex. ipoteca)",
+        "isCorrect": true
+      },
+      {
+        "text": "Acte translative de drepturi (transferă drepturi, ex. vânzarea)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Care dintre urmatoarele reprezintă forme juridice de societăți de capitaluri destinate afacerilor mari?",
+    "answers": [
+      {
+        "text": "Societatea pe Acțiuni (SA)",
+        "isCorrect": true
+      },
+      {
+        "text": "Societatea în Nume Colectiv (SNC)",
+        "isCorrect": false
+      },
+      {
+        "text": "Societatea în Comandită pe Acțiuni (SCA)",
+        "isCorrect": true
+      },
+      {
+        "text": "Societatea în Comandită Simplă (SCS)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Care dintre urmatoarele reprezintă motive legale pentru excluderea unui asociat dintr-un SNC, SCS sau SRL?",
+    "answers": [
+      {
+        "text": "Faptul că asociatul cere frecvent explicații privind contabilitatea",
+        "isCorrect": false
+      },
+      {
+        "text": "Neîndeplinirea culpabilă a obligației de a vărsa aportul asumat la capitalul social",
+        "isCorrect": true
+      },
+      {
+        "text": "Votul în cadrul AGA contra voinței majorității privind o simplă achiziție de mașini",
+        "isCorrect": false
+      },
+      {
+        "text": "Implicarea într-o fraudă sau utilizarea abuzivă a fondurilor societății în interes personal",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Care sunt regulile referitoare la convocarea Adunării Generale la o Societate pe Acțiuni?",
+    "answers": [
+      {
+        "text": "Acționarii care dețin 100% din voturi se pot întruni oricând, renunțând la orice formalitate de convocare",
+        "isCorrect": true
+      },
+      {
+        "text": "Convocarea trebuie publicată în Monitorul Oficial (Partea IV) și într-un ziar local",
+        "isCorrect": true
+      },
+      {
+        "text": "Poate fi făcută verbal de către orice portar al clădirii de birouri",
+        "isCorrect": false
+      },
+      {
+        "text": "Se face cu minim 30 de zile înainte de data stabilită pentru adunare",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Cauza actului juridic este ilicită atunci când:",
+    "answers": [
+      {
+        "text": "Contractul este prea scump",
+        "isCorrect": false
+      },
+      {
+        "text": "Este contrară legii și ordinii publice",
+        "isCorrect": true
+      },
+      {
+        "text": "Motivul impulsiv a fost cunoscut de cealaltă parte și e imoral",
+        "isCorrect": true
+      },
+      {
+        "text": "Partea nu are bani să plătească",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Ce cale de atac există împotriva rezoluției directorului Registrului Comerțului de respingere a cererii de înmatriculare?",
+    "answers": [
+      {
+        "text": "Formulare de \"Plângere\" depusă în termen de 15 zile de la pronunțare",
+        "isCorrect": true
+      },
+      {
+        "text": "Hotărârea Tribunalului este definitivă și irevocabilă, neputând fi atacată",
+        "isCorrect": false
+      },
+      {
+        "text": "Plângerea este soluționată cu prioritate de instanța competentă (Tribunal)",
+        "isCorrect": true
+      },
+      {
+        "text": "Recurs direct la Înalta Curte de Casație și Justiție",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Ce decizii intră strict în competența Adunării Generale Ordinare a Acționarilor (AGOA)?",
+    "answers": [
+      {
+        "text": "Mutarea sediului social al societății",
+        "isCorrect": false
+      },
+      {
+        "text": "Numirea și revocarea membrilor consiliului de administrație și a cenzorilor",
+        "isCorrect": true
+      },
+      {
+        "text": "Aprobarea bugetului de venituri și cheltuieli pe anul următor",
+        "isCorrect": true
+      },
+      {
+        "text": "Aprobarea situațiilor financiare anuale și fixarea dividendelor",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Ce efecte atrage desființarea unui contract prin \"Reziliere\" (aplicabilă neexecutării culpabile în contractele cu executare succesivă, ex. chiria)?",
+    "answers": [
+      {
+        "text": "Necesită întotdeauna emiterea prealabilă a unei legi organice",
+        "isCorrect": false
+      },
+      {
+        "text": "Se desființează contractul retroactiv, obligând chiriașul să întoarcă tot timpul cât a stat în locuință",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu implică restituirea chiriei pentru perioada în care locuința a fost deja folosită",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul este desființat exclusiv pentru viitor (ex nunc)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Ce efecte atrage desființarea unui contract prin \"Rezoluțiune\" (aplicabilă neexecutării culpabile în contractele cu executare dintr-o dată)?",
+    "answers": [
+      {
+        "text": "Părțile sunt obligate, ca regulă, să restituie prestațiile deja primite una de la cealaltă",
+        "isCorrect": true
+      },
+      {
+        "text": "Produce efecte exclusiv pentru viitor",
+        "isCorrect": false
+      },
+      {
+        "text": "Se desființează contractul cu efect retroactiv (se șterg efectele și pentru trecut, și pentru viitor)",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul continuă să producă efecte, dar cu prețul redus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Ce implică în mod concret etapa de \"lichidare\" a unei societăți?",
+    "answers": [
+      {
+        "text": "Transformarea bunurilor societății în bani, proces numit \"lichidarea activului\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Plata tuturor datoriilor către creditori, proces numit \"lichidarea pasivului\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Încetarea personalității juridice a firmei prin radierea sa de la Registrul Comerțului la finalul procedurii",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractarea de noi împrumuturi pentru salvarea afacerii",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Ce număr maxim de salariați poate angaja legal o Întreprindere Individuală (II)?",
+    "answers": [
+      {
+        "text": "Cel mult 15 angajați",
+        "isCorrect": false
+      },
+      {
+        "text": "Număr nelimitat",
+        "isCorrect": false
+      },
+      {
+        "text": "Cel mult 3 angajați",
+        "isCorrect": false
+      },
+      {
+        "text": "Cel mult 8 angajați",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Ce număr maxim de salariați poate angaja legal o PFA?",
+    "answers": [
+      {
+        "text": "Nu poate avea angajați",
+        "isCorrect": false
+      },
+      {
+        "text": "Cel mult 3 angajați",
+        "isCorrect": true
+      },
+      {
+        "text": "Nelimitat, cât timp plătește taxele",
+        "isCorrect": false
+      },
+      {
+        "text": "Cel mult 8 angajați",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Ce regim juridic au sucursalele companiilor străine care operează în România?",
+    "answers": [
+      {
+        "text": "Nu pot angaja personal din România",
+        "isCorrect": false
+      },
+      {
+        "text": "Dobândesc automat cetățenie română și personalitate juridică distinctă",
+        "isCorrect": false
+      },
+      {
+        "text": "Sunt supuse formalităților prevăzute de Codul civil și Legea 31/1990",
+        "isCorrect": true
+      },
+      {
+        "text": "Nu au personalitate juridică proprie, distinctă de societatea mamă",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Ce rol joaca tacerea (inactiunea) in formarea contractelor in dreptul civil roman?",
+    "answers": [
+      {
+        "text": "Tacerea reprezinta mereu o contraoferta.",
+        "isCorrect": false
+      },
+      {
+        "text": "De regula generala, ea NU valoreaza acceptare a unei oferte",
+        "isCorrect": true
+      },
+      {
+        "text": "Tacerea valoreaza acceptare doar in mod exceptional (cand legea, uzantele sau vointa partilor prevad asta expres, ex. relocatiunea tacita)",
+        "isCorrect": true
+      },
+      {
+        "text": "Regula generala spune ca tacerea echivaleaza cu acordul ferm",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Ce tipuri de decizii sunt rezervate prin lege Adunarii Generale Extraordinare a Actionarilor (AGEA)?",
+    "answers": [
+      {
+        "text": "Majorarea sau reducerea capitalului social",
+        "isCorrect": true
+      },
+      {
+        "text": "Fuziunea, divizarea sau dizolvarea anticipata a companiei.",
+        "isCorrect": true
+      },
+      {
+        "text": "Schimbarea formei juridice a societatii sau a obiectului de activitate",
+        "isCorrect": true
+      },
+      {
+        "text": "Aprobarea bilantului contabil pe anul trecut",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Ce tipuri de titluri de valoare are dreptul sa emita o Societate in Comandita pe Actiuni (SCA)?",
+    "answers": [
+      {
+        "text": "Doar bilete la ordin.",
+        "isCorrect": false
+      },
+      {
+        "text": "Actiuni (titluri de proprietate fractionata)",
+        "isCorrect": true
+      },
+      {
+        "text": "Obligatiuni (titluri de credit pentru imprumuturi)",
+        "isCorrect": true
+      },
+      {
+        "text": "Doar parti sociale nenegociabile",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Conform Codului Civil, \"viciile de consimtamant\" (situatii care altereaza vointa libera si asumata) sunt:",
+    "answers": [
+      {
+        "text": "Dolul (manoperele frauduloase)",
+        "isCorrect": true
+      },
+      {
+        "text": "Doar lipsa de discernamant din cauza varstei fragede ¥",
+        "isCorrect": false
+      },
+      {
+        "text": "Eroarea (falsa reprezentare a realitatii)",
+        "isCorrect": true
+      },
+      {
+        "text": "Violenta (amenintarea) si Leziunea.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Conform Legii 31/1990, care este limita inferioara (minima) a valorii nominale a unei obligatiuni?",
+    "answers": [
+      {
+        "text": "25 lei",
+        "isCorrect": false
+      },
+      {
+        "text": "2,5 lei",
+        "isCorrect": true
+      },
+      {
+        "text": "1leu x",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Conform OUG 44/2008, care sunt formele prin care o persoana fizica poate exercita o activitate economica?",
+    "answers": [
+      {
+        "text": "Ca Intreprindere Familiala (IF)",
+        "isCorrect": true
+      },
+      {
+        "text": "Ca PFA (Persoana Fizica Autorizata)",
+        "isCorrect": true
+      },
+      {
+        "text": "Ca Intreprindere Individual (II)",
+        "isCorrect": true
+      },
+      {
+        "text": "Ca Regie Autonoma.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Contractul de societate (actul constitutiv) implica obligatoriu:",
+    "answers": [
+      {
+        "text": "Functionarea pe o perioada de exact 10 ani.",
+        "isCorrect": false
+      },
+      {
+        "text": "Desfasurarea activitatii in scopul precis al obtinerii si impartirii unui profit",
+        "isCorrect": true
+      },
+      {
+        "text": "Conventia a doua sau mai multe persoane de a pune in comun bunuri",
+        "isCorrect": true
+      },
+      {
+        "text": "Obligatia ca un asociat sa fie mereu o persoana juridica",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Cum este definit \"actul juridic\" in dreptul civil roman?",
+    "answers": [
+      {
+        "text": "Reprezinta exclusiv 0 foaie de hartie semnata la notarul public",
+        "isCorrect": false
+      },
+      {
+        "text": "Este o manifestare de vointa a uneia sau mai multor persoane, facuta cu intentia ferma de a produce efecte juridice (a naste,",
+        "isCorrect": true
+      },
+      {
+        "text": "Reprezinta orice fapta prin care se cauzeaza din culpa un prejudiciu",
+        "isCorrect": false
+      },
+      {
+        "text": "Este sinonim perfect cu legea adoptata de Parlament.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Cumparatorul si Vanzatorul semneaza o ,,Oferta si Acceptare” valida referitoare la 100 baxuri de marfa pentru vineri. Insa, Cumparatorul",
+    "answers": [
+      {
+        "text": "Contractul ferm a devenit o norma obligatorie din momentul primirii emailului miercuri, lipsa comentariilor fiind consimtamantul cel mai solid in comertul european, deci marfa va astepta cu transport platit",
+        "isCorrect": false
+      },
+      {
+        "text": "Acceptarea era valida deoarece vointa de \"100 de baxuri\" a ramas intacta si este inatacabila",
+        "isCorrect": false
+      },
+      {
+        "text": "Instanta va impune livrarea pe seama cumparatorului prin pact comisoriu imediat, conform ordonantei de preemtiune din actul initial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tacerea vanzatorului dupa primirea unei astfel de notificari — care din pricina completarilor (vrea el transport si bani) reprezenta de fapt o \"contraoferta\" total noua — nu echivaleaza nicicum ca o acceptare; contractul pur si simplu nu s-a perfectat, ei neavand vreun acord cert si neindoielnic pe conditiile finale",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Cumparatorul unei masini se prezinta la vanzator vineri si cere cu insistenta predarea cheilor. Vanzatorul il refuza categoric, spunand “iti dau",
+    "answers": [
+      {
+        "text": "Vanzatorul face apel la un instrument de aparare numit \"exceptia de neexecutare a contractului\" (dreptul unei parti de a refuza",
+        "isCorrect": true
+      },
+      {
+        "text": "Cumparatorul are un drept absolut real erga omnes care rupe acest refuz abuziv.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vanzatorul invoca forta majora pentru a scapa de masina",
+        "isCorrect": false
+      },
+      {
+        "text": "Vanzatorul se expune clauzei penale pentru intarziere ilicita, fiind obligat de lege sa livreze masina primul indiferent de restul",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Daca o societate nu a fost inregistrata la Registrul Comertului in 15 zile, si asociatii nu remediaza situatia in maxim 3 luni:",
+    "answers": [
+      {
+        "text": "Raméne o simpla societate civila, lipsita de personalitate juridica",
+        "isCorrect": false
+      },
+      {
+        "text": "Registrul Comertului o inmatriculeaza fortat din oficiu.",
+        "isCorrect": false
+      },
+      {
+        "text": "Devine o institutie de stat",
+        "isCorrect": false
+      },
+      {
+        "text": "Asociatii care au actionat in numele ei raspund personal, nelimitat si solidar pentru obligatiile asumate",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Decaderile (interdictiile de a fi comerciant/administrator) se aplica persoanelor care:",
+    "answers": [
+      {
+        "text": "Auun cazier fiscal sau penal ce contine condamnari pentru coruptie sau evaziune fiscala",
+        "isCorrect": true
+      },
+      {
+        "text": "Au un handicap fizic minor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Au fost implicate in spalare de bani sau fals in inscrisuri",
+        "isCorrect": true
+      },
+      {
+        "text": "Sunt absolvente de studii medii fara diploma de licenta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Directoratul unui SA ia o decizie cu votul a 2 membri din 5 prezenti. Statutul cerea majoritate.",
+    "answers": [
+      {
+        "text": "Actul este un act de conservare automat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Administratorii care au votat sunt raspunzatori solidar",
+        "isCorrect": true
+      },
+      {
+        "text": "Decizia este lovita de nulitate deoarece nu s-a intrunit majoritatea administratorilor prezenti",
+        "isCorrect": true
+      },
+      {
+        "text": "Decizia este valabila",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Disparitia vointei de a colabora (\"affectio societatis\") intre asociati:",
+    "answers": [
+      {
+        "text": "Poate constitui un motiv intemeiat de excludere a unui asociat",
+        "isCorrect": true
+      },
+      {
+        "text": "Poate constitui o cauza serioasa pentru dizolvarea societatii din motive intemeiate",
+        "isCorrect": true
+      },
+      {
+        "text": "Nu produce absolut niciun efect juridic atata timp cat se platesc taxele.",
+        "isCorrect": false
+      },
+      {
+        "text": "Atrage automat condamnarea penala a asociatilor implicati",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Dizolvarea societatii de plin drept (fara a fi nevoie de o decizie judecatoreasca sau adunare generala) intervine atunci cand:",
+    "answers": [
+      {
+        "text": "Scade brusc profitul cu mai mult de 50%",
+        "isCorrect": false
+      },
+      {
+        "text": "A expirat termenul stipulat in actul constitutiv pentru care societatea a fost infiintata (si nu a fost prelungit)",
+        "isCorrect": true
+      },
+      {
+        "text": "Societatea are un litigiu de munca nesolutionat",
+        "isCorrect": false
+      },
+      {
+        "text": "Demisioneaza toti angajatii de la departamentul de IT.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Dobandirea deplina a personalitatii juridice de catre o societate comerciala are loc la:",
+    "answers": [
+      {
+        "text": "Data deschiderii contului bancar de capital.",
+        "isCorrect": false
+      },
+      {
+        "text": "Data inregistrarii oficiale a acesteia la Registrul Comertului",
+        "isCorrect": true
+      },
+      {
+        "text": "Momentul in care este aprobat primul bilant contabil",
+        "isCorrect": false
+      },
+      {
+        "text": "Data autentificarii actului constitutiv la notar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Doi asociati incheie un act constitutiv pentru o firma, dar din neglijenta amana luni de zile s8 duca actele la Registrul Comertului. in acest timp,",
+    "answers": [
+      {
+        "text": "Vanzatorul materialelor are ghinion, neputand cere banii asociatilor din cauza protectiei \"raspunderii limitate\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Deoarece nu a fost inmatriculata, firma e o \"societate simpla\" civila fara personalitate juridica, iar asociatii raspund personal si nelimitat pentru datoriile facute in numele ei",
+        "isCorrect": true
+      },
+      {
+        "text": "Compania se considera de drept o SA datorita datoriilor",
+        "isCorrect": false
+      },
+      {
+        "text": "Guvernul preia datoriile.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Doi buni prieteni merg la notar si semneaza formal si vizibil un contract de \"vanzare-cumparare\" pentru un apartament contra sumei de",
+    "answers": [
+      {
+        "text": "Actul public va produce automat efecte fata de toate partile si intreaga planeta, actele secrete fiind lipsite de orice sens.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ne aflam in fata unei forme de \"stipulatie pentru altul\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Suntem in fata exceptiei numite \"simulatie prin deghizare\" (actul public fictiv deghizeaza actul real secret de donatie). intre parti, va produce efecte doar actul real (donatia)",
+        "isCorrect": true
+      },
+      {
+        "text": "Instanta va invoca nulitatea absoluta pentru frauda terorista",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Doi ingineri aduna suma de 50.000 lei si se duc la notar cu dorinta de a-si infiinta direct o Societate pe Actiuni (SA).",
+    "answers": [
+      {
+        "text": "SA-ul necesita minimum 5 asociati, doi fiind insuficienti",
+        "isCorrect": false
+      },
+      {
+        "text": "Societatea va deveni din oficiu regie autonoma datorita specificului ingineresc.",
+        "isCorrect": false
+      },
+      {
+        "text": "Infiintarea va esua deoarece pentru a constitui un SA este nevoie imperativ de capital minim de 90.000 lei",
+        "isCorrect": true
+      },
+      {
+        "text": "Cererea lor va fi admisa de Registrul Comertului pentru ca pragul la SA a fost eliminat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Domiciliul profesional al unei persoane fizice este definit ca:",
+    "answers": [
+      {
+        "text": "Locul de unde persoana a emigrat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiind valabil doar in privinta obligatiilor patrimoniale legate de acel loc ¥",
+        "isCorrect": true
+      },
+      {
+        "text": "Locul unde persoana exploateaza o intreprindere comerciala",
+        "isCorrect": true
+      },
+      {
+        "text": "Locuinta ei secundara, unde sta doar vara",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Domnul Director trimite actele contabile catre organele de inspectie ANAF de la sediul sau pe un SA, dar ANAF-ul vine a doua zi si vede cu",
+    "answers": [
+      {
+        "text": "Cei de la Fisc sunt in zona lor de confort legislativ: Codul civil trateaza umbrela extinsa de ,,profesionisti” acoperind cu succes absolut pe toti cei care, pe o anumita latura, exploateaza in mod sistematic o intreprindere comerciala — incluzand ferm si clar atat marile SA-uri sau micile SRL-uri, cat si micii comercianti PFA independenti ce isi desfasoara zilnic munca",
+        "isCorrect": true
+      },
+      {
+        "text": "Se aplica doar legilor penale, ANAF actionand eronat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cei de la ANAF ii sanctioneaza doar pentru omisiuni de raportare trimestriala, ei avand nevoie de documentele cadru de pe un SCS, iar restul entitatilor enumerate le scapa din jurisprudenta din motive procedurale",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiscul e plin de erori, doamna de pe PFA neavand niciodata cum sa treaca la statutul oficial si greu atins de profesionist cu acte in regula precum un SRL serios",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Elementele esentiale care diferentiaza actul constitutiv al unei societati de alte contracte sunt:",
+    "answers": [
+      {
+        "text": "Intentia de a coopera activ (\"affectio societatis\")",
+        "isCorrect": true
+      },
+      {
+        "text": "Scopul comun de a realiza si imparti profitul.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aporturile obligatorii ale asociatilor",
+        "isCorrect": true
+      },
+      {
+        "text": "Existenta unui bun imobil ipotecat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Eroarea asupra calitatilor obiectului duce la nulitate daca:",
+    "answers": [
+      {
+        "text": "Obiectul a fost deja consumat",
+        "isCorrect": false
+      },
+      {
+        "text": "Calitatea este substantiala pentru partea care s-a obligat",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul a fost incheiat prin reprezentant.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cealalta parte a cunoscut sau trebuia sa cunoasca acest fapt",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Firma (denumirea) sub care societatea va functiona trebuie sa indeplineasca anumite conditii de validitate:",
+    "answers": [
+      {
+        "text": "SA fie disponibila (rezervata la Registrul Comertului)",
+        "isCorrect": true
+      },
+      {
+        "text": "Sa fie identica cu o alta firma de succes pentru a atrage clienti",
+        "isCorrect": false
+      },
+      {
+        "text": "Sanu contina termeni interzisi precum \"Academie\" sau \"Universitar\" fara drept.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sa fie noua (distincta de alte denumiri)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Firma M semneaza cumpararea exclusiva a unor licente pretioase de softuri din vest cu plata pe o \"Clauza Multivalutara\". Vazand ca lira a",
+    "answers": [
+      {
+        "text": "In virtutea tipului si logicii functionarii unei clauze \"multivalutare\" asumate legal in negocierile premergatoare, da, Cumparatorul are deschiderea asumata si agreata din interiorul contractului de a \"solicita transferul platii sale presante in orice alta moneda conexa\" in functie de fluctuatiile si cursurile ei, transformand echilibrul prin ratele de pe ziua respectiva ca intr-o decizie rationala clar exprimata sub litera semnata de amandoi",
+        "isCorrect": true
+      },
+      {
+        "text": "El va obtine un proces fulger pentru deghizarea la fisc a platii, interzicand complet valutele",
+        "isCorrect": false
+      },
+      {
+        "text": "Clauza multivalutara — prin definitia din carte si din mediul international - da o flexibilitate superioara doar Bancii Comerciale din care face plata, scutind astfel firmele de birocratia completa a cursului pe valute vechi si greoaie fara implicarea partilor pe vreun aspect ce modifica banii datorati pe bilant",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu, clauza vizeaza de fapt criptomonedele experimentale fara reglementare din afara legislatiei europene si implica doar spalari de bani pe platformele libere de la un tert.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Firma M semnează un \"Contract-Cadru\" cu Distribuitorul V. Contractul conține principii mari despre logistică generală și reducerile anuale, dar fără să menționeze cantități livrate sau prețuri fixate. După 6 luni, cele două părți semnează o primă \"comandă fermă\": \"20 tone cereale pentru august, preț 1 leu/kg\".",
+    "answers": [
+      {
+        "text": "Acesta e un contract de tranzacție cu formă ascunsă pentru viitor",
+        "isCorrect": false
+      },
+      {
+        "text": "Din cauza neclarităților uriașe pe cantități, un contract-cadru nu mai reprezintă o sursă viabilă în instanțe",
+        "isCorrect": false
+      },
+      {
+        "text": "Acest mecanism reprezintă funcționarea clasică a unui \"contract-cadru\", unde el stabilește detaliile vizionare, esențiale (termeni mari), în timp ce volumul clar al prestațiilor exacte, livrările și prețul precis sunt mereu definite separat, punctual, prin \"convenții ulterioare\" de executare sau acte adiționale",
+        "isCorrect": true
+      },
+      {
+        "text": "Prețul complet se anulează automat din momentul în care ele sunt prezente sub umbrela cadru generalizată la o altă întâlnire nesemnificativă",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Fructele civile, ca formă de produse ale unui bun, reprezintă:",
+    "answers": [
+      {
+        "text": "Veniturile rezultate din folosirea bunului de către o altă persoană în virtutea unui act juridic",
+        "isCorrect": true
+      },
+      {
+        "text": "Recoltele agricole obținute strict prin intervenția și munca omului",
+        "isCorrect": false
+      },
+      {
+        "text": "Resursele minerale care consumă substanța bunului (producte)",
+        "isCorrect": false
+      },
+      {
+        "text": "Chiriile, dobânzile bancare sau dividendele",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Fuziunea prin absorbție presupune din punct de vedere juridic că:",
+    "answers": [
+      {
+        "text": "Se înființează o a treia companie, complet nouă, care preia totul",
+        "isCorrect": false
+      },
+      {
+        "text": "Compania absorbită este dizolvată, dar fără a intra în procedura complexă de lichidare a activelor",
+        "isCorrect": true
+      },
+      {
+        "text": "Toate datoriile companiei absorbite se sting și nu mai trebuie plătite",
+        "isCorrect": false
+      },
+      {
+        "text": "Compania absorbită transferă întregul său patrimoniu (inclusiv datorii) către compania absorbantă",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Fuziunea prin consolidare (contopire) presupune:",
+    "answers": [
+      {
+        "text": "Transferul universal al patrimoniului către noua entitate",
+        "isCorrect": true
+      },
+      {
+        "text": "O societate absoarbe pe alta",
+        "isCorrect": false
+      },
+      {
+        "text": "Nicio societate nu își continuă existența",
+        "isCorrect": false
+      },
+      {
+        "text": "Două sau mai multe societăți se dizolvă și formează o societate nouă",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Hotărârile judecătorești prin care este anulată o decizie AGA sau o societate:",
+    "answers": [
+      {
+        "text": "Sunt trimise spre revizuire la Curtea Constituțională",
+        "isCorrect": false
+      },
+      {
+        "text": "Se afișează exclusiv la sediul firmei",
+        "isCorrect": false
+      },
+      {
+        "text": "Se mențin strict secrete, fiind protejate de confidențialitate",
+        "isCorrect": false
+      },
+      {
+        "text": "Trebuie publicate în Partea a IV-a a Monitorului Oficial pentru a deveni opozabile terților",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "În cadrul unei Societăți în Comandită Simplă (SCS), rolurile sunt împărțite astfel:",
+    "answers": [
+      {
+        "text": "Niciunul nu răspunde pentru datoriile firmei",
+        "isCorrect": false
+      },
+      {
+        "text": "Comanditarii se ocupă exclusiv de conducerea executivă a firmei",
+        "isCorrect": false
+      },
+      {
+        "text": "Comanditații (activi) răspund nelimitat și solidar",
+        "isCorrect": true
+      },
+      {
+        "text": "Comanditarii (pasivi) răspund doar până la concurența aportului lor la capitalul social",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "În cadrul unui contract de livrare, părțile decid să adauge o \"Clauză Penală\" valabilă pentru posibile întârzieri (0.5% daune-interese forfetare pe zi din suma restantă). După două luni, furnizorul livrează cu mare întârziere echipamentul, iar cumpărătorul dorește penalitățile prevăzute.",
+    "answers": [
+      {
+        "text": "Existența clauzei penale îl obligă oricum pe cumpărător să deschidă un lung proces probator prin care să demonstreze cu hârtii exacte în fața judecătorului prejudiciul financiar suferit",
+        "isCorrect": false
+      },
+      {
+        "text": "Reprezintă o clauză afectată de caducitate din motive de criză",
+        "isCorrect": false
+      },
+      {
+        "text": "Clauza penală scutește cumpărătorul de povara de a mai proba prejudiciul în fața judecătorului, iar furnizorul e obligat clar să o achite și tot nu este scutit de a-și executa principala prestație promisă",
+        "isCorrect": true
+      },
+      {
+        "text": "Furnizorul va invoca automat faptul că, deși va plăti procentul enorm (clauza penală valabilă anticipat), va fi absolut exonerat de \"executarea în natură\", nemaifiind obligat să aducă echipamentul",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "În caz de dol, victima poate solicita:",
+    "answers": [
+      {
+        "text": "Executarea silită a debitorului",
+        "isCorrect": false
+      },
+      {
+        "text": "Anularea contractului cumulat cu daune-interese",
+        "isCorrect": true
+      },
+      {
+        "text": "Doar anularea contractului",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducerea prețului cu daune-interese, păstrând contractul",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "În cazul unei Societăți pe Acțiuni (SA), valoarea nominală a unei acțiuni:",
+    "answers": [
+      {
+        "text": "Poate varia la infinit fără o limită inferioară legală",
+        "isCorrect": false
+      },
+      {
+        "text": "Trebuie să fie întotdeauna cel puțin 10 lei",
+        "isCorrect": false
+      },
+      {
+        "text": "Este decisă exclusiv de ANAF la înființare",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu poate fi mai mică de 0,10 lei",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "În cazul unui SRL, cum se adoptă de regulă hotărârile adunării asociaților?",
+    "answers": [
+      {
+        "text": "Întotdeauna cu unanimitate, indiferent de natura deciziei",
+        "isCorrect": false
+      },
+      {
+        "text": "Exclusiv de către administrator, AGA nefiind obligatorie",
+        "isCorrect": false
+      },
+      {
+        "text": "Prin votul majorității absolute (50%+1) a asociaților cumulată cu majoritatea părților sociale",
+        "isCorrect": true
+      },
+      {
+        "text": "Doar prin votul asociatului care a adus cel mai mare aport de capital",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "În ceea ce privește revocarea (demiterea) administratorilor:",
+    "answers": [
+      {
+        "text": "Administratorii revocați care au fost numiți prin actul constitutiv inițial la SRL necesită unanimitate pentru revocare",
+        "isCorrect": true
+      },
+      {
+        "text": "Se realizează de către AGA \"ad nutum\", adică oricând și indiferent de culpă",
+        "isCorrect": true
+      },
+      {
+        "text": "Poate fi decisă exclusiv de o instanță penală",
+        "isCorrect": false
+      },
+      {
+        "text": "Presupune plata obligatorie a unor daune-interese în orice situație",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "În societățile pe acțiuni (SA), sistemul de administrare \"dualist\" este compus din:",
+    "answers": [
+      {
+        "text": "Un Directorat, care gestionează zilnic afacerile societății",
+        "isCorrect": true
+      },
+      {
+        "text": "Un Consiliu de Supraveghere, care numește și controlează Directoratul",
+        "isCorrect": true
+      },
+      {
+        "text": "Un Consiliu de Administrație simplu cu un Președinte",
+        "isCorrect": false
+      },
+      {
+        "text": "O Adunare Specială a Obligatarilor care conduce firma",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Incompatibilitățile cu exercitarea profesiei de comerciant (activități speculative) vizează frecvent:",
+    "answers": [
+      {
+        "text": "Cetățenii români cu domiciliul în alt județ",
+        "isCorrect": false
+      },
+      {
+        "text": "Toți tinerii care au împlinit recent 18 ani",
+        "isCorrect": false
+      },
+      {
+        "text": "Medicii, senatorii sau deputații (sectorul public/profesii specifice)",
+        "isCorrect": true
+      },
+      {
+        "text": "Magistrații (procurorii, judecătorii)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Înregistrarea unui comerciant în Registrul Comerțului are ca efecte:",
+    "answers": [
+      {
+        "text": "Obligația asumată public de a respecta regulile comerțului",
+        "isCorrect": true
+      },
+      {
+        "text": "Imunitate completă la inspecțiile fiscale",
+        "isCorrect": false
+      },
+      {
+        "text": "Dobândirea capacității de folosință limitate pentru minori",
+        "isCorrect": false
+      },
+      {
+        "text": "Opozabilitatea actelor și faptelor înregistrate față de terți",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Într-o Societate pe Acțiuni de mare calibru, ce for lăuntric al firmei are competența legală să decidă Majorarea Capitalului Social prin emiterea masivă de noi acțiuni?",
+    "answers": [
+      {
+        "text": "Adunarea Generală Extraordinară a Acționarilor (AGEA), întrunită special cu majorități calificate",
+        "isCorrect": true
+      },
+      {
+        "text": "Asociația Cenzorilor independenți",
+        "isCorrect": false
+      },
+      {
+        "text": "Orice membru al Directoratului, singur",
+        "isCorrect": false
+      },
+      {
+        "text": "Adunarea Generală Ordinară a Acționarilor (AGOA), la întâlnirea ei de primăvară",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Într-un proces intentat de client împotriva băncii Z, intervine conflictul major de interpretare asupra unei \"clauze obscure\" scrise mic la capătul contractului dat clientului spre simplă semnare fără posibilitate reală de negociere (contract de tip \"adeziune\"). Judecătorul trebuie să ia o hotărâre dificilă cum să o citească.",
+    "answers": [
+      {
+        "text": "Întrucât Banca Z este profesionistul care a dictat termenii și condițiile acestui mecanism numit contract de adeziune, judecătorul va aplica regula subsidiară civilă de protecție, interpretând o clauză îndoielnică strict \"în favoarea\" clientului care doar a \"aderat\" fără vreun drept la obiecție, ci nu în favoarea băncii dominatoare",
+        "isCorrect": true
+      },
+      {
+        "text": "Judecătorul este nevoit să declare clauza absolut \"caduca\" pe loc și ambele părți intră la închisoare",
+        "isCorrect": false
+      },
+      {
+        "text": "Clauzele sunt interpretate după regula \"cine plătește, acționează\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Indiferent de nivelul redus de negociere de dinainte, judecătorul va favoriza strict compania care s-a obosit să scrie documentele lungi (Banca Z), obligând clientul cel leneș la acceptarea completă a pierderii din ignoranța cuvintelor vagi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Într-un SRL format din 3 asociați (Alex cu 80% din părțile sociale, Bogdan cu 10% și Cristina cu 10%), Alex dorește să schimbe administratorul firmei. El convoacă adunarea, Bogdan și Cristina se opun vehement.",
+    "answers": [
+      {
+        "text": "Se impune numirea unui lichidator pentru a prelua administrarea",
+        "isCorrect": false
+      },
+      {
+        "text": "Alex îi poate revoca oricum pe Bogdan și Cristina",
+        "isCorrect": false
+      },
+      {
+        "text": "Alex adoptă decizia singur, având 80% (majoritatea absolută a capitalului), ceea ce este suficient la SRL",
+        "isCorrect": false
+      },
+      {
+        "text": "Hotărârea lui Alex pică, fiindcă la SRL deciziile cer \"dublă majoritate\" (50%+1 din părți AND 50%+1 din numărul asociaților), iar Alex e doar 1 din 3 asociați",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Întreprinderea Familială (IF) este caracterizată de faptul că:",
+    "answers": [
+      {
+        "text": "Răspunderea pentru datoriile IF-ului este nelimitată și solidară între membrii familiei",
+        "isCorrect": true
+      },
+      {
+        "text": "Trebuie formată din minimum 2 membri ai aceleiași familii",
+        "isCorrect": true
+      },
+      {
+        "text": "Deciziile se iau exclusiv de către capul familiei, fără acordul celorlalți",
+        "isCorrect": false
+      },
+      {
+        "text": "Deține personalitate juridică, având statut similar cu un SRL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Ion, administrator al SRL-ului X, este pe cale să semneze un contract prin care firma sa urmează să înstrăineze (vândă) un utilaj cheie imens, a cărui valoare contabilă depășește grav procentul de 50% din toate activele de pe bilanțul companiei. El decide să facă totul singur pe loc, fără să consulte Adunarea Generală.",
+    "answers": [
+      {
+        "text": "Acest tip de contract este supus deciziei exclusive a AGEA (Adunarea Generală Extraordinară), limitând puterea aparent infinită a administratorului la înstrăinările mamut; neaprobarea ei îl plasează în culpă pentru un act masiv de dispoziție, anulabil de asociați",
+        "isCorrect": true
+      },
+      {
+        "text": "Fiind desemnat formal ca administrator \"cu puteri depline\", el are dreptul suveran de a vinde din birou tot inventarul oricând, actele rămânând inatacabile din pricina formelor legale clare și stricte",
+        "isCorrect": false
+      },
+      {
+        "text": "Operațiunea se consideră un act minor (conservator) pentru care simplul său aviz ștampilat pe ordinul de plată bancar e suficient",
+        "isCorrect": false
+      },
+      {
+        "text": "Trebuie doar să comunice verbal, în ziua respectivă, directorilor comerciali despre această vânzare iminentă pentru a respecta spiritul legii transparenței",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "La decesul brusc și prematur al unicului asociat dintr-un SRL de nișă foarte profitabil, familia sa se prezintă la firmă pretinzând controlul direct, deși actul constitutiv nu pomenea clar niciun cuvânt despre posibilitatea transmiterii părților sociale către succesor.",
+    "answers": [
+      {
+        "text": "Din cauza lacunelor legii moștenirilor, statul expropriază complet firma în favoarea Consiliului Local",
+        "isCorrect": false
+      },
+      {
+        "text": "Succesorii defunctului, ca o rudenie legal puternică, preiau pe loc prin forța sângelui funcțiile de acționari cu drepturi egale",
+        "isCorrect": false
+      },
+      {
+        "text": "Dată fiind natura pronunțată \"intuitu personae\" (încredere personală) din SRL-uri, dacă nu există clauză expresă care să le deschidă ușa în firmă, moștenitorilor nu li se va oferi statutul glorios de \"asociați noi\", ci li se va acorda din partea firmei pur și simplu doar dreptul de a încasa din caserie contravaloarea evaluată financiar a părților sociale (cota patrimonială rămasă)",
+        "isCorrect": true
+      },
+      {
+        "text": "Ei devin doar asociați simpli în comandită fără putere de decizie vreodată",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "La depunerea cererii, un antreprenor primește de la Registrul Comerțului din București \"Rezoluția\" directorului prin care i se \"Aprobă\" imediat înființarea și autorizarea funcționării firmei sale mici. De la semnarea ei, în ce termen va intra firma lui legal \"la registre\"?",
+    "answers": [
+      {
+        "text": "Termenul curge doar când are cel puțin un angajat",
+        "isCorrect": false
+      },
+      {
+        "text": "Societatea va ajunge în mod legal și eficient \"înregistrată\" exact în termenul stipulat de 24 de ore de la darea acelei \"rezoluții\" pe aprobare fără deficiențe constatate",
+        "isCorrect": true
+      },
+      {
+        "text": "Antreprenorul mai trebuie să ceară opinia a trei directori superiori de pe plan național prin scrisori cu răspuns în 30 de zile înainte să taie vreo chitanță civilă în sector",
+        "isCorrect": false
+      },
+      {
+        "text": "El va sta destul pe hol, pentru că înmatricularea intră adânc în așteptarea de 3 luni până ce tribunalul din zonă se va apuca de verificările de fond pe documente sub cenzura notarială superioară",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "La prima convocare a AGOA (Adunării Ordinare) într-o SA, care este cerința minimă de cvorum (participare)?",
+    "answers": [
+      {
+        "text": "Nu există o condiție expresă de cvorum, se decide cu cei prezenți",
+        "isCorrect": false
+      },
+      {
+        "text": "Toți acționarii trebuie să fie prezenți (100%)",
+        "isCorrect": false
+      },
+      {
+        "text": "Prezența acționarilor ce dețin minimum 2/3 din capital",
+        "isCorrect": false
+      },
+      {
+        "text": "Prezența acționarilor ce dețin cel puțin o pătrime (1/4) din numărul total de drepturi de vot",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "La telefon, X este de acord să cumpere laptopul lui Y. X spune \"Bat palma\", Y spune \"De acord, trimit diseară\". Contractul este valid de la acel moment, deși laptopul ajunge mult mai târziu. Acest tip de contract se numește:",
+    "answers": [
+      {
+        "text": "Contract real (deoarece implică un obiect material fizic)",
+        "isCorrect": false
+      },
+      {
+        "text": "Act constitutiv unilateral",
+        "isCorrect": false
+      },
+      {
+        "text": "Contract consensual (deoarece s-a perfectat valabil prin simplul schimb al acordurilor de voință, fără altă formă)",
+        "isCorrect": true
+      },
+      {
+        "text": "Contract solemn",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "La un SRL, se votează modificarea obiectului de activitate. Asociatul A votează împotrivă.",
+    "answers": [
+      {
+        "text": "A poate cere retragerea din societate",
+        "isCorrect": true
+      },
+      {
+        "text": "A trebuie să accepte decizia majorității fără nicio cale de atac",
+        "isCorrect": false
+      },
+      {
+        "text": "A poate bloca decizia deoarece e nevoie de unanimitate la SRL pentru modificarea statutului (dacă nu se prevede altfel)",
+        "isCorrect": true
+      },
+      {
+        "text": "A este exclus automat din firmă",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Lichidatorul unei societăți:",
+    "answers": [
+      {
+        "text": "Poate începe activități comerciale noi, de anvergură",
+        "isCorrect": false
+      },
+      {
+        "text": "Înlocuiește consiliul de administrație/administratorii",
+        "isCorrect": true
+      },
+      {
+        "text": "Este numit de Adunarea Generală sau de instanță",
+        "isCorrect": true
+      },
+      {
+        "text": "Trebuie să finalizeze lichidarea în maxim un an",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Limita de capital social minim impusă legal (unde este cazul) este:",
+    "answers": [
+      {
+        "text": "500 lei obligatoriu pentru orice SRL nou înființat",
+        "isCorrect": false
+      },
+      {
+        "text": "Cel puțin 90.000 lei pentru o Societate pe Acțiuni (SA)",
+        "isCorrect": true
+      },
+      {
+        "text": "100.000 lei pentru Întreprinderea Individuală",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu mai există un prag minim legal de 200 lei pentru SRL",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Minorul Dănuț de 16 ani semnează, la reprezentanța unei mari rețele, un contract de abonament de date pentru un telefon ultra-scump de mii de euro. Nimeni nu îi cere aprobarea din partea părinților lui (care nu știau absolut nimic).",
+    "answers": [
+      {
+        "text": "Actul suferă de o nulitate absolută, oricine de pe stradă având dreptul să meargă în sala de judecată să-l revoce în favoarea națiunii",
+        "isCorrect": false
+      },
+      {
+        "text": "Deoarece are doar o \"capacitate de exercițiu restrânsă\", iar obligația abonamentului depășește sfera actelor curente/mărunte, actul semnat e susceptibil de \"nulitate relativă\" pentru ocrotirea specifică a interesului minorului incapabil",
+        "isCorrect": true
+      },
+      {
+        "text": "Reprezintă un contract de uzufruct care nu necesită capacitate de a semna",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu există un răspuns juridic favorabil lui Dănuț, a semnat deci răspunde cu salariile din anii viitori (forța obligatorie pură)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Moștenitorul unui asociat dintr-un SRL vrea să intre în firmă. Statutul interzice transmiterea către moștenitori.",
+    "answers": [
+      {
+        "text": "Societatea se dizolvă automat",
+        "isCorrect": false
+      },
+      {
+        "text": "Ceilalți asociați pot decide primirea lui prin vot unanim",
+        "isCorrect": true
+      },
+      {
+        "text": "Moștenitorul nu devine asociat, dar are dreptul la contravaloarea părților sociale",
+        "isCorrect": true
+      },
+      {
+        "text": "Moștenitorul devine asociat prin forța legii succesiunilor",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Nemulțumiți de rezultatele financiare catastrofale, asociații dintr-o Adunare Generală votează revocarea întregului consiliu de administrație printr-un vot deschis (prin ridicare de mâini, ca să se vadă exact cine e contra).",
+    "answers": [
+      {
+        "text": "Votul deschis este perfect valabil în orice context comercial, fiind doar o formalitate de ignorat",
+        "isCorrect": false
+      },
+      {
+        "text": "Procedura a fost impecabilă, votul deschis fiind regula de aur a transparenței corporative",
+        "isCorrect": false
+      },
+      {
+        "text": "Administratorii revocați pot ataca hotărârea și obține anularea ei, deoarece pentru revocarea administratorilor legea impune obligatoriu recurgerea la vot secret",
+        "isCorrect": true
+      },
+      {
+        "text": "Revocarea se va aplica, dar doar după plata unor daune enorme de 100% din buget",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Nulitatea absolută a unui act juridic prezintă urmatoarele trăsături:",
+    "answers": [
+      {
+        "text": "Ocrotește doar un interes privat, al unei singure părți din contract",
+        "isCorrect": false
+      },
+      {
+        "text": "Poate fi remediată ușor dacă părțile confirmă ulterior actul printr-o declarație",
+        "isCorrect": false
+      },
+      {
+        "text": "Poate fi invocată oricând de instanță, din oficiu, sau de orice persoană interesată",
+        "isCorrect": true
+      },
+      {
+        "text": "Intervine pentru încălcarea unei norme legale de interes general, de ordine publică",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Nulitatea absolută se deosebește de cea relativă prin:",
+    "answers": [
+      {
+        "text": "Interesul ocrotit (general vs. particular)",
+        "isCorrect": true
+      },
+      {
+        "text": "Faptul că e imprescriptibilă (poate fi invocată oricând)",
+        "isCorrect": true
+      },
+      {
+        "text": "Posibilitatea de a fi invocată de procuror",
+        "isCorrect": true
+      },
+      {
+        "text": "Faptul că poate fi confirmată prin voința părții",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "question": "\"Oferta\" valabilă pentru încheierea unui contract trebuie să respecte urmatoarele condiții:",
+    "answers": [
+      {
+        "text": "Să fie fermă (să exprime clar intenția ofertantului de a se obliga juridic dacă este acceptată)",
+        "isCorrect": true
+      },
+      {
+        "text": "Să fie suficient de precisă (să conțină elementele esențiale ale viitorului contract, cum ar fi bunul și prețul)",
+        "isCorrect": true
+      },
+      {
+        "text": "Să fie adresată oricărei persoane la întâmplare, în mod vag",
+        "isCorrect": false
+      },
+      {
+        "text": "Să îmbrace forma cerută de lege pentru contractul pe care îl propune (ex. forma autentică, dacă e un teren)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "question": "O centrală termică gigantică este instalată și zidită definitiv în subsolul unei clădiri de birouri, devenind indispensabilă exploatării acesteia. Din punct de vedere al clasificării bunurilor, centrala devine:",
+    "answers": [
+      {
+        "text": "Bun fungibil",
+        "isCorrect": false
+      },
+      {
+        "text": "O simplă creanță",
+        "isCorrect": false
+      },
+      {
+        "text": "Bun mobil prin natura lui independent, putând fi luată oricând",
+        "isCorrect": false
+      },
+      {
+        "text": "Un bun imobil prin destinație, deoarece servește funcționării bunului imobil principal (clădirea)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "question": "O companie gigant trimite un email pe 1 martie către un furnizor local: \"Suntem dispuși să cumpărăm 10 tone de oțel cu 500 EUR/tonă, ofertă irevocabilă și valabilă până pe 10 martie.\" Pe 3 martie, compania găsește o ofertă de 400 EUR și îi scrie furnizorului că își retrage complet oferta.",
+    "answers": [
+      {
+        "text": "Furnizorul trebuie să vândă la prețul redus de 400 EUR impus de companie",
+        "isCorrect": false
+      },
+      {
+        "text": "Oferta din 1 martie a devenit caduca în mod natural prin sosirea mailului de retragere",
+        "isCorrect": false
+      },
+      {
+        "text": "Deoarece a trimis o \"ofertă cu termen\", compania era legată juridic să o mențină; retragerea din 3 martie este ineficientă juridic, iar dacă furnizorul acceptă până pe 10 martie, contractul e valid",
+        "isCorrect": true
+      },
+      {
+        "text": "În dreptul afacerilor, principiul flexibilității dictează că orice ofertă e revocabilă instant, indiferent de promisiuni; prin urmare, nu avem contract",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "question": "O companie românească semnează un contract cu un furnizor de utilaje industriale. Contractul are o \"Clauză de Hardship (Impreviziune)\". Pe parcursul livrărilor, un conflict armat neașteptat la granița dublează peste noapte prețul oțelului. Ce face furnizorul?",
+    "answers": [
+      {
+        "text": "Apelează direct la Curtea Penală Internațională",
+        "isCorrect": false
+      },
+      {
+        "text": "Clauza îi dă dreptul legal de a notifica clientul și a cere renegocierea și \"adaptarea\" echitabilă a prețurilor, deoarece executarea a devenit \"excesiv de oneroasă\" din cauze excepționale (și nu imposibilă ca în forța majoră)",
+        "isCorrect": true
+      },
+      {
+        "text": "Declară imediat contractul nul absolut, din proprie inițiativă",
+        "isCorrect": false
+      },
+      {
+        "text": "Invocă excepția de neexecutare",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "question": "O donație de teren este făcută prin înscris sub semnătură privată (fără notar).",
+    "answers": [
+      {
+        "text": "Este un contract consensual",
+        "isCorrect": false
+      },
+      {
+        "text": "Este nulă absolut (donația și actele de teren cer forma autentică ad validitatem)",
+        "isCorrect": true
+      },
+      {
+        "text": "Poate fi probată cu martori",
+        "isCorrect": false
+      },
+      {
+        "text": "Este validă între părți",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "question": "O echipă de muncitori încheie un contract pentru a construi din temelii o hală. Clădirea se finalizează și este predată. Câteva luni mai târziu, din cauza lucrului făcut cu indolență și materiale proaste care au crăpat, hala devine un pericol. Beneficiarul merge la judecător și invocă neexecutarea culpabilă.",
+    "answers": [
+      {
+        "text": "Se va invoca o nulitate absolută",
+        "isCorrect": false
+      },
+      {
+        "text": "Instanța va pronunța \"rezilierea\", adică va bloca contractul pentru viitor, obligând muncitorii să nu mai facă lucrări proaste, dar fără nicio plată în urmă",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiind un contract de antrepriză executat prost, instanța va dispune \"rezoluțiunea\", sancțiune cu efect retroactiv puternic, ceea ce înseamnă desființarea completă a contractului și nașterea obligației ca prestatorul să restituie beneficiarului sumele plătite pentru o lucrare viciată grav",
+        "isCorrect": true
+      },
+      {
+        "text": "E o situație de desuetudine",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "question": "O furtună excepțională și neprevăzută (cod roșu istoric) distruge o fabrică, făcând complet imposibilă fizic livrarea mobilei promise de producător către clienți, deși termenul curgea.",
+    "answers": [
+      {
+        "text": "Acest eveniment constituie un caz de \"forță majoră\", ce exonerează debitorul de răspunderea pentru neexecutarea unei obligații imposibile, atâta timp cât acesta îi notifică corect pe clienți",
+        "isCorrect": true
+      },
+      {
+        "text": "Cumpărătorul exercită dreptul de reținere",
+        "isCorrect": false
+      },
+      {
+        "text": "Intervine rezoluțiunea pentru comportament abuziv al naturii",
+        "isCorrect": false
+      },
+      {
+        "text": "Producătorul este obligat să plătească daune-interese clienților la valoarea întregului contract din propriul buzunar, principiul forței obligatorii neadmitând scuze",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "question": "O societate comercială poate fi declarată nulă de către instanța de judecată (Tribunal) dacă:",
+    "answers": [
+      {
+        "text": "Unul dintre asociați divorțează",
+        "isCorrect": false
+      },
+      {
+        "text": "Toți membrii fondatori erau incapabili legal la momentul înființării",
+        "isCorrect": true
+      },
+      {
+        "text": "Lipsește actul constitutiv sau obiectul de activitate este ilicit",
+        "isCorrect": true
+      },
+      {
+        "text": "S-a încălcat numărul minim legal de asociați stabilit pentru acea formă juridică",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "question": "O Societate Europeană (SE) constituită în baza Regulamentului CE 2157/2001:",
+    "answers": [
+      {
+        "text": "Este asimilată cu o cooperativă agricolă",
+        "isCorrect": false
+      },
+      {
+        "text": "Este complet interzisă pe teritoriul României",
+        "isCorrect": false
+      },
+      {
+        "text": "Poate funcționa legal în România având sediul într-un stat UE",
+        "isCorrect": true
+      },
+      {
+        "text": "Este scutită de plata oricărui tip de impozit",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "question": "O societate intră în lichidare. Lichidatorul vinde stocul de marfă la preț de dumping pentru a plăti rapid salariile restante.",
+    "answers": [
+      {
+        "text": "Actul este ilegal, lichidatorul trebuie să obțină profit",
+        "isCorrect": false
+      },
+      {
+        "text": "Salariații devin asociați",
+        "isCorrect": false
+      },
+      {
+        "text": "Lichidatorul depășește atribuțiile de conservare",
+        "isCorrect": false
+      },
+      {
+        "text": "Actul este legal, lichidarea presupune transformarea activului în bani pentru plata pasivului",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Obiectul actului juridic (prestația la care se obligă părțile) trebuie să îndeplinească urmatoarele condiții:",
+    "answers": [
+      {
+        "text": "Să fie complet nedeterminat pentru a lăsa libertate absolută",
+        "isCorrect": false
+      },
+      {
+        "text": "Să fie posibil fizic și juridic, și să se afle în circuitul civil (dacă este un bun)",
+        "isCorrect": true
+      },
+      {
+        "text": "Să fie oferit gratuit, fără vreo sumă de bani implicată",
+        "isCorrect": false
+      },
+      {
+        "text": "Să fie licit și moral",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Obligațiunile (ca titluri de credit pentru împrumuturi) pot fi emise legal de către:",
+    "answers": [
+      {
+        "text": "Societățile pe Acțiuni (SA)",
+        "isCorrect": true
+      },
+      {
+        "text": "Persoanele Fizice Autorizate (PFA)",
+        "isCorrect": false
+      },
+      {
+        "text": "Orice organizație nonguvernamentală (ONG)",
+        "isCorrect": false
+      },
+      {
+        "text": "Societățile cu Răspundere Limitată (SRL)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Obligațiunile conferă deținătorilor dreptul de:",
+    "answers": [
+      {
+        "text": "A desemna un reprezentant în AGA (fără drept de vot)",
+        "isCorrect": true
+      },
+      {
+        "text": "A se întruni în adunări speciale ale obligatarilor",
+        "isCorrect": true
+      },
+      {
+        "text": "A participa la profitul societății prin dividende",
+        "isCorrect": false
+      },
+      {
+        "text": "A fi rambursați la scadență cu dobânda aferentă",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Părțile unui litigiu legat de o limită imprecisă și confuză dintre două terenuri mari se așează la o masă și încheie împreună un contract prin care își fac mici concesii reciproce, renunțând la scandal pentru a lămuri exact și pașnic hotarul. Acest act de împăcare și delimitare se numește \"Tranzacție\". Tranzacția este, din punct de vedere juridic:",
+    "answers": [
+      {
+        "text": "O stipulație de excepție impusă unui terț",
+        "isCorrect": false
+      },
+      {
+        "text": "Un exemplu clasic de \"act declarativ de drepturi\", deoarece doar consolidează, clarifică, recunoaște și declară niște drepturi pe care le aveau deja cumva ambele părți pe granița, ne-creând un drept complet nou din aer",
+        "isCorrect": true
+      },
+      {
+        "text": "Un act complet inutil deoarece nicio parte nu cedează cu nimic",
+        "isCorrect": false
+      },
+      {
+        "text": "Un act tipic de \"transfer\" (translativ de drepturi masiv), fiind asimilat pur cu o donație gigantică din partea celui mai slab",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Patrimoniul de afectațiune reprezintă:",
+    "answers": [
+      {
+        "text": "O masă separată de bunuri și drepturi afectate strict exercitării unei anumite profesii/activități",
+        "isCorrect": true
+      },
+      {
+        "text": "O posibilitate (opțional) pentru profesionistul persoană fizică de a-și delimita o parte din bunuri",
+        "isCorrect": true
+      },
+      {
+        "text": "Un fond special deținut doar de Registrul Comerțului",
+        "isCorrect": false
+      },
+      {
+        "text": "Este interzis de lege în cazul persoanelor fizice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Patronii unui SRL cu activitate de import-export doresc să obțină capital proaspăt și le solicită avocaților să redacteze actele pentru emiterea unor pachete de \"obligațiuni\" către publicul larg pe bursă.",
+    "answers": [
+      {
+        "text": "Emisiunea de obligațiuni va decurge perfect, cu condiția votului favorabil de 3/4 în Adunarea Ordinară",
+        "isCorrect": false
+      },
+      {
+        "text": "Legea din România instituie o \"interdicție legală\" clară: obligațiunile NU pot fi emise de către Societățile cu Răspundere Limitată (SRL), mecanismul fiind rezervat societăților de capitaluri (SA și SCA)",
+        "isCorrect": true
+      },
+      {
+        "text": "Se poate face emisiunea, însă valoarea obligațiunii nu trebuie să depășească 1 leu, spre deosebire de o SA",
+        "isCorrect": false
+      },
+      {
+        "text": "Avocații le vor permite acest pas, deoarece obligațiunile oferă o finanțare flexibilă deschisă oricărei forme juridice comerciale",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Pentru a fi aptă să formeze contractul, \"Acceptarea\" ofertei trebuie:",
+    "answers": [
+      {
+        "text": "Să fie pură și simplă, concordând perfect cu propunerea primită",
+        "isCorrect": true
+      },
+      {
+        "text": "Să conțină mici modificări de preț pe care ofertantul sigur le-ar agrea",
+        "isCorrect": false
+      },
+      {
+        "text": "Să ajungă la ofertant la termenul convenit (înăuntrul perioadei de valabilitate a ofertei)",
+        "isCorrect": true
+      },
+      {
+        "text": "Să fie totală și fără nicio rezervă",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Pentru a fi sigură că nu pierde un client la un imobil de milioane, o societate propune unui terț un \"Pact de Preferință\" semnat. Trei ani mai târziu, când societatea proprietară se decide oficial să vândă blocul pe 2 milioane euro, ce face societatea?",
+    "answers": [
+      {
+        "text": "Societatea e lovită de confuzie patrimonială și își deschide proces pe insolvență",
+        "isCorrect": false
+      },
+      {
+        "text": "Îi vinde pe loc clădirea și apoi se interesează în ziare dacă mai era cumva pe piață cineva favorabil la tranzacție",
+        "isCorrect": false
+      },
+      {
+        "text": "Prin natura \"clauzei/pactului de preferință\", vânzătorul se obligă juridic că atunci când (și doar dacă) se va decide să vândă la prețul curent de 2 milioane, el are datoria imperativă să se întoarcă mai întâi către persoana acelui beneficiar din tratat (terțul favorizat), pentru a-i \"oferi acestuia imobilul\" exact în condițiile respective ca prioritate absolută",
+        "isCorrect": true
+      },
+      {
+        "text": "Îi încasează din start un comision imobiliar enorm pentru doar onoarea menținerii unui astfel de tratat în arhiva firmei, pactul nemaihavând forță directă de executare",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Pentru a fonda \"Web Design SRL\", Bogdan aduce 200 de lei (numerar), iar Vlad se oferă să muncească gratis ca programator timp de 2 ani, \"aportul său în industrie\" fiind evaluat la echivalentul a 50.000 lei pentru a balansa capitalul.",
+    "answers": [
+      {
+        "text": "Aportul în industrie este nepermis de lege în cazul SRL, iar munca lui Vlad nu poate fi adusă ca aport la capitalul social al SRL-ului",
+        "isCorrect": true
+      },
+      {
+        "text": "Vlad primește direct 50% din acțiuni",
+        "isCorrect": false
+      },
+      {
+        "text": "Actul va fi autentificat de Registrul Comerțului ca valid",
+        "isCorrect": false
+      },
+      {
+        "text": "Aportul în industrie la SRL este permis prin legea română și balansează aportul în bani",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Pentru ca un act juridic să fie valabil, el trebuie să îndeplinească patru condiții de fond esențiale:",
+    "answers": [
+      {
+        "text": "Existența unei cauze licite și morale",
+        "isCorrect": true
+      },
+      {
+        "text": "Capacitatea de a contracta a părților",
+        "isCorrect": true
+      },
+      {
+        "text": "Un consimțământ neviciat și un obiect determinat/licit",
+        "isCorrect": true
+      },
+      {
+        "text": "Încheierea lui obligatorie pe un formular tipizat aprobat de stat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Pentru cât timp este valabilă rezervarea disponibilității denumirii firmei la Registrul Comerțului?",
+    "answers": [
+      {
+        "text": "Pe durată nedeterminată, până la revocare",
+        "isCorrect": false
+      },
+      {
+        "text": "Timp de 3 luni",
+        "isCorrect": true
+      },
+      {
+        "text": "Timp de 1 lună",
+        "isCorrect": false
+      },
+      {
+        "text": "Timp de 3 zile lucrătoare",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Pentru modificarea actului constitutiv al unui SRL (fără clauze contrare în statut), ce tip de majoritate este cerută legal?",
+    "answers": [
+      {
+        "text": "Majoritatea simplă a celor prezenți",
+        "isCorrect": false
+      },
+      {
+        "text": "Votul a minimum 3/4 din totalul asociaților",
+        "isCorrect": false
+      },
+      {
+        "text": "O aprobare prealabilă de la judecătorul sindic",
+        "isCorrect": false
+      },
+      {
+        "text": "Votul tuturor asociaților (unanimitate)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Persoana Fizică Autorizată (PFA) se distinge prin urmatoarele:",
+    "answers": [
+      {
+        "text": "Nu dobândește niciodată personalitate juridică",
+        "isCorrect": true
+      },
+      {
+        "text": "Este considerată profesionist independent",
+        "isCorrect": true
+      },
+      {
+        "text": "Răspunde pentru datoriile firmei doar cu patrimoniul de afectațiune, niciodată cu cel personal",
+        "isCorrect": false
+      },
+      {
+        "text": "Poate angaja un număr maxim de 50 de salariați",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "question": "În Codul civil actual, calitatea de \"profesionist\" aparține:",
+    "answers": [
+      {
+        "text": "Doar statului român prin companiile naționale",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuturor celor care exploatează sistematic o întreprindere",
+        "isCorrect": true
+      },
+      {
+        "text": "Doar comercianților înmatriculați sub formă SA sau SRL",
+        "isCorrect": false
+      },
+      {
+        "text": "Și persoanelor care exercită profesii liberale (medici, avocați), asociațiilor sau fundațiilor",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "question": "Principiul forței obligatorii a contractului (\"pacta sunt servanda\") stabilește că:",
+    "answers": [
+      {
+        "text": "Poate suporta excepții legale grave, cum este intervenția impreviziunii (clauza de hardship)",
+        "isCorrect": true
+      },
+      {
+        "text": "Obligațiile contractuale pot fi revocate unilateral oricând părțile simt nevoia",
+        "isCorrect": false
+      },
+      {
+        "text": "Contractul valabil încheiat este la fel de obligatoriu pentru părți precum legea",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul are putere de lege doar față de terții care asistă",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "question": "Profitând de disperarea și starea extremă de sărăcie a unei bătrâne văduve care are nevoie urgentă de bani de medicamente, un \"binefăcător\" îi cumpără un teren agricol premium pentru doar 5% din valoarea sa reală din piață.",
+    "answers": [
+      {
+        "text": "Acesta reprezintă fapta tipică a viciului de consimțământ denumit \"leziune\", constând într-o disproporție uriașă și nejustificată a prestațiilor la momentul semnării, generată din exploatarea vulnerabilității",
+        "isCorrect": true
+      },
+      {
+        "text": "Este o donație pură și simplă, perfect valabilă în circuitul civil, intenția altruistă fiind vizibilă",
+        "isCorrect": false
+      },
+      {
+        "text": "Din cauza lipsei formei notariale, contractul e oricum caduc",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiind un contract aleatoriu, riscurile au fost asumate corect de ambele părți încă de la început",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Proprietarul (X) și Chiriașul (Y) semnează pe 1 ianuarie un contract de închiriere sediu firmă. Din august, Y oprește complet plata chiriei lunare fără motiv. X cere judecătorului să rezolve situația.",
+    "answers": [
+      {
+        "text": "Instanța va decide \"rezoluțiunea\", forțându-l paradoxal pe proprietarul X să returneze chiriașului toate ratele, iar pe Y să returneze clădirea \"în timp\" la fel cum a primit-o",
+        "isCorrect": false
+      },
+      {
+        "text": "Se va decide anularea contractului pentru leziune evidentă",
+        "isCorrect": false
+      },
+      {
+        "text": "Dat fiind caracterul contractului de locațiune, care este unul \"cu executare succesivă\" în timp, instanța va decide \"rezilierea\" contractului. Aceasta desființează contractul doar pentru viitor, X reținând legal chiriile achitate în lunile din urmă cât spațiul a fost corect folosit",
+        "isCorrect": true
+      },
+      {
+        "text": "Nu se dispune decât o mică amendă penală",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Regiile Autonome din România se caracterizează prin faptul că:",
+    "answers": [
+      {
+        "text": "Dețin un patrimoniu public și desfășoară activități economice de interes public (ex. aeroporturi)",
+        "isCorrect": true
+      },
+      {
+        "text": "Sunt asociații non-profit",
+        "isCorrect": false
+      },
+      {
+        "text": "Sunt companii cu capital 100% privat, deținute de cetățeni străini",
+        "isCorrect": false
+      },
+      {
+        "text": "Sunt reglementate exact ca PFA-urile",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "question": "Relativitatea efectelor contractului înseamnă că un contract nu poate produce obligații sau drepturi pentru terți. Excepțiile de la această regulă sunt:",
+    "answers": [
+      {
+        "text": "Situația \"simulației\" (părțile fac un act secret real și unul aparent mincinos, terții fiind protejați)",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul simplu de cumpărare a unei pâini la magazin",
+        "isCorrect": false
+      },
+      {
+        "text": "Instituția denumită \"stipulația pentru altul\" (ex. asigurarea de viață în favoarea copilului)",
+        "isCorrect": true
+      },
+      {
+        "text": "Situația demisiei din funcția de administrator",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Repunerea părților în situația anterioară (restitutio in integrum) presupune:",
+    "answers": [
+      {
+        "text": "Restituirea prestațiilor primite în natură",
+        "isCorrect": true
+      },
+      {
+        "text": "Restituirea prin echivalent bănesc, dacă restituirea în natură e imposibilă",
+        "isCorrect": true
+      },
+      {
+        "text": "Aplicarea unei amenzi administrative",
+        "isCorrect": false
+      },
+      {
+        "text": "Iertarea datoriilor reciproce",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Retragerea din societate pentru un asociat dintr-un SRL (sau un acționar dintr-o SA) este un drept recunoscut de lege dacă acesta a votat \"împotriva\" hotărârilor privind:",
+    "answers": [
+      {
+        "text": "Numirea noului director de HR",
+        "isCorrect": false
+      },
+      {
+        "text": "Modificarea obiectului principal de activitate al societății",
+        "isCorrect": true
+      },
+      {
+        "text": "Fuziunea cu o altă entitate sau divizarea societății",
+        "isCorrect": true
+      },
+      {
+        "text": "Mutarea sediului social al societății într-o altă țară (în străinătate)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "question": "Se întocmește un act de vânzare-cumpărare în care părțile scriu expres că \"obiectul vânzării este de 10 kg de cocaină și armament nedeclarat vămii\".",
+    "answers": [
+      {
+        "text": "Acest act juridic suferă de \"nulitate absolută\", deoarece contravine ordinii publice și are un obiect ilicit și în afara circuitului civil, nesocotind interese de ordin general ale societății",
+        "isCorrect": true
+      },
+      {
+        "text": "Reprezintă o stipulație pentru altul",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiind o înțelegere clar asumată de adulți pe baza liberului schimb (consensualism deplin), va fi un contract generator de efecte juridice valide între părțile sale",
+        "isCorrect": false
+      },
+      {
+        "text": "Actul are doar un viciu care îl face anulabil printr-o \"nulitate relativă\" protejând doar interesele furnizorului lezat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Societatea cu Răspundere Limitată (SRL) prezintă urmatoarele caracteristici:",
+    "answers": [
+      {
+        "text": "Răspunderea asociaților pentru datorii este limitată strict la valoarea aportului lor",
+        "isCorrect": true
+      },
+      {
+        "text": "Poate fi constituită și de un asociat unic",
+        "isCorrect": true
+      },
+      {
+        "text": "Este obligatoriu să aibă minimum 2 asociați și maximum 10",
+        "isCorrect": false
+      },
+      {
+        "text": "Combină elemente ale societăților de persoane cu cele de capitaluri",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Societățile Cooperative (meșteșugărești, agricole etc.) conform Legii 1/2005:",
+    "answers": [
+      {
+        "text": "Reprezintă persoane juridice cu scop economic",
+        "isCorrect": true
+      },
+      {
+        "text": "Sunt bazate pe ideea de obținere a unor beneficii mutuale pentru membri",
+        "isCorrect": true
+      },
+      {
+        "text": "Se bazează pe asocierea persoanelor exclusiv pentru obținerea de profituri maxime speculative",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu au patrimoniu propriu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Societățile de persoane se caracterizează în principal prin:",
+    "answers": [
+      {
+        "text": "Faptul că asociații răspund de regulă nelimitat și solidar pentru datoriile firmei",
+        "isCorrect": true
+      },
+      {
+        "text": "Constituirea bazată pe calitățile personale și încrederea reciprocă a asociaților (intuitu personae)",
+        "isCorrect": true
+      },
+      {
+        "text": "Faptul că pot emite acțiuni negociabile pe bursă",
+        "isCorrect": false
+      },
+      {
+        "text": "Răspunderea limitată a asociaților strict la valoarea aportului",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Suma totală pentru care se pot emite obligațiuni la SA:",
+    "answers": [
+      {
+        "text": "Este nelimitată",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu poate fi mai mare de 1/4 din capitalul social",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu poate depăși 3/4 din capitalul social vărsat existent",
+        "isCorrect": true
+      },
+      {
+        "text": "Trebuie aprobată de AGOA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Transmiterea acțiunilor la o Societate pe Acțiuni (SA):",
+    "answers": [
+      {
+        "text": "Necesită încheierea actului în formă autentică la notar",
+        "isCorrect": false
+      },
+      {
+        "text": "Se face prin declarație în registrul acționarilor",
+        "isCorrect": true
+      },
+      {
+        "text": "Este limitată prin lege la votul a 3/4 din acționari",
+        "isCorrect": false
+      },
+      {
+        "text": "Este guvernată de principiul liberei circulații",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "question": "Un acționar deține 100% din voturi și vrea să țină AGA într-o duminică, în parc, fără nicio convocare prealabilă în Monitorul Oficial.",
+    "answers": [
+      {
+        "text": "Este imposibil, convocarea este normă de ordine publică",
+        "isCorrect": false
+      },
+      {
+        "text": "Hotărârea va fi nulă absolut",
+        "isCorrect": false
+      },
+      {
+        "text": "Actul este valabil conform principiului unanimității",
+        "isCorrect": true
+      },
+      {
+        "text": "Este legal, deoarece acționarii ce dețin 100% din capital pot renunța la formalitățile de convocare",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Un acționar minoritar ce deține 10% dintr-o companie listată are bănuieli privind fraude uriașe ale CEO-ului. El solicită conducerii să convoace urgent Adunarea Generală. Conducerea îl ignoră total.",
+    "answers": [
+      {
+        "text": "Legea stipulează că obligatoriu votul a minim 2/3 pentru orice fel de convocare excepțională",
+        "isCorrect": false
+      },
+      {
+        "text": "Deoarece deține cel puțin 5% din capitalul social, el este îndreptățit prin lege să ceară instanței competente să convoace adunarea în pofida refuzului conducerii",
+        "isCorrect": true
+      },
+      {
+        "text": "Acționarul poate convoca adunarea printr-un simplu afiș la ușa blocului",
+        "isCorrect": false
+      },
+      {
+        "text": "Neavând pragul decizional de 50%, acționarul nu are nicio pârghie legală împotriva conducerii",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "question": "Un administrator de SA încheie un contract de achiziție bunuri cu firma tatălui său, fără a anunța Consiliul de Administrație.",
+    "answers": [
+      {
+        "text": "Administratorul răspunde pentru daunele cauzate societății",
+        "isCorrect": true
+      },
+      {
+        "text": "Este o încălcare a obligației de fidelitate și transparență",
+        "isCorrect": true
+      },
+      {
+        "text": "Actul este lovit de nulitate absolută pentru obiect imoral",
+        "isCorrect": false
+      },
+      {
+        "text": "Administratorul poate fi revocat pe acest motiv",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "question": "Un agricultor din Bărăgan vinde în martie întreaga recoltă de porumb ce urmează să se coacă abia în septembrie pe terenul său. Din punct de vedere legal, acest \"porumb necules\" face parte din categoria:",
+    "answers": [
+      {
+        "text": "Fructelor civile cu caracter speculativ",
+        "isCorrect": false
+      },
+      {
+        "text": "Bunurilor mobile prin anticipație (ele sunt imobile pe moment, dar privite ca mobile datorită viitoarei lor dezrădăcinări și comercializări)",
+        "isCorrect": true
+      },
+      {
+        "text": "Drepturilor strict personale de consum",
+        "isCorrect": false
+      },
+      {
+        "text": "Bunurilor imobile prin destinație, fiind fixat în pământ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "question": "Un contract de vânzare-cumpărare simplu se încadrează în urmatoarele categorii:",
+    "answers": [
+      {
+        "text": "Este un contract cu titlu oneros (fiecare parte urmărește un avantaj patrimonial)",
+        "isCorrect": true
+      },
+      {
+        "text": "Este un contract comutativ (existența și întinderea drepturilor/obligațiilor sunt cunoscute exact de la început)",
+        "isCorrect": true
+      },
+      {
+        "text": "Este un act translativ de drepturi (transferă proprietatea)",
+        "isCorrect": true
+      },
+      {
+        "text": "Este un act strict de conservare a patrimoniului",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "question": "Un contract prevede \"Prețul va fi cel afișat la bursa din Londra în ziua livrării\".",
+    "answers": [
+      {
+        "text": "Prețul este lăsat la bunul plac al unei părți",
+        "isCorrect": false
+      },
+      {
+        "text": "Obiectul este determinabil, deci contractul este valid",
+        "isCorrect": true
+      },
+      {
+        "text": "Este o clauză de preț determinabil prin referire la un indice neutru",
+        "isCorrect": true
+      },
+      {
+        "text": "Obiectul este nedeterminat, deci nulitate",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "question": "Un dezvoltator din Italia, dorind să activeze în România ca antreprenor principal pe PFA, nu obține personalitate juridică. Începe lucrări masive neautorizate pe PFA. Fiscul vine și impune sechestrul și pe mașinile scumpe de pe acasă ale acestuia. Dezvoltatorul protestează susținând că are un \"patrimoniu de afectațiune\".",
+    "answers": [
+      {
+        "text": "Răspunderea e asumată în întregime de asociația municipală a mesterilor din zonă",
+        "isCorrect": false
+      },
+      {
+        "text": "Scutul PFA-ului este cel mai robust la amenințarea fiscală din Uniune, astfel încât fiscul are complet interzisă incursiunea pe patrimoniul de acasă",
+        "isCorrect": false
+      },
+      {
+        "text": "Patrimoniul de afectațiune, dacă este constituit de dezvoltatorul persoană fizică ca mecanism opțional civil, servește doar la satisfacerea deocamdată \"cu prioritate\" a datoriei, însă nu acționează ca un scut invizibil absolut. Fiscul (sau orice creditor) va trece rapid să urmărească restul \"patrimoniului personal\" imens (mașinile scumpe) dacă micul fond din afectațiune nu acoperă găurile debitorului profesionist lipsit de limitarea societară",
+        "isCorrect": true
+      },
+      {
+        "text": "Răspunderea solidară limitată îl iartă complet pe cetățeanul străin fără nicio excepție prevăzută în actul constitutiv",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "question": "Un dezvoltator semnează actele pentru a ridica un parc logistic masiv pe niște câmpuri imense care nu îi aparțin, nedefinind exact parcelele și limitele (\"vom construi undeva acolo\").",
+    "answers": [
+      {
+        "text": "Lipsa unei determinări a bunului viitor care e obiectul prestației este ignorată în general pe piață atâta timp cât se dă un avans financiar consistent",
+        "isCorrect": false
+      },
+      {
+        "text": "E afectat actul de \"Dol\" pur (viciu de consimțământ) întrucât dezvoltatorul se înșală",
+        "isCorrect": false
+      },
+      {
+        "text": "Nulitatea este strict una \"convențională\" de care nimeni nu se îngrijește",
+        "isCorrect": false
+      },
+      {
+        "text": "Un obiect trebuie să îndeplinească obligatoriu condiția de a fi determinat sau măcar determinabil. Încălcarea acestei reguli de fond esențiale duce la nulitatea absolută a viitorului contract de execuție",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "question": "Un furnizor de energie notifică un client că \"de mâine\" prețul crește cu 300% din cauza crizelor globale, fără a avea o clauză de indexare sau revizuire în contract.",
+    "answers": [
+      {
+        "text": "Furnizorul nu poate modifica prețul unilateral (principiul forței obligatorii)",
+        "isCorrect": true
+      },
+      {
+        "text": "Furnizorul poate cere în instanță adaptarea contractului pentru impreviziune (hardship)",
+        "isCorrect": true
+      },
+      {
+        "text": "Clientul trebuie să plătească, fiind forță majoră",
+        "isCorrect": false
+      },
+      {
+        "text": "Contractul se anulează automat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "question": "Un gigant bancar (Banca X) \"absoarbe\" prin procedura fuziunii o mică bancă concurentă (Banca Y). Banca Y avea de recuperat 10.000 lei de la un client (creanță), dar și de plătit o rată proprie de 5.000 lei către furnizorul de IT (datorie).",
+    "answers": [
+      {
+        "text": "Conform efectelor fuziunii prin absorbție, Banca X preia integral patrimoniul Băncii Y, deci va prelua atât dreptul de a încasa cei 10.000 lei, cât și obligația de a achita cei 5.000 lei furnizorului",
+        "isCorrect": true
+      },
+      {
+        "text": "Clientul cu datoria de 10.000 lei va deveni acționar majoritar",
+        "isCorrect": false
+      },
+      {
+        "text": "Toate datoriile de 5.000 lei sunt radiate și dispar în eter pentru a proteja banca cumpărătoare",
+        "isCorrect": false
+      },
+      {
+        "text": "Banca Y intră în procedura de lichidare activă pe o durată de 10 ani pentru a stinge restanțele",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "question": "Un interlop îl amenință pe directorul firmei concurente că dacă nu îi cedează pachetul de acțiuni la 10% din prețul real, îi va incendia depozitele logistice. Îngrozit, directorul semnează actele de cedare.",
+    "answers": [
+      {
+        "text": "Cedarea e lovită de dol civil (manopere viclene)",
+        "isCorrect": false
+      },
+      {
+        "text": "Contractul semnat este afectat de viciul \"violenței\" (care inspiră o teamă justificată pentru un rău viitor asupra bunurilor), făcând actul anulabil în instanță",
+        "isCorrect": true
+      },
+      {
+        "text": "Actul este perfect valid, forța coercitivă fiind o realitate aspră dar legală pe piața liberă",
+        "isCorrect": false
+      },
+      {
+        "text": "Contractul e lovit de o simplă eroare nesubstanțială",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Un minor de 15 ani încheie un contract de vânzare pentru un imobil, cu încuviințarea părinților, dar fără autorizarea instanței de tutelă.",
+    "answers": [
+      {
+        "text": "Actul este valid",
+        "isCorrect": false
+      },
+      {
+        "text": "Actul este lovit de nulitate relativă",
+        "isCorrect": true
+      },
+      {
+        "text": "Autorizarea instanței este obligatorie pentru actele de dispoziție ale minorilor",
+        "isCorrect": true
+      },
+      {
+        "text": "Încuviințarea părinților este suficientă pentru minorii peste 14 ani",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "question": "Un producător din Brașov și unul de utilaje grele din sud au negocieri febrile vreme de o săptămână. Nereușind să cadă de acord pe un aspect critic, ei întrerup tratativele și producătorul semnează rapid contractul cu o a treia firmă, părăsind negocierile. Este pasibil producătorul pentru retragere conform regulilor negocierii civile comerciale?",
+    "answers": [
+      {
+        "text": "Trebuie să obțină neapărat o decizie de renunțare de la Curtea de Conturi",
+        "isCorrect": false
+      },
+      {
+        "text": "Absolut deloc. Atâta vreme cât actul cel mare (contractul de livrare propriu-zis) nu s-a format nici măcar cu un \"DA\" ferm și deplin referitor la tot ansamblul său, simpla retragere curată și nepătată cu alte \"rele intenții ascunse\" este legal acoperită de umbrela \"libertății depline\" garantate pe negocieri în piața privată concurențială, neriscând plata niciunor daune",
+        "isCorrect": true
+      },
+      {
+        "text": "El riscă închisoarea între 3 și 5 ani pe fondul neasigurării unei bune tratative cu un partener de interes prioritar",
+        "isCorrect": false
+      },
+      {
+        "text": "Negocierile, fiind de facto pre-contracte sacrosancte, îl leagă pe viață de primul venit fără niciun drept de a mai sta cu ochii pe alte oferte atractive din zonă",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "question": "Viciul de consimțământ denumit \"Dol\" reprezintă:",
+    "answers": [
+      {
+        "text": "O stare de extremă sărăcie",
+        "isCorrect": false
+      },
+      {
+        "text": "O simplă eroare nesemnificativă de calcul matematic",
+        "isCorrect": false
+      },
+      {
+        "text": "Violența fizică exercitată asupra unei părți",
+        "isCorrect": false
+      },
+      {
+        "text": "Inducerea intențională în eroare a cocontractantului prin mijloace viclene (Înșelăciune/fraudă civilă)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Votul secret în cadrul Adunării Generale este obligatoriu atunci când se dezbate și se votează:",
+    "answers": [
+      {
+        "text": "Angajarea răspunderii patrimoniale a organelor de conducere (administratori, cenzori)",
+        "isCorrect": true
+      },
+      {
+        "text": "Numirea sau revocarea administratorilor și a membrilor consiliului de supraveghere",
+        "isCorrect": true
+      },
+      {
+        "text": "Modificarea obiectului principal de activitate",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprobarea situațiilor financiare",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "question": "X îi prezintă lui Y o mașină impecabilă. Y întreabă dacă mașina are DPF (filtru de particule) activ. X îi spune ferm că da, ba chiar îi arată niște hârtii pe care tocmai le-a falsificat la imprimantă care atestă o recentă revizie tehnică ireproșabilă.",
+    "answers": [
+      {
+        "text": "Actul suferă de o eroare nevinovată a cumpărătorului, ce cade în riscul asumat al acestuia",
+        "isCorrect": false
+      },
+      {
+        "text": "Este un caz clar de amenințare fizică (violență)",
+        "isCorrect": false
+      },
+      {
+        "text": "Actul suferă de viciul \"dol\" - inducerea voită în eroare prin fraudă și manopere mincinoase -, iar cumpărătorul înșelat poate cere anularea și daune-interese",
+        "isCorrect": true
+      },
+      {
+        "text": "Mașina devine bun fungibil și poate fi schimbată la dealer de plin drept",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "question": "X primește o ofertă de la Y. X nu răspunde, dar începe să execute lucrarea cerută în ofertă fără a-l anunța pe Y.",
+    "answers": [
+      {
+        "text": "Contractul se consideră încheiat în momentul în care X a săvârșit actul concludent (începerea execuției)",
+        "isCorrect": true
+      },
+      {
+        "text": "Tăcerea valorează acceptare în acest caz datorită naturii afacerii",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul nu s-a încheiat din lipsa de acceptare expresă",
+        "isCorrect": false
+      },
+      {
+        "text": "X este obligat să îl despăgubească pe Y",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "question": "Ce este un uzufruct din tabelul drepturilor în materie civilă și ce eroare comite X în revendicarea unui uzufruct moștenit?",
+    "answers": [
+      {
+        "text": "Uzufructul în speță stă puternic și imperturbabil între \"drepturile reale principale\" alături de mandria dreptului pe proprietate privată aspră, el făcând parte organică din familia numită de marii teoreticieni \"dezmembrămintele drepturilor de proprietate\", permițând unei persoane exercițiul unui avantaj, reținând o formă a puterii din lucru, alături de servitute sau pe dreptul la abitație pură",
+        "isCorrect": true
+      },
+      {
+        "text": "Uzufructul reprezintă unul din brațele fundamentale accesorii ale ipotecilor pure care trec de îndată peste copiii cu putere din orice contract ascuns de amanetări",
+        "isCorrect": false
+      },
+      {
+        "text": "Acesta e doar o modalitate prin care se preia sarcina cuiva din contractul de leziune aspră afectată de moarte și preluată la comanditari cu pierderi la asociați",
+        "isCorrect": false
+      },
+      {
+        "text": "Dreptul se referă complet la creanțele pe acțiunile ascunse în băncile societăților deținătoare din afara frontierei europene",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "question": "X și încheie un contract de \"vânzare\" a unui rinichi uman pentru 50.000 euro.",
+    "answers": [
+      {
+        "text": "Contractul este nul absolut (obiect ilicit, corpul uman fiind în afara circuitului civil comercial)",
+        "isCorrect": true
+      },
+      {
+        "text": "Încalcă bunele moravuri și ordinea publică",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul este valid sub principiul libertății contractuale",
+        "isCorrect": false
+      },
+      {
+        "text": "Este un contract aleatoriu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "question": "X trimite o ofertă prin mail și menționează \"Aștept răspuns până la ora 17:00\". Acceptarea ajunge la 17:05.",
+    "answers": [
+      {
+        "text": "Ofertantul poate valida acceptarea dacă îl anunță imediat pe acceptant",
+        "isCorrect": true
+      },
+      {
+        "text": "Contractul s-a încheiat la 17:05",
+        "isCorrect": false
+      },
+      {
+        "text": "Acceptarea valorează contraofertă",
+        "isCorrect": true
+      },
+      {
+        "text": "Oferta a devenit caduca la ora 17:00",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "question": "X vinde către Y o mașină, iar părțile cad de acord asupra obiectului și prețului, dar scriu greșit în contract seria de șasiu dintr-o simplă neatenție.",
+    "answers": [
+      {
+        "text": "Contractul rămâne valid dacă obiectul este identificabil prin alte mijloace",
+        "isCorrect": true
+      },
+      {
+        "text": "Consimțământul este viciat prin eroare esențială",
+        "isCorrect": false
+      },
+      {
+        "text": "Contractul este nul absolut",
+        "isCorrect": false
+      },
+      {
+        "text": "Este o eroare materială de redactare care poate fi rectificată",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "question": "Z cere anularea absolută a contractului prin care vinde armă de luptă prohibită și zeci de steroizi toxici nedeclarați pentru profit ascuns. W contestă cererea pe simplul motiv că au semnat, că s-au respectat termenele la perfecțiune și că au fost onești în livrarea cantității. Ce defect vital stăvilește \"perfecta lor afacere\"?",
+    "answers": [
+      {
+        "text": "Afacerea lor s-a izbit fatalmente de nulitate, dar doar pe simplul aspect procedural pur (absența unei simple legalizări făcute în siguranța biroului unui notar public)",
+        "isCorrect": false
+      },
+      {
+        "text": "Nu există nicio bază legală de a distruge contractul atâta vreme cât el era afectat parțial de eroarea unui minor care nu și-a cumpărat el bunurile de capul lui",
+        "isCorrect": false
+      },
+      {
+        "text": "Actul nu suferă de nimic esențial și ei se pot acuza în liniște la Poliție pentru concurență neloială din cauza prețurilor prea ridicate",
+        "isCorrect": false
+      },
+      {
+        "text": "Actul este distrus radical de o \"nulitate absolută\" din motive mult mai de fond decât prețul: este interzis legal și complet o afacere comercială având ca fundament/obiect central tranzacționarea strictă a unor \"bunuri interzise din afara pieței libere\" - adică total \"scoase afară\" din \"circuitul civil\" protector al normelor",
+        "isCorrect": true
+      }
+    ]
+  }
+]
