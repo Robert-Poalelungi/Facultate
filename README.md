@@ -10,6 +10,7 @@ Conținutul fiecărei materii este pe un **branch** separat. Schimbă branch-ul 
 - [`CTS`](../../tree/CTS) — Calitate
 - [`PSW`](../../tree/PSW) — Pachete software
 - [`PSW`](../../tree/PSW) — Pachete software
+- [`DREPT`](../../tree/DREPT) — Dreptul Afacerilor
 <!-- BRANCHES_END -->
 
 ## Cum funcționează
