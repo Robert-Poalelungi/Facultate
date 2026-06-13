@@ -26,6 +26,7 @@ Thumbs.db
 
 # Fisiere binare mari (PDF, Office, arhive, imagini)
 *.pdf
+!Subiecte/**/*.pdf
 *.rar
 *.zip
 *.docx
