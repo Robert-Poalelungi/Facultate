@@ -1,0 +1,41 @@
+În fișierul MiscareaNatLoc.csv sunt date cu privire la mișcarea naturală a populației la nivel de
+localități. Variabilele sunt următoarele: Siruta - codul Siruta al localității; Localitate - denumirea
+localității; Casatorii - număr de căsătorii; Decedati - număr de decedați; DecedatiSub1An - număr
+de decedați sub 1 an; Divorturi - număr divorțuri; NascutiMorti - număr născuți morți; NascutiVii
+- număr născuți vii.
+În fișierul PopulatieLocalitati.csv se află populația pe localități și indicativele de județ pentru
+fiecare localitate.
+Cerințe
+1. Să se salveze în fișierul Cerinta1.csv localitățile în care numărul de total de decedați (Decedați
++ DecedatiSub1An) este mai mare decât numărul de născuți vii. Se va salva pentru fiecare
+localitate, codul Siruta, denumirea localității, total decedați și născuți vii.
+Exemplu
+Siruta,Localitate,TotalDecedati,NascutiVii
+1071,Ciugud,42,25.0
+1151,Oras Abrud,52,36.0
+...
+2. Să se salveze în fișierul Cerinta2.csv rata mortalității infantile la nivel de localitate, în ordine
+descrescătoare. Rata mortalității infantile se calculează ca număr de decedați sub un an la 1000 de
+născuți vii: DecedatiSub1An*1000/ NascutiVii. Pentru fiecare localitate se va salva codul Siruta,
+numele localității și rata mortalității infantile, în ordine descrescătoare după rata mortalității
+infantile.
+Exemplu
+Siruta,Localitate,RMI
+159614,Municipiul Tulcea,3000.0
+161035,Niculitel,3000.0
+...
+3. Să se salveze în fișierul Cerinta3.csv rata sporului natural la nivel de județ. Rata sporului natural
+este diferența dintre rata natalității (născuți vii la 1000 locuitori) și rata mortalității (decedați la
+1000 locuitori). Pentru fiecare județ se va salva indicativul de județ și rata sporului natural.
+Exemplu
+Judet,RSN
+ab,-3.898369558088592
+ag,-3.229548512830031
+...
+4. Să se calculeze și să se salveze în fișierul Cerinta4.csv pentru fiecare județ, localitățile în care
+ratele (valorile indicatorilor la 1000 locuitori) sunt cele mai mari. Pentru fiecare județ se va afișa
+indicativul de județ și numele localităților cu valorile maxime.
+Exemplu:
+Judet,Casatorii,Decedati,DecedatiSub1An,Divorturi,NascutiMorti,NascutiVii
+ab,Ciuruleasa,Ohaba,Posaga,Oras Campeni,Valea Lunga,Scarisoara
+...

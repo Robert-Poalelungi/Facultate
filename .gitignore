@@ -1,19 +1,43 @@
-# Codul de drill local
-practice/
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
 
-# Build artifacts (MSVC / VS)
-*.exe
-*.obj
-*.pdb
-*.ilk
-*.idb
-Debug/
-Release/
-x64/
-.vs/
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
 
-# Editor / OS
+# IDE
+.idea/
 .vscode/
-*.swp
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Claude internal
+.claude/
+
+# Fisiere binare mari (PDF, Office, arhive, imagini)
+*.pdf
+*.rar
+*.zip
+*.docx
+*.xlsx
+*.xls
+*.doc
+*.pptx
+*.ppt
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.exe
+*.dll
+*.pyc

@@ -1,0 +1,3182 @@
+Siruta,Localitate,Judet,NrMedici_Privat,NrMedici_Public,PersonalMediu_privat,PersonalMediu_public,MediciFamilie
+1017,Municipiul Alba Iulia,AB,89,194,246,731,62
+1071,Ciugud,AB,2,0,2,0,2
+1151,Oras Abrud,AB,4,20,18,59,4
+1213,Municipiul Aiud,AB,12,46,48,182,12
+1348,Municipiul Blaj,AB,14,55,41,150,12
+1455,Oras Campeni,AB,4,37,20,88,4
+1696,Oras Cugir,AB,10,30,20,75,10
+1794,Oras Ocna Mures,AB,8,1,21,5,8
+1874,Municipiul Sebes,AB,26,52,63,158,20
+1936,Oras Zlatna,AB,4,0,14,0,4
+2130,Albac,AB,1,0,2,0,1
+2309,Almasu Mare,AB,1,0,1,0,1
+2381,Arieseni,AB,1,0,2,0,1
+2577,Avram Iancu,AB,1,0,1,0,1
+2915,Oras Baia De Aries,AB,3,0,4,0,3
+2988,Berghin,AB,1,0,1,1,1
+3039,Bistra,AB,2,0,4,0,2
+3397,Blandiana,AB,1,0,1,0,1
+3459,Bucium,AB,1,0,2,0,1
+3761,Cenade,AB,1,0,2,0,1
+3805,Cergau,AB,1,0,1,1,1
+3841,Ceru-Bacainti,AB,0,0,1,0,0
+3958,Cetatea De Balta,AB,2,0,2,1,2
+4008,Ciuruleasa,AB,1,0,1,0,1
+4106,Calnic,AB,1,0,2,0,1
+4142,Cricau,AB,1,0,2,1,1
+4188,Craciunelu De Jos,AB,2,0,4,1,2
+4240,Daia Romana,AB,2,0,3,0,2
+4268,Dostat,AB,1,0,3,1,1
+4302,Farau,AB,1,0,2,0,1
+4366,Galda De Jos,AB,4,2,7,37,4
+4482,Garbova,AB,1,1,1,5,1
+4525,Garda De Sus,AB,1,0,2,0,1
+4703,Hoparta,AB,1,0,3,0,1
+4767,Horea,AB,1,0,2,0,1
+4927,Ighiu,AB,5,0,8,1,5
+4981,Intregalde,AB,1,0,0,0,1
+5103,Jidvei,AB,4,0,4,0,4
+5167,Livezile,AB,1,0,1,0,1
+5210,Lopadea Noua,AB,1,0,2,0,1
+5309,Lunca Muresului,AB,1,0,2,0,1
+5336,Lupsa,AB,1,0,2,1,1
+5577,Metes,AB,1,0,3,0,1
+5700,Mihalt,AB,2,0,3,0,2
+5755,Miraslau,AB,1,0,1,0,1
+5826,Mogos,AB,1,0,0,0,1
+6048,Noslac,AB,1,0,2,0,1
+6119,Ocolis,AB,0,0,0,0,0
+6164,Ohaba,AB,1,0,2,0,1
+6217,Pianu,AB,2,0,4,1,2
+6271,Poiana Vadului,AB,3,0,1,0,3
+6397,Ponor,AB,1,0,2,0,1
+6468,Posaga,AB,1,0,2,0,1
+6547,Radesti,AB,1,0,1,0,1
+6592,Rametea,AB,1,0,1,0,1
+6627,Ramet,AB,1,0,2,0,1
+6761,Rosia Montana,AB,1,0,2,1,1
+6930,Rosia De Secas,AB,1,0,0,0,1
+6976,Salciua,AB,2,0,2,0,2
+7044,Salistea,AB,1,0,2,0,1
+7099,Sasciori,AB,2,0,3,2,2
+7197,Scarisoara,AB,1,0,3,1,1
+7348,Sancel,AB,2,0,4,0,2
+7384,Santimbru,AB,2,0,3,1,2
+7446,Sohodol,AB,1,0,2,0,1
+7767,Stremt,AB,2,0,2,0,2
+7810,Sibot,AB,1,0,4,0,1
+7865,Sona,AB,2,0,2,1,2
+7945,Spring,AB,2,0,2,0,2
+8014,Sugag,AB,3,0,5,1,3
+8096,Oras Teius,AB,5,0,19,0,5
+8158,Unirea,AB,2,0,4,0,2
+8229,Vadu Motilor,AB,1,0,1,0,1
+8354,Valea Lunga,AB,2,0,3,0,2
+8425,Vidra,AB,1,0,2,1,1
+8826,Vintu De Jos,AB,2,0,3,1,2
+9019,Cut,AB,1,0,1,0,1
+9026,Bucerdea Granoasa,AB,1,0,2,0,1
+9262,Municipiul Arad,AR,292,480,842,903,157
+9280,Fantanele,AR,4,0,6,0,4
+9333,Livada,AR,3,0,5,0,3
+9360,Sofronea,AR,2,0,2,0,2
+9397,Vladimirescu,AR,10,0,10,0,7
+9459,Oras Chisineu-Cris,AR,25,1,65,1,3
+9495,Oras Curtici,AR,14,1,18,2,12
+9538,Oras Ineu,AR,30,18,33,86,11
+9574,Oras Lipova,AR,19,15,30,35,10
+9627,Oras Nadlac,AR,6,0,10,1,5
+9654,Oras Pancota,AR,6,0,11,1,4
+9690,Oras Sebis,AR,12,12,31,32,5
+9743,Almas,AR,2,0,2,0,2
+9798,Apateu,AR,2,0,3,0,2
+9832,Archis,AR,1,0,2,0,1
+9887,Bata,AR,2,0,3,0,2
+9930,Beliu,AR,1,0,2,0,1
+10006,Birchis,AR,1,3,3,10,1
+10051,Barsa,AR,1,0,2,0,1
+10104,Barzava,AR,2,0,4,0,2
+10195,Bocsig,AR,2,0,2,0,2
+10239,Brazii,AR,1,0,2,0,1
+10293,Buteni,AR,3,0,4,0,3
+10346,Carand,AR,1,0,1,0,1
+10373,Cermei,AR,2,0,2,0,2
+10417,Chisindia,AR,2,0,2,0,2
+10453,Conop,AR,3,0,4,0,3
+10514,Covasint,AR,2,0,4,0,2
+10532,Craiva,AR,2,0,2,0,2
+10649,Dezna,AR,3,4,3,30,1
+10701,Dieci,AR,1,0,1,0,1
+10765,Ususau,AR,1,0,1,0,1
+10827,Felnac,AR,4,0,5,2,3
+10872,Ghioroc,AR,5,2,10,10,3
+10916,Graniceri,AR,1,0,1,0,1
+10943,Gurahont,AR,6,1,10,14,5
+11058,Halmagiu,AR,3,0,4,0,3
+11174,Halmagel,AR,1,0,1,0,1
+11236,Hasmas,AR,1,0,1,0,1
+11307,Ignesti,AR,0,0,0,0,0
+11352,Iratosu,AR,3,0,3,0,2
+11398,Macea,AR,3,0,3,0,3
+11423,Misca,AR,2,0,3,0,2
+11478,Moneasa,AR,4,1,16,6,2
+11502,Olari,AR,1,0,1,0,1
+11539,Paulis,AR,3,0,3,2,2
+11584,Oras Pecica,AR,8,0,13,6,7
+11637,Peregu Mare,AR,1,0,3,0,1
+11664,Petris,AR,1,0,1,4,1
+11735,Pilu,AR,1,0,1,0,1
+11762,Plescuta,AR,1,0,2,0,1
+11842,Savarsin,AR,1,1,1,7,1
+11940,Secusigiu,AR,2,0,2,0,2
+11995,Seleus,AR,2,0,2,0,2
+12037,Semlac,AR,2,0,3,0,2
+12055,Sintea Mare,AR,2,0,2,0,2
+12091,Oras Santana,AR,10,0,18,2,8
+12126,Socodor,AR,3,0,5,0,2
+12144,Sagu,AR,3,0,3,0,3
+12206,Seitin,AR,2,0,2,0,2
+12224,Sepreus,AR,3,0,3,0,3
+12242,Sicula,AR,5,0,4,2,4
+12288,Silindia,AR,1,0,1,0,1
+12340,Simand,AR,3,0,3,0,3
+12368,Siria,AR,6,0,9,2,5
+12402,Sistarovat,AR,0,0,0,3,0
+12457,Taut,AR,2,0,3,0,2
+12509,Tarnova,AR,4,0,5,0,4
+12572,Varadia De Mures,AR,1,0,1,1,1
+12643,Vinga,AR,4,0,5,0,4
+12689,Varfurile,AR,2,0,2,0,2
+12778,Zabrani,AR,2,0,3,0,2
+12812,Zarand,AR,2,0,2,0,2
+12849,Zerind,AR,3,0,3,0,3
+12876,Zimandu Nou,AR,5,0,5,0,4
+12912,Dorobanti,AR,1,0,2,0,1
+12920,Frumuseni,AR,2,0,3,0,2
+12938,Zadareni,AR,1,0,1,0,1
+13169,Municipiul Pitesti,AG,423,377,616,1253,120
+13187,Bascov,AG,7,0,14,0,4
+13276,Bradu,AG,7,0,10,0,5
+13301,Oras Mioveni,AG,39,35,54,130,19
+13365,Maracineni,AG,4,0,5,0,1
+13392,Oras Stefanesti,AG,8,8,9,54,7
+13490,Municipiul Campulung,AG,68,89,100,318,24
+13524,Valea Mare Pravat,AG,3,0,4,1,2
+13622,Municipiul Curtea De Arges,AG,48,51,65,166,18
+13668,Oras Costesti,AG,11,24,25,73,6
+13757,Oras Topoloveni,AG,11,2,40,3,4
+13819,Albestii De Arges,AG,2,0,3,0,2
+13891,Albestii De Muscel,AG,1,0,1,0,1
+13935,Albota,AG,3,0,5,0,3
+13999,Aninoasa,AG,2,0,2,0,2
+14049,Arefu,AG,2,0,2,0,2
+14085,Babana,AG,2,0,3,0,2
+14165,Baiculesti,AG,2,0,3,0,2
+14272,Balilesti,AG,2,0,2,0,2
+14352,Beleti-Negresti,AG,1,0,3,0,1
+14405,Berevoesti,AG,2,0,4,0,2
+14450,Barla,AG,2,0,3,0,2
+14584,Bogati,AG,3,0,4,0,3
+14673,Boteni,AG,2,0,3,0,1
+14726,Botesti,AG,1,0,2,0,1
+14753,Bradulet,AG,2,8,2,40,2
+14851,Budeasa,AG,3,0,4,0,3
+14922,Bughea De Jos,AG,1,0,2,0,1
+14940,Buzoesti,AG,4,0,4,6,4
+15064,Caldararu,AG,1,0,1,0,1
+15108,Calinesti,AG,4,7,8,42,4
+15233,Cateasca,AG,4,0,4,0,3
+15313,Cepari,AG,3,0,3,0,2
+15402,Cetateni,AG,1,0,3,0,1
+15448,Cicanesti,AG,2,0,2,0,2
+15493,Ciofrangeni,AG,2,0,3,0,2
+15554,Ciomagesti,AG,2,0,2,0,2
+15652,Cocu,AG,1,0,2,0,1
+15741,Corbeni,AG,5,0,7,0,5
+15830,Corbi,AG,2,0,3,0,2
+15901,Cosesti,AG,5,0,6,0,3
+15983,Cotmeana,AG,1,1,1,15,1
+16132,Cuca,AG,3,0,3,0,3
+16285,Davidesti,AG,2,0,4,0,2
+16329,Dambovicioara,AG,1,0,1,0,1
+16365,Darmanesti,AG,1,0,2,0,1
+16427,Dobresti,AG,2,0,2,0,2
+16454,Domnesti,AG,7,1,10,17,2
+16472,Dragoslavele,AG,2,0,3,0,1
+16506,Draganu,AG,2,0,3,0,2
+16551,Godeni,AG,2,0,4,0,2
+16613,Harsesti,AG,1,0,2,0,1
+16659,Hartiesti,AG,4,0,3,0,1
+16739,Izvoru,AG,2,0,2,0,1
+16757,Leordeni,AG,4,7,10,22,3
+16908,Leresti,AG,4,0,7,0,4
+16944,Lunca Corbului,AG,2,0,2,0,2
+17049,Malureni,AG,3,0,3,0,3
+17101,Merisani,AG,3,0,4,1,1
+17209,Micesti,AG,3,0,3,0,2
+17254,Mihaesti,AG,3,0,3,0,3
+17334,Mioarele,AG,1,0,1,0,0
+17398,Mirosi,AG,2,0,2,0,2
+17423,Moraresti,AG,1,0,2,5,1
+17496,Mosoaia,AG,2,0,2,0,2
+17575,Mozaceni,AG,1,0,3,2,1
+17619,Musatesti,AG,2,0,4,0,2
+17726,Negrasi,AG,1,0,2,0,1
+17771,Nucsoara,AG,2,0,2,0,1
+17824,Oarja,AG,1,0,3,0,1
+17851,Pietrosani,AG,3,0,4,0,3
+17913,Poienarii De Arges,AG,1,0,1,0,1
+17968,Poienarii De Muscel,AG,3,0,4,0,3
+18028,Poiana Lacului,AG,4,0,6,0,3
+18162,Popesti,AG,2,0,2,0,2
+18242,Priboieni,AG,2,0,4,0,2
+18331,Ratesti,AG,3,0,3,0,2
+18411,Recea,AG,1,0,2,0,1
+18475,Rociu,AG,6,0,6,0,6
+18527,Rucar,AG,5,0,6,9,3
+18554,Salatrucu,AG,1,0,1,0,1
+18581,Sapata,AG,3,0,3,0,3
+18670,Schitu Golesti,AG,2,0,2,0,2
+18741,Slobozia,AG,2,0,4,0,1
+18778,Stalpeni,AG,5,0,5,0,4
+18858,Stoenesti,AG,3,0,4,0,3
+18938,Stolnici,AG,2,0,3,0,2
+19007,Suseni,AG,3,0,4,0,3
+19114,Stefan Cel Mare,AG,1,0,4,0,1
+19141,Suici,AG,3,0,3,16,3
+19212,Teiu,AG,1,0,2,0,1
+19249,Tigveni,AG,4,1,8,34,2
+19338,Titesti,AG,3,0,5,0,3
+19392,Uda,AG,2,0,3,0,2
+19560,Ungheni,AG,2,0,3,0,2
+19631,Valea Danului,AG,2,0,3,0,2
+19695,Valea Iasului,AG,2,10,4,45,2
+19793,Vedea,AG,3,7,3,39,2
+19999,Vladesti,AG,2,0,3,0,2
+20048,Raca,AG,1,0,1,0,1
+20055,Vulturesti,AG,1,0,0,12,1
+20063,Bughea De Sus,AG,2,0,2,0,2
+20297,Municipiul Bacau,BC,198,297,631,1363,97
+20313,Hemeius,BC,2,0,2,0,2
+20359,Letea Veche,BC,2,0,6,0,2
+20411,Magura,BC,2,0,7,0,2
+20466,Margineni,BC,4,0,20,0,2
+20563,Municipiul Onesti,BC,36,154,98,377,25
+20607,Gura Vaii,BC,1,0,2,2,1
+20670,Stefan Cel Mare,BC,1,0,2,0,1
+20778,Oras Buhusi,BC,7,29,60,106,7
+20821,Oras Comanesti,BC,19,34,59,120,10
+20876,Municipiul Moinesti,BC,15,120,73,169,8
+20910,Oras Slanic-Moldova,BC,4,1,6,11,2
+20965,Oras Targu Ocna,BC,8,7,26,64,5
+21007,Agas,BC,4,0,6,0,2
+21098,Ardeoani,BC,1,0,3,0,1
+21123,Asau,BC,2,0,5,0,2
+21196,Balcani,BC,2,0,3,0,2
+21249,Beresti-Bistrita,BC,1,0,2,0,1
+21338,Beresti-Tazlau,BC,2,0,5,0,2
+21418,Berzunti,BC,1,0,3,1,1
+21454,Barsanesti,BC,1,0,2,0,1
+21506,Blagesti,BC,3,0,4,1,2
+21560,Bogdanesti,BC,2,0,1,0,2
+21597,Brusturoasa,BC,1,0,1,0,1
+21668,Buhoci,BC,2,0,5,0,2
+21720,Casin,BC,1,0,1,0,1
+21757,Caiuti,BC,2,0,2,0,2
+21855,Cleja,BC,2,0,4,0,2
+21891,Colonesti,BC,1,0,1,0,1
+21971,Corbasca,BC,1,0,2,0,1
+22059,Cotofanesti,BC,1,0,2,0,1
+22111,Damienesti,BC,1,0,1,0,1
+22166,Oras Darmanesti,BC,4,1,9,32,4
+22237,Dealu Morii,BC,1,0,1,0,1
+22380,Dofteana,BC,3,0,8,0,3
+22460,Faraoani,BC,2,0,4,0,2
+22488,Filipeni,BC,1,0,1,0,1
+22576,Filipesti,BC,2,0,3,27,2
+22665,Gaiceana,BC,1,0,2,0,1
+22718,Ghimes-Faget,BC,2,0,3,0,1
+22781,Garleni,BC,3,0,5,0,3
+22834,Glavanesti,BC,1,0,1,1,1
+22898,Helegiu,BC,3,0,4,0,3
+22941,Horgesti,BC,2,0,4,0,2
+23047,Huruiesti,BC,1,0,2,0,1
+23127,Izvoru Berheciului,BC,1,0,1,0,1
+23207,Lipova,BC,1,0,2,1,1
+23289,Livezi,BC,1,0,3,0,1
+23350,Luizi-Calugara,BC,2,0,3,0,2
+23387,Magiresti,BC,1,0,1,0,1
+23449,Manastirea Casin,BC,3,0,3,0,3
+23494,Motoseni,BC,1,0,2,1,1
+23644,Negri,BC,1,0,1,0,1
+23715,Nicolae Balcescu,BC,4,0,8,0,4
+23797,Oituz,BC,3,0,12,0,3
+23868,Oncesti,BC,1,0,3,0,1
+23948,Orbeni,BC,1,0,2,0,1
+23975,Palanca,BC,2,0,2,0,2
+24034,Parava,BC,2,0,2,0,2
+24089,Parincea,BC,2,0,3,10,2
+24187,Pancesti,BC,3,0,4,0,3
+24276,Pargaresti,BC,2,0,2,1,2
+24338,Parjol,BC,3,0,2,0,3
+24427,Plopana,BC,1,0,2,1,1
+24524,Podu Turcului,BC,14,0,48,1,3
+24631,Poduri,BC,1,0,3,0,1
+24711,Racova,BC,1,0,2,0,1
+24766,Racaciuni,BC,3,1,4,51,3
+24837,Rachitoasa,BC,1,0,4,14,1
+24999,Rosiori,BC,1,0,1,0,1
+25068,Sascut,BC,4,0,7,1,4
+25148,Sanduleni,BC,1,0,1,0,1
+25228,Saucesti,BC,2,0,6,0,2
+25291,Scorteni,BC,1,0,1,2,1
+25362,Secuieni,BC,1,0,3,0,1
+25488,Solont,BC,1,0,2,0,1
+25521,Stanisesti,BC,1,0,3,0,1
+25629,Strugari,BC,1,0,1,0,1
+25692,Tamasi,BC,1,0,1,0,1
+25745,Tatarasti,BC,1,0,1,0,1
+25825,Targu Trotus,BC,1,0,7,0,1
+25861,Traian,BC,1,0,2,0,1
+25932,Ungureni,BC,1,2,2,17,1
+26029,Urechesti,BC,2,0,2,1,2
+26083,Valea Seaca,BC,1,0,3,2,1
+26118,Vultureni,BC,1,0,1,0,1
+26289,Zemes,BC,2,0,2,0,2
+26320,Sarata,BC,1,0,0,0,1
+26338,Buciumi,BC,1,0,1,0,1
+26346,Gioseni,BC,1,0,1,0,1
+26353,Odobesti,BC,1,0,1,0,1
+26361,Prajesti,BC,1,0,1,0,1
+26379,Itesti,BC,0,0,0,1,0
+26564,Municipiul Oradea,BH,410,949,615,1757,165
+26582,Sanmartin,BH,15,49,11,86,4
+26653,Santandrei,BH,4,0,4,0,4
+26699,Oras Alesd,BH,15,23,21,86,7
+26742,Astileu,BH,3,0,5,0,2
+26804,Municipiul Beius,BH,24,42,63,165,7
+26840,Oras Stei,BH,23,20,9,85,10
+26877,Municipiul Marghita,BH,31,43,73,133,13
+26920,Oras Nucet,BH,2,11,43,86,2
+26975,Municipiul Salonta,BH,30,27,27,74,11
+27007,Oras Vascau,BH,1,0,0,2,1
+27070,Abram,BH,1,0,2,0,1
+27169,Abramut,BH,1,0,4,1,1
+27212,Auseu,BH,1,0,2,1,1
+27285,Avram Iancu,BH,3,0,2,0,2
+27329,Balc,BH,1,0,5,1,1
+27383,Batar,BH,3,0,4,0,3
+27436,Biharia,BH,3,0,5,0,3
+27506,Boianu Mare,BH,1,0,2,0,1
+27560,Borod,BH,3,0,3,0,3
+27631,Bors,BH,2,0,5,0,2
+27686,Bratca,BH,6,10,4,36,4
+27757,Brusturi,BH,3,0,5,0,3
+27846,Budureasa,BH,2,0,0,1,2
+27908,Buduslau,BH,1,0,2,0,1
+27935,Bulz,BH,1,1,3,26,1
+27971,Buntesti,BH,1,0,5,0,1
+28077,Cabesti,BH,1,0,2,0,1
+28139,Capalna,BH,1,0,3,0,1
+28193,Carpinet,BH,1,0,0,0,1
+28246,Cefa,BH,2,0,5,0,2
+28335,Ceica,BH,4,0,5,0,2
+28415,Cetariu,BH,2,0,2,0,2
+28497,Cherechiu,BH,3,0,5,0,2
+28530,Chislaz,BH,2,0,4,0,2
+28610,Ciuhoi,BH,2,0,3,0,2
+28665,Ciumeghiu,BH,2,0,3,17,2
+28709,Campani,BH,3,0,6,0,3
+28763,Cociuba Mare,BH,2,0,5,0,2
+28816,Copacel,BH,1,0,2,0,1
+28889,Cristioru De Jos,BH,1,0,1,0,1
+28941,Curatele,BH,3,0,3,0,3
+29001,Curtuiseni,BH,3,0,1,0,2
+29038,Derna,BH,1,0,2,0,1
+29092,Diosig,BH,5,0,6,2,3
+29154,Dobresti,BH,3,0,5,2,3
+29243,Draganesti,BH,1,0,2,0,1
+29341,Dragesti,BH,1,0,2,0,1
+29403,Finis,BH,3,0,6,0,3
+29467,Girisu De Cris,BH,2,0,3,0,2
+29519,Hidiselu De Sus,BH,2,0,5,0,2
+29573,Holod,BH,2,0,2,0,2
+29662,Husasau De Tinca,BH,2,0,4,0,2
+29724,Ineu,BH,4,0,4,0,2
+29760,Lazuri De Beius,BH,2,0,6,0,2
+29813,Lazareni,BH,1,0,3,0,1
+29902,Lugasu De Jos,BH,1,0,4,0,1
+29948,Lunca,BH,4,0,4,0,3
+30014,Madaras,BH,2,0,2,0,2
+30069,Magesti,BH,1,0,2,0,1
+30149,Nojorid,BH,2,0,4,0,2
+30229,Olcea,BH,2,0,4,0,2
+30274,Osorhei,BH,3,0,4,0,2
+30336,Pietroasa,BH,3,0,4,0,3
+30416,Pocola,BH,2,0,4,0,2
+30470,Pomezeu,BH,1,0,2,0,1
+30568,Popesti,BH,4,1,6,34,3
+30648,Rabagani,BH,2,0,4,0,2
+30719,Remetea,BH,1,0,2,0,1
+30773,Rieni,BH,0,0,2,0,0
+30844,Rosia,BH,4,0,3,0,4
+30871,Sacadat,BH,2,0,2,0,2
+30915,Oras Sacueni,BH,11,0,0,3,5
+30988,Salacea,BH,3,0,0,0,1
+31011,Salard,BH,5,0,6,0,5
+31057,Sambata,BH,3,0,4,0,3
+31128,Sarbi,BH,1,0,2,0,1
+31208,Spinus,BH,2,0,4,0,2
+31262,Suplacu De Barcau,BH,6,0,6,1,1
+31333,Simian,BH,3,0,4,0,3
+31379,Sinteu,BH,0,0,2,0,0
+31422,Soimi,BH,1,0,2,0,1
+31510,Suncuius,BH,2,0,4,1,2
+31565,Tarcea,BH,1,0,2,0,1
+31609,Tarcaia,BH,1,0,2,0,1
+31654,Tauteu,BH,5,1,2,11,5
+31716,Tileagd,BH,4,1,4,1,4
+31789,Tinca,BH,4,0,17,47,4
+31841,Tulca,BH,2,0,2,0,2
+31878,Tetchea,BH,2,0,2,2,2
+31921,Uileacu De Beius,BH,3,0,3,0,3
+31976,Vadu Crisului,BH,4,0,2,0,2
+32027,Oras Valea Lui Mihai,BH,7,1,6,7,7
+32045,Viisoara,BH,1,0,2,0,1
+32090,Varciorog,BH,1,0,2,0,1
+32153,Tamaseu,BH,1,0,2,0,1
+32161,Paleu,BH,1,0,1,0,1
+32179,Sannicolau Roman,BH,1,0,2,0,1
+32187,Rosiori,BH,1,0,2,0,1
+32195,Gepiu,BH,1,0,3,0,1
+32201,Toboliu,BH,1,0,1,0,1
+32394,Municipiul Bistrita,BN,92,199,369,715,45
+32483,Oras Beclean,BN,15,18,30,116,7
+32544,Oras Nasaud,BN,6,29,36,116,6
+32599,Oras Sangeorz-Bai,BN,4,0,37,2,4
+32633,Bistrita Bargaului,BN,2,0,4,0,2
+32660,Branistea,BN,2,0,5,0,2
+32704,Budacu De Jos,BN,2,0,3,0,2
+32768,Budesti,BN,1,0,1,1,1
+32811,Caianu Mic,BN,2,0,3,1,2
+32884,Cetate,BN,1,0,4,1,1
+32955,Ciceu-Giurgesti,BN,1,0,2,0,1
+33015,Chiochis,BN,1,0,2,2,1
+33122,Chiuza,BN,1,0,2,1,1
+33177,Cosbuc,BN,1,0,2,0,1
+33202,Dumitra,BN,2,0,6,0,2
+33248,Feldru,BN,3,0,11,2,3
+33275,Galatii Bistritei,BN,1,0,1,0,1
+33337,Ilva Mare,BN,1,0,3,1,1
+33364,Ilva Mica,BN,1,0,3,1,1
+33382,Josenii Bargaului,BN,2,0,5,0,2
+33435,Lechinta,BN,2,0,5,2,2
+33514,Lesu,BN,1,0,2,1,1
+33541,Livezile,BN,2,0,4,1,2
+33603,Lunca Ilvei,BN,1,0,4,0,1
+33621,Maieru,BN,3,0,8,4,3
+33658,Matei,BN,1,0,1,0,1
+33729,Magura Ilvei,BN,1,0,2,0,1
+33765,Mariselu,BN,1,0,1,1,1
+33845,Micestii De Campie,BN,1,0,1,0,1
+33881,Milas,BN,1,0,1,0,1
+33952,Monor,BN,0,0,0,0,0
+33989,Nimigea,BN,3,0,6,1,3
+34075,Nuseni,BN,1,1,4,2,1
+34155,Parva,BN,1,0,2,0,1
+34173,Petru Rares,BN,2,0,6,1,2
+34235,Prundu Bargaului,BN,3,0,16,6,3
+34262,Rebra,BN,1,0,2,0,1
+34280,Rebrisoara,BN,2,0,5,0,2
+34333,Rodna,BN,2,0,6,2,2
+34360,Romuli,BN,1,0,1,0,1
+34397,Salva,BN,1,0,3,0,1
+34422,Silivasu De Campie,BN,1,0,1,0,1
+34477,Sanmihaiu De Campie,BN,1,0,2,0,1
+34547,Spermezeu,BN,1,0,1,1,1
+34618,Sant,BN,1,0,4,1,1
+34645,Sieu,BN,2,0,4,0,2
+34690,Sieu-Magherus,BN,2,0,5,0,2
+34770,Sieu-Odorhei,BN,1,0,2,1,1
+34850,Sieut,BN,1,0,4,0,1
+34903,Sintereag,BN,1,0,3,0,1
+34985,Teaca,BN,2,1,9,10,2
+35054,Telciu,BN,2,0,4,0,2
+35090,Tiha Bargaului,BN,3,0,6,0,3
+35152,Tarlisua,BN,1,0,2,1,1
+35269,Uriu,BN,1,1,3,8,1
+35312,Urmenis,BN,1,0,2,0,1
+35429,Zagra,BN,1,0,3,0,1
+35731,Municipiul Botosani,BT,99,311,423,1277,63
+35759,Curtesti,BT,2,0,6,1,2
+35839,Rachiti,BT,2,0,3,1,2
+35884,Stauceni,BT,1,0,2,0,1
+35946,Oras Darabani,BT,3,0,26,4,2
+36006,Municipiul Dorohoi,BT,17,58,42,189,13
+36060,Oras Saveni,BT,4,1,10,15,3
+36131,Albesti,BT,3,0,10,1,3
+36202,Avrameni,BT,1,0,6,1,1
+36300,Baluseni,BT,2,0,3,2,2
+36373,Braesti,BT,1,0,7,1,1
+36426,Broscauti,BT,1,0,2,1,1
+36453,Oras Bucecea,BT,1,1,8,4,1
+36499,Calarasi,BT,1,0,5,0,1
+36532,Concesti,BT,1,0,2,1,1
+36569,Copalau,BT,2,0,5,1,2
+36649,Cordareni,BT,1,0,4,1,1
+36676,Corlateni,BT,1,0,4,1,1
+36756,Corni,BT,3,0,8,0,2
+36809,Cotusca,BT,2,0,4,3,2
+36907,Cristesti,BT,2,0,6,2,2
+36952,Cristinesti,BT,1,0,3,1,1
+37011,Dersca,BT,1,1,4,8,1
+37057,Dangeni,BT,1,0,2,0,1
+37100,Dobarceni,BT,1,0,3,1,1
+37173,Draguseni,BT,0,4,3,13,0
+37217,Durnesti,BT,2,0,6,0,2
+37280,Oras Flamanzi,BT,4,1,13,14,4
+37324,Frumusica,BT,2,0,7,0,2
+37397,George Enescu,BT,1,0,2,0,1
+37459,Gorbanesti,BT,1,0,3,2,1
+37547,Havarna,BT,1,0,11,0,1
+37618,Hanesti,BT,1,0,2,1,1
+37672,Hiliseu-Horia,BT,1,0,4,1,1
+37734,Hlipiceni,BT,1,0,3,0,1
+37770,Hudesti,BT,2,0,6,3,2
+37823,Ibanesti,BT,2,0,5,1,2
+37850,Leorda,BT,1,1,4,11,1
+37912,Lunca,BT,2,0,5,1,2
+37958,Manoleasa,BT,1,0,2,0,1
+38063,Mihai Eminescu,BT,2,0,8,0,2
+38161,Mihaileni,BT,2,1,5,6,2
+38241,Mihalaseni,BT,1,0,2,1,1
+38321,Mileanca,BT,1,0,7,1,1
+38376,Mitoc,BT,1,0,2,1,1
+38456,Nicseni,BT,2,0,4,0,2
+38492,Paltinis,BT,1,0,4,1,1
+38544,Pomarla,BT,1,0,2,3,1
+38580,Prajeni,BT,1,0,3,0,1
+38633,Radauti-Prut,BT,2,0,2,1,2
+38679,Rauseni,BT,1,0,2,0,1
+38731,Ripiceni,BT,1,0,2,1,1
+38811,Roma,BT,2,0,4,1,2
+38848,Romanesti,BT,1,0,3,0,1
+38893,Santa Mare,BT,1,0,4,1,1
+38982,Suharau,BT,2,1,4,5,2
+39051,Sulita,BT,1,0,5,14,1
+39122,Sendriceni,BT,1,0,2,1,1
+39168,Oras Stefanesti,BT,3,0,5,11,3
+39220,Stiubieni,BT,1,0,2,0,1
+39266,Todireni,BT,1,0,2,1,1
+39328,Trusesti,BT,3,0,6,9,2
+39391,Tudora,BT,2,0,4,2,2
+39417,Ungureni,BT,2,0,5,1,2
+39532,Unteni,BT,1,0,2,0,1
+39612,Vaculesti,BT,1,0,2,1,1
+39658,Viisoara,BT,1,0,2,0,1
+39694,Varfu Campului,BT,1,1,4,12,1
+39738,Vladeni,BT,2,0,3,0,2
+39792,Vlasinesti,BT,1,0,2,2,1
+39836,Vorniceni,BT,2,0,3,0,2
+39872,Vorona,BT,2,2,7,3,2
+39942,Lozna,BT,1,0,2,0,1
+39959,Dimacheni,BT,0,0,0,1,0
+39967,Candesti,BT,1,0,5,0,1
+39975,Cosula,BT,1,0,3,2,1
+39983,Blandesti,BT,1,0,0,0,1
+40035,Adaseni,BT,0,0,0,4,0
+40198,Municipiul Brasov,BV,568,742,674,1454,211
+40214,Oras Ghimbav,BV,3,0,3,1,3
+40241,Municipiul Codlea,BV,17,30,16,76,15
+40278,Municipiul Fagaras,BV,26,68,24,210,26
+40303,Oras Predeal,BV,4,5,4,34,4
+40367,Oras Rasnov,BV,14,0,13,2,11
+40394,Oras Rupea,BV,6,10,6,38,4
+40438,Municipiul Sacele,BV,24,0,21,22,18
+40465,Oras Victoria,BV,5,13,5,11,3
+40492,Oras Zarnesti,BV,14,32,11,85,13
+40526,Apata,BV,0,0,0,0,0
+40544,Beclean,BV,0,0,0,0,0
+40606,Bod,BV,3,0,3,0,3
+40633,Bran,BV,5,0,5,0,3
+40688,Budila,BV,2,0,2,0,2
+40704,Bunesti,BV,1,0,1,0,1
+40768,Cata,BV,1,0,1,0,1
+40820,Cincu,BV,2,0,3,0,2
+40857,Comana,BV,1,0,1,1,1
+40900,Cristian,BV,2,0,4,5,2
+40928,Dumbravita,BV,4,0,4,0,4
+40955,Feldioara,BV,3,1,3,4,3
+40991,Fundata,BV,1,0,2,0,1
+41033,Halchiu,BV,4,0,4,0,3
+41088,Harman,BV,3,0,3,1,3
+41113,Harseni,BV,2,0,2,0,2
+41177,Hoghiz,BV,3,0,3,1,3
+41248,Homorod,BV,1,0,1,1,1
+41284,Jibert,BV,1,0,1,2,1
+41346,Lisa,BV,1,0,1,0,1
+41382,Maierus,BV,1,0,1,0,1
+41417,Mandra,BV,2,0,2,0,2
+41471,Moieciu,BV,3,0,3,0,3
+41541,Ormenis,BV,2,0,2,0,2
+41578,Parau,BV,2,0,2,1,2
+41621,Poiana Marului,BV,2,0,2,0,2
+41667,Prejmer,BV,6,0,8,0,5
+41701,Racos,BV,1,0,1,0,1
+41738,Recea,BV,2,0,2,0,2
+41818,Sercaia,BV,2,1,2,13,2
+41854,Sinca,BV,3,0,3,0,3
+41925,Sanpetru,BV,10,3,9,11,3
+41943,Soars,BV,1,0,1,0,1
+42003,Tarlungeni,BV,4,0,6,15,4
+42058,Teliu,BV,2,0,2,0,2
+42076,Ticusu,BV,0,0,0,1,0
+42101,Ucea,BV,1,0,1,0,1
+42156,Ungra,BV,1,0,1,0,1
+42183,Vama Buzaului,BV,2,0,2,0,2
+42236,Vistea,BV,2,0,2,0,2
+42307,Voila,BV,1,0,1,0,1
+42398,Vulcan,BV,2,2,2,18,2
+42449,Sinca Noua,BV,0,0,0,0,0
+42456,Crizbav,BV,0,0,0,0,0
+42464,Sambata De Sus,BV,0,0,0,0,0
+42472,Holbav,BV,0,0,0,0,0
+42480,Dragus,BV,0,0,0,0,0
+42498,Augustin,BV,0,0,0,0,0
+42682,Municipiul Braila,BR,169,270,713,1578,96
+42708,Chiscani,BR,2,0,8,0,2
+42753,Oras Faurei,BR,2,23,7,32,2
+42771,Surdila-Greci,BR,1,0,1,0,1
+42824,Baraganul,BR,1,0,3,13,1
+42842,Bertestii De Jos,BR,1,0,2,1,1
+42913,Bordei Verde,BR,1,0,2,1,1
+42968,Ciocile,BR,1,0,3,1,1
+43019,Ciresu,BR,1,0,2,1,1
+43073,Dudesti,BR,1,0,5,0,1
+43117,Frecatei,BR,1,0,1,0,1
+43180,Galbenu,BR,1,0,3,1,1
+43242,Gemenele,BR,1,0,2,0,1
+43279,Gradistea,BR,0,0,2,2,0
+43313,Gropeni,BR,1,0,4,0,1
+43331,Oras Ianca,BR,5,0,3,8,5
+43411,Oras Insuratei,BR,3,0,8,0,3
+43466,Jirlau,BR,1,0,3,1,1
+43493,Marasu,BR,1,0,2,2,1
+43563,Maxineni,BR,0,0,2,2,0
+43625,Mircea Voda,BR,1,0,3,0,1
+43652,Movila Miresii,BR,2,0,5,3,2
+43698,Racovita,BR,0,0,3,1,0
+43732,Ramnicelu,BR,1,0,3,1,1
+43787,Romanu,BR,1,0,2,0,1
+43812,Rosiori,BR,1,0,1,1,1
+43867,Salcia Tudor,BR,0,0,0,0,0
+43929,Scortaru Nou,BR,1,0,2,0,1
+43992,Silistea,BR,0,0,2,0,0
+44060,Stancuta,BR,1,0,3,1,1
+44113,Surdila-Gaiseanca,BR,1,0,3,0,1
+44140,Sutesti,BR,2,0,3,2,2
+44177,Tichilesti,BR,2,0,6,7,2
+44202,Traian,BR,0,0,6,1,0
+44257,Tudor Vladimirescu,BR,1,0,4,0,1
+44300,Tufesti,BR,2,0,7,1,2
+44328,Ulmu,BR,1,0,3,1,1
+44355,Unirea,BR,1,0,3,0,1
+44391,Vadeni,BR,1,1,3,22,1
+44435,Victoria,BR,1,0,5,0,1
+44462,Visani,BR,0,0,2,1,0
+44505,Viziru,BR,2,0,5,0,2
+44532,Zavoaia,BR,1,0,3,1,1
+44560,Cazasu,BR,2,0,2,0,2
+44818,Municipiul Buzau,BZ,127,210,556,978,70
+44845,Municipiul Ramnicu Sarat,BZ,26,67,130,304,19
+44863,Amaru,BZ,1,0,3,1,1
+44934,Balta Alba,BZ,1,0,3,0,1
+44989,Balaceanu,BZ,1,0,2,0,1
+45003,Beceni,BZ,2,0,6,4,2
+45101,Berca,BZ,5,0,23,3,5
+45245,Bisoca,BZ,1,0,2,1,1
+45334,Blajani,BZ,1,0,1,0,1
+45361,Boldu,BZ,1,0,5,0,1
+45389,Bozioru,BZ,0,0,0,1,0
+45496,Bradeanu,BZ,1,0,2,0,1
+45539,Braesti,BZ,1,0,1,0,1
+45619,Breaza,BZ,1,0,2,1,1
+45673,Buda,BZ,1,0,2,2,1
+45753,Calvini,BZ,2,0,3,3,2
+45815,C.a. Rosetti,BZ,1,0,1,0,1
+45888,Canesti,BZ,0,0,3,1,0
+45959,Catina,BZ,0,0,1,0,0
+46019,Cernatesti,BZ,2,0,5,1,2
+46108,Chiliile,BZ,0,0,0,1,0
+46180,Chiojdu,BZ,1,0,6,0,1
+46251,Cilibia,BZ,1,0,2,2,1
+46313,Cislau,BZ,2,0,5,0,2
+46377,Cochirleanca,BZ,3,0,7,1,3
+46439,Colti,BZ,0,0,1,1,0
+46484,Costesti,BZ,3,0,5,2,3
+46554,Cozieni,BZ,1,0,2,1,1
+46769,Galbinasi,BZ,2,0,5,1,2
+46803,Gheraseni,BZ,2,0,5,0,2
+46830,Ghergheasa,BZ,1,0,3,1,1
+46867,Glodeanu Sarat,BZ,1,0,4,0,1
+46910,Glodeanu-Silistea,BZ,1,0,5,0,1
+47006,Grebanu,BZ,2,0,4,0,2
+47079,Gura Teghii,BZ,1,0,2,0,1
+47159,Largu,BZ,0,0,0,0,0
+47186,Lopatari,BZ,2,0,5,0,2
+47300,Luciu,BZ,1,0,3,1,1
+47337,Magura,BZ,1,3,4,39,1
+47373,Maracineni,BZ,4,0,8,0,4
+47417,Margaritesti,BZ,1,0,1,1,1
+47453,Merei,BZ,5,2,19,13,4
+47578,Mihailesti,BZ,1,0,4,0,1
+47630,Manzalesti,BZ,1,0,1,0,1
+47774,Movila Banului,BZ,1,0,1,0,1
+47818,Murgesti,BZ,1,0,1,1,1
+47854,Naeni,BZ,0,0,1,1,0
+47916,Oras Nehoiu,BZ,7,13,15,72,5
+48021,Odaile,BZ,1,0,1,0,1
+48138,Padina,BZ,1,0,5,0,1
+48165,Pardosi,BZ,0,0,0,1,0
+48227,Panatau,BZ,1,0,1,0,1
+48325,Oras Patarlagele,BZ,4,0,31,0,3
+48487,Pietroasele,BZ,2,0,4,1,2
+48557,Parscov,BZ,4,0,10,1,3
+48682,Podgoria,BZ,1,0,1,0,1
+48744,Oras Pogoanele,BZ,4,0,10,4,3
+48771,Posta Calnau,BZ,2,0,8,1,2
+48842,Puiesti,BZ,2,0,7,0,2
+48922,Racoviteni,BZ,0,0,1,1,0
+48968,Ramnicelu,BZ,2,0,3,3,2
+49019,Robeasca,BZ,0,0,1,1,0
+49046,Rusetu,BZ,1,0,5,0,1
+49073,Sageata,BZ,3,0,5,1,3
+49153,Sahateni,BZ,2,0,3,0,2
+49206,Sapoca,BZ,2,21,3,120,2
+49233,Sarulesti,BZ,1,0,1,1,1
+49313,Scortoasa,BZ,1,0,3,1,1
+49439,Scutelnici,BZ,1,0,2,1,1
+49484,Siriu,BZ,1,0,3,0,1
+49545,Smeeni,BZ,2,6,6,27,2
+49625,Stalpu,BZ,1,0,3,6,1
+49643,Tisau,BZ,2,0,7,2,2
+49769,Topliceni,BZ,1,0,3,1,1
+49849,Tintesti,BZ,2,0,4,0,2
+49894,Ulmeni,BZ,1,0,3,1,1
+49956,Vadu Pasii,BZ,3,0,10,1,3
+50022,Valea Ramnicului,BZ,2,0,6,1,2
+50068,Valea Salciei,BZ,0,0,1,1,0
+50102,Vernesti,BZ,4,0,12,1,4
+50228,Vintila Voda,BZ,6,0,15,5,1
+50326,Viperesti,BZ,2,0,2,2,2
+50399,Valcelele,BZ,1,0,2,1,1
+50415,Zarnesti,BZ,2,0,6,1,2
+50479,Ziduri,BZ,2,0,4,0,2
+50549,Unguriu,BZ,1,11,2,84,1
+50564,Florica,BZ,1,0,1,1,1
+50790,Municipiul Resita,CS,92,183,219,763,47
+50889,Oras Anina,CS,4,1,8,12,3
+50923,Oras Baile Herculane,CS,9,1,13,12,3
+50969,Oras Bocsa,CS,14,1,29,12,8
+50987,Ocna De Fier,CS,1,0,1,0,1
+51010,Municipiul Caransebes,CS,37,67,76,227,18
+51056,Oras Moldova Noua,CS,12,14,23,63,7
+51118,Oras Oravita,CS,14,21,16,121,7
+51207,Oras Otelu Rosu,CS,12,18,45,58,7
+51243,Armenis,CS,1,0,1,0,1
+51305,Bania,CS,0,0,0,0,0
+51332,Bautar,CS,1,0,2,0,1
+51387,Berliste,CS,1,0,1,0,1
+51449,Berzasca,CS,1,0,1,0,1
+51500,Berzovia,CS,1,0,2,0,1
+51546,Bolvasnita,CS,1,0,1,0,1
+51573,Bozovici,CS,6,2,10,0,1
+51626,Brebu,CS,1,0,1,0,1
+51662,Brebu Nou,CS,0,0,0,0,0
+51699,Buchin,CS,1,0,1,0,1
+51751,Bucosnita,CS,1,0,1,0,1
+51804,Carasova,CS,1,0,1,0,1
+51840,Carbunari,CS,0,0,0,0,0
+51877,Constantin Daicoviciu,CS,1,0,2,0,1
+51948,Ciclova Romana,CS,1,0,2,0,1
+51984,Ciuchici,CS,0,0,0,0,0
+52035,Ciudanovita,CS,0,0,0,0,0
+52062,Copacele,CS,1,0,1,0,1
+52115,Cornea,CS,1,0,1,0,1
+52160,Cornereva,CS,1,0,1,0,1
+52570,Dalboset,CS,1,0,2,0,1
+52650,Doclin,CS,1,0,1,0,1
+52696,Dognecea,CS,1,0,1,0,1
+52721,Domasnea,CS,0,0,0,0,0
+52758,Ezeris,CS,1,0,1,0,1
+52785,Farliug,CS,1,0,1,0,1
+52856,Forotic,CS,1,0,1,0,1
+52909,Garnic,CS,0,0,0,0,0
+52936,Glimboca,CS,1,0,2,0,1
+52954,Goruia,CS,0,0,0,0,0
+52990,Gradinari,CS,1,0,3,0,1
+53023,Iablanita,CS,1,0,2,0,1
+53069,Lapusnicel,CS,1,0,1,0,1
+53103,Lapusnicu Mare,CS,1,0,1,0,1
+53130,Luncavita,CS,1,0,2,0,1
+53167,Lupac,CS,1,0,1,0,1
+53210,Marga,CS,0,0,0,0,0
+53247,Maureni,CS,1,0,1,0,1
+53274,Mehadia,CS,3,0,7,0,3
+53327,Mehadica,CS,0,0,0,0,0
+53345,Naidas,CS,1,0,1,0,1
+53372,Obreja,CS,1,0,1,0,1
+53425,Paltinis,CS,1,0,4,0,1
+53489,Coronini,CS,1,0,1,0,1
+53513,Pojejena,CS,1,0,1,0,1
+53577,Prigor,CS,1,0,1,0,1
+53639,Ramna,CS,1,0,1,0,1
+53675,Racasdia,CS,1,0,2,0,1
+53700,Eftimie Murgu,CS,1,0,2,0,1
+53728,Rusca Montana,CS,1,0,2,0,1
+53755,Sacu,CS,1,0,2,3,1
+53791,Sasca Montana,CS,1,0,1,0,1
+53853,Sichevita,CS,1,0,1,0,1
+54056,Slatina-Timis,CS,1,0,4,0,1
+54109,Socol,CS,1,0,1,0,1
+54163,Sopotu Nou,CS,1,0,2,0,1
+54270,Teregova,CS,1,0,2,0,1
+54305,Ticvaniu Mare,CS,1,0,1,0,1
+54350,Tarnova,CS,0,0,0,0,0
+54387,Toplet,CS,2,0,3,0,2
+54412,Turnu Ruieni,CS,2,0,3,0,2
+54485,Valiug,CS,1,0,1,0,1
+54500,Varadia,CS,1,0,1,0,1
+54537,Vermes,CS,1,0,1,0,1
+54573,Vrani,CS,0,0,0,0,0
+54617,Zavoi,CS,3,0,5,0,3
+54699,Zorlentu Mare,CS,1,0,1,0,1
+54975,Municipiul Cluj-Napoca,CJ,0,0,0,0,0
+55008,Municipiul Dej,CJ,0,0,0,0,0
+55062,Cuzdrioara,CJ,0,0,0,0,0
+55106,Jichisu De Jos,CJ,0,0,0,0,0
+55160,Mica,CJ,0,0,0,0,0
+55259,Municipiul Turda,CJ,0,0,0,0,0
+55277,Mihai Viteazu,CJ,0,0,0,0,0
+55311,Sandulesti,CJ,0,0,0,0,0
+55357,Municipiul Campia Turzii,CJ,0,0,0,0,0
+55384,Municipiul Gherla,CJ,0,0,0,0,0
+55446,Oras Huedin,CJ,0,0,0,0,0
+55473,Aghiresu,CJ,0,0,0,0,0
+55598,Aiton,CJ,0,0,0,0,0
+55623,Alunis,CJ,0,0,0,0,0
+55687,Apahida,CJ,0,0,0,0,0
+55776,Aschileu,CJ,0,0,0,0,0
+55838,Baciu,CJ,0,0,0,0,0
+55918,Baisoara,CJ,0,0,0,0,0
+56014,Belis,CJ,0,0,0,0,0
+56096,Bobalna,CJ,0,0,0,0,0
+56210,Bontida,CJ,0,0,0,0,0
+56265,Borsa,CJ,0,0,0,0,0
+56327,Buza,CJ,0,0,0,0,0
+56354,Caianu,CJ,0,0,0,0,0
+56425,Calarasi,CJ,0,0,0,0,0
+56461,Calatele,CJ,0,0,0,0,0
+56522,Camarasu,CJ,0,0,0,0,0
+56568,Capusu Mare,CJ,0,0,0,0,0
+56666,Caseiu,CJ,0,0,0,0,0
+56773,Catina,CJ,0,0,0,0,0
+56844,Ceanu Mare,CJ,0,0,0,0,0
+56988,Chinteni,CJ,0,0,0,0,0
+57083,Chiuiesti,CJ,0,0,0,0,0
+57163,Ciucea,CJ,0,0,0,0,0
+57225,Ciurila,CJ,0,0,0,0,0
+57314,Catcau,CJ,0,0,0,0,0
+57350,Cojocna,CJ,0,0,0,0,0
+57449,Cornesti,CJ,0,0,0,0,0
+57546,Dabaca,CJ,0,0,0,0,0
+57582,Feleacu,CJ,0,0,0,0,0
+57644,Fizesu Gherlii,CJ,0,0,0,0,0
+57706,Floresti,CJ,0,0,0,0,0
+57742,Frata,CJ,0,0,0,0,0
+57831,Geaca,CJ,0,0,0,0,0
+57902,Gilau,CJ,0,0,0,0,0
+57948,Garbau,CJ,0,0,0,0,0
+58008,Iara,CJ,0,0,0,0,0
+58142,Iclod,CJ,0,0,0,0,0
+58204,Izvoru Crisului,CJ,0,0,0,0,0
+58259,Jucu,CJ,0,0,0,0,0
+58311,Luna,CJ,0,0,0,0,0
+58357,Maguri-Racatau,CJ,0,0,0,0,0
+58393,Manastireni,CJ,0,0,0,0,0
+58464,Margau,CJ,0,0,0,0,0
+58534,Marisel,CJ,0,0,0,0,0
+58552,Mintiu Gherlii,CJ,0,0,0,0,0
+58623,Mociu,CJ,0,0,0,0,0
+58721,Moldovenesti,CJ,0,0,0,0,0
+58794,Palatca,CJ,0,0,0,0,0
+58856,Panticeu,CJ,0,0,0,0,0
+58918,Petrestii De Jos,CJ,0,0,0,0,0
+58990,Ploscos,CJ,0,0,0,0,0
+59041,Poieni,CJ,0,0,0,0,0
+59130,Recea-Cristur,CJ,0,0,0,0,0
+59238,Risca,CJ,0,0,0,0,0
+59283,Sacuieu,CJ,0,0,0,0,0
+59327,Savadisla,CJ,0,0,0,0,0
+59416,Sic,CJ,0,0,0,0,0
+59434,Sancraiu,CJ,0,0,0,0,0
+59498,Sanmartin,CJ,0,0,0,0,0
+59586,Sanpaul,CJ,0,0,0,0,0
+59657,Suatu,CJ,0,0,0,0,0
+59693,Tritenii De Jos,CJ,0,0,0,0,0
+59764,Tureni,CJ,0,0,0,0,0
+59826,Taga,CJ,0,0,0,0,0
+59880,Unguras,CJ,0,0,0,0,0
+59942,Vad,CJ,0,0,0,0,0
+60026,Valea Ierii,CJ,0,0,0,0,0
+60062,Viisoara,CJ,0,0,0,0,0
+60099,Vultureni,CJ,0,0,0,0,0
+60169,Negreni,CJ,0,0,0,0,0
+60419,Municipiul Constanta,CT,745,751,1570,1497,239
+60455,Oras Eforie,CT,20,18,47,100,4
+60482,Municipiul Mangalia,CT,41,80,60,259,21
+60507,Oras Navodari,CT,24,4,29,26,18
+60534,Oras Techirghiol,CT,9,23,30,167,4
+60570,Agigea,CT,4,11,10,43,4
+60598,23-Aug,CT,2,0,7,0,2
+60632,Limanu,CT,3,0,6,0,3
+60687,Oras Ovidiu,CT,42,0,53,0,7
+60721,Tuzla,CT,5,0,11,0,5
+60776,Oras Cernavoda,CT,16,19,17,59,9
+60801,Oras Harsova,CT,10,12,15,47,5
+60847,Municipiul Medgidia,CT,35,35,52,176,19
+60883,Adamclisi,CT,1,0,4,0,1
+60945,Albesti,CT,1,0,1,0,1
+61005,Aliman,CT,1,0,2,0,1
+61069,Oras Baneasa,CT,4,0,4,0,3
+61121,Castelu,CT,3,0,7,0,3
+61167,Cerchezu,CT,0,0,1,0,0
+61210,Chirnogeni,CT,2,0,6,0,2
+61256,Ciobanu,CT,1,0,3,0,1
+61283,Ciocarlia,CT,2,0,1,0,2
+61318,Cobadin,CT,7,0,12,8,7
+61372,Cogealac,CT,7,0,16,1,3
+61452,Comana,CT,1,0,5,0,1
+61513,Corbu,CT,3,0,6,0,3
+61559,Crucea,CT,2,0,3,0,2
+61620,Cumpana,CT,8,1,14,9,7
+61675,Deleni,CT,1,0,1,1,1
+61737,Dobromir,CT,1,0,1,1,1
+61808,Garliciu,CT,0,0,0,0,0
+61826,Ghindaresti,CT,2,0,2,0,2
+61871,Independenta,CT,1,0,2,0,1
+61951,Ion Corvin,CT,1,0,2,0,1
+62020,Istria,CT,2,0,4,0,2
+62057,Lipnita,CT,0,0,1,1,0
+62137,Mereni,CT,1,0,1,0,1
+62191,Mihail Kogalniceanu,CT,5,0,21,0,4
+62253,Mihai Viteazu,CT,2,0,4,0,2
+62280,Mircea Voda,CT,2,0,3,0,2
+62360,Oras Murfatlar,CT,12,0,14,2,5
+62397,Oras Negru Voda,CT,4,2,6,20,2
+62440,Nicolae Balcescu,CT,4,0,5,0,4
+62486,Oltina,CT,2,0,1,0,2
+62538,Ostrov,CT,2,0,2,1,2
+62609,Pantelimon,CT,1,0,1,0,1
+62672,Pecineaga,CT,2,0,3,0,2
+62707,Pestera,CT,1,0,2,0,1
+62761,Poarta Alba,CT,4,10,5,43,4
+62798,Rasova,CT,2,0,2,0,2
+62823,Saraiu,CT,1,0,1,0,1
+62878,Sacele,CT,2,0,1,0,2
+62903,Seimeni,CT,1,0,0,0,1
+62949,Silistea,CT,1,0,2,0,1
+62985,Targusor,CT,1,0,1,0,1
+63045,Topalu,CT,1,0,1,0,1
+63072,Topraisar,CT,3,0,4,1,3
+63125,Valu Lui Traian,CT,8,0,20,0,8
+63152,Lumina,CT,6,0,21,0,6
+63161,Dumbraveni,CT,0,0,0,0,0
+63170,Vulturu,CT,1,0,1,0,1
+63189,Tortoman,CT,1,0,1,0,1
+63198,Amzacea,CT,1,0,3,0,1
+63278,Horia,CT,1,0,0,0,1
+63286,Costinesti,CT,3,0,8,0,3
+63294,Baraganu,CT,1,0,2,0,1
+63300,Cuza Voda,CT,2,0,2,0,2
+63318,Saligny,CT,1,0,0,0,1
+63326,Gradina,CT,0,0,0,0,0
+63334,Fantanele,CT,1,0,1,0,1
+63394,Municipiul Sfantu Gheorghe,CV,71,147,195,488,33
+63447,Oras Baraolt,CV,5,17,18,90,4
+63526,Oras Covasna,CV,8,78,32,180,5
+63553,Comandau,CV,1,0,1,0,1
+63580,Oras Intorsura Buzaului,CV,7,15,9,37,5
+63633,Barcani,CV,1,0,2,0,1
+63688,Sita Buzaului,CV,2,0,3,0,2
+63740,Municipiul Targu Secuiesc,CV,21,52,48,151,12
+63777,Aita Mare,CV,1,0,1,0,1
+63802,Batani,CV,5,0,4,0,3
+63866,Belin,CV,1,0,2,0,1
+63893,Bodoc,CV,1,0,2,0,1
+63937,Borosneu Mare,CV,1,0,2,0,1
+64005,Brates,CV,1,0,1,0,1
+64041,Bradut,CV,3,0,3,0,3
+64096,Bretcu,CV,2,0,3,0,2
+64130,Catalina,CV,3,0,4,0,3
+64194,Cernat,CV,2,0,3,0,2
+64238,Chichis,CV,1,0,2,0,1
+64265,Dobarlau,CV,1,0,1,0,1
+64318,Ghelinta,CV,1,0,2,0,1
+64345,Ghidfalau,CV,1,0,2,0,1
+64390,Haghig,CV,1,0,2,1,1
+64425,Ilieni,CV,1,0,3,0,1
+64461,Lemnia,CV,0,0,1,0,0
+64504,Malnas,CV,1,0,1,0,1
+64568,Moacsa,CV,1,0,1,0,1
+64602,Ojdula,CV,0,0,1,0,0
+64639,Ozun,CV,2,0,2,0,2
+64719,Poian,CV,1,0,2,0,1
+64773,Reci,CV,1,0,2,0,1
+64826,Sanzieni,CV,2,0,3,0,2
+64871,Turia,CV,1,0,3,0,1
+64906,Valea Crisului,CV,1,0,2,0,1
+64942,Valcele,CV,3,0,3,0,2
+64997,Varghis,CV,1,0,2,0,1
+65011,Zagon,CV,2,0,2,0,2
+65048,Zabala,CV,1,0,2,0,1
+65099,Valea Mare,CV,1,0,1,0,1
+65105,Mereni,CV,0,0,0,0,0
+65113,Arcus,CV,0,0,1,0,0
+65121,Bixad,CV,1,0,2,0,1
+65139,Micfalau,CV,1,0,1,0,1
+65147,Dalnic,CV,0,0,0,0,0
+65154,Estelnic,CV,0,0,2,0,0
+65342,Municipiul Targoviste,DB,74,218,497,1186,40
+65379,Aninoasa,DB,4,0,7,0,4
+65413,Doicesti,DB,2,0,4,0,2
+65431,Razvad,DB,6,0,10,0,3
+65477,Sotanga,DB,3,0,6,0,3
+65501,Ulmi,DB,1,0,3,0,1
+65609,Oras Fieni,DB,4,0,12,0,4
+65645,Motaieni,DB,1,0,2,0,1
+65681,Oras Gaesti,DB,11,24,44,96,8
+65707,Gura Foii,DB,1,0,3,0,1
+65752,Petresti,DB,3,0,4,0,3
+65841,Municipiul Moreni,DB,9,20,48,97,9
+65869,Iedera,DB,1,0,3,0,1
+65921,Oras Pucioasa,DB,11,28,32,152,9
+66009,Branesti,DB,5,0,10,0,4
+66081,Oras Titu,DB,6,1,24,8,5
+66152,Branistea,DB,2,0,5,0,2
+66198,Baleni,DB,2,0,7,0,2
+66223,Barbuletu,DB,1,0,4,0,1
+66330,Bezdead,DB,2,0,3,0,2
+66401,Bilciuresti,DB,1,0,1,0,1
+66438,Buciumeni,DB,2,0,3,0,2
+66474,Bucsani,DB,3,0,7,17,3
+66526,Candesti,DB,1,0,2,0,1
+66580,Cobia,DB,2,0,3,0,2
+66697,Cojasca,DB,2,0,3,0,2
+66731,Comisani,DB,3,0,9,0,3
+66768,Contesti,DB,3,0,6,0,2
+66857,Corbii Mari,DB,4,0,9,0,4
+66955,Cornatelu,DB,1,0,3,0,1
+67014,Cornesti,DB,3,0,11,0,3
+67121,Costestii Din Vale,DB,1,0,2,0,1
+67167,Crangurile,DB,2,0,2,0,2
+67256,Darmanesti,DB,3,0,6,0,3
+67292,Dobra,DB,1,0,4,0,1
+67327,Dragodana,DB,3,0,8,0,3
+67407,Dragomiresti,DB,4,0,9,0,4
+67470,Finta,DB,3,0,7,0,3
+67522,Glodeni,DB,2,0,2,0,2
+67595,Gura Ocnitei,DB,3,11,6,147,3
+67648,Gura Sutii,DB,2,0,3,0,2
+67675,Hulubesti,DB,2,0,3,0,2
+67737,I. L. Caragiale,DB,1,0,5,0,1
+67773,Lucieni,DB,3,0,3,0,2
+67835,Ludesti,DB,2,0,3,0,2
+67906,Lunguletu,DB,2,0,5,0,2
+67942,Malu Cu Flori,DB,1,0,2,0,1
+68002,Manesti,DB,2,0,5,0,2
+68048,Matasaru,DB,2,0,6,0,2
+68128,Mogosani,DB,2,0,4,0,2
+68182,Moroeni,DB,3,2,4,32,3
+68253,Morteni,DB,1,0,2,0,1
+68280,Nucet,DB,2,0,6,0,2
+68324,Ocnita,DB,2,0,4,0,2
+68342,Odobesti,DB,2,0,6,0,2
+68404,Pietrosita,DB,2,0,4,0,2
+68431,Poiana,DB,1,0,3,0,1
+68468,Potlogi,DB,3,0,8,0,3
+68529,Produlesti,DB,2,0,3,0,2
+68565,Pucheni,DB,1,0,2,0,1
+68627,Oras Racari,DB,3,0,8,10,3
+68716,Runcu,DB,2,0,3,0,2
+68789,Salcioara,DB,2,0,4,0,2
+68887,Selaru,DB,1,0,2,0,1
+68921,Tatarani,DB,3,0,6,0,3
+68976,Uliesti,DB,2,0,2,0,2
+69063,Valea Lunga,DB,3,0,3,0,2
+69170,Valea Mare,DB,2,0,2,0,1
+69250,Vacaresti,DB,3,0,5,0,3
+69303,Valeni-Dambovita,DB,1,0,3,0,1
+69330,Visina,DB,2,0,2,0,2
+69394,Visinesti,DB,1,0,2,0,1
+69447,Varfuri,DB,1,0,2,0,1
+69526,Voinesti,DB,3,2,12,7,3
+69615,Vulcana-Bai,DB,0,0,3,0,0
+69900,Municipiul Craiova,DJ,791,1555,1900,2337,228
+69964,Bucovat,DJ,6,12,11,35,4
+70094,Isalnita,DJ,2,1,12,2,1
+70110,Podari,DJ,8,0,12,1,5
+70174,Simnicu De Sus,DJ,2,0,7,0,2
+70316,Municipiul Bailesti,DJ,21,30,52,84,13
+70352,Municipiul Calafat,DJ,22,37,60,179,12
+70414,Oras Filiasi,DJ,20,31,47,87,13
+70502,Oras Segarcea,DJ,6,23,22,62,5
+70520,Afumati,DJ,3,0,4,2,3
+70566,Almaj,DJ,2,0,5,0,2
+70637,Amarastii De Jos,DJ,8,0,17,10,4
+70673,Amarastii De Sus,DJ,1,0,3,2,1
+70726,Apele Vii,DJ,1,0,4,1,1
+70744,Argetoaia,DJ,3,0,7,1,2
+70879,Oras Bechet,DJ,2,4,14,21,2
+70897,Bistret,DJ,2,0,3,1,2
+70940,Barca,DJ,1,0,3,1,1
+70968,Botosesti-Paia,DJ,1,0,2,1,1
+70986,Brabova,DJ,1,1,2,6,1
+71055,Bradesti,DJ,4,0,9,1,4
+71126,Bralostita,DJ,2,0,4,1,2
+71199,Bratovoesti,DJ,2,0,5,3,2
+71260,Breasta,DJ,2,0,4,1,2
+71340,Bulzesti,DJ,1,0,7,0,1
+71457,Calopar,DJ,2,0,6,2,2
+71518,Caraula,DJ,3,0,6,2,2
+71536,Carpen,DJ,2,0,5,1,2
+71572,Castranova,DJ,2,0,3,1,2
+71607,Calarasi,DJ,1,0,4,1,1
+71634,Celaru,DJ,4,0,7,1,3
+71698,Cerat,DJ,2,0,4,0,2
+71723,Cernatesti,DJ,1,0,3,1,1
+71787,Cetate,DJ,3,1,5,15,3
+71812,Cioroiasi,DJ,1,0,2,0,1
+71858,Ciupercenii Noi,DJ,6,0,9,2,5
+71885,Cosoveni,DJ,3,0,7,0,3
+71910,Cotofenii Din Dos,DJ,3,0,4,1,3
+71956,Daneti,DJ,6,0,13,1,4
+72007,Oras Dabuleni,DJ,7,15,22,40,7
+72034,Desa,DJ,3,0,4,1,3
+72052,Diosti,DJ,2,0,5,29,2
+72098,Dobresti,DJ,2,0,3,1,2
+72150,Dragotesti,DJ,4,0,7,0,4
+72221,Dranic,DJ,2,0,4,0,2
+72276,Farcas,DJ,2,0,4,1,2
+72383,Galicea Mare,DJ,3,0,9,1,3
+72409,Ghercesti,DJ,1,0,3,0,1
+72463,Gighera,DJ,2,0,3,0,2
+72506,Giubega,DJ,1,0,3,1,1
+72533,Giurgita,DJ,3,0,5,1,3
+72579,Gangiova,DJ,1,0,5,2,1
+72604,Gogosu,DJ,1,0,1,0,1
+72640,Goicea,DJ,2,0,5,1,2
+72677,Goiesti,DJ,3,0,4,0,3
+72819,Grecesti,DJ,1,0,4,1,1
+72882,Izvoare,DJ,2,0,2,0,2
+72926,Leu,DJ,4,0,9,1,4
+72953,Lipovu,DJ,2,0,4,0,2
+72980,Macesu De Jos,DJ,1,0,2,1,1
+73013,Macesu De Sus,DJ,1,0,3,0,1
+73031,Maglavit,DJ,4,0,9,1,4
+73068,Malu Mare,DJ,2,0,10,1,2
+73102,Melinesti,DJ,3,3,8,22,3
+73246,Mischii,DJ,2,0,5,0,1
+73317,Marsani,DJ,2,0,6,1,2
+73335,Motatei,DJ,2,0,7,1,2
+73371,Murgasi,DJ,3,0,5,0,3
+73460,Negoi,DJ,1,0,2,2,1
+73503,Orodel,DJ,2,0,3,0,2
+73567,Ostroveni,DJ,3,0,6,2,3
+73594,Perisor,DJ,2,0,4,0,2
+73629,Pielesti,DJ,4,0,16,1,3
+73665,Piscu Vechi,DJ,3,0,7,2,3
+73709,Plenita,DJ,8,1,15,13,5
+73736,Poiana Mare,DJ,10,25,16,125,8
+73772,Predesti,DJ,2,0,5,2,2
+73852,Radovan,DJ,1,0,5,0,1
+73905,Rast,DJ,1,0,7,2,1
+73923,Robanesti,DJ,4,0,8,0,2
+73996,Sadova,DJ,8,1,12,10,5
+74028,Salcuta,DJ,1,0,1,0,1
+74073,Scaesti,DJ,1,0,2,0,1
+74108,Seaca De Camp,DJ,0,0,2,1,0
+74135,Seaca De Padure,DJ,1,0,2,0,1
+74171,Secu,DJ,1,0,2,1,1
+74224,Silistea Crucii,DJ,1,0,2,1,1
+74242,Sopot,DJ,3,0,3,1,3
+74322,Teasc,DJ,2,0,7,0,2
+74359,Terpezita,DJ,1,0,3,0,1
+74411,Teslui,DJ,2,0,3,0,2
+74509,Tuglui,DJ,4,0,9,0,4
+74536,Unirea,DJ,2,0,4,1,2
+74554,Urzicuta,DJ,4,0,6,2,4
+74581,Valea Stanciului,DJ,5,0,11,1,4
+74616,Vela,DJ,2,0,3,0,2
+74705,Verbita,DJ,1,0,2,1,1
+74732,Vartop,DJ,1,0,2,1,1
+74750,Varvoru De Jos,DJ,3,0,5,1,2
+74842,Catane,DJ,2,0,3,0,2
+74859,Carcea,DJ,3,0,6,0,1
+74867,Carna,DJ,1,0,2,0,1
+74875,Cotofenii Din Fata,DJ,3,0,4,1,1
+74883,Dobrotesti,DJ,1,0,4,1,1
+74891,Galiciuica,DJ,1,0,1,0,1
+74907,Ghidici,DJ,0,0,3,1,0
+74915,Ghindeni,DJ,1,0,3,0,1
+74923,Intorsura,DJ,1,0,1,0,1
+74931,Plesoi,DJ,1,0,1,0,1
+74949,Rojiste,DJ,1,0,2,0,1
+74956,Talpas,DJ,1,0,2,0,1
+75098,Municipiul Galati,GL,199,544,696,2050,152
+75114,Sendreni,GL,2,0,3,0,2
+75150,Vanatori,GL,1,0,4,0,1
+75203,Municipiul Tecuci,GL,34,37,76,210,23
+75221,Draganesti,GL,3,0,5,1,3
+75258,Munteni,GL,3,0,5,14,3
+75338,Oras Beresti,GL,1,0,2,0,1
+75356,Beresti-Meria,GL,1,0,2,1,1
+75472,Oras Targu Bujor,GL,3,17,5,46,3
+75515,Barcea,GL,3,0,5,0,3
+75542,Balabanesti,GL,0,0,2,1,0
+75613,Balasesti,GL,1,0,2,0,1
+75668,Baleni,GL,1,0,2,0,1
+75686,Baneasa,GL,1,0,2,0,1
+75711,Branistea,GL,1,0,2,0,1
+75766,Brahasesti,GL,3,0,4,2,3
+75819,Buciumeni,GL,1,0,2,0,1
+75864,Cavadinesti,GL,0,0,0,8,0
+75917,Certesti,GL,1,0,2,0,1
+75953,Corod,GL,3,0,5,3,3
+76004,Corni,GL,1,0,1,0,1
+76040,Cosmesti,GL,3,0,7,1,3
+76111,Costache Negri,GL,1,0,2,0,1
+76139,Cuca,GL,1,0,2,1,1
+76157,Cudalbi,GL,3,0,5,0,3
+76175,Draguseni,GL,2,0,4,0,2
+76255,Fartanesti,GL,2,0,4,0,2
+76282,Foltesti,GL,1,0,2,0,1
+76317,Frumusita,GL,3,0,5,0,3
+76353,Fundeni,GL,2,0,4,0,2
+76406,Ghidigeni,GL,2,0,4,1,2
+76497,Gohor,GL,1,0,1,0,1
+76558,Grivita,GL,1,0,3,0,1
+76585,Independenta,GL,3,0,5,0,2
+76601,Ivesti,GL,3,0,7,8,3
+76638,Jorasti,GL,1,0,1,0,1
+76674,Liesti,GL,4,0,8,0,4
+76692,Matca,GL,5,0,7,1,5
+76718,Mastacani,GL,2,0,4,1,2
+76745,Movileni,GL,1,0,4,0,1
+76763,Namoloasa,GL,1,0,2,0,1
+76807,Nicoresti,GL,1,0,3,0,1
+76932,Oancea,GL,0,0,2,0,0
+76969,Pechea,GL,4,0,8,7,4
+76996,Piscu,GL,2,0,4,0,2
+77028,Priponesti,GL,1,0,2,0,1
+77082,Rediu,GL,1,0,2,0,1
+77126,Scanteiesti,GL,2,0,2,0,2
+77153,Schela,GL,1,0,2,3,1
+77180,Slobozia Conachi,GL,2,0,5,0,2
+77224,Smardan,GL,2,0,4,0,2
+77260,Smulti,GL,1,0,1,0,1
+77288,Suceveni,GL,1,0,2,0,1
+77313,Tudor Vladimirescu,GL,3,0,4,0,3
+77331,Tulucesti,GL,2,0,4,0,2
+77377,Tepu,GL,1,0,2,0,1
+77402,Umbraresti,GL,3,0,3,0,3
+77475,Valea Marului,GL,2,0,2,0,2
+77509,Varlezi,GL,1,0,2,0,1
+77536,Vladesti,GL,1,0,2,0,1
+77561,Radesti,GL,1,0,1,0,1
+77579,Negrilesti,GL,1,0,1,0,1
+77587,Poiana,GL,1,0,2,0,1
+77595,Cuza Voda,GL,1,0,2,0,1
+77601,Suhurlui,GL,0,0,0,0,0
+77812,Municipiul Targu Jiu,GJ,85,249,363,732,57
+77910,Balesti,GJ,4,0,5,0,4
+78016,Dragutesti,GJ,3,0,3,2,3
+78089,Turcinesti,GJ,2,0,3,0,2
+78141,Municipiul Motru,GJ,11,39,18,105,11
+78258,Oras Novaci,GJ,3,22,8,75,3
+78329,Oras Targu Carbunesti,GJ,5,89,7,202,5
+78454,Oras Ticleni,GJ,3,0,8,0,2
+78472,Albeni,GJ,1,0,2,1,1
+78542,Alimpesti,GJ,2,0,2,0,2
+78604,Aninoasa,GJ,2,0,4,1,2
+78668,Arcani,GJ,1,0,2,1,1
+78711,Baia De Fier,GJ,2,0,4,0,2
+78748,Balanesti,GJ,1,0,1,0,1
+78828,Barbatesti,GJ,1,0,1,0,1
+78873,Bengesti-Ciocadia,GJ,2,0,2,0,2
+78926,Berlesti,GJ,1,0,2,0,1
+79004,Balteni,GJ,4,0,4,2,4
+79077,Bolbosi,GJ,2,0,4,0,2
+79157,Borascu,GJ,2,0,3,0,2
+79237,Branesti,GJ,2,0,3,0,2
+79308,Oras Bumbesti-Jiu,GJ,5,18,18,69,5
+79362,Bumbesti-Pitic,GJ,1,0,2,0,1
+79406,Bustuchin,GJ,1,0,2,2,1
+79497,Capreni,GJ,3,1,5,3,1
+79585,Catunele,GJ,2,0,2,1,2
+79656,Ciuperceni,GJ,1,0,2,0,1
+79736,Calnic,GJ,1,0,2,0,1
+79834,Crasna,GJ,3,0,3,1,3
+79932,Cruset,GJ,2,0,3,0,2
+80043,Danciulesti,GJ,1,0,3,0,1
+80123,Danesti,GJ,2,0,3,0,2
+80249,Dragotesti,GJ,1,0,3,0,1
+80285,Farcasesti,GJ,1,0,1,0,1
+80365,Glogova,GJ,1,0,2,0,1
+80427,Godinesti,GJ,1,0,1,0,1
+80506,Hurezani,GJ,1,0,1,0,1
+80560,Ionesti,GJ,1,0,2,0,1
+80613,Jupanesti,GJ,1,0,1,0,1
+80677,Lelesti,GJ,1,0,2,0,1
+80711,Licurici,GJ,2,0,2,0,2
+80766,Logresti,GJ,2,1,2,6,2
+80846,Matasari,GJ,4,1,4,4,4
+80908,Musetesti,GJ,2,0,2,0,2
+80980,Negomir,GJ,1,0,2,0,1
+81095,Pades,GJ,3,0,3,1,3
+81184,Pestisani,GJ,3,0,3,2,3
+81264,Plopsoru,GJ,2,0,3,1,2
+81380,Polovragi,GJ,2,0,3,0,2
+81415,Prigoria,GJ,2,0,3,2,2
+81497,Rosia De Amaradia,GJ,1,0,1,0,1
+81576,Runcu,GJ,2,12,3,73,2
+81656,Samarinesti,GJ,1,0,1,0,1
+81754,Sacelu,GJ,1,0,1,0,1
+81816,Saulesti,GJ,1,0,1,0,1
+81861,Scoarta,GJ,3,0,3,1,3
+81987,Schela,GJ,2,0,2,0,2
+82047,Slivilesti,GJ,2,0,3,0,2
+82136,Stanesti,GJ,2,0,2,1,2
+82243,Stejari,GJ,1,0,1,0,1
+82314,Stoina,GJ,1,0,1,0,1
+82396,Telesti,GJ,2,0,2,2,2
+82430,Oras Tismana,GJ,3,0,7,0,3
+82555,Turburea,GJ,3,0,3,4,3
+82617,Oras Turceni,GJ,5,24,14,62,3
+82680,Tantareni,GJ,3,0,3,0,3
+82733,Urdari,GJ,2,0,2,0,2
+82779,Vagiulesti,GJ,2,0,1,1,2
+82831,Vladimir,GJ,2,0,2,0,2
+82895,Oras Rovinari,GJ,8,27,22,78,8
+83133,Municipiul Odorheiu Secuiesc,HR,16,118,144,369,16
+83151,Bradesti,HR,3,0,6,0,3
+83197,Feliceni,HR,2,0,6,3,2
+83320,Municipiul Miercurea Ciuc,HR,40,172,540,777,24
+83375,Pauleni-Ciuc,HR,1,0,2,0,1
+83428,Oras Baile Tusnad,HR,3,0,17,0,1
+83464,Oras Balan,HR,1,0,9,0,1
+83491,Oras Borsec,HR,1,0,8,1,1
+83525,Oras Cristuru Secuiesc,HR,4,3,21,112,4
+83561,Municipiul Gheorgheni,HR,10,35,78,122,10
+83632,Municipiul Toplita,HR,8,29,56,112,8
+83749,Oras Vlahita,HR,3,1,19,14,3
+83785,Atid,HR,1,0,2,0,1
+83847,Avramesti,HR,1,0,3,0,1
+83936,Bilbor,HR,1,0,3,8,1
+83963,Capalnita,HR,1,0,2,0,1
+83981,Ciucsangeorgiu,HR,3,0,6,0,3
+84086,Ciumani,HR,3,0,6,0,3
+84102,Carta,HR,3,0,7,0,3
+84148,Corbu,HR,1,0,5,1,1
+84175,Corund,HR,4,0,10,0,4
+84237,Danesti,HR,2,0,7,1,2
+84264,Dealu,HR,2,0,4,0,2
+84344,Ditrau,HR,3,2,9,4,3
+84380,Darjiu,HR,1,0,0,0,1
+84415,Frumoasa,HR,2,0,6,28,2
+84460,Galautas,HR,1,0,3,1,1
+84558,Joseni,HR,2,0,9,2,2
+84594,Lazarea,HR,2,0,5,0,2
+84629,Lueta,HR,1,0,2,0,1
+84656,Lunca De Jos,HR,2,0,8,0,2
+84754,Lunca De Sus,HR,1,0,6,0,1
+84825,Lupeni,HR,4,0,8,0,4
+84923,Martinis,HR,1,0,7,0,1
+85056,Meresti,HR,1,0,3,1,1
+85074,Mihaileni,HR,1,0,3,1,1
+85127,Mugeni,HR,2,0,6,0,2
+85243,Ocland,HR,1,0,2,23,1
+85289,Plaiesii De Jos,HR,2,0,5,0,2
+85341,Praid,HR,5,0,14,0,5
+85412,Remetea,HR,3,0,11,0,3
+85467,Sacel,HR,0,0,0,0,0
+85528,Sarmas,HR,2,0,5,1,2
+85582,Secuieni,HR,1,0,4,0,1
+85626,Siculeni,HR,3,0,8,0,3
+85680,Sancraieni,HR,3,0,9,0,3
+85760,Sandominic,HR,2,0,6,0,2
+85788,Sanmartin,HR,2,0,6,0,2
+85840,Sansimion,HR,2,0,3,0,2
+85877,Subcetate,HR,1,0,3,1,1
+85920,Suseni,HR,2,0,11,0,2
+85984,Simonesti,HR,1,0,3,1,1
+86133,Tulghes,HR,2,13,3,71,2
+86188,Tusnad,HR,1,0,3,0,1
+86222,Ulies,HR,2,0,3,0,2
+86311,Varsag,HR,1,0,1,0,1
+86339,Voslabeni,HR,2,0,2,0,2
+86366,Zetea,HR,4,0,10,0,4
+86438,Madaras,HR,0,0,0,0,0
+86446,Cozmeni,HR,0,0,0,1,0
+86453,Tomesti,HR,0,0,0,0,0
+86461,Ciceu,HR,0,0,0,0,0
+86479,Leliceni,HR,0,0,0,0,0
+86487,Porumbeni,HR,0,0,0,0,0
+86495,Racu,HR,1,0,1,0,1
+86501,Satu Mare,HR,0,0,0,0,0
+86519,Santimbru,HR,0,0,0,0,0
+86687,Municipiul Deva,HD,169,225,129,630,43
+86749,Carjiti,HD,0,0,0,0,0
+86810,Municipiul Hunedoara,HD,73,122,98,368,40
+86883,Ghelari,HD,1,0,2,0,1
+86936,Teliucu Inferior,HD,2,0,2,0,2
+86990,Municipiul Petrosani,HD,40,99,48,410,21
+87059,Municipiul Lupeni,HD,19,62,20,136,13
+87077,Oras Petrila,HD,12,4,22,10,10
+87139,Oras Uricani,HD,5,0,12,15,4
+87175,Municipiul Vulcan,HD,3,29,20,86,3
+87219,Oras Aninoasa,HD,2,0,3,14,2
+87246,Banita,HD,0,0,0,0,0
+87291,Municipiul Brad,HD,13,47,29,148,12
+87362,Criscior,HD,2,0,4,0,2
+87424,Oras Calan,HD,10,7,14,18,5
+87576,Oras Hateg,HD,17,33,29,134,7
+87638,Municipiul Orastie,HD,15,30,36,138,12
+87665,Oras Simeria,HD,10,18,20,54,13
+87745,Baia De Cris,HD,2,2,4,0,2
+87843,Balsa,HD,2,0,1,0,1
+87996,Baru,HD,1,0,1,0,1
+88047,Bacia,HD,1,0,2,0,1
+88092,Baita,HD,2,0,2,0,2
+88216,Batrana,HD,0,0,0,0,0
+88261,Beriu,HD,2,0,4,0,2
+88350,Blajeni,HD,1,0,1,0,1
+88449,Bosorod,HD,1,0,1,0,1
+88546,Branisca,HD,2,0,2,10,1
+88644,Bretea Romana,HD,1,0,1,8,1
+88788,Buces,HD,1,0,1,0,1
+88868,Bucuresci,HD,1,0,1,0,1
+88920,Bulzestii De Sus,HD,1,0,0,0,0
+89026,Bunila,HD,0,0,0,0,0
+89080,Burjuc,HD,0,0,0,0,0
+89151,Cerbal,HD,0,0,0,0,0
+89240,Certeju De Sus,HD,3,0,4,0,2
+89348,Densus,HD,1,0,1,0,1
+89428,Dobra,HD,2,0,4,0,2
+89561,Oras Geoagiu,HD,5,7,6,50,2
+89687,Gurasada,HD,1,0,1,0,1
+89801,Harau,HD,1,0,2,0,1
+89856,Ilia,HD,2,0,4,0,2
+89954,Lapugiu De Jos,HD,0,0,0,0,0
+90066,Lelese,HD,0,0,0,0,0
+90119,Lunca Cernii De Jos,HD,0,0,0,0,0
+90208,Luncoiu De Jos,HD,1,0,1,0,1
+90262,Martinesti,HD,0,0,0,0,0
+90342,Orastioara De Sus,HD,1,0,2,0,1
+90431,Pestisu Mic,HD,1,0,2,0,1
+90538,Pui,HD,2,0,4,0,2
+90663,Rapoltu Mare,HD,1,0,2,0,1
+90725,Rachitova,HD,0,0,0,0,0
+90805,Ribita,HD,1,0,1,0,1
+90878,Rau De Mori,HD,1,0,1,0,1
+90994,Romos,HD,2,0,3,0,2
+91054,Sarmizegetusa,HD,1,0,1,0,1
+91116,Salasu De Sus,HD,2,0,3,0,2
+91232,Santamaria-Orlea,HD,2,0,2,0,2
+91330,Soimus,HD,2,0,2,0,2
+91447,Tomesti,HD,1,0,1,0,1
+91535,Toplita,HD,1,0,1,0,1
+91624,Totesti,HD,1,0,0,54,0
+91688,Turdas,HD,1,0,2,0,1
+91731,General Berthelot,HD,2,0,1,0,2
+91795,Vata De Jos,HD,2,0,2,0,2
+91937,Valisoara,HD,1,0,1,0,1
+91982,Vetel,HD,2,0,1,0,2
+92097,Vorta,HD,1,0,1,0,1
+92177,Zam,HD,1,8,2,50,1
+92569,Municipiul Calarasi,CL,48,105,125,606,32
+92587,Modelu,CL,3,0,6,4,3
+92658,Municipiul Slobozia,IL,37,112,144,604,29
+92701,Municipiul Fetesti,IL,15,23,70,94,14
+92765,Oras Tandarei,IL,6,22,50,10,5
+92783,Albesti,IL,1,0,2,0,1
+92836,Oras Amara,IL,9,0,37,0,3
+92872,Andrasesti,IL,1,0,2,0,1
+92907,Balaciu,IL,1,0,2,3,1
+92961,Borcea,CL,3,0,7,0,3
+92989,Bordusani,IL,2,0,4,0,2
+93021,Bucu,IL,1,0,5,0,1
+93067,Oras Cazanesti,IL,1,0,3,0,1
+93085,Ciocanesti,CL,1,0,3,8,1
+93101,Ciochina,IL,1,0,2,0,1
+93156,Ciulnita,IL,1,0,2,0,1
+93209,Cocora,IL,1,0,5,0,1
+93236,Cosambesti,IL,1,0,2,0,1
+93281,Cuza Voda,CL,2,0,4,0,2
+93325,Dichiseni,CL,1,0,1,0,1
+93370,Dor Marunt,CL,3,0,4,0,3
+93441,Dorobantu,CL,2,0,3,0,1
+93487,Dragalina,CL,4,0,6,1,4
+93539,Dragos Voda,CL,1,0,2,1,1
+93575,Facaeni,IL,2,0,4,2,2
+93600,Gheorghe Doja,IL,1,0,3,0,1
+93628,Gheorghe Lazar,IL,1,0,1,0,1
+93646,Giurgeni,IL,0,0,1,0,0
+93664,Gradistea,CL,2,0,4,0,2
+93717,Grindu,IL,1,0,2,1,1
+93735,Grivita,IL,1,0,3,0,1
+93771,Independenta,CL,1,0,2,0,1
+93815,Jegalia,CL,1,0,4,1,1
+93851,Lehliu,CL,1,8,2,28,1
+93888,Oras Lehliu Gara,CL,3,23,32,54,3
+93931,Lupsanu,CL,3,0,5,1,3
+93995,Mihail Kogalniceanu,IL,2,0,5,0,2
+94045,Milosesti,IL,1,0,3,2,1
+94081,Movila,IL,1,0,3,0,1
+94107,Munteni-Buzau,IL,2,0,6,0,2
+94125,Alexandru Odobescu,CL,1,0,2,1,1
+94161,Perieti,IL,0,0,1,0,0
+94223,Perisoru,CL,1,0,5,40,1
+94269,Reviga,IL,3,0,1,0,1
+94312,Roseti,CL,2,0,3,0,2
+94330,Salcioara,IL,0,0,0,0,0
+94376,Saveni,IL,2,0,5,0,2
+94429,Scanteia,IL,1,0,1,0,1
+94456,Sfantu Gheorghe,IL,1,0,1,0,1
+94492,Stelnica,IL,0,0,0,0,0
+94535,Suditi,IL,1,0,2,0,1
+94562,Stefan Cel Mare,CL,1,0,2,1,1
+94580,Stefan Voda,CL,1,0,1,1,1
+94606,Ulmu,CL,0,0,1,11,0
+94651,Unirea,CL,1,0,3,0,1
+94688,Valea Ciorii,IL,1,0,2,0,1
+94731,Valcelele,CL,1,0,1,0,1
+94768,Vlad Tepes,CL,2,0,5,0,2
+94795,Vladeni,IL,1,0,1,0,1
+95060,Municipiul Iasi,IS,496,2418,942,4167,210
+95088,Barnova,IS,2,0,3,0,1
+95159,Holboca,IS,3,0,4,0,2
+95239,Rediu,IS,4,0,2,0,4
+95293,Tomesti,IS,5,0,7,0,3
+95355,Oras Harlau,IS,33,15,40,31,30
+95391,Municipiul Pascani,IS,54,69,68,310,48
+95471,Oras Targu Frumos,IS,36,12,29,18,26
+95499,Ion Neculce,IS,1,0,3,0,1
+95612,Alexandru I. Cuza,IS,1,0,1,0,1
+95667,Andrieseni,IS,1,0,1,0,1
+95747,Aroneanu,IS,1,0,2,0,1
+95792,Baltati,IS,1,0,2,0,1
+95872,Belcesti,IS,3,0,5,0,1
+95943,Bivolari,IS,2,1,3,12,1
+96003,Ungheni,IS,2,0,2,0,2
+96058,Braesti,IS,2,0,2,0,1
+96110,Butea,IS,1,0,2,0,1
+96147,Ceplenita,IS,2,0,3,0,1
+96192,Ciortesti,IS,2,0,2,0,1
+96254,Ciurea,IS,4,0,4,1,1
+96334,Coarnele Caprei,IS,1,0,2,0,1
+96370,Comarna,IS,1,0,2,0,1
+96423,Costuleni,IS,1,0,2,0,1
+96478,Cotnari,IS,2,0,2,2,1
+96593,Cozmesti,IS,1,0,2,5,1
+96637,Cristesti,IS,1,0,2,1,1
+96664,Cucuteni,IS,1,0,2,0,1
+96717,Dagata,IS,1,0,2,0,1
+96815,Deleni,IS,3,1,3,14,2
+96888,Dobrovat,IS,2,0,2,0,2
+96904,Dolhesti,IS,2,0,1,0,1
+96940,Dumesti,IS,2,0,2,0,1
+97009,Erbiceni,IS,1,0,2,0,1
+97063,Focuri,IS,1,0,2,1,1
+97090,Golaiesti,IS,2,0,2,0,2
+97189,Gorban,IS,2,0,2,0,1
+97241,Grajduri,IS,1,13,2,80,1
+97321,Gropnita,IS,2,0,3,0,1
+97394,Grozesti,IS,1,0,1,0,1
+97438,Halaucesti,IS,2,0,4,2,2
+97465,Helesteni,IS,1,0,2,0,1
+97517,Horlesti,IS,1,0,2,2,1
+97553,Ipatele,IS,1,0,3,0,1
+97606,Lespezi,IS,1,0,3,0,1
+97679,Letcani,IS,1,0,2,0,1
+97722,Lungani,IS,1,0,1,0,1
+97777,Madarjac,IS,1,0,2,0,1
+97811,Mircesti,IS,2,0,4,5,1
+97875,Mironeasa,IS,2,0,2,1,2
+97919,Miroslava,IS,6,0,8,0,4
+98051,Miroslovesti,IS,3,0,4,2,3
+98113,Mogosesti,IS,1,0,3,0,1
+98168,Mogosesti-Siret,IS,1,0,3,0,1
+98202,Mosna,IS,1,0,2,0,1
+98220,Motca,IS,1,0,2,0,1
+98257,Movileni,IS,2,0,3,0,1
+98300,Oteleni,IS,2,0,2,0,2
+98337,Plugari,IS,2,0,2,0,1
+98373,Oras Podu Iloaiei,IS,22,2,15,19,17
+98435,Popesti,IS,2,0,3,0,1
+98505,Popricani,IS,2,0,1,0,2
+98603,Prisacani,IS,2,0,2,0,2
+98649,Probota,IS,1,0,1,0,1
+98685,Raducaneni,IS,6,1,6,21,3
+98738,Romanesti,IS,1,0,3,0,1
+98774,Ruginoasa,IS,1,0,2,0,1
+98827,Schitu Duca,IS,3,0,2,0,1
+98916,Scanteia,IS,1,0,2,0,1
+98998,Scobinti,IS,2,0,1,0,2
+99058,Sinesti,IS,2,0,2,0,2
+99101,Siretel,IS,2,0,2,0,2
+99165,Stolniceni-Prajescu,IS,2,0,2,0,1
+99209,Strunga,IS,2,0,3,0,2
+99290,Scheia,IS,1,0,2,0,1
+99370,Sipote,IS,2,2,2,19,1
+99441,Tansa,IS,2,0,2,1,1
+99478,Tatarusi,IS,2,0,2,2,2
+99539,Todiresti,IS,1,0,2,0,1
+99600,Trifesti,IS,2,0,2,0,1
+99673,Tibana,IS,2,0,2,0,2
+99780,Tibanesti,IS,2,0,2,6,2
+99879,Tiganasi,IS,1,0,2,0,1
+99922,Tutora,IS,2,0,1,0,2
+99968,Valea Seaca,IS,2,0,2,0,1
+100004,Victoria,IS,2,0,2,0,2
+100086,Vanatori,IS,2,0,2,0,2
+100148,Vladeni,IS,3,0,2,5,3
+100219,Voinesti,IS,2,0,2,0,2
+100273,Bals,IS,1,0,2,0,1
+100282,Costesti,IS,1,0,3,0,1
+100308,Draguseni,IS,2,0,2,0,1
+100317,Fantanele,IS,1,0,2,0,1
+100326,Harmanesti,IS,1,0,2,0,1
+100335,Rachiteni,IS,1,0,2,0,1
+100344,Roscani,IS,1,0,1,0,1
+100353,Valea Lupului,IS,1,0,14,0,1
+100362,Ciohorani,IS,1,0,1,0,1
+100521,Municipiul Giurgiu,GR,48,114,183,430,28
+100549,Slobozia,GR,1,0,1,2,1
+100576,Oras Buftea,IF,41,98,29,210,11
+100610,Municipiul Oltenita,CL,14,25,66,185,11
+100638,Mitreni,CL,2,0,6,0,2
+100683,Municipiul Urziceni,IL,17,19,54,76,9
+100709,Ciocarlia,IL,0,0,0,0,0
+100736,Manasia,IL,2,0,4,0,2
+100754,Adancata,IL,1,0,3,0,1
+100781,Adunatii-Copaceni,GR,5,4,13,20,5
+100834,Afumati,IF,7,1,4,38,3
+100852,Alexeni,IL,0,0,1,0,0
+100870,Armasesti,IL,1,0,2,0,1
+100923,Axintele,IL,1,0,1,0,1
+100969,Balotesti,IF,23,7,20,43,6
+101001,Baneasa,GR,2,0,6,0,2
+101056,Barcanesti,IL,1,0,2,0,1
+101083,Belciugatele,CL,2,0,5,0,2
+101145,Berceni,IF,2,1,4,1,2
+101163,Bolintin-Deal,GR,3,24,13,59,3
+101190,Oras Bolintin-Vale,GR,10,14,43,17,7
+101243,Brazii,IL,1,0,0,0,1
+101298,Branesti,IF,4,1,4,1,4
+101341,Brezoaele,DB,3,0,8,0,3
+101378,Bucsani,GR,1,8,2,9,1
+101458,Oras Budesti,CL,4,0,14,1,3
+101519,Bulbucata,GR,1,0,0,0,1
+101564,Butimanu,DB,2,0,1,0,2
+101617,Buturugeni,GR,1,0,3,1,1
+101662,Calugareni,GR,2,0,12,0,2
+101724,Cascioarele,CL,1,0,2,0,1
+101742,Cernica,IF,8,6,4,15,7
+101804,Chirnogi,CL,3,0,6,2,3
+101822,Chiselet,CL,1,0,1,3,1
+101840,Ciocanesti,DB,2,0,4,0,2
+101902,Ciolpani,IF,2,0,4,1,2
+101957,Ciorogarla,IF,2,0,4,1,2
+101984,Clejani,GR,2,1,2,5,2
+102035,Clinceni,IF,7,1,8,1,3
+102071,Colibasi,GR,2,0,4,0,2
+102106,Comana,GR,3,0,6,0,3
+102160,Corbeanca,IF,27,1,25,1,5
+102213,Cornetu,IF,4,0,4,1,3
+102240,Cosereni,IL,3,0,8,0,3
+102286,Crevedia,DB,3,0,7,0,3
+102348,Crevedia Mare,GR,3,0,6,0,3
+102419,Curcani,CL,3,0,7,3,3
+102446,Daia,GR,1,0,3,0,1
+102473,Dascalu,IF,1,0,0,1,1
+102525,Darasti-Ilfov,IF,1,0,0,1,1
+102543,1 Decembrie,IF,11,1,8,1,4
+102570,Domnesti,IF,4,2,6,4,3
+102605,Dragomiresti-Vale,IF,3,1,4,1,2
+102641,Dragoesti,IL,0,0,0,0,0
+102703,Dridu,IL,2,0,8,0,4
+102749,Oras Fierbinti-Targ,IL,3,0,7,0,2
+102794,Floresti-Stoenesti,GR,3,0,8,0,1
+102838,Frasinet,CL,1,0,1,0,1
+102909,Fratesti,GR,3,0,7,1,3
+102945,Frumusani,CL,2,0,3,0,2
+103014,Fundeni,CL,2,0,4,0,2
+103032,Oras Fundulea,CL,3,0,5,0,2
+103087,Gaiseni,GR,1,0,4,0,1
+103130,Ganeasa,IF,2,0,4,1,2
+103194,Gaujani,GR,1,0,2,0,1
+103238,Ghimpati,GR,3,0,5,6,3
+103283,Garbovi,IL,2,0,4,0,2
+103309,Gogosari,GR,1,0,2,1,1
+103354,Gostinu,GR,1,0,4,0,1
+103372,Gostinari,GR,1,0,1,5,1
+103407,Gradinari,GR,2,1,6,13,2
+103443,Gradistea,IF,2,0,4,1,2
+103470,Greaca,GR,1,0,2,1,1
+103513,Gruiu,IF,4,1,6,1,4
+103568,Gurbanesti,CL,1,0,1,0,1
+103639,Hotarele,GR,2,0,5,0,2
+103693,Iepuresti,GR,1,0,1,0,1
+103764,Ileana,CL,1,0,3,0,1
+103862,Ion Roata,IL,3,0,2,0,3
+103899,Izvoarele,GR,2,0,4,0,2
+103960,Jilavele,IL,2,0,5,0,2
+103997,Joita,GR,2,0,5,0,2
+104047,Letca Noua,GR,1,0,4,0,1
+104083,Luica,CL,1,0,1,0,1
+104118,Mihai Bravu,GR,1,0,2,0,1
+104136,Oras Mihailesti,GR,4,0,11,0,4
+104181,Manastirea,CL,2,0,4,2,2
+104225,Marsa,GR,1,0,1,0,1
+104243,Moara Vlasiei,IF,4,1,5,1,4
+104270,Movilita,IL,1,0,2,0,1
+104323,Nana,CL,1,0,2,0,1
+104341,Nicolae Balcescu,CL,1,0,2,0,1
+104387,Niculesti,DB,4,0,3,7,4
+104421,Nuci,IF,2,0,1,0,1
+104485,Ogrezeni,GR,2,0,6,0,2
+104519,Oinacu,GR,2,0,2,0,2
+104546,Peris,IF,16,4,8,7,4
+104582,Petrachioaia,IF,3,0,4,1,1
+104635,Plataresti,CL,1,1,4,10,1
+104680,Prundu,GR,2,0,4,0,2
+104715,Putineiu,GR,1,0,2,0,1
+104751,Radovanu,CL,3,0,3,2,2
+104788,Rasuceni,GR,0,0,0,0,0
+104831,Roata De Jos,GR,3,0,10,0,3
+104886,Sarulesti,CL,1,0,2,0,1
+104975,Schitu,GR,0,0,0,0,0
+105026,Sinesti,IL,1,0,1,0,1
+105106,Singureni,GR,1,0,3,5,1
+105142,Slobozia Moara,DB,1,0,1,0,1
+105160,Snagov,IF,5,1,4,1,4
+105222,Sohatu,CL,1,0,1,0,1
+105259,Spantov,CL,1,0,3,2,1
+105295,Stanesti,GR,1,0,2,0,1
+105348,Stoenesti,GR,1,0,4,0,0
+105384,Soldanu,CL,1,0,3,1,1
+105419,Stefanestii De Jos,IF,22,1,6,1,5
+105455,Tamadau Mare,CL,1,0,1,0,1
+105534,Tartasesti,DB,3,0,10,0,3
+105570,Tunari,IF,2,1,3,1,2
+105605,Ulmeni,CL,2,0,3,0,2
+105623,Ulmi,GR,4,0,13,0,4
+105712,Valea Argovei,CL,1,0,2,0,1
+105776,Valea Dragului,GR,1,0,4,0,1
+105794,Valea Macrisului,IL,1,0,2,0,1
+105829,Vasilati,CL,2,0,6,0,2
+105874,Varasti,GR,1,0,4,0,1
+105909,Vedea,GR,1,0,4,1,1
+105936,Vidra,IF,5,1,11,1,3
+105972,Vanatorii Mici,GR,1,5,1,37,1
+106318,Municipiul Baia Mare,MM,164,323,788,1424,75
+106363,Grosi,MM,1,0,4,0,1
+106407,Recea,MM,3,0,9,0,3
+106461,Oras Tautii-Magheraus,MM,4,0,13,0,4
+106559,Municipiul Sighetu Marmatiei,MM,29,105,165,562,21
+106620,Sarasau,MM,2,0,4,0,2
+106648,Vadu Izei,MM,1,0,2,0,1
+106684,Oras Baia Sprie,MM,9,1,52,3,8
+106746,Oras Borsa,MM,11,25,46,180,10
+106782,Oras Cavnic,MM,4,6,14,27,3
+106817,Oras Targu Lapus,MM,11,12,46,70,9
+106979,Oras Viseu De Sus,MM,9,33,75,148,6
+107001,Ardusat,MM,1,0,3,4,1
+107047,Arinis,MM,1,0,5,0,1
+107083,Asuaju De Sus,MM,1,0,1,0,1
+107118,Baita De Sub Codru,MM,1,0,3,0,1
+107154,Baiut,MM,1,0,2,1,1
+107190,Basesti,MM,1,0,2,0,1
+107234,Bicaz,MM,1,0,2,0,1
+107270,Bistra,MM,2,0,3,1,2
+107314,Barsana,MM,3,0,4,1,3
+107350,Bocicoiu Mare,MM,2,0,6,0,2
+107403,Bogdan Voda,MM,1,0,6,0,1
+107430,Boiu Mare,MM,1,0,1,0,1
+107485,Botiza,MM,1,0,3,1,1
+107519,Budesti,MM,3,0,6,1,3
+107546,Calinesti,MM,2,0,4,3,2
+107582,Cernesti,MM,2,0,5,0,2
+107662,Cicarlau,MM,2,0,5,0,2
+107715,Campulung La Tisa,MM,1,0,3,0,1
+107733,Copalnic-Manastur,MM,3,0,14,1,3
+107868,Coroieni,MM,1,0,2,1,1
+107920,Cupseni,MM,1,0,1,0,1
+107975,Desesti,MM,1,0,4,1,1
+108017,Oras Dragomiresti,MM,1,0,8,4,1
+108035,Dumbravita,MM,2,0,5,0,2
+108106,Farcasa,MM,4,0,11,0,4
+108151,Giulesti,MM,2,0,6,0,2
+108204,Ieud,MM,1,0,4,0,1
+108222,Lapus,MM,1,0,5,0,1
+108240,Leordina,MM,1,0,5,1,1
+108268,Miresu Mare,MM,3,0,7,0,3
+108348,Moisei,MM,3,0,14,0,3
+108366,Oarta De Jos,MM,1,0,1,0,1
+108400,Ocna Sugatag,MM,3,0,12,9,2
+108455,Petrova,MM,1,0,4,0,1
+108473,Poienile De Sub Munte,MM,6,1,14,22,6
+108491,Remetea Chioarului,MM,2,0,4,0,2
+108552,Remeti,MM,1,0,4,0,1
+108598,Repedea,MM,1,0,2,1,1
+108614,Rona De Jos,MM,1,0,6,0,1
+108632,Rona De Sus,MM,2,0,7,0,2
+108669,Rozavlea,MM,1,0,6,0,1
+108696,Ruscova,MM,2,0,5,1,2
+108712,Satulung,MM,3,0,8,6,3
+108794,Sacalaseni,MM,3,0,6,0,3
+108874,Sacel,MM,1,0,4,0,1
+108892,Oras Salistea De Sus,MM,2,0,10,0,2
+108918,Salsig,MM,1,0,4,6,1
+108945,Sapanta,MM,1,0,3,0,1
+108963,Oras Seini,MM,3,0,26,0,3
+109005,Stramtura,MM,2,0,9,1,2
+109041,Suciu De Sus,MM,4,0,7,0,3
+109096,Sisesti,MM,3,0,7,0,3
+109176,Oras Somcuta Mare,MM,6,0,25,1,6
+109265,Oras Ulmeni,MM,4,0,21,3,4
+109354,Valea Chioarului,MM,2,0,3,0,2
+109425,Vima Mica,MM,1,0,1,0,1
+109504,Viseu De Jos,MM,2,0,4,0,2
+109773,Municipiul Drobeta-Turnu Severin,MH,77,248,339,713,73
+109826,Simian,MH,5,1,10,11,5
+109924,Oras Baia De Arama,MH,5,15,6,41,4
+110027,Obarsia-Closani,MH,0,0,0,1,0
+110063,Municipiul Orsova,MH,12,32,14,68,10
+110116,Oras Strehaia,MH,7,2,13,19,6
+110232,Oras Vanju Mare,MH,13,0,7,10,4
+110296,Bala,MH,1,0,4,8,1
+110456,Balta,MH,0,0,0,1,0
+110535,Balacita,MH,1,0,2,3,1
+110571,Bacles,MH,1,1,2,10,1
+110688,Balvanesti,MH,1,0,1,1,1
+110740,Breznita-Motru,MH,1,0,1,1,1
+110820,Breznita-Ocol,MH,3,0,5,0,3
+110875,Brosteni,MH,2,0,4,1,2
+110946,Burila Mare,MH,2,0,4,2,2
+111006,Butoiesti,MH,2,0,4,0,2
+111097,Cazanesti,MH,1,0,2,1,1
+111220,Ciresu,MH,0,0,0,6,0
+111275,Corcova,MH,2,0,4,3,2
+111417,Corlatel,MH,1,0,2,1,1
+111444,Cujmir,MH,2,2,2,10,1
+111480,Devesel,MH,2,0,4,1,2
+111550,Darvari,MH,1,0,2,1,1
+111587,Dumbrava,MH,1,0,1,1,1
+111685,Floresti,MH,1,0,2,0,1
+111783,Garla Mare,MH,2,0,4,3,2
+111818,Godeanu,MH,0,0,0,1,0
+111863,Gogosu,MH,1,0,3,5,1
+111916,Greci,MH,1,0,1,0,1
+111989,Grozesti,MH,1,0,1,1,1
+112030,Gruia,MH,1,0,2,2,1
+112076,Hinova,MH,1,0,3,4,1
+112129,Husnicioara,MH,1,0,1,0,1
+112245,Eselnita,MH,1,0,3,1,1
+112263,Ilovat,MH,1,0,1,4,1
+112334,Ilovita,MH,0,0,0,0,0
+112370,Isverna,MH,1,0,1,1,1
+112469,Izvoru Barzii,MH,2,0,4,1,2
+112548,Jiana,MH,2,0,6,4,2
+112600,Livezile,MH,1,0,1,1,1
+112664,Malovat,MH,1,0,2,1,1
+112744,Obarsia De Camp,MH,1,0,1,1,1
+112771,Oprisor,MH,1,0,2,2,1
+112806,Padina,MH,0,0,0,1,0
+112879,Patulele,MH,2,0,4,5,2
+112904,Dubova,MH,1,0,2,1,1
+112959,Podeni,MH,0,0,0,1,0
+112995,Ponoarele,MH,1,0,1,1,1
+113153,Poroina Mare,MH,1,0,1,0,1
+113206,Pristol,MH,1,0,1,1,1
+113233,Prunisor,MH,1,0,3,1,1
+113395,Punghina,MH,1,0,1,7,1
+113466,Rogova,MH,1,0,1,1,1
+113493,Salcia,MH,2,0,4,0,2
+113518,Stangaceaua,MH,1,0,1,0,1
+113607,Svinita,MH,1,0,1,1,1
+113625,Sisesti,MH,1,0,2,3,1
+113698,Sovarna,MH,1,0,1,0,1
+113732,Tamna,MH,2,0,3,1,2
+113849,Vanatori,MH,2,0,2,2,2
+113894,Vanjulet,MH,1,1,1,13,2
+113929,Vladaia,MH,1,0,1,2,1
+113974,Voloiac,MH,1,0,1,2,1
+114060,Branistea,MH,0,0,0,1,0
+114079,Vrata,MH,0,0,0,2,0
+114319,Municipiul Targu Mures,MS,342,1475,474,2443,132
+114355,Cristesti,MS,3,0,4,1,3
+114382,Sancraiu De Mures,MS,8,0,17,0,4
+114417,Sangeorgiu De Mures,MS,1,0,18,0,1
+114453,Santana De Mures,MS,3,0,5,0,1
+114514,Municipiul Sighisoara,MS,21,48,38,176,15
+114603,Albesti,MS,2,0,2,0,2
+114710,Oras Ludus,MS,12,51,14,129,8
+114809,Municipiul Reghin,MS,25,51,52,203,22
+114854,Oras Sovata,MS,7,7,8,16,6
+114925,Municipiul Tarnaveni,MS,17,55,18,218,15
+114970,Acatari,MS,3,0,4,4,3
+115076,Adamus,MS,2,0,3,0,2
+115147,Alunis,MS,2,0,2,0,2
+115183,Apold,MS,1,0,1,0,1
+115236,Atintis,MS,1,0,2,2,1
+115307,Bahnea,MS,1,0,2,1,1
+115389,Band,MS,2,0,3,1,2
+115520,Batos,MS,2,0,2,0,2
+115575,Bagaciu,MS,1,0,1,0,1
+115600,Bala,MS,0,0,0,1,0
+115637,Balauseri,MS,3,0,2,0,3
+115708,Beica De Jos,MS,1,0,2,0,1
+115771,Bichis,MS,0,0,0,2,0
+115824,Bogata,MS,1,0,1,0,1
+115851,Breaza,MS,1,0,1,0,1
+115897,Brancovenesti,MS,2,3,2,28,2
+115959,Ceuasu De Campie,MS,8,0,21,0,3
+116046,Chetani,MS,1,0,1,3,1
+116126,Chiheru De Jos,MS,0,0,0,0,0
+116171,Coroisanmartin,MS,1,0,1,0,1
+116224,Cozma,MS,0,0,0,1,0
+116288,Craciunesti,MS,2,0,4,0,2
+116340,Craiesti,MS,1,0,1,0,1
+116395,Cucerdea,MS,1,0,1,1,1
+116439,Cuci,MS,1,0,1,0,1
+116493,Danes,MS,3,0,5,0,3
+116545,Deda,MS,2,1,4,10,2
+116590,Eremitu,MS,2,1,5,7,2
+116652,Ernei,MS,3,0,4,1,3
+116723,Faragau,MS,1,0,1,2,1
+116796,Fantanele,MS,4,0,4,0,3
+116867,Galesti,MS,1,0,1,0,1
+116938,Ganesti,MS,2,0,3,0,2
+116983,Gheorghe Doja,MS,1,0,1,0,1
+117042,Ghindari,MS,0,0,1,0,0
+117113,Glodeni,MS,2,1,3,9,2
+117177,Gornesti,MS,4,1,6,5,4
+117275,Grebenisu De Campie,MS,1,0,1,1,1
+117319,Gurghiu,MS,4,0,2,2,3
+117426,Hodac,MS,2,0,1,2,2
+117505,Hodosa,MS,0,0,0,0,0
+117550,Ibanesti,MS,1,0,1,0,1
+117667,Iclanzel,MS,2,0,1,5,2
+117783,Ideciu De Jos,MS,1,0,1,5,1
+117827,Oras Iernut,MS,5,0,7,3,5
+117925,Livezeni,MS,1,0,3,0,1
+117998,Lunca,MS,1,1,1,7,1
+118058,Lunca Bradului,MS,1,0,1,0,1
+118094,Magherani,MS,1,0,3,0,1
+118209,Mica,MS,2,0,2,0,2
+118281,Oras Miercurea Nirajului,MS,4,0,5,2,4
+118370,Mihesu De Campie,MS,2,0,2,1,2
+118469,Nades,MS,1,0,1,0,1
+118511,Neaua,MS,1,0,1,0,1
+118575,Ogra,MS,2,0,3,1,2
+118637,Papiu Ilarian,MS,1,0,1,0,1
+118691,Panet,MS,3,0,3,0,3
+118753,Pasareni,MS,4,0,4,0,2
+118799,Petelea,MS,1,0,1,0,1
+118824,Pogaceaua,MS,1,0,1,2,1
+118931,Rastolita,MS,1,0,1,1,1
+118995,Raciu,MS,2,0,2,0,2
+119153,Rusii-Munti,MS,1,0,1,1,1
+119206,Saschiz,MS,1,0,3,2,1
+119242,Oras Sarmasu,MS,4,0,4,2,4
+119331,Oras Sangeorgiu De Padure,MS,3,5,4,19,3
+119386,Sanger,MS,2,0,1,0,2
+119466,Sanpaul,MS,3,0,5,0,2
+119527,Sanpetru De Campie,MS,3,0,3,1,3
+119590,Solovastru,MS,1,0,1,0,1
+119625,Stanceni,MS,1,0,1,1,1
+119661,Suplac,MS,1,0,1,1,1
+119723,Suseni,MS,0,0,1,2,0
+119750,Saulia,MS,1,0,1,0,1
+119803,Sincai,MS,1,0,1,0,1
+119858,Taureni,MS,2,0,0,0,2
+119894,Oras Ungheni,MS,4,0,4,0,4
+119974,Valea Larga,MS,3,0,2,1,3
+120076,Vargata,MS,1,0,2,1,1
+120138,Vatava,MS,1,0,1,1,1
+120174,Vetca,MS,1,0,1,0,1
+120218,Viisoara,MS,1,0,1,1,1
+120254,Vanatori,MS,1,0,3,0,1
+120316,Voivodeni,MS,0,0,1,0,0
+120343,Zagar,MS,2,0,0,0,2
+120370,Zau De Campie,MS,0,0,2,0,0
+120478,Chibed,MS,0,0,0,0,0
+120487,Corunca,MS,2,0,3,0,2
+120496,Sarateni,MS,7,0,1,0,7
+120502,Madaras,MS,0,0,0,0,0
+120511,Bereni,MS,0,0,0,0,0
+120726,Municipiul Piatra-Neamt,NT,141,226,263,1017,56
+120771,Dumbrava Rosie,NT,4,0,4,3,4
+120824,Savinesti,NT,1,0,1,2,1
+120860,Municipiul Roman,NT,71,100,341,620,34
+120888,Cordun,NT,1,0,4,4,1
+120922,Horia,NT,1,0,3,5,1
+120968,Oras Bicaz,NT,13,5,50,60,8
+121055,Oras Targu Neamt,NT,25,45,99,77,13
+121108,Agapia,NT,1,0,1,2,1
+121153,Bahna,NT,2,0,2,2,2
+121242,Baltatesti,NT,1,2,3,3,1
+121297,Bicaz-Chei,NT,2,0,40,1,2
+121340,Bicazu Ardelean,NT,2,0,2,3,2
+121386,Bira,NT,1,0,1,1,1
+121466,Bargauani,NT,2,0,12,2,2
+121607,Bodesti,NT,2,0,17,2,2
+121652,Borca,NT,2,0,3,7,2
+121732,Borlesti,NT,3,0,13,0,3
+121796,Botesti,NT,1,3,10,2,1
+121876,Bozieni,NT,1,0,1,2,1
+121938,Brusturi,NT,1,0,1,2,1
+122025,Ceahlau,NT,2,0,1,4,1
+122061,Candesti,NT,2,0,2,1,2
+122132,Costisa,NT,1,0,1,2,1
+122187,Cracaoani,NT,2,0,2,3,1
+122249,Damuc,NT,2,0,2,1,2
+122285,Dobreni,NT,1,0,2,1,1
+122347,Doljesti,NT,2,0,2,1,2
+122392,Dragomiresti,NT,1,0,1,2,1
+122463,Dulcesti,NT,2,2,12,3,2
+122551,Farcasa,NT,1,0,1,2,1
+122613,Faurei,NT,1,0,1,0,1
+122668,Gheraesti,NT,3,0,1,2,3
+122702,Girov,NT,2,0,1,2,2
+122828,Garcina,NT,3,0,3,3,3
+122864,Grinties,NT,1,0,1,2,1
+122908,Grumazesti,NT,2,0,2,1,2
+122953,Hangu,NT,2,0,1,2,2
+123013,Icusesti,NT,2,0,2,2,2
+123102,Ion Creanga,NT,2,0,2,3,2
+123175,Margineni,NT,2,0,2,1,2
+123228,Moldoveni,NT,1,0,2,1,1
+123255,Oniceni,NT,1,0,1,2,1
+123371,Pastraveni,NT,2,0,1,2,2
+123424,Petricani,NT,3,0,3,2,3
+123479,Piatra Soimului,NT,6,0,1,5,5
+123521,Pipirig,NT,3,0,1,7,3
+123601,Pangarati,NT,4,0,2,2,3
+123674,Podoleni,NT,3,0,1,2,3
+123709,Poienari,NT,1,0,1,1,1
+123790,Poiana Teiului,NT,3,0,3,2,2
+123914,Raucesti,NT,3,0,3,1,3
+123969,Razboieni,NT,1,2,16,2,1
+124028,Rediu,NT,2,0,1,3,2
+124073,Romani,NT,2,0,2,2,2
+124117,Oras Roznov,NT,10,0,3,39,6
+124153,Sagna,NT,2,0,2,3,2
+124206,Sabaoani,NT,3,0,3,6,3
+124233,Secuieni,NT,2,0,2,2,2
+124331,Stanita,NT,1,0,1,1,1
+124411,Stefan Cel Mare,NT,2,0,1,1,2
+124493,Tarcau,NT,1,0,1,1,1
+124563,Tasca,NT,2,0,2,1,2
+124616,Tazlau,NT,1,0,1,2,1
+124634,Tamaseni,NT,3,0,3,4,3
+124661,Timisesti,NT,2,0,2,0,2
+124723,Trifesti,NT,2,0,2,2,2
+124750,Tupilati,NT,1,0,1,2,1
+124803,Tibucani,NT,2,0,2,5,2
+124849,Urecheni,NT,3,0,2,1,3
+124885,Valea Ursului,NT,2,0,2,2,2
+124938,Alexandru Cel Bun,NT,1,20,13,72,1
+125016,Vanatori-Neamt,NT,4,0,8,3,4
+125061,Zanesti,NT,4,0,1,4,2
+125098,Dochia,NT,1,0,1,0,1
+125105,Ruginoasa,NT,1,0,1,1,1
+125114,Ghindaoani,NT,1,0,1,1,1
+125123,Valeni,NT,1,0,1,1,1
+125132,Draganesti,NT,1,0,1,1,1
+125141,Pancesti,NT,1,0,1,2,1
+125150,Gadinti,NT,1,0,1,2,1
+125169,Negresti,NT,1,0,1,1,1
+125178,Boghicea,NT,1,0,1,1,1
+125347,Municipiul Slatina,OT,50,251,145,1221,51
+125374,Slatioara,OT,1,0,2,2,1
+125418,Oras Bals,OT,13,29,21,117,13
+125472,Municipiul Caracal,OT,19,95,47,378,19
+125490,Draghiceni,OT,1,0,2,0,1
+125542,Oras Corabia,OT,9,55,18,114,9
+125588,Garcov,OT,1,0,2,1,1
+125622,Oras Draganesti-Olt,OT,6,1,8,10,6
+125659,Babiciu,OT,2,0,2,3,1
+125677,Baldovinesti,OT,1,0,2,0,1
+125757,Barasti,OT,1,0,1,0,1
+125846,Barza,OT,1,0,2,1,1
+125873,Bobicesti,OT,2,0,2,0,2
+125962,Brastavatu,OT,2,0,2,1,2
+125999,Brebeni,OT,1,0,1,1,1
+126022,Brancoveni,OT,2,0,2,2,2
+126077,Bucinisu,OT,1,0,2,0,1
+126102,Cezieni,OT,2,0,2,15,2
+126148,Cilieni,OT,2,0,2,1,2
+126166,Carlogani,OT,1,0,2,0,1
+126228,Colonesti,OT,1,0,3,1,1
+126326,Corbu,OT,2,0,3,1,2
+126380,Coteana,OT,1,0,2,1,1
+126406,Crampoia,OT,1,0,1,0,1
+126433,Curtisoara,OT,2,0,3,0,2
+126503,Cungrea,OT,2,0,3,1,2
+126585,Daneasa,OT,2,0,2,1,2
+126647,Deveselu,OT,2,0,4,2,2
+126674,Dobretu,OT,1,0,2,0,1
+126718,Dobrosloveni,OT,1,0,2,1,1
+126772,Dobroteasa,OT,1,0,1,0,1
+126825,Dobrun,OT,1,0,1,1,1
+126905,Fagetelu,OT,1,0,2,0,1
+126978,Falcoiu,OT,2,0,3,7,2
+127019,Farcasele,OT,2,0,2,0,2
+127064,Ganeasa,OT,2,0,3,1,2
+127126,Giuvarasti,OT,1,0,1,0,1
+127144,Gostavatu,OT,1,0,1,0,1
+127171,Gradinari,OT,1,0,1,3,1
+127224,Grojdibodu,OT,2,0,3,1,2
+127251,Ianca,OT,2,0,2,1,2
+127288,Iancu Jianu,OT,2,0,2,1,2
+127322,Icoana,OT,1,0,2,1,1
+127368,Izbiceni,OT,2,0,3,1,2
+127386,Izvoarele,OT,1,0,2,1,1
+127411,Leleasca,OT,1,0,1,0,1
+127493,Maruntei,OT,2,0,3,0,2
+127536,Mihaesti,OT,0,0,0,1,0
+127563,Milcov,OT,1,0,2,1,1
+127625,Morunglav,OT,3,0,3,1,3
+127689,Movileni,OT,2,0,2,1,2
+127714,Nicolae Titulescu,OT,1,0,1,0,1
+127750,Obarsia,OT,1,0,3,1,1
+127812,Oboga,OT,1,0,2,2,1
+127858,Oporelu,OT,1,0,1,1,1
+127901,Optasi-Magura,OT,1,0,0,1,1
+127938,Orlea,OT,1,0,2,1,1
+127983,Osica De Sus,OT,3,0,3,2,3
+128052,Perieti,OT,2,0,2,0,2
+128105,Oras Piatra-Olt,OT,4,1,4,4,4
+128178,Parscoveni,OT,2,0,2,1,2
+128221,Plesoiu,OT,2,0,2,2,2
+128301,Poboru,OT,1,0,2,0,1
+128374,Oras Potcoava,OT,3,0,3,2,3
+128436,Priseaca,OT,1,0,1,0,1
+128472,Radomiresti,OT,1,0,2,0,1
+128524,Redea,OT,2,0,3,0,2
+128560,Rotunda,OT,1,0,2,1,1
+128588,Rusanesti,OT,2,0,4,1,2
+128613,Scarisoara,OT,2,0,2,1,2
+128659,Schitu,OT,2,5,2,41,2
+128711,Oras Scornicesti,OT,5,13,7,40,5
+128864,Seaca,OT,2,0,2,1,2
+128882,Samburesti,OT,1,0,1,0,1
+128962,Spineni,OT,1,0,1,12,1
+129040,Sprancenata,OT,1,0,1,1,1
+129095,Stoenesti,OT,1,0,1,0,1
+129111,Stoicanesti,OT,1,0,1,1,1
+129139,Strejesti,OT,1,0,1,1,1
+129184,Studina,OT,1,0,2,0,1
+129246,Serbanesti,OT,1,0,2,1,1
+129282,Stefan Cel Mare,OT,1,0,1,1,1
+129317,Tatulesti,OT,1,0,1,0,1
+129380,Teslui,OT,1,0,2,1,1
+129460,Tia Mare,OT,1,0,1,1,1
+129503,Topana,OT,1,0,1,0,1
+129567,Traian,OT,1,0,2,1,1
+129585,Tufeni,OT,2,0,2,1,2
+129629,Urzica,OT,1,0,1,1,1
+129656,Valea Mare,OT,2,0,2,0,2
+129718,Vadastra,OT,2,0,1,0,2
+129745,Vadastrita,OT,2,0,2,1,2
+129763,Valeni,OT,1,0,1,1,1
+129816,Verguleasa,OT,2,0,2,0,2
+129898,Visina,OT,2,0,2,1,2
+129914,Vitomiresti,OT,1,0,1,1,1
+129987,Valcele,OT,2,0,1,1,2
+130026,Vladila,OT,2,0,3,1,2
+130062,Voineasa,OT,1,0,1,0,1
+130124,Vulpeni,OT,2,0,2,0,2
+130231,Vulturesti,OT,2,0,2,0,2
+130286,Balteni,OT,1,0,1,0,1
+130295,Calui,OT,1,0,1,0,1
+130302,Gavanesti,OT,1,0,1,0,1
+130311,Ghimpeteni,OT,1,0,2,1,1
+130320,Gradinile,OT,1,0,1,1,1
+130339,Gura Padinii,OT,1,0,1,1,1
+130348,Ipotesti,OT,1,0,2,0,1
+130357,Osica De Jos,OT,1,0,1,0,1
+130366,Sarbii - Magura,OT,1,0,1,1,1
+130375,Visina Noua,OT,1,0,1,1,1
+130384,Soparlita,OT,1,1,1,9,1
+130534,Municipiul Ploiesti,PH,175,389,1012,1953,132
+130552,Barcanesti,PH,5,0,8,0,5
+130614,Berceni,PH,2,0,5,0,2
+130678,Blejoi,PH,4,0,15,0,4
+130712,Brazi,PH,9,0,14,0,4
+130785,Bucov,PH,4,0,11,0,4
+130847,Paulesti,PH,6,0,22,0,3
+130892,Targsoru Vechi,PH,3,0,8,0,3
+130954,Oras Azuga,PH,3,19,18,52,3
+130981,Oras Baicoi,PH,11,15,28,58,11
+131069,Oras Boldesti-Scaeni,PH,6,2,27,13,6
+131103,Oras Breaza,PH,11,7,30,31,9
+131210,Oras Busteni,PH,5,16,26,33,5
+131256,Municipiul Campina,PH,33,103,160,444,29
+131274,Poiana Campina,PH,7,0,33,0,2
+131336,Oras Comarnic,PH,5,0,12,0,5
+131407,Oras Mizil,PH,4,13,27,44,5
+131443,Oras Plopeni,PH,11,0,63,5,4
+131461,Dumbravesti,PH,1,0,4,0,1
+131540,Oras Sinaia,PH,7,30,34,80,7
+131577,Oras Slanic,PH,2,0,14,1,2
+131620,Oras Urlati,PH,4,8,15,76,6
+131817,Oras Valenii De Munte,PH,6,20,51,107,9
+131835,Gura Vitioarei,PH,2,0,5,0,2
+131899,Adunati,PH,1,0,5,0,1
+131933,Albesti-Paleologu,PH,2,0,6,0,2
+131988,Alunis,PH,1,0,4,0,1
+132011,Apostolache,PH,1,0,4,0,1
+132075,Aricestii Rahtivani,PH,5,1,18,23,5
+132137,Aricestii Zeletin,PH,1,0,2,0,1
+132164,Baba Ana,PH,2,0,3,1,2
+132226,Balta Doamnei,PH,1,0,3,0,1
+132271,Baltesti,PH,1,0,3,0,1
+132315,Banesti,PH,3,0,8,0,3
+132342,Bertea,PH,2,0,3,0,2
+132379,Boldesti-Gradistea,PH,1,0,2,0,1
+132404,Brebu,PH,4,0,10,0,4
+132459,Calugareni,PH,1,0,1,0,1
+132486,Carbunesti,PH,1,0,1,0,1
+132510,Ceptura,PH,2,0,5,0,2
+132574,Cerasu,PH,2,0,4,0,2
+132645,Chiojdeanca,PH,1,0,1,0,1
+132681,Ciorani,PH,3,0,9,0,3
+132716,Cocorastii Mislii,PH,3,0,4,0,3
+132752,Colceag,PH,2,0,4,0,2
+132805,Cornu,PH,2,0,4,0,2
+132841,Cosminele,PH,0,0,0,0,0
+132896,Drajna,PH,3,8,9,34,3
+133018,Draganesti,PH,4,0,5,0,4
+133090,Dumbrava,PH,2,0,4,0,2
+133161,Filipestii De Padure,PH,5,0,17,0,5
+133214,Filipestii De Targ,PH,3,0,8,5,3
+133278,Fantanele,PH,1,0,4,2,1
+133330,Floresti,PH,3,8,8,48,3
+133394,Fulga,PH,3,0,5,0,3
+133429,Gherghita,PH,1,0,3,0,1
+133508,Gorgota,PH,5,0,9,0,5
+133562,Gornet,PH,2,0,5,0,2
+133615,Gornet-Cricov,PH,1,0,3,0,1
+133688,Gura Vadului,PH,1,0,1,0,1
+133722,Iordacheanu,PH,2,0,4,0,2
+133795,Izvoarele,PH,3,0,7,0,3
+133866,Jugureni,PH,1,0,1,0,1
+133919,Lapos,PH,0,0,1,0,0
+133964,Lipanesti,PH,2,0,3,0,2
+134014,Magurele,PH,1,0,5,0,1
+134050,Magureni,PH,2,0,10,0,2
+134096,Maneciu,PH,7,0,13,0,7
+134194,Manesti,PH,2,0,4,0,2
+134336,Pacureti,PH,1,0,1,0,1
+134390,Plopu,PH,1,0,3,0,1
+134443,Podenii Noi,PH,2,0,4,0,2
+134559,Poienarii Burchii,PH,3,1,4,4,3
+134648,Posesti,PH,1,0,2,0,1
+134755,Predeal-Sarari,PH,1,0,2,0,1
+134853,Provita De Jos,PH,1,0,3,0,1
+134899,Provita De Sus,PH,1,0,2,0,1
+134942,Puchenii Mari,PH,3,0,6,5,3
+135020,Rafov,PH,2,0,4,0,2
+135128,Salcia,PH,0,0,1,0,0
+135146,Salciile,PH,1,0,2,0,1
+135164,Scorteni,PH,3,3,5,14,3
+135226,Secaria,PH,1,0,3,0,1
+135244,Sangeru,PH,1,0,3,0,1
+135315,Starchiojd,PH,0,0,4,0,0
+135404,Surani,PH,1,0,3,0,1
+135431,Sirna,PH,2,0,3,0,2
+135501,Soimari,PH,1,0,3,0,1
+135547,Sotrile,PH,1,0,4,0,1
+135618,Stefesti,PH,1,0,2,0,1
+135654,Talea,PH,0,0,0,0,0
+135681,Tataru,PH,1,0,1,0,1
+135725,Teisani,PH,2,0,4,0,2
+135789,Telega,PH,2,0,5,0,2
+135850,Tinosu,PH,1,0,3,0,1
+135896,Tomsani,PH,2,0,5,0,2
+135949,Valea Calugareasca,PH,5,0,10,0,5
+136107,Valea Doftanei,PH,3,0,7,0,3
+136134,Varbilau,PH,3,0,7,0,3
+136198,Valcanesti,PH,1,0,2,0,1
+136241,Cocorastii Colt,PH,1,0,3,0,1
+136250,Olari,PH,1,0,1,0,1
+136269,Vadu Sapat,PH,0,0,1,0,0
+136278,Batrani,PH,1,0,2,0,1
+136483,Municipiul Satu Mare,SM,98,268,432,720,92
+136526,Municipiul Carei,SM,16,38,56,132,15
+136553,Capleni,SM,3,0,4,0,3
+136599,Oras Negresti-Oas,SM,15,42,36,115,5
+136642,Oras Tasnad,SM,8,8,22,24,4
+136713,Acas,SM,0,0,4,0,0
+136768,Andrid,SM,1,0,2,0,1
+136802,Apa,SM,1,0,2,0,1
+136848,Oras Ardud,SM,3,0,12,0,2
+136919,Batarci,SM,1,0,1,0,1
+136964,Beltiug,SM,0,0,0,0,0
+137032,Berveni,SM,1,0,2,0,1
+137069,Bixad,SM,3,4,6,11,3
+137103,Barsau,SM,0,0,0,0,0
+137130,Bogdand,SM,1,0,2,0,1
+137185,Botiz,SM,1,0,3,0,1
+137229,Calinesti-Oas,SM,4,0,6,0,4
+137274,Camarzana,SM,1,0,1,0,1
+137292,Cauas,SM,1,0,1,0,1
+137363,Cehal,SM,1,0,1,0,1
+137407,Certeze,SM,1,0,1,0,1
+137443,Craidorolt,SM,1,0,2,0,1
+137504,Crucisor,SM,1,0,1,0,1
+137540,Culciu,SM,1,0,3,0,1
+137611,Doba,SM,1,0,2,0,1
+137675,Dorolt,SM,2,0,4,0,2
+137728,Foieni,SM,1,0,2,3,1
+137746,Gherta Mica,SM,1,0,1,0,1
+137764,Halmeu,SM,3,0,7,0,3
+137844,Hodod,SM,2,0,2,0,2
+137899,Homoroade,SM,1,0,2,0,1
+137960,Lazuri,SM,3,0,4,1,3
+138039,Oras Livada,SM,4,0,9,5,3
+138084,Mediesu Aurit,SM,3,0,6,0,3
+138164,Micula,SM,3,0,4,0,3
+138208,Moftin,SM,2,0,2,0,2
+138280,Odoreu,SM,2,0,4,2,2
+138351,Orasu Nou,SM,3,0,5,0,3
+138431,Paulesti,SM,4,0,6,1,2
+138501,Petresti,SM,1,0,3,1,1
+138538,Pir,SM,1,0,1,0,1
+138574,Piscolt,SM,1,0,2,0,1
+138618,Pomi,SM,2,0,4,0,2
+138663,Sanislau,SM,1,0,3,0,1
+138734,Santau,SM,0,0,1,0,0
+138770,Sacaseni,SM,0,0,0,0,0
+138805,Sauca,SM,0,0,0,0,0
+138869,Socond,SM,0,0,2,0,0
+138921,Supur,SM,4,0,7,0,4
+139009,Tarna Mare,SM,2,0,2,0,2
+139054,Terebesti,SM,4,0,4,0,4
+139107,Tiream,SM,2,0,2,0,2
+139143,Tarsolt,SM,1,0,1,0,1
+139170,Turt,SM,4,0,7,1,4
+139214,Turulung,SM,1,0,3,0,1
+139250,Urziceni,SM,1,0,1,0,1
+139287,Valea Vinului,SM,1,0,3,1,1
+139330,Vama,SM,1,0,2,0,1
+139358,Vetis,SM,3,0,4,0,2
+139394,Viile Satu Mare,SM,0,0,3,0,0
+139704,Municipiul Zalau,SJ,104,165,300,506,40
+139740,Oras Cehu Silvaniei,SJ,6,1,19,9,6
+139811,Oras Jibou,SJ,6,11,25,49,4
+139884,Oras Simleu Silvaniei,SJ,8,53,30,78,8
+139937,Agrij,SJ,1,0,1,0,1
+139982,Almasu,SJ,1,0,3,0,1
+140084,Babeni,SJ,1,0,3,0,1
+140146,Balan,SJ,1,0,3,0,1
+140208,Banisor,SJ,1,0,2,0,1
+140244,Benesat,SJ,0,0,0,1,0
+140280,Bobota,SJ,3,0,3,0,2
+140324,Bocsa,SJ,2,0,4,0,2
+140379,Buciumi,SJ,1,0,2,1,1
+140440,Camar,SJ,1,0,1,0,1
+140477,Carastelec,SJ,1,0,1,0,1
+140501,Chiesd,SJ,1,0,1,1,1
+140547,Cizer,SJ,1,0,2,0,1
+140583,Coseiu,SJ,0,0,0,0,0
+140627,Crasna,SJ,3,3,13,16,3
+140672,Creaca,SJ,1,0,3,1,1
+140770,Cristolt,SJ,1,0,1,1,1
+140823,Criseni,SJ,1,0,3,0,1
+140869,Cuzaplac,SJ,1,0,2,1,1
+140958,Dobrin,SJ,1,0,1,0,1
+141027,Dragu,SJ,1,0,1,0,1
+141081,Fildu De Jos,SJ,1,0,1,1,1
+141134,Galgau,SJ,1,0,2,1,1
+141232,Garbou,SJ,1,0,1,1,1
+141312,Halmasd,SJ,1,0,2,0,1
+141376,Hereclean,SJ,2,0,3,1,2
+141447,Hida,SJ,2,0,4,1,2
+141535,Horoatu Crasnei,SJ,1,0,1,0,1
+141580,Ileanda,SJ,1,3,4,11,1
+141722,Ip,SJ,1,0,2,0,1
+141786,Letca,SJ,1,0,2,1,1
+141884,Lozna,SJ,0,0,0,1,0
+141946,Marca,SJ,1,0,2,0,1
+142006,Maeriste,SJ,1,0,1,0,1
+142079,Mesesenii De Jos,SJ,1,0,1,1,1
+142122,Mirsid,SJ,1,0,2,1,1
+142177,Napradea,SJ,1,0,1,0,1
+142239,Nusfalau,SJ,3,0,4,8,3
+142284,Pericei,SJ,2,0,3,16,2
+142337,Plopis,SJ,1,0,1,1,1
+142373,Poiana Blenchii,SJ,1,0,1,0,1
+142426,Romanasi,SJ,1,0,3,0,1
+142499,Rus,SJ,1,0,1,1,1
+142550,Salatig,SJ,1,0,2,0,1
+142612,Sag,SJ,1,0,2,0,1
+142676,Sanmihaiu Almasului,SJ,1,0,2,0,1
+142710,Somes-Odorhei,SJ,1,0,1,0,1
+142774,Surduc,SJ,1,0,6,1,1
+142854,Samsud,SJ,1,0,2,0,1
+142881,Sarmasag,SJ,3,0,5,0,3
+142952,Valcau De Jos,SJ,1,0,2,0,1
+143021,Varsolt,SJ,1,0,2,0,1
+143067,Zalha,SJ,0,0,0,0,0
+143147,Zimbor,SJ,0,0,0,1,0
+143450,Municipiul Sibiu,SB,231,821,844,1331,132
+143487,Cristian,SB,2,0,3,0,2
+143502,Poplaca,SB,1,0,2,0,1
+143520,Rasinari,SB,5,0,5,0,5
+143557,Selimbar,SB,3,0,8,0,3
+143619,Municipiul Medias,SB,43,52,105,205,35
+143646,Tarnava,SB,0,0,1,0,0
+143682,Oras Agnita,SB,8,10,20,27,6
+143735,Oras Cisnadie,SB,17,12,32,25,11
+143771,Oras Copsa Mica,SB,2,0,7,0,2
+143806,Oras Dumbraveni,SB,5,0,15,0,4
+143851,Oras Ocna Sibiului,SB,4,0,9,0,3
+143888,Altina,SB,1,0,1,0,1
+143922,Apoldu De Jos,SB,1,0,2,0,1
+143959,Arpasu De Jos,SB,1,0,2,0,1
+143995,Atel,SB,1,0,2,0,1
+144054,Oras Avrig,SB,12,0,36,0,9
+144116,Axente Sever,SB,2,0,3,0,2
+144152,Bazna,SB,1,1,2,5,1
+144198,Biertan,SB,2,0,2,7,2
+144232,Barghis,SB,1,0,1,0,1
+144303,Blajel,SB,1,0,2,0,1
+144349,Brateiu,SB,1,0,2,0,1
+144376,Bradeni,SB,0,0,0,0,0
+144410,Bruiu,SB,1,0,1,0,1
+144456,Chirpar,SB,1,0,1,0,1
+144508,Carta,SB,1,0,2,0,1
+144535,Cartisoara,SB,0,0,2,0,0
+144553,Darlos,SB,1,0,1,0,1
+144599,Gura Raului,SB,2,0,3,0,2
+144615,Hoghilag,SB,0,0,0,0,0
+144651,Iacobeni,SB,1,0,1,0,1
+144713,Jina,SB,2,0,2,0,2
+144731,Laslea,SB,2,0,2,0,2
+144795,Loamnes,SB,1,0,2,0,1
+144866,Ludos,SB,0,0,0,0,0
+144893,Marpod,SB,1,0,1,0,1
+144928,Oras Miercurea Sibiului,SB,2,0,5,0,2
+144964,Merghindeal,SB,1,0,1,0,1
+144991,Micasasa,SB,1,0,1,0,1
+145042,Mihaileni,SB,1,0,1,0,1
+145104,Mosna,SB,1,0,1,0,1
+145140,Nocrich,SB,1,0,1,0,1
+145202,Orlat,SB,2,0,3,0,2
+145220,Pauca,SB,2,0,2,0,2
+145275,Poiana Sibiului,SB,2,0,1,0,2
+145293,Porumbacu De Jos,SB,2,0,3,0,2
+145355,Racovita,SB,2,0,2,0,2
+145382,Rau Sadului,SB,0,0,0,0,0
+145408,Rosia,SB,3,0,3,0,3
+145471,Sadu,SB,1,0,2,0,1
+145499,Oras Saliste,SB,4,0,10,0,3
+145603,Slimnic,SB,3,0,3,0,3
+145667,Seica Mare,SB,3,0,2,0,3
+145738,Seica Mica,SB,1,0,2,0,1
+145765,Sura Mare,SB,2,0,2,0,2
+145792,Sura Mica,SB,2,0,3,0,2
+145827,Oras Talmaciu,SB,6,0,20,0,5
+145907,Tilisca,SB,2,0,2,0,2
+145934,Turnu Rosu,SB,2,0,2,0,2
+145961,Valea Viilor,SB,1,0,1,0,1
+145998,Vurpar,SB,1,0,2,0,1
+146012,Alma,SB,0,0,0,0,0
+146021,Boita,SB,1,2,1,22,1
+146263,Municipiul Suceava,SV,133,277,671,1139,67
+146281,Ipotesti,SV,3,0,8,1,3
+146325,Mitocu Dragomirnei,SV,2,0,4,14,2
+146370,Oras Salcea,SV,4,0,5,0,4
+146432,Scheia,SV,13,0,28,11,4
+146502,Municipiul Campulung Moldovenesc,SV,22,34,116,140,12
+146539,Municipiul Falticeni,SV,35,49,142,174,18
+146584,Oras Gura Humorului,SV,17,17,82,61,8
+146628,Municipiul Radauti,SV,30,55,153,239,16
+146655,Oras Siret,SV,4,15,27,82,4
+146708,Oras Solca,SV,2,0,6,0,2
+146744,Municipiul Vatra Dornei,SV,25,28,97,90,10
+146799,Adancata,SV,2,0,3,6,2
+146860,Arbore,SV,2,0,6,1,2
+146904,Baia,SV,3,0,4,0,3
+146931,Oras Milisauti,SV,2,0,6,0,2
+146995,Balcauti,SV,1,0,3,0,1
+147036,Bilca,SV,1,0,5,1,1
+147054,Bogdanesti,SV,2,0,6,1,2
+147072,Boroaia,SV,2,0,6,1,2
+147134,Bosanci,SV,3,0,7,0,3
+147161,Botosana,SV,1,0,4,0,1
+147205,Breaza,SV,1,0,2,1,1
+147241,Brodina,SV,1,0,5,1,1
+147358,Oras Brosteni,SV,3,0,4,0,3
+147465,Bunesti,SV,1,0,2,1,1
+147526,Cacica,SV,1,0,7,1,1
+147580,Calafindesti,SV,1,0,4,0,1
+147633,Oras Cajvana,SV,3,0,8,0,3
+147660,Ilisesti,SV,1,0,12,1,1
+147713,Carlibaba,SV,1,0,2,1,1
+147786,Cornu Luncii,SV,4,0,8,67,4
+147884,Crucea,SV,1,0,3,0,1
+147937,Darmanesti,SV,4,0,5,0,4
+148006,Oras Dolhasca,SV,3,0,4,0,3
+148097,Dolhesti,SV,1,0,3,1,1
+148131,Dorna-Arini,SV,2,0,5,1,2
+148202,Dorna Candrenilor,SV,2,0,4,0,2
+148293,Dornesti,SV,1,0,5,1,1
+148328,Dragoiesti,SV,1,0,6,0,1
+148382,Draguseni,SV,1,0,4,1,1
+148426,Dumbraveni,SV,3,0,8,7,3
+148453,Fantanele,SV,1,0,4,0,1
+148514,Forasti,SV,2,0,4,1,2
+148612,Oras Frasin,SV,3,0,6,0,3
+148667,Fratautii Noi,SV,2,0,4,0,2
+148694,Fratautii Vechi,SV,2,0,3,0,2
+148729,Frumosu,SV,3,0,4,1,3
+148765,Fundu Moldovei,SV,2,0,4,8,2
+148872,Galanesti,SV,1,0,3,1,1
+148916,Gramesti,SV,1,0,3,1,1
+148970,Granicesti,SV,2,0,6,0,2
+149049,Horodniceni,SV,1,0,3,1,1
+149101,Horodnic De Jos,SV,1,0,2,0,1
+149138,Iacobeni,SV,2,0,4,0,2
+149183,Izvoarele Sucevei,SV,1,0,1,1,1
+149227,Oras Liteni,SV,3,0,5,0,3
+149290,Marginea,SV,3,0,8,0,3
+149316,Malini,SV,1,0,12,6,1
+149370,Manastirea Humorului,SV,1,0,3,1,1
+149414,Moara,SV,2,0,6,1,2
+149502,Moldova-Sulita,SV,1,0,2,0,1
+149539,Moldovita,SV,2,0,4,0,2
+149584,Musenita,SV,1,0,1,0,1
+149655,Ostra,SV,2,0,5,0,2
+149682,Panaci,SV,2,0,4,1,2
+149753,Paltinoasa,SV,1,0,6,1,1
+149780,Partestii De Jos,SV,1,0,4,1,1
+149833,Patrauti,SV,2,0,5,0,2
+149851,Poiana Stampei,SV,1,0,1,1,1
+149931,Pojorata,SV,1,0,3,15,1
+149968,Preutesti,SV,1,0,4,0,1
+150043,Putna,SV,2,0,5,2,2
+150070,Radaseni,SV,2,0,2,0,2
+150114,Rasca,SV,2,0,6,0,2
+150178,Sadova,SV,1,0,3,0,1
+150196,Satu Mare,SV,1,0,3,0,1
+150221,Siminicea,SV,1,0,4,0,1
+150258,Slatina,SV,1,0,3,0,1
+150294,Straja,SV,3,0,9,1,3
+150310,Stroiesti,SV,1,0,3,0,1
+150356,Stulpicani,SV,1,0,4,1,1
+150418,Sucevita,SV,1,0,7,0,1
+150445,Saru Dornei,SV,2,0,4,0,2
+150524,Todiresti,SV,2,4,8,57,2
+150588,Udesti,SV,3,0,7,0,3
+150702,Ulma,SV,1,0,1,1,1
+150766,Vadu Moldovei,SV,2,2,10,9,2
+150891,Valea Moldovei,SV,1,0,3,1,1
+150935,Vama,SV,2,0,10,0,2
+150980,Vatra Moldovitei,SV,2,0,6,0,2
+151022,Veresti,SV,3,0,10,0,3
+151077,Vicovu De Jos,SV,2,0,7,1,2
+151095,Oras Vicovu De Sus,SV,5,0,15,0,5
+151120,Volovat,SV,2,0,5,0,2
+151157,Vulturesti,SV,3,0,6,0,3
+151246,Zamostea,SV,2,0,5,1,2
+151344,Zvoristea,SV,2,0,7,22,2
+151433,Comanesti,SV,1,0,2,1,1
+151442,Iaslovat,SV,1,0,2,1,1
+151451,Ciocanesti,SV,1,0,3,1,1
+151460,Serbauti,SV,1,0,2,1,1
+151479,Horodnic De Sus,SV,1,0,3,0,1
+151488,Fantana Mare,SV,1,0,1,0,1
+151497,Cosna,SV,0,0,1,0,0
+151503,Capu Campului,SV,1,0,3,0,1
+151512,Hantesti,SV,2,0,12,0,2
+151521,Burla,SV,1,0,2,0,1
+151530,Balaceana,SV,1,0,3,1,1
+151549,Hartop,SV,1,0,3,0,1
+151558,Voitinel,SV,1,0,3,1,1
+151567,Ciprian Porumbescu,SV,1,0,6,1,1
+151576,Berchisesti,SV,2,0,1,1,2
+151585,Poieni-Solca,SV,1,0,1,0,1
+151683,Municipiul Turnu Magurele,TR,23,55,71,145,17
+151709,Ciuperceni,TR,1,0,2,1,1
+151736,Islaz,TR,2,0,4,1,2
+151763,Lita,TR,1,0,2,0,1
+151790,Municipiul Alexandria,TR,64,145,234,607,34
+151816,Nanov,TR,2,0,3,0,2
+151834,Poroschia,TR,2,11,3,51,2
+151870,Municipiul Rosiori De Vede,TR,19,47,66,223,14
+151905,Oras Videle,TR,9,28,45,124,5
+151932,Crevenicu,TR,1,0,1,1,1
+151978,Oras Zimnicea,TR,7,29,31,66,6
+151996,Balaci,TR,1,4,1,13,1
+152038,Babaita,TR,3,0,4,0,3
+152083,Blejesti,TR,0,0,2,0,0
+152127,Bogdana,TR,1,0,2,0,1
+152172,Botoroaga,TR,2,0,5,1,2
+152234,Bragadiru,TR,2,0,5,1,2
+152252,Branceni,TR,2,0,3,0,2
+152270,Bujoreni,TR,0,0,0,0,0
+152314,Bujoru,TR,1,0,2,0,1
+152332,Buzescu,TR,1,0,3,1,1
+152350,Calinesti,TR,2,0,6,0,2
+152412,Calmatuiu,TR,1,0,3,0,1
+152467,Calmatuiu De Sus,TR,1,0,3,0,1
+152500,Cervenia,TR,2,1,3,6,2
+152528,Ciolanesti,TR,1,0,3,0,1
+152564,Contesti,TR,1,0,3,1,1
+152582,Cosmesti,TR,1,0,2,0,1
+152617,Crangeni,TR,1,0,3,0,1
+152662,Crangu,TR,2,0,2,0,2
+152724,Didesti,TR,1,0,1,0,1
+152760,Dobrotesti,TR,3,0,5,0,3
+152797,Dracsenei,TR,2,0,2,1,2
+152868,Draganesti De Vede,TR,1,0,1,0,1
+152902,Draganesti-Vlasca,TR,1,0,6,0,1
+152948,Furculesti,TR,1,1,3,6,1
+152993,Frumoasa,TR,1,0,2,1,1
+153026,Galateni,TR,1,0,3,0,1
+153062,Gratia,TR,2,0,3,1,2
+153106,Izvoarele,TR,1,0,3,0,1
+153124,Lisa,TR,1,0,2,0,1
+153151,Lunca,TR,2,0,3,1,2
+153204,Mavrodin,TR,3,0,5,0,3
+153240,Magura,TR,1,0,3,1,1
+153277,Maldaeni,TR,1,0,2,1,1
+153295,Mereni,TR,1,0,2,0,1
+153339,Marzanesti,TR,1,0,1,0,1
+153384,Mosteni,TR,2,0,2,0,2
+153400,Nasturelu,TR,2,0,2,1,2
+153437,Necsesti,TR,1,0,2,1,1
+153473,Olteni,TR,1,0,4,9,1
+153507,Orbeasca,TR,6,0,9,1,6
+153543,Peretu,TR,3,0,7,0,3
+153561,Piatra,TR,2,0,4,1,2
+153589,Pietrosani,TR,1,0,4,0,1
+153605,Plosca,TR,2,0,4,1,2
+153623,Plopii-Slavitesti,TR,1,0,2,1,1
+153696,Poeni,TR,2,0,6,1,1
+153776,Vitanesti,TR,1,0,2,1,1
+153829,Putineiu,TR,1,0,1,1,1
+153865,Radoiesti,TR,1,0,2,1,1
+153909,Rasmiresti,TR,1,0,2,0,1
+153936,Salcia,TR,1,0,2,0,1
+153972,Saceni,TR,1,0,2,0,1
+154013,Scrioastea,TR,2,0,3,1,2
+154068,Scurtu Mare,TR,1,0,2,0,1
+154139,Seaca,TR,1,0,2,0,1
+154166,Sfintesti,TR,0,0,1,0,0
+154184,Segarcea-Vale,TR,1,0,1,1,1
+154228,Silistea,TR,1,0,2,0,1
+154282,Silistea-Gumesti,TR,0,0,1,0,0
+154308,Sarbeni,TR,1,0,2,0,1
+154344,Slobozia Mandra,TR,2,0,3,1,2
+154380,Smardioasa,TR,1,0,3,0,1
+154415,Stejaru,TR,2,0,1,1,1
+154460,Suhaia,TR,1,0,3,1,1
+154497,Storobaneasa,TR,2,0,3,0,2
+154521,Talpa,TR,1,0,2,1,1
+154585,Tatarastii De Jos,TR,1,0,3,0,1
+154665,Tatarastii De Sus,TR,2,0,4,1,2
+154709,Toporu,GR,1,0,1,0,1
+154736,Traian,TR,1,0,2,1,1
+154754,Trivalea-Mosteni,TR,3,0,4,1,2
+154790,Troianul,TR,1,0,3,1,1
+154834,Tiganesti,TR,3,0,6,1,3
+154852,Vedea,TR,1,0,1,1,1
+154914,Viisoara,TR,1,0,2,0,1
+154932,Vartoape,TR,1,0,3,0,1
+154978,Zambreasca,TR,1,0,1,0,1
+154996,Nenciulesti,TR,0,0,1,0,0
+155083,Beciu,TR,0,0,1,1,0
+155092,Beuca,TR,0,0,1,1,0
+155109,Dracea,TR,0,0,0,0,0
+155118,Fantanele,TR,0,0,1,0,0
+155127,Frasinet,TR,0,0,1,0,0
+155136,Purani,TR,1,0,1,0,1
+155145,Saelele,TR,0,0,1,1,0
+155154,Uda-Clocociov,TR,0,0,0,0,0
+155243,Municipiul Timisoara,TM,1078,2259,1896,2471,298
+155261,Dumbravita,TM,10,0,12,0,4
+155289,Ghiroda,TM,9,0,10,0,4
+155314,Giroc,TM,21,0,18,0,3
+155350,Municipiul Lugoj,TM,52,52,126,268,32
+155403,Oras Buzias,TM,14,8,16,21,6
+155458,Oras Deta,TM,9,20,11,43,4
+155494,Oras Jimbolia,TM,10,28,15,65,7
+155528,Oras Sannicolau Mare,TM,18,18,30,58,9
+155546,Balint,TM,2,0,3,0,2
+155591,Banloc,TM,2,0,4,0,2
+155662,Bara,TM,0,0,0,0,0
+155724,Beba Veche,TM,0,0,0,0,0
+155760,Becicherecu Mic,TM,13,0,12,0,3
+155797,Belint,TM,2,0,4,0,2
+155840,Bethausen,TM,2,0,3,0,2
+155911,Biled,TM,2,0,3,0,2
+155957,Barna,TM,1,0,2,0,1
+156035,Bogda,TM,1,0,2,0,1
+156106,Boldur,TM,3,0,3,0,3
+156151,Brestovat,TM,1,0,2,0,1
+156213,Carpinis,TM,4,0,7,0,4
+156259,Cenad,TM,3,0,3,0,3
+156277,Cenei,TM,2,0,6,0,2
+156311,Cheveresu Mare,TM,2,0,2,0,2
+156357,Oras Ciacova,TM,8,0,27,23,4
+156437,Comlosu Mare,TM,3,1,7,3,3
+156473,Costeiu,TM,1,0,4,0,1
+156534,Criciova,TM,2,0,2,0,2
+156589,Curtea,TM,1,0,1,1,1
+156623,Darova,TM,2,0,3,0,2
+156669,Denta,TM,2,0,2,0,2
+156712,Dudestii Vechi,TM,2,0,5,0,2
+156767,Dumbrava,TM,2,0,2,0,2
+156801,Oras Faget,TM,6,18,14,58,4
+156927,Fardea,TM,2,0,3,0,2
+157004,Foeni,TM,2,0,6,0,2
+157031,Gavojdia,TM,2,2,3,43,2
+157086,Oras Gataia,TM,6,23,9,77,4
+157193,Ghizela,TM,1,0,1,0,1
+157246,Giarmata,TM,7,0,9,0,4
+157273,Giera,TM,2,0,2,0,2
+157317,Giulvaz,TM,2,0,2,0,2
+157362,Jamu Mare,TM,3,0,4,2,3
+157424,Jebel,TM,3,17,8,63,3
+157451,Lenauheim,TM,3,0,6,0,3
+157497,Liebling,TM,4,0,5,0,4
+157530,Lovrin,TM,3,0,5,0,3
+157585,Margina,TM,2,0,2,1,2
+157683,Masloc,TM,9,0,10,0,2
+157736,Manastiur,TM,1,0,1,0,1
+157781,Moravita,TM,3,0,3,0,3
+157834,Mosnita Noua,TM,8,0,8,0,4
+157898,Nadrag,TM,2,0,4,0,2
+157923,Nitchidorf,TM,2,0,3,0,2
+157969,Ohaba Lunga,TM,1,0,0,1,1
+158010,Ortisoara,TM,8,0,11,0,3
+158065,Peciu Nou,TM,3,0,7,0,3
+158109,Periam,TM,2,1,7,4,3
+158136,Pietroasa,TM,1,0,1,0,1
+158181,Pischia,TM,6,0,7,0,3
+158243,Racovita,TM,2,0,3,0,2
+158314,Oras Recas,TM,9,0,11,47,5
+158396,Remetea Mare,TM,2,0,7,0,2
+158449,Sacosu Turcesc,TM,2,0,5,0,2
+158528,Satchinez,TM,2,0,7,0,2
+158564,Sacalaz,TM,6,0,8,0,4
+158608,Secas,TM,0,0,0,0,0
+158653,Sanandrei,TM,6,0,11,0,4
+158699,Sanmihaiu Roman,TM,4,0,9,0,4
+158733,Sanpetru Mare,TM,3,0,7,0,3
+158779,Sag,TM,3,0,5,0,3
+158804,Stiuca,TM,1,0,1,0,1
+158859,Teremia Mare,TM,3,0,4,0,3
+158895,Tomesti,TM,3,0,4,0,3
+158966,Topolovatu Mare,TM,4,0,4,0,4
+159035,Tormac,TM,2,0,6,0,2
+159071,Traian Vuia,TM,2,0,2,0,2
+159142,Uivar,TM,2,0,3,0,2
+159213,Varias,TM,5,0,7,4,4
+159259,Victor Vlad Delamarina,TM,2,0,2,0,2
+159339,Voiteg,TM,1,0,2,0,1
+159366,Birda,TM,2,0,4,0,2
+159375,Checea,TM,1,0,2,0,1
+159384,Dudestii Noi,TM,2,0,3,0,2
+159393,Fibis,TM,1,0,2,0,1
+159400,Ghilad,TM,1,0,2,0,1
+159419,Gottlob,TM,1,0,2,0,1
+159428,Iecea Mare,TM,2,0,3,0,2
+159437,Parta,TM,1,0,2,0,1
+159446,Padureni,TM,1,0,3,0,1
+159455,Saravale,TM,1,0,4,0,1
+159464,Sandra,TM,5,0,8,0,2
+159473,Tomnatic,TM,3,0,4,0,3
+159482,Valcani,TM,1,0,1,0,1
+159491,Livezile,TM,2,0,2,0,2
+159507,Pesac,TM,1,0,1,0,1
+159516,Bucovat,TM,1,0,1,0,1
+159525,Otelec,TM,0,0,0,0,0
+159614,Municipiul Tulcea,TL,70,202,369,705,40
+159650,Oras Babadag,TL,7,1,3,37,4
+159687,Oras Isaccea,TL,1,1,1,11,1
+159730,Oras Macin,TL,5,21,4,56,4
+159767,Oras Sulina,TL,3,0,2,2,1
+159785,Baia,TL,2,0,3,1,2
+159847,Beidaud,TL,1,0,3,0,1
+159883,C.a. Rosetti,TL,1,0,3,0,1
+159945,Carcaliu,TL,1,0,2,2,1
+159963,Casimcea,TL,1,0,3,0,1
+160047,Ceatalchioi,TL,0,0,0,1,0
+160092,Ceamurlia De Jos,TL,1,0,3,0,1
+160127,Cerna,TL,2,0,4,2,2
+160172,Chilia Veche,TL,1,0,3,0,1
+160225,Ciucurova,TL,1,0,2,1,1
+160261,Crisan,TL,0,0,0,2,0
+160305,Daeni,TL,1,0,3,1,1
+160323,Dorobantu,TL,0,0,2,1,0
+160387,Frecatei,TL,2,0,5,0,1
+160430,Greci,TL,2,0,4,2,2
+160458,Grindu,TL,1,0,1,1,1
+160476,Hamcearca,TL,1,0,2,0,1
+160528,Horia,TL,1,0,3,7,1
+160564,Izvoarele,TL,1,0,3,0,1
+160617,Jijila,TL,1,0,3,2,1
+160644,Jurilovca,TL,2,1,9,0,2
+160680,Luncavita,TL,2,0,4,2,2
+160724,Mahmudia,TL,1,0,5,1,1
+160779,Maliuc,TL,0,0,0,2,0
+160831,Mihai Bravu,TL,1,0,1,0,1
+160877,Mihail Kogalniceanu,TL,1,0,4,1,1
+160911,Murighiol,TL,1,0,6,0,1
+160993,Nalbant,TL,1,0,3,0,1
+161035,Niculitel,TL,2,0,4,1,2
+161053,Nufaru,TL,1,0,4,1,1
+161106,Ostrov,TL,1,0,2,0,1
+161133,Pardina,TL,0,0,1,0,0
+161151,Peceneaga,TL,1,0,1,1,1
+161179,Sarichioi,TL,3,0,5,8,2
+161231,Sfantu Gheorghe,TL,1,0,3,1,1
+161259,Slava Cercheza,TL,1,0,3,0,1
+161286,Smardan,TL,1,0,1,1,1
+161302,Somova,TL,1,0,6,0,1
+161348,Stejaru,TL,1,0,1,0,1
+161384,Topolog,TL,2,0,4,3,2
+161464,Turcoaia,TL,1,0,1,2,1
+161482,Valea Nucarilor,TL,1,0,3,1,1
+161525,I.c.bratianu,TL,1,0,1,0,1
+161543,Vacareni,TL,0,0,2,0,0
+161552,Bestepe,TL,1,0,3,1,1
+161561,Valea Teilor,TL,0,0,2,1,0
+161794,Municipiul Barlad,VS,44,122,201,524,33
+161829,Municipiul Husi,VS,18,43,59,200,14
+161856,Oras Negresti,VS,5,0,18,14,4
+161945,Municipiul Vaslui,VS,45,146,189,686,31
+162014,Albesti,VS,1,0,1,0,1
+162069,Alexandru Vlahuta,VS,1,0,3,1,1
+162149,Arsura,VS,1,0,1,1,1
+162194,Banca,VS,2,0,4,1,2
+162327,Bacani,VS,1,0,3,1,1
+162381,Bacesti,VS,1,3,1,22,1
+162452,Balteni,VS,1,0,1,1,1
+162498,Berezeni,VS,2,0,2,1,2
+162559,Blagesti,VS,1,0,2,1,1
+162595,Bogdana,VS,1,0,1,1,1
+162693,Bogdanesti,VS,1,0,1,0,1
+162791,Bogdanita,VS,1,0,1,1,1
+162871,Botesti,VS,1,0,1,0,1
+162924,Bunesti-Averesti,VS,1,0,1,1,1
+163002,Codaesti,VS,3,2,4,13,3
+163057,Coroiesti,VS,1,0,1,0,1
+163137,Costesti,VS,1,0,3,0,1
+163208,Cretesti,VS,1,0,2,0,1
+163253,Danesti,VS,1,0,1,0,1
+163324,Deleni,VS,0,0,0,1,0
+163379,Delesti,VS,1,0,1,0,1
+163486,Dragomiresti,VS,2,0,4,4,2
+163618,Dranceni,VS,2,0,4,6,2
+163681,Duda-Epureni,VS,2,0,2,0,2
+163734,Dumesti,VS,2,0,2,0,2
+163789,Epureni,VS,1,0,2,0,1
+163832,Falciu,VS,2,0,4,11,2
+163903,Gagesti,VS,1,0,1,5,1
+163967,Gherghesti,VS,1,0,2,0,1
+164062,Garceni,VS,0,0,0,0,0
+164133,Grivita,VS,1,0,2,1,1
+164197,Hoceni,VS,1,0,1,1,1
+164277,Dimitrie Cantemir,VS,1,0,2,1,1
+164339,Iana,VS,1,0,2,1,1
+164393,Ivanesti,VS,3,0,4,0,3
+164543,Ivesti,VS,0,0,0,1,0
+164598,Laza,VS,1,0,3,0,1
+164687,Lipovat,VS,2,0,4,3,2
+164749,Lunca Banului,VS,1,0,2,1,1
+164829,Malusteni,VS,1,0,1,1,1
+164892,Miclesti,VS,1,0,1,0,1
+164936,Muntenii De Jos,VS,1,0,1,0,1
+164981,Oras Murgeni,VS,2,5,6,28,4
+165069,Oltenesti,VS,2,0,2,0,1
+165130,Osesti,VS,2,0,3,1,2
+165185,Padureni,VS,2,0,2,0,2
+165274,Perieni,VS,1,0,2,1,1
+165336,Poienesti,VS,1,0,3,1,1
+165416,Pogana,VS,1,0,2,6,1
+165470,Puiesti,VS,2,0,4,4,2
+165611,Pungesti,VS,1,0,2,1,1
+165719,Rebricea,VS,2,0,3,1,2
+165817,Rosiesti,VS,1,0,2,0,1
+165899,Solesti,VS,2,0,4,0,2
+165979,Stanilesti,VS,2,0,3,0,2
+166057,Stefan Cel Mare,VS,1,0,2,3,1
+166137,Suletea,VS,1,0,2,1,1
+166182,Tanacu,VS,0,0,3,1,0
+166235,Tacuta,VS,1,0,2,0,1
+166315,Tatarani,VS,1,0,1,0,1
+166413,Todiresti,VS,1,0,4,0,1
+166529,Tutova,VS,1,0,4,5,1
+166636,Valeni,VS,2,0,3,0,2
+166672,Vetrisoaia,VS,2,0,2,1,1
+166707,Viisoara,VS,1,0,2,1,1
+166770,Vinderei,VS,1,0,2,0,1
+166869,Voinesti,VS,1,0,3,1,1
+166985,Vulturesti,VS,1,0,1,4,1
+167035,Vutcani,VS,1,0,2,11,1
+167071,Zapodeni,VS,1,0,3,0,1
+167179,Zorleni,VS,3,0,6,1,3
+167222,Ibanesti,VS,0,0,0,0,0
+167231,Fruntiseni,VS,1,0,2,0,1
+167240,Rafaila,VS,1,0,1,1,1
+167259,Pogonesti,VS,1,0,1,1,1
+167268,Ciocani,VS,0,0,0,1,0
+167277,Cozmesti,VS,1,0,1,1,1
+167286,Dodesti,VS,0,0,0,1,0
+167295,Feresti,VS,1,0,2,1,1
+167302,Muntenii De Sus,VS,1,0,2,1,1
+167311,Pochidia,VS,0,0,0,1,0
+167320,Puscasi,VS,1,0,2,1,1
+167473,Municipiul Ramnicu Valcea,VL,115,274,251,1119,56
+167641,Oras Baile Govora,VL,6,0,27,0,2
+167696,Oras Baile Olanesti,VL,11,0,70,0,3
+167794,Oras Brezoi,VL,6,13,9,35,3
+167909,Oras Calimanesti,VL,12,6,46,24,7
+167981,Municipiul Dragasani,VL,25,36,84,108,12
+168041,Oras Horezu,VL,6,36,16,10,3
+168130,Oras Ocnele Mari,VL,2,0,5,0,2
+168229,Alunu,VL,3,0,3,0,2
+168309,Amarasti,VL,1,0,4,0,1
+168372,Oras Babeni,VL,5,0,10,0,5
+168452,Oras Balcesti,VL,5,1,12,2,3
+168559,Barbatesti,VL,5,0,10,0,2
+168602,Oras Berbesti,VL,2,0,10,0,2
+168675,Berislavesti,VL,2,0,3,0,2
+168755,Boisoara,VL,0,0,0,0,0
+168791,Budesti,VL,2,0,5,0,4
+168880,Bujoreni,VL,2,0,5,0,4
+168960,Bunesti,VL,1,0,1,0,1
+169039,Cernisoara,VL,1,1,5,0,2
+169119,Caineni,VL,1,0,2,0,1
+169182,Copaceni,VL,1,0,2,0,1
+169253,Costesti,VL,2,0,5,0,2
+169306,Creteni,VL,1,0,2,0,1
+169351,Daesti,VL,2,0,3,0,2
+169404,Danicei,VL,2,0,3,0,2
+169547,Dragoesti,VL,3,3,11,42,1
+169583,Fauresti,VL,1,0,2,0,1
+169681,Fartatesti,VL,2,1,3,0,2
+169896,Francesti,VL,2,0,4,0,2
+169994,Galicea,VL,2,0,3,0,2
+170097,Ghioroiu,VL,1,1,0,0,1
+170168,Glavile,VL,1,0,4,0,1
+170220,Golesti,VL,1,0,2,0,1
+170346,Gradistea,VL,3,0,7,0,2
+170444,Gusoeni,VL,1,0,0,0,1
+170514,Ionesti,VL,3,0,7,0,3
+170612,Lalosu,VL,1,1,3,0,1
+170685,Ladesti,VL,1,1,3,32,1
+170792,Lapusata,VL,1,0,3,0,1
+170872,Livezi,VL,1,0,4,0,1
+170952,Lungesti,VL,2,0,4,0,2
+171021,Malaia,VL,1,0,2,0,1
+171067,Mateesti,VL,1,0,3,0,1
+171101,Maciuca,VL,1,0,3,0,1
+171209,Madulari,VL,1,0,2,0,1
+171272,Maldaresti,VL,1,0,2,0,1
+171325,Mihaesti,VL,2,9,6,82,3
+171469,Milcoiu,VL,1,0,2,0,1
+171539,Muereasca,VL,2,0,3,0,2
+171628,Nicolae Balcescu,VL,2,0,8,0,2
+171806,Olanu,VL,1,0,5,0,2
+171879,Orlesti,VL,1,0,4,0,1
+171931,Otesani,VL,2,0,6,0,2
+171995,Pausesti,VL,2,0,4,0,2
+172082,Pausesti-Maglasi,VL,2,0,3,0,2
+172153,Perisani,VL,1,0,2,0,1
+172279,Pesceana,VL,1,0,2,0,1
+172340,Pietrari,VL,2,1,4,0,2
+172377,Popesti,VL,1,0,3,0,1
+172457,Prundeni,VL,2,0,4,0,2
+172509,Racovita,VL,0,0,2,0,0
+172581,Roesti,VL,1,0,4,0,1
+172698,Rosiile,VL,1,0,3,0,1
+172812,Runcu,VL,2,0,4,0,2
+172894,Salatrucel,VL,2,0,4,0,2
+172947,Scundu,VL,1,0,2,0,1
+172992,Sinesti,VL,1,1,4,10,1
+173061,Slatioara,VL,2,0,4,0,2
+173132,Stanesti,VL,0,1,0,0,0
+173230,Stoenesti,VL,2,0,4,0,2
+173374,Stoilesti,VL,3,0,6,0,3
+173533,Stroesti,VL,2,0,5,0,2
+173597,Sutesti,VL,1,0,2,0,1
+173686,Sirineasa,VL,1,0,4,0,1
+173748,Stefanesti,VL,3,0,4,0,3
+173793,Susani,VL,2,0,3,0,2
+173855,Tetoiu,VL,2,0,4,0,2
+173935,Tomsani,VL,2,0,4,0,2
+174021,Vaideeni,VL,2,0,4,0,2
+174085,Valea Mare,VL,1,0,2,0,1
+174156,Vladesti,VL,2,0,3,0,2
+174218,Voicesti,VL,2,1,2,0,2
+174254,Voineasa,VL,2,0,0,0,2
+174290,Zatreni,VL,2,0,6,0,2
+174496,Titesti,VL,1,0,2,0,1
+174502,Diculesti,VL,1,0,1,0,1
+174511,Lacusteni,VL,0,0,0,0,0
+174520,Mitrofani,VL,1,0,1,0,1
+174744,Municipiul Focsani,VN,72,225,280,1092,47
+174780,Campineanca,VN,2,0,4,0,2
+174824,Golesti,VN,2,0,2,0,2
+174860,Municipiul Adjud,VN,13,47,41,112,9
+174922,Oras Marasesti,VN,6,5,5,6,6
+175019,Oras Odobesti,VN,5,4,11,4,4
+175055,Oras Panciu,VN,10,18,20,49,5
+175126,Andreiasu De Jos,VN,1,0,1,0,0
+175206,Balesti,VN,1,0,1,0,1
+175224,Barsesti,VN,1,0,2,0,1
+175260,Boghesti,VN,0,0,0,0,0
+175368,Bolotesti,VN,2,0,3,0,2
+175439,Bordesti,VN,1,0,1,0,1
+175466,Brosteni,VN,1,0,3,0,1
+175509,Chiojdeni,VN,1,0,1,0,1
+175590,Ciorasti,VN,2,0,3,0,2
+175670,Campuri,VN,1,0,4,0,1
+175732,Carligele,VN,1,0,5,0,1
+175787,Corbita,VN,1,0,1,0,1
+175885,Cotesti,VN,2,0,5,0,2
+175938,Dumbraveni,VN,2,15,3,54,2
+175983,Dumitresti,VN,2,0,4,4,2
+176150,Fitionesti,VN,2,0,3,0,2
+176212,Garoafa,VN,3,0,4,0,3
+176301,Gugesti,VN,3,0,5,0,3
+176338,Gura Calitei,VN,1,0,2,0,1
+176445,Homocea,VN,4,0,7,0,4
+176506,Jaristea,VN,2,1,3,1,2
+176551,Jitia,VN,1,0,2,0,1
+176613,Maicanesti,VN,2,0,2,3,2
+176686,Mera,VN,1,0,1,0,1
+176748,Milcovul,VN,2,0,6,0,2
+176793,Movilita,VN,1,0,2,0,1
+176855,Nanesti,VN,1,0,1,0,1
+176891,Naruja,VN,0,0,1,0,0
+176944,Nereju,VN,2,0,2,0,2
+177003,Nistoresti,VN,1,0,1,0,1
+177101,Paltin,VN,1,0,2,0,1
+177236,Paunesti,VN,3,0,3,0,3
+177263,Poiana Cristei,VN,1,0,2,0,1
+177352,Pufesti,VN,2,0,4,0,2
+177405,Racoasa,VN,1,0,2,0,1
+177469,Reghiu,VN,0,0,0,0,0
+177557,Ruginesti,VN,2,0,5,0,2
+177600,Sihlea,VN,1,0,2,0,1
+177655,Slobozia Bradului,VN,1,0,2,0,1
+177726,Slobozia Ciorasti,VN,0,0,0,0,0
+177762,Soveja,VN,1,0,2,0,1
+177799,Straoane,VN,1,0,1,0,1
+177842,Suraia,VN,3,0,4,0,3
+177879,Tanasoaia,VN,1,0,1,0,1
+177986,Tataranu,VN,2,0,3,0,2
+178046,Tamboesti,VN,2,0,3,0,2
+178117,Tulnici,VN,2,0,2,0,2
+178180,Tifesti,VN,2,0,3,0,2
+178279,Urechesti,VN,1,0,2,0,1
+178313,Valea Sarii,VN,0,0,0,0,0
+178377,Vidra,VN,2,11,6,64,2
+178475,Vintileasca,VN,1,0,0,0,1
+178545,Vizantea-Livezi,VN,1,0,1,0,1
+178607,Vanatori,VN,3,0,6,0,3
+178689,Vartescoiu,VN,2,0,2,0,2
+178750,Vrancioaia,VN,1,0,5,0,1
+178821,Vulturu,VN,4,0,9,0,4
+178885,Negrilesti,VN,0,0,0,0,0
+178894,Ploscuteni,VN,0,0,2,0,0
+178901,Popesti,VN,1,0,3,0,1
+178910,Paulesti,VN,0,0,0,0,0
+178929,Biliesti,VN,1,0,2,0,1
+178938,Gologanu,VN,1,0,1,0,1
+178947,Obrejita,VN,1,0,1,0,1
+178956,Rastoaca,VN,1,0,2,0,1
+178965,Spulber,VN,0,0,0,0,0
+179132,Municipiul Bucuresti,B,4487,8050,6080,14702,1763
+179221,Oras Bragadiru,IF,32,4,33,8,8
+179249,Chiajna,IF,39,1,14,1,8
+179285,Oras Chitila,IF,8,4,8,7,4
+179310,Dobroesti,IF,4,1,6,1,4
+179347,Glina,IF,3,1,4,1,3
+179383,Jilava,IF,11,6,9,22,6
+179409,Oras Magurele,IF,19,4,8,7,6
+179463,Mogosoaia,IF,3,1,4,1,3
+179481,Oras Otopeni,IF,43,41,66,178,8
+179515,Oras Pantelimon,IF,22,6,11,9,7
+179533,Oras Popesti Leordeni,IF,31,6,30,14,12
+179551,Oras Voluntari,IF,76,11,75,35,14
+179588,Copaceni,IF,2,0,4,1,2
+179604,Poienile Izei,MM,0,0,0,1,0
+179613,Sieu,MM,1,0,2,0,1
+179622,Grosii Tiblesului,MM,1,0,2,0,1
+179631,Treznea,SJ,0,0,0,0,0
+179640,Vulcana-Pandele,DB,0,0,2,0,0
+179659,Negrilesti,BN,1,0,1,0,1
+179677,Camin,SM,0,0,0,0,0
+179686,Dumitrita,BN,1,0,2,2,1
+179695,Simisna,SJ,1,0,1,1,1
+179702,Traian,IL,2,0,2,2,2
+179711,Vladeni,DB,1,0,2,0,1
+179720,Poiana Ilvei,BN,0,0,1,0,0
+179739,Malu,GR,1,0,3,0,1
+179748,Cosoba,GR,0,0,2,0,0
+179757,Herasti,GR,1,0,0,2,1
+179766,Isvoarele,GR,1,0,2,0,1
+179775,Sabareni,GR,2,0,4,0,2
+179784,Boranesti,IL,0,0,0,0,0
+179793,Buesti,IL,0,0,1,0,0
+179800,Maia,IL,1,0,4,0,1
+179819,Ograda,IL,1,0,3,0,1
+179828,Rosiori,IL,1,0,2,0,1
+179837,Coas,MM,1,0,1,0,1
+179846,Coltau,MM,3,0,8,0,0
+179855,Gardani,MM,0,0,1,0,0
+179864,Oncesti,MM,0,0,1,0,0
+179873,Agris,SM,0,0,0,0,0
+179882,Ciumesti,SM,0,0,0,0,0
+179891,Raciu,DB,1,0,3,0,1
+179908,Pietrari,DB,1,0,2,0,1
+179917,Rau Alb,DB,1,0,2,0,1
+179926,Rascaeti,DB,0,0,2,0,0
+179935,Persinari,DB,0,0,3,0,0
+179944,Runcu Salvei,BN,0,0,0,0,0
+179953,Ciceu- Mihaiesti,BN,0,0,0,0,0
+179962,Galbinasi,CL,0,0,0,0,0
+179971,Colelia,IL,0,0,0,0,0
+179980,Marculesti,IL,1,0,1,0,1
+179999,Moldoveni,IL,1,0,2,0,1
+180000,Platonesti,IL,1,0,3,1,1
+180019,Sarateni,IL,0,0,1,0,0
+180028,Porumbesti,SM,0,0,0,0,0
+180037,Boghis,SJ,1,0,2,5,1
+180046,Gura Ialomitei,IL,0,0,2,0,0
+180055,Crivat,CL,0,0,2,0,0
+180064,Barbulesti,IL,0,0,0,1,0
+180091,Racsa,SM,0,0,0,0,0

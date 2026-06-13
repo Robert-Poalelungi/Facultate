@@ -1,0 +1,27 @@
+# importuri
+import pandas as pd
+from pandas.api.types import is_numeric_dtype
+
+# inlocuire NaN
+def nan_replace_t(t):
+    assert isinstance(t, pd.DataFrame)
+    for v in t.columns:
+        if any(t[v].isna()):
+            if is_numeric_dtype(t[v]):
+                t[v].fillna(t[v].mean(), inplace=True)
+            else:
+                t[v].fillna(t[v].mode()[0], inplace=True)
+
+# citire din fisier
+alcool = pd.read_csv("alcohol.csv", index_col=1)
+coduri = pd.read_csv("CoduriTariExtins.csv", index_col=2)
+
+#inlocuire valori NaN
+nan_replace_t(alcool)
+nan_replace_t(coduri)
+
+#alcatuire lista 
+ani = list(alcool)[1:]
+
+# Merge tabele
+miscare = miscare.merge(populatie[["Populatie","Judet"]], left_index=True, right_index=True)

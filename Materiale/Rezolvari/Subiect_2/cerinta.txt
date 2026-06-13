@@ -1,0 +1,33 @@
+În fișierul alcohol.csv este prezentat consumul de alcool pe cap de locuitor (litri de alcool pur
+consumat de persoane cu vârsta de peste 15 ani), pe țări, la nivel mondial, în anii 2000, 2005, 2010,
+2015 și 2018.
+În fișierul CoduriTariExtins.csv se află codificări ale țărilor și împărțirea acestora pe continente.
+Cerințe
+1. Salvarea în fișierul Cerinta1.csv a consumului mediu pe cei cinci ani la nivel de țară, în ordine
+descrescătoare după consum. Se va salva pentru fiecare țară, codul de țară, numele țării și consumul
+mediu.
+Exemplu
+Code,Country,Consum Mediu
+LTU,Lithuania,14.662
+MDA,Moldova,14.536000000000001
+...
+2. Salvarea în fișierul Cerinta2.csv a anului cu cel mai mare consum pentru fiecare țară. Se va
+salva codul de țară, numele țării și anul cu cel mai mare consum.
+Exemplu
+Code,Country,Anul
+AFG,Afghanistan,2005
+ALB,Albania,2010
+...
+3. Salvarea în fișierul Cerinta3.csv a coeficienților de variație pentru fiecare an la nivel de
+continent. Coeficientul de variație se calculează prin raportarea abaterii standard a indicatorului
+respectiv la media sa. Se va salva numele continentului și coeficienții de variație pe fiecare an.
+Exemplu
+Continent_Name,2000,2005,2010,2015,2018
+Africa,0.77869,0.80131,0.78109,0.87743,0.90583
+...
+4. Salvarea în fișierul Cerinta4.csv a țărilor la care se înregistrează cel mai mare consum, la nivel
+de continent, pe ani. Pentru fiecare județ se va afișa codul țării cu consumul maxim la fiecare an.
+Exemplu:
+Continent_Name,2000,2005,2010,2015,2018
+Africa,RWA,RWA,UGA,SYC,SYC
+...

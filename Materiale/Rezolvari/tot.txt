@@ -1,0 +1,223 @@
+INCEPUT
+
+# importuri
+import pandas as pd
+from pandas.api.types import is_numeric_dtype
+
+# inlocuire NaN
+def nan_replace_t(t):
+    assert isinstance(t, pd.DataFrame)
+    for v in t.columns:
+        if any(t[v].isna()):
+            if is_numeric_dtype(t[v]):
+                t[v].fillna(t[v].mean(), inplace=True)
+            else:
+                t[v].fillna(t[v].mode()[0], inplace=True)
+
+# citire din fisier
+alcool = pd.read_csv("alcohol.csv", index_col=1)
+coduri = pd.read_csv("CoduriTariExtins.csv", index_col=2)
+
+#inlocuire valori NaN
+nan_replace_t(alcool)
+nan_replace_t(coduri)
+
+#alcatuire lista 
+ani = list(alcool)[1:]
+
+# Merge tabele
+miscare = miscare.merge(populatie[["Populatie","Judet"]], left_index=True, right_index=True)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+UNU
+
+import pandas as pd
+from pandas.api.types import is_numeric_dtype
+
+def nan_replace_t(t):
+    assert isinstance(t, pd.DataFrame)
+    for v in t.columns:
+        if any(t[v].isna()):
+            if is_numeric_dtype(t[v]):
+                t[v].fillna(t[v].mean(), inplace=True)
+            else:
+                t[v].fillna(t[v].mode()[0], inplace=True)
+
+# citire date
+miscare = pd.read_csv("MiscareaNatLoc.csv", index_col=0)
+populatie = pd.read_csv("PopulatieLocalitati.csv", index_col=0)
+nan_replace_t(miscare)
+nan_replace_t(populatie)
+
+# Merge tabele
+miscare = miscare.merge(populatie[["Populatie","Judet"]], left_index=True, right_index=True)
+
+# 1. Localitati unde total decedati > nascuti vii
+miscare["TotalDecedati"] = miscare["Decedati"] + miscare["DecedatiSub1An"]
+cerinta1 = miscare[miscare["TotalDecedati"] > miscare["NascutiVii"]]
+cerinta1 = cerinta1[["Siruta","Localitate","TotalDecedati","NascutiVii"]]
+cerinta1.to_csv("Cerinta1.csv", index=False)
+
+# 2. Rata mortalitatii infantile (RMI)
+miscare["RMI"] = miscare["DecedatiSub1An"] * 1000 / miscare["NascutiVii"]
+cerinta2 = miscare[["Siruta","Localitate","RMI"]].sort_values(by="RMI", ascending=False)
+cerinta2.to_csv("Cerinta2.csv", index=False)
+
+# 3. Rata sporului natural (RSN) la nivel de judet
+# Rata natalitatii = (NascutiVii / Populatie) * 1000
+# Rata mortalitatii = (TotalDecedati / Populatie) * 1000
+miscare["RataNatalitate"] = miscare["NascutiVii"] / miscare["Populatie"] * 1000
+miscare["RataMortalitate"] = miscare["TotalDecedati"] / miscare["Populatie"] * 1000
+miscare["RSN"] = miscare["RataNatalitate"] - miscare["RataMortalitate"]
+cerinta3 = miscare.groupby("Judet")["RSN"].mean().reset_index()
+cerinta3.to_csv("Cerinta3.csv", index=False)
+
+# 4. Localitati cu valori maxime la nivel de judet pentru fiecare indicator
+def max_localitati(gr, cols):
+    res = {}
+    for c in cols:
+        max_val = gr[c].max()
+        res[c] = ",".join(gr[gr[c]==max_val]["Localitate"])
+    return pd.Series(res)
+
+indicatori = ["Casatorii","Decedati","DecedatiSub1An","Divorturi","NascutiMorti","NascutiVii"]
+cerinta4 = miscare.groupby("Judet").apply(max_localitati, cols=indicatori)
+cerinta4.reset_index(inplace=True)
+cerinta4.to_csv("Cerinta4.csv", index=False)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+DOI
+
+import pandas as pd
+from pandas.api.types import is_numeric_dtype
+
+def f(t,ani):
+    assert isinstance(t,pd.DataFrame)
+    return pd.Series(t.index[t[ani].values.argmax(axis=0)],ani)
+
+def nan_replace_t(t):
+    assert isinstance(t, pd.DataFrame)
+    for v in t.columns:
+        if any(t[v].isna()):
+            if is_numeric_dtype(t[v]):
+                t[v].fillna(t[v].mean(), inplace=True)
+            else:
+                t[v].fillna(t[v].mode()[0], inplace=True)
+
+alcool = pd.read_csv("alcohol.csv",index_col=1)
+nan_replace_t(alcool)
+# print(alcool)
+ani = list(alcool)[1:]
+coduri = pd.read_csv("CoduriTariExtins.csv",index_col=2)
+
+# 1
+cerinta1 = alcool.apply(
+    lambda x:pd.Series(
+        [x["Country"],x.iloc[1:].mean()],
+        ["Country","Consum Mediu"]
+    ),
+    axis=1)
+cerinta1.sort_values(by="Consum Mediu",ascending=False,inplace=True)
+cerinta1.to_csv("Cerinta1_1.csv")
+
+# 2
+cerinta2 = alcool.apply(
+    lambda x:pd.Series(
+        [x["Country"],x.index[x.iloc[1:].argmax()+1]],
+        ["Country","Anul"]
+    ),
+    axis=1)
+cerinta2.to_csv("Cerinta2.csv")
+
+# 3
+alcool_ = alcool[ani].merge(coduri[["Continent_Name"]],left_index=True,right_index=True)
+cerinta3 = alcool_[["Continent_Name"]+ani].groupby(by="Continent_Name").agg(lambda x:x.std()/x.mean())
+cerinta3.round(5).to_csv("Cerinta3_1.csv")
+
+# 4
+cerinta4 = alcool_.groupby(by="Continent_Name").apply(func=f,ani=ani)
+cerinta4.to_csv("Cerinta4_1.csv")
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CEVA
+import pandas as pd
+
+industrie = pd.read_csv("Industrie.csv", index_col = 1)
+populatie = pd.read_csv("PopulatieLocalitati.csv", index_col = 1)
+
+industrie = industrie.merge(populatie[["Judet","Populatie"]], left_index=True, right_index=True)
+
+lista = ["Alimentara", "Textila", "Lemnului", "ChimicaFarmaceutica",
+              "Metalurgica", "ConstructiiMasini", "CalculatoareElectronica",
+              "Mobila", "Energetica"]
+
+# cerinta 1
+# - ca totala la nivel de localitate
+
+industrie["Total"] = industrie[lista].sum(axis=1)
+
+industrie.reset_index(inplace= True)
+
+cerinta1 = industrie[["Siruta", "Localitate", "Total"]]
+
+cerinta1 = cerinta1.sort_values(by="Total", ascending=False)
+
+cerinta1.to_csv("Cerinta1.csv", index=False)
+
+
+# cerinta 2
+# - activitatea cu cea mai mare cifra de afaceri pe localitate
+
+industrie.reset_index(inplace= True)
+
+industrie["ActivitateDominanta"] = industrie[lista].idxmax(axis=1)
+
+cerinta2 = industrie[["Siruta", "Localitate", "ActivitateDominanta"]]
+
+cerinta2.to_csv("Cerinta2.csv", index=False)
+
+
+# cerinta 3
+# - cifra de afaceri pe locuitor la nivel de județ
+
+industrie_1 = industrie.groupby("Judet").agg({"Total": "sum", "Populatie": "sum"})
+
+# Împărțim cifra de afaceri totală a județului la populația totală a județului
+industrie_1["CifraAfaceriPeLocuitor"] = industrie_1["Total"] / industrie_1["Populatie"]
+
+cerinta3 = industrie_1[["CifraAfaceriPeLocuitor"]].reset_index()
+
+cerinta3.to_csv("Cerinta3.csv", index=False)
+
+
+# cerinta 4
+# - pentru fiecare judet, localitatea cu ca max pe locuitor
+
+industrie["CifraAfaceriPeLocuitor"] = industrie["Total"] / industrie["Populatie"]
+
+cerinta4 = industrie.loc[industrie.groupby("Judet")["CifraAfaceriPeLocuitor"].idxmax(), ["Judet", "Siruta"]]
+
+cerinta4.to_csv("Cerinta4.csv", index=False)
+
+
+# cerinta 5
+# - grafic
+
+import matplotlib.pyplot as plt
+
+# Folosim cerinta1 deja calculată și sortată descrescător
+primele50 = cerinta1.head(50)
+
+# Creăm graficul
+plt.figure(figsize=(15,6))
+plt.bar(primele50["Localitate"], primele50["Total"], color='skyblue')
+
+plt.xticks(rotation=90)  # rotim numele localităților pentru lizibilitate
+plt.xlabel("Localitate")
+plt.ylabel("Cifra de afaceri totală")
+plt.title("Cifra de afaceri totală pentru primele 50 de localități")
+plt.tight_layout()  # pentru a nu tăia etichetele
+
+plt.show()
+

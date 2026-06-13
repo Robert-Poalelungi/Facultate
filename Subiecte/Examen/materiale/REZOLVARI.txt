@@ -1,0 +1,416 @@
+REZOLVARI
+
+
+
+1 COMPONENTE PRINCIPALE ////////////////////////////////////////////////////////////////////////////////
+
+import pandas as pd
+import numpy as np
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+
+mortalitate = pd.read_csv('./input/Mortalitate.csv', index_col=0)
+print(mortalitate)
+
+coduri = pd.read_csv('./input/CoduriTariExtins.csv', index_col=0)
+print(coduri)
+
+merged = mortalitate.merge(coduri, left_index=True, right_index=True)
+print(merged)
+
+lista_indicatori = list(mortalitate)
+print(lista_indicatori)
+
+
+# A
+
+# 1 - tarile in care rata sporului natural este negativa
+
+rata_spor_natural = list(mortalitate)[:1]
+print(rata_spor_natural)
+
+cerinta1 = merged[merged[rata_spor_natural[0]] < 0]
+cerinta1 = cerinta1['RS']
+cerinta1.to_csv('./output/Cerinta1.csv', index=True)
+
+
+# 2 - valori medii pentru toti indicatorii, la nivel de continent
+
+cerinta2 = merged.groupby('Continent').mean()
+
+cerinta2.to_csv('./output/Cerinta2.csv', index=True)
+
+
+# B - componente principale
+
+# preprocesare
+
+date = pd.read_csv('./input/Mortalitate.csv')
+print(date)
+
+date_numerice = date.drop(columns={'Tara'})
+print(date_numerice)
+
+# standardizare date
+scaler = StandardScaler()
+date_standardizate = scaler.fit_transform(date_numerice)
+
+# aplicare ACP
+pca = PCA()
+date_pca = pca.fit(date_standardizate)
+componente_principale = pca.components_
+print("Componente principale:\n", componente_principale)
+
+# 1 - variantele componentelor principale
+varianta = pca.explained_variance_
+print("varianta:\n", varianta)
+
+varianta_ratio = pca.explained_variance_ratio_
+print("varianta_ratio:\n", varianta_ratio)
+
+varianta_cumulata = np.cumsum(varianta_ratio)
+print("varianta_cumulata:\n", varianta_cumulata)
+
+# 2 - scorurile asociate
+scoruri_componente = pca.transform(date_standardizate)
+
+scoruri_df = pd.DataFrame(scoruri_componente)
+
+scoruri_df.to_csv('./output/Scoruri.csv', index=True)
+
+
+
+2 FACTORIALA ///////////////////////////////////////////////////////////////////////////////////////////
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from factor_analyzer import FactorAnalyzer, calculate_kmo, calculate_bartlett_sphericity
+
+# inlocuire valori nan
+def nan_replace(df):
+    for col in df.columns:
+        if df[col].isna().any():
+            if is_numeric_dtype(df[col]):
+                df[col].fillna(df[col].mean(), inplace=True)
+            else:
+                df[col].fillna(df[col].mode()[0], inplace=True)
+
+# citire fisiere
+diversitate = pd.read_csv('./res/Diversitate.csv')
+print(diversitate)
+coduri = pd.read_csv('./res/Coduri_Localitati.csv')
+print(coduri)
+
+# inlocuire valori nan
+nan_replace(diversitate)
+nan_replace(coduri)
+
+#A
+
+# 1. Să se calculeze și să se salveze în fișierul Cerinta1.csv, localitățile în care cel puțin pentru un an diversitatea a
+# fost 0. Se va salva codul Siruta, denumirea localității și indicii de diversitate pentru toți anii.
+
+lista_ani = list(diversitate.columns)[2:]
+cerinta1 = diversitate[diversitate[lista_ani].min(axis=1) == 0]
+cerinta1 = cerinta1[['Siruta', 'Localitate'] + lista_ani]
+cerinta1.to_csv("./output/Cerinta1.csv", index=False)
+
+# 2. Să se determine pentru fiecare județ localitatea în care diversitatea medie (media anilor) este maximă.
+# Rezultatul va fi salvat în fișierul Cerinta2.csv. Se va salva indicativul de județ, localitatea cu diversitatea medie
+# maximă și valoarea diversității medii.
+
+merge = diversitate.merge(coduri[["Siruta", "Judet"]], on="Siruta")
+print(merge)
+
+merge['Media'] = merge[lista_ani].mean(axis=1)
+
+maxim = (
+    merge
+    .groupby("Judet")['Media']
+    .agg("max")
+    .reset_index()
+)
+
+cerinta2 = merge.merge(maxim, on=['Judet', 'Media'])
+cerinta2 = cerinta2[['Judet', 'Localitate', 'Media']]
+cerinta2.to_csv("./output/Cerinta2.csv", index=False)
+
+
+# B - ANALIZA FACTORIALA CU ROTATIE
+
+# preprocesare
+
+date = pd.read_csv('./res/Diversitate.csv')
+print(date)
+nan_replace(date)
+x = date.iloc[:,2:]
+print(x)
+nan_replace(x)
+
+# 1. Varianța factorilor comuni. Se va salva tabelul varianței în fișierul Varianta.csv. Se va salva varianța factorilor,
+# procentul de varianță extrasă și procentul cumulat de varianță.
+
+fa = FactorAnalyzer(n_factors=3, rotation='varimax')
+fa.fit(x)
+
+varianta_fact, proc_var_extrasa, proc_var_cum = fa.get_factor_variance()
+
+pd.DataFrame({
+    'Varianta factorilor': varianta_fact,
+    'Procent varianta extrasa': proc_var_extrasa * 100,
+    'Procent varianta cumulata': proc_var_cum * 100
+}).to_csv('./output/Varianta.csv', index=False)
+
+# 2. Corelațiile factoriale (corelațiile variabile - factori comuni). Acestea vor fi salvate în fișierul r.csv.
+
+corelatii_factoriale = fa.loadings_
+pd.DataFrame(corelatii_factoriale, index=x.columns).to_csv('./output/r.csv')
+
+
+
+3 DISCRIMINANTA ////////////////////////////////////////////////////////////////////////////////////////
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.interpolate import LinearNDInterpolator
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+industrie = pd.read_csv('./res/Industrie.csv', index_col= 0)
+populatie = pd.read_csv('./res/PopulatieLocalitati.csv', index_col= 0)
+
+print(industrie)
+print(populatie)
+
+merged = industrie.merge(populatie[['Judet', 'Populatie']], left_index=True, right_index=True)
+
+print(merged)
+
+
+lista_industrii = list(industrie)[1:]
+
+print(lista_industrii)
+
+# A
+
+# 1. cifra de afaceri pe locuitor pentru fiecare activitate, la nivel de localitate
+
+for i in lista_industrii:
+    merged[i] = merged[i] / merged['Populatie']
+
+cerinta1 = merged[['Localitate'] + lista_industrii]
+
+cerinta1.to_csv('./output/Cerinta1.csv', index=True)
+
+# 2. activitatea dominanta la nivel de judet
+# judet, activitate, ca
+
+altu =  merged.groupby('Judet')[lista_industrii].sum()
+altu['CA'] = altu.max(axis=1)
+altu['Dominanta'] = altu.idxmax(axis =1)
+
+cerinta2 = altu[['Dominanta', 'CA']]
+
+cerinta2.to_csv('./output/Cerinta2.csv', index=True)
+
+
+# B - ANALIZA DISCRIMINANTA
+
+# preprocesare
+date = pd.read_csv('./res/ProiectB.csv')
+x = date.drop(columns='VULNERAB')
+y = date['VULNERAB']
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, random_state=42)
+
+# 1. aplicare analiza liniara discriminanta si calcul scoruri discriminante
+analiza = LinearDiscriminantAnalysis()
+analiza.fit(x_train, y_train)
+
+scoruri = analiza.transform(x_test)
+
+scoruri_df = pd.DataFrame(scoruri)
+
+scoruri_df.to_csv('./output/z.csv')
+
+# 3. predictii pe seturile de antrenare si testare
+
+x_aplicare = pd.read_csv('./res/ProiectB_apply.csv')
+
+predictie_test = analiza.predict(x_test)
+predictie_aplicare = analiza.predict(x_aplicare)
+
+predictie_test_df = pd.DataFrame(predictie_test)
+predictie_aplicare_df = pd.DataFrame(predictie_aplicare)
+
+
+predictie_test_df.to_csv('./output/predict_test.csv')
+predictie_aplicare_df.to_csv('./output/predict_apply.csv')
+
+
+
+4 CLUSTERI /////////////////////////////////////////////////////////////////////////////////////////////
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.cluster.hierarchy import linkage, dendrogram
+
+# citire fisiere
+alcool = pd.read_csv('./input/alcohol.csv', index_col=0)
+continente = pd.read_csv('./input/CoduriTariExtins.csv', index_col=0)
+
+# inlocuire NaN
+alcool = alcool.fillna(0)
+continente = continente.fillna(0)
+
+# merge date
+merged = alcool.merge(continente, left_index=True, right_index=True)
+
+# creare lista ani
+lista_ani = list(alcool)[1:]
+
+# afisare date
+print(alcool)
+print(continente)
+print(merged)
+print(lista_ani)
+
+
+# A
+
+# 1 - media consumului in 5 ani per tara
+# tara, codul si media
+
+alcool['Medie'] = alcool[lista_ani].mean(axis=1)
+
+cerinta1 = alcool[['Code', 'Medie']]
+
+cerinta1.to_csv('./output/Cerinta1.csv', index=False)
+
+
+# 2 - anul cu cea mai mare valoare medie pe continent
+# nume continent, anul
+# medie pe continent pentru toti anii, si afisez anul maxim
+
+grupare_continente = merged.groupby('Continent')
+
+grupare_continente = grupare_continente[lista_ani].mean()
+
+cerinta2 = grupare_continente.idxmax(axis=1)
+cerinta2.name = 'Anul'
+
+cerinta2.to_csv('./output/Cerinta2.csv')
+
+
+# B - CLUSTERI
+
+# preprocesare
+
+date = pd.read_csv('./input/alcohol.csv')
+
+date = date.fillna(0)
+
+date_procesate = date[lista_ani]
+
+
+# 1 - matricea ierarhie
+
+z = linkage(date_procesate, method='ward')
+print('matrice ierarhie:\n', z)
+
+# dendograma random
+
+plt.figure(figsize=(10,7))
+dendrogram(z)
+plt.title("Dendrograma - Calcul Ierarhie")
+plt.show()
+
+# 2 - dendograma partitie optimala
+
+# calcul partitie optima
+distanta = z[:, 2]
+diferente = np.diff(distanta, 2)
+punct_elb = np.argmax(diferente) + 1
+print("Numarul optim de clustere este: ", punct_elb)
+
+# dendograma partitie optimala
+plt.figure(figsize=(10,7))
+dendrogram(z, color_threshold=distanta[punct_elb-1])
+plt.title("Dendrograma Partitie Optimala")
+plt.show()
+
+
+
+5 CANONICA /////////////////////////////////////////////////////////////////////////////////////////////
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sb
+from sklearn.cross_decomposition import CCA
+from scipy.stats import chi2
+
+emisii = pd.read_csv('./res/emmissions.csv', index_col=0)
+print(emisii)
+populatie = pd.read_csv('./res/PopulatieEuropa.csv', index_col=0)
+print(populatie)
+
+merged = emisii.merge(populatie[['Region', 'Population']], left_index=True, right_index=True)
+print(merged)
+
+lista_emisii = list(emisii)[1:]
+print(lista_emisii)
+
+# A
+
+# 1 - emisii totale de particule, la nivel de tara, in tine
+# codul, numele, emisii totale
+
+emisii['Total'] = emisii[lista_emisii[:-2]].sum(axis=1)
+
+cerinta1= emisii[['Country', 'Total']]
+
+cerinta1.to_csv('./output/Cerinta1.csv', index = True)
+
+# 2. emisii pe regiune / 100 000 locutori
+# cod regiune si emisii
+
+df_2 = merged[['Region', 'Population'] + lista_emisii]
+
+suma_regiune = df_2.groupby('Region').sum()
+
+cerinta2 = suma_regiune[lista_emisii].div(suma_regiune['Population'] / 100000, axis=0)
+
+cerinta2.to_csv('./output/Cerinta2.csv', index = True)
+
+
+# B - ANALIZA CANONICA
+
+# preprocesare
+
+date = pd.read_csv('emissions.csv')
+x = date.iloc[:, 2:6].values
+y = date.iloc[:, 6:].values
+cca = CCA(n_components=2)
+cca.fit(x, y)
+
+
+# 1 scoruri canonice
+x_scoruri, y_scoruri = cca.transform(x, y)
+
+# 2 corelatii canonice
+corelatii_canonice = np.corrcoef(x_scoruri.T, y_scoruri.T).diagonal(offset=x_s)
+print("Corelatii canonice:\n", corelatii_canonice)
+
+# 3 Bartlett
+def test_bartlett(r2,n,p,q,m):
+    x = 1-r2
+    df=[(p-k+1)*(q-k+1) for k in range(1, m+1)]
+    l = np.flip(np.cumprod(np.flip(x)))
+    chi2_ = (-n+1+(p+q+1)/2)*np.log(1)
+    return 1-chi2.cdf(chi2_, df)
+

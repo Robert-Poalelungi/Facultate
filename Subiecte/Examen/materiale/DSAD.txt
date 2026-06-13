@@ -1,0 +1,194 @@
+DSAD
+
+
+
+BAZA///////////////////////////////////////////////////////////////////////////////////////////////
+
+import pandas as pd
+import numpy as np
+import matplotlib as plt
+
+# citire fisiere
+diversitate = pd.read_csv('./input/Diversitate.csv', index_col=0)
+coduri = pd.read_csv('./input/Coduri_Localitati.csv', index_col = 0)
+
+# inlocuire valori NaN
+diversitate = diversitate.fillna(0)
+coduri = coduri.fillna(0)
+
+# merge
+merged = diversitate.merge(coduri['Judet'], left_index=True, right_index=True)
+
+# lista
+lista = list(diversitate)[1:]
+
+
+
+COMPONENTE PRICIPALE///////////////////////////////////////////////////////////////////////////////
+
+# importuri
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+
+# preprocesare
+date = pd.read_csv("date.csv")
+date = date.drop(columns={"nenumeric"})
+
+# standardizare date
+scaler = StandardScaler()
+date = scaler.fit_transform(date)
+
+# aplicare PCA
+pca = PCA()
+date_pca = pca.fit(date)
+
+/////////////////////////////////////////////////
+
+# varianta
+varianta = pca.explained_variance_
+
+# procent varianta
+var_ratio = pca.explained_variance_ratio_
+
+# varianta cumulata
+var_cumulata = np.cumsum(var_ratio)
+
+/////////////////////////////////////////////////
+
+# scoruri
+scoruri = pca.transform(date_standard)
+
+/////////////////////////////////////////////////
+
+# componente principale
+componente_principale = pca.components_
+
+
+
+FACTORIALA/////////////////////////////////////////////////////////////////////////////////////////
+
+# importuri
+from factor_analyzer import FactorAnalyzer
+from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity
+from factor_analyzer.factor_analyzer import calculate_kmo
+
+# preprocesare
+date = pd.read_csv("date.csv")
+date = date.drop(columns={"nenumeric"})
+
+/////////////////////////////////////////////////
+
+# analiza factorabilitatii - Bartlett
+chi_square, p_value = calculate_bartlett_sphericity(x)
+
+/////////////////////////////////////////////////
+
+# analiza factorabilitatii - KMO
+kmo_all, kmo_model = calculate_kmo(x)
+
+/////////////////////////////////////////////////
+
+# varianta factori - varianta, procentul, cumulata
+analiza_factoriala = FactorAnalyzer(n_factors=3, rotation="varimax SAU None")
+analiza_factoriala.fit(x)
+
+varianta = analiza_factoriala.get_factor_variance()
+
+/////////////////////////////////////////////////
+
+# corelatii factoriale
+coreletii = analiza_factoriala.loadings_
+
+
+
+DISCRIMINANTA//////////////////////////////////////////////////////////////////////////////////////
+
+# importuri
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+# preprocesare
+date = pd.read_csv("date.csv")
+x = date.drop(columns={"Target"})
+y = date["Target"]
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, random_state=42)
+
+lda = LinearDiscriminantAnalysis()
+
+lda.fit(x_train, y_train)
+
+/////////////////////////////////////////////////
+
+# scoruri discriminante
+scoruri = lda.transform(x_test)
+
+
+
+CLUSTERI///////////////////////////////////////////////////////////////////////////////////////////
+
+# importuri
+from scipy.cluster.hierarchy import linkage, dendrogram
+
+# preprocesare
+date = pd.read_csv("date.csv")
+
+/////////////////////////////////////////////////
+
+# calcul ierarhie - matrice
+z = linkage(date, method="ward")
+
+/////////////////////////////////////////////////
+
+# calcul partitie optimala - nr clusteri
+distanta = z[:,2]
+diferente = np.diff(distanta,2)
+punct_elb = np.argmax(diferente)+1
+
+/////////////////////////////////////////////////
+
+# dendograma partitie optimala
+plt.figure(figsize=(10,7))
+dendrogram(z, color_threshold=distanta[punct_elb-1])
+plt.title("Dendrograma Partitie Optimala")
+plt.show()
+
+
+
+CANONICA///////////////////////////////////////////////////////////////////////////////////////////
+
+# importuri
+import seaborn as sb
+from sklearn.cross_decomposition import CCA
+from scipy.stats import chi2
+
+# preprocesare
+date = pd.read_csv('date_canonice.csv')
+
+x = date.iloc[:, :3].values
+y = date.iloc[:, 3:].values
+
+cca = CCA(n_components=2)
+
+cca.fit(x, y)
+
+/////////////////////////////////////////////////
+
+# Bartlett
+def test_bartlett(r2,n,p,q,m):
+x = 1-r2
+df=[(p-k+1)*(q-k+1) for k in range(1, m+1)]
+l = np.flip(np.cumprod(np.flip(x)))
+chi2_ = (-n+1+(p+q+1)/2)*np.log(1)
+return 1-chi2.cdf(chi2_, df)
+
+/////////////////////////////////////////////////
+
+# scoruri canonice
+x_scoruri, y_scoruri = cca.transform(x, y)
+
+/////////////////////////////////////////////////
+
+# corelatii canonice
+corelatii = np.corrcoef(x_scoruri.T, y_scoruri.T).diagonal(offset=x_scoruri.shape[1])

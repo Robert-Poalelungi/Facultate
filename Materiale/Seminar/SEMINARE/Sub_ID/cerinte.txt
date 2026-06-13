@@ -1,0 +1,30 @@
+SUBIECT_ID
+In fişierul MiscNatPopTari.csv sunt prezentati indicatori ai mişcării naturale a populaţiei pe țări, la nivel mondial, la nivelul anului 2015 (Sursa datelor: United Nations Statistics Division, https://data.un.org/). Indicatori:
+Country Number	Numar unic de identificare țară
+Country Name	Numele täri
+Three Letter Country Code	Codul de tara
+RS	Rata sporului natural
+FR	Rata fertilitatati
+IM	Rata mortalitatii
+MMR	Rata mortalitatii maternale
+LE	Speranta de viata
+LEM	Speranta de viata la barbati
+LEF	Speranta de viata la femei
+
+In fişierul CoduriTariExtins.csv se afla codificari ale tarilor şi împărțirea acestora pe continente.
+A. Să se implementeze urmatoarele cerinte
+1. Salvarea in fisierul cerinta1.csv a tarilor in care rata sporului natural este negativ. (1 punct)
+Criteriu de acordare a punctajului: vizualizarea fisierului output.
+2. Salvarea in fişierul cerinta2.csv a valorilor medii pentru indicatorii de mai sus, la nivel de continent.
+(2 puncte)
+Criteriu de acordare a punctajului: vizualizarea fisierului output.
+B. Sa se efectueze analiza in componente principale standardizată şi să se furnizeze următoarele rezultate:
+
+1. Variantele componentelor principale. Variantele vor fi afisate la consola. (1 punct)
+Criteriu de acordare a punctajului: afisarea corectă a variantelor
+
+2. Scorurile asociate instantelor. Scorurile vor fi salvate in fisierul scoruri.csv. (2 puncte)
+Criteriu de acordare a punctajului: vizualizaren fişierului scoruri.csv
+
+3. Graficul scorurilor in primele doua axe principale. (3 puncte)
+Criteriu de acordare a punctajului: vizualizarea corecta a graficului.
