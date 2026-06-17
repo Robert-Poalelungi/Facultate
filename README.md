@@ -81,7 +81,7 @@ Acronim pentru 5 principii de design orientat-obiect:
 
 **SRP — detaliu de scenariu din curs:** o clasă `Angajat` care depinde simultan de modificări venite din 2 zone diferite (ex. HR și Financiar / Director Financiar și Director General) încalcă SRP, fiindcă are mai mult de un „motiv de schimbare". Soluția standard predată: împărțirea clasei în două clase, fiecare răspunzând unui singur actor.
 
-**Exemplu de cod SOLID din curs (`Curs/src/cts/curs/c02/SOLID`)** — fiecare principiu are o variantă `Before` (greșit) și `After` (corect):
+**Exemplu de cod SOLID din curs ([`Curs/src/cts/curs/c02/SOLID`](CTS_Curs_Complet.md#curssrcctscursc02soliddafteriworkerjava))** — fiecare principiu are o variantă `Before` (greșit) și `After` (corect):
 - **S** — `Angajat` (Before, are atât logică de business cât și de taxare) vs. `CalculatorTaxe` + `ServiciiAngajat` separate (After)
 - **O** — `CalculatorSalariu` cu `if`-uri pe tip de angajat (Before) vs. `RegulaSalarizare` ca interfață cu implementări `SalariuLucrator`/`SalariuManager` (After) — adăugarea unui nou tip de angajat NU mai necesită modificarea codului existent
 - **L** — `Patrat extends Dreptunghi` cu `setLungime`/`setLatime` separate, ceea ce rupe contractul (Before) vs. `Forma` interfață cu `Dreptunghi` și `Patrat` independente, fiecare cu constructor imutabil (After)
@@ -260,7 +260,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Corelații:** Factory → o singură fabrică de obiecte; Builder → un singur obiect care construiește alte obiecte.
 
-**Cod relevant din proiect:** `Curs/src/cts/curs/c03/Singleton/` (toate cele 6+ variante), `Curs/singleton.txt` (problema restaurantului).
+![Singleton](https://refactoring.guru/images/patterns/content/singleton/singleton.png?id=108a0b9b5ea5c4426e0afa4504491d6f)
+![Singleton — Structură UML](https://refactoring.guru/images/patterns/diagrams/singleton/structure-en.png?id=4e4306d3a90f40d74c7a4d2d2506b8ec)
+
+> **Analogie reală (refactoring.guru):** Guvernul unui stat este un exemplu clasic de Singleton. O țară poate avea un singur guvern oficial. Indiferent de identitatea persoanelor care îl compun, titlul „Guvernul lui X" este un punct global de acces care identifică grupul de oameni aflat la conducere.
+
+**Cod relevant din proiect:** [`Curs/src/cts/curs/c03/Singleton/`](CTS_Curs_Complet.md#curssrcctscursc03singletoncollectionangajatjava) (toate cele 6+ variante), [`Curs/singleton.txt`](CTS_Curs_Complet.md#curssingletontxt) (problema restaurantului).
 
 ---
 
@@ -279,12 +284,22 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 - Nu folosește structuri `switch` sau `if-else`.
 - Pentru apeluri se folosesc **abstractizări**, nu obiecte concrete.
 
+![Factory Method](https://refactoring.guru/images/patterns/content/factory-method/factory-method-en.png?id=cfa26f33dc8473e803fadae0d262100a)
+![Factory Method — Structură UML](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png?id=4cba0803f42517cfe8548c9bc7dc4c9b)
+
+> **Analogie reală (refactoring.guru):** Imaginează-ți o aplicație de logistică care inițial gestionează doar camioane. Pe măsură ce crește, apare nevoia de transport maritim. Dacă codul e cuplat strâns cu clasa `Camion`, adăugarea clasei `Vapor` necesită modificarea întregii baze de cod. Factory Method permite definirea unui contract (interfață) pentru crearea obiectului de transport, iar fiecare subclasă decide ce tip concret creează — fără a modifica codul existent.
+
 **Abstract Factory**
 - Creează o **familie de obiecte înrudite** fără a specifica clasele concrete.
 - Avem o singură „fabrică-mamă" prin care obținem obiecte din toate familiile de obiecte dintr-o anumită categorie.
 - Util când există o familie de obiecte într-o aplicație (ex. în cod: `RestaurantItalianFactory` produce `Pizza`+`VinRosu`, `RestaurantJaponezFactory` produce `Sushi`+`Matcha`).
 
-**Cod relevant:** `Curs/src/cts/curs/c05/factory/SimpleFactory`, `FactoryMethod`, `AbstractFactory`.
+![Abstract Factory](https://refactoring.guru/images/patterns/content/abstract-factory/abstract-factory-en.png?id=d0210ee255712a245fead94a3fafabe0)
+![Abstract Factory — Structură UML](https://refactoring.guru/images/patterns/diagrams/abstract-factory/structure.png?id=a3112cdd98765406af94595a3c5e7762)
+
+> **Analogie reală (refactoring.guru):** Un magazin de mobilă vinde familii de produse: `Scaun` + `Canapea` + `MăsuțăCafea`, disponibile în variantele `Modern`, `Victorian` și `ArtDeco`. Clienții se supără când primesc mobilă care nu se potrivește (un scaun Modern cu o canapea Victoriană). Abstract Factory garantează că toate obiectele create aparțin aceleiași familii, fără ca programul să cunoască clasele concrete.
+
+**Cod relevant:** [`Curs/src/cts/curs/c05/factory/SimpleFactory`](CTS_Curs_Complet.md#curssrcctscursc05factorysimplefactoryimplementareetippizzajava), [`FactoryMethod`](CTS_Curs_Complet.md#curssrcctscursc05factoryfactorymethodimplementarefactorypizzanonvegetarianajava), [`AbstractFactory`](CTS_Curs_Complet.md#curssrcctscursc05factoryabstractfactoryimplementareabstractbauturajava).
 
 ---
 
@@ -297,7 +312,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 - **NU** este folosit pentru crearea de obiecte din aceeași familie (asta e Abstract Factory) — afirmație falsă frecventă în grile.
 - Builder este un design pattern **creațional**.
 
-**Cod relevant:** `Curs/src/cts/curs/c05/builder/v1`, `v2`, `v3` (Petrecere/PetrecereBuilder).
+![Builder](https://refactoring.guru/images/patterns/content/builder/builder-en.png?id=617612423ea3752477dc90929115b3ee)
+![Builder — Structură UML](https://refactoring.guru/images/patterns/diagrams/builder/structure.png?id=fe9e23559923ea0657aa5fe75efef333)
+
+> **Analogie reală (refactoring.guru):** Construirea unei case simple necesită fundație, pereți, ușă, ferestre și acoperiș. Dar dacă vrei o casă mai mare, cu piscină, sistem de încălzire și cablaj electric? În loc să creezi o subclasă pentru fiecare combinație posibilă, Builder-ul permite construcția pas cu pas: apelezi doar pașii de construcție necesari pentru varianta ta specifică.
+
+**Cod relevant:** [`Curs/src/cts/curs/c05/builder/v1`](CTS_Curs_Complet.md#curssrcctscursc05builderv1implementareibuilderjava), [`v2`](CTS_Curs_Complet.md#curssrcctscursc05builderv2implementareibuilderjava), [`v3`](CTS_Curs_Complet.md#curssrcctscursc05builderv3implementareibuilderjava) (Petrecere/PetrecereBuilder).
 
 ---
 
@@ -307,13 +327,18 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Participanți:** `Prototype` (interfață de clonare), `Concrete Prototype`, opțional `Prototype Factory`.
 
+![Prototype](https://refactoring.guru/images/patterns/content/prototype/prototype.png?id=e912b1ada20bbf7b2ffc09e93b9fab20)
+![Prototype — Structură UML](https://refactoring.guru/images/patterns/diagrams/prototype/structure.png?id=088102c5e9785ff45debbbce86f4df81)
+
+> **Analogie reală (refactoring.guru):** Diviziunea mitotică celulară — după diviziune, se formează o pereche de celule identice. Celula originală acționează ca prototip și joacă un rol activ în crearea copiei. Spre deosebire de prototipurile industriale (care sunt pasive), celula biologică se reproduce singură, exact ca în pattern.
+
 **Diferența cheie Prototype vs. Flyweight** (capcană foarte frecventă):
 - **Prototype** → optimizează **VITEZA de creare** a obiectelor (prin clonare).
 - **Flyweight** → optimizează **MEMORIA** necesară stocării obiectelor (prin reutilizare).
 - Prin Prototype, crearea obiectelor se face prin **clonare**; prin Flyweight, obiectele sunt **reutilizate**.
 - Prototype este **Creațional**, Flyweight este **Structural**.
 
-**Cod relevant:** `Curs/src/cts/curs/c04/Prototype/` (ContractCorporate/ContractParty), și în seminar: `CrocsPrototypeFactory` (G1089/S05, G1092/S05, G1093/S05) — context Crocs personalizabile.
+**Cod relevant:** [`Curs/src/cts/curs/c04/Prototype/`](CTS_Curs_Complet.md#curssrcctscursc04prototypeimplementareabstractcontractjava) (ContractCorporate/ContractParty), și în seminar: [`CrocsPrototypeFactory`](CTS_Seminar_Complet.md#g1089s05srcctsg1089s05ex1implementareprototype2crocsprototypefactoryjava) (G1089/S05, G1092/S05, G1093/S05) — context Crocs personalizabile.
 
 ---
 
@@ -341,7 +366,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 - Adapter NU adaugă funcționalitate nouă, doar schimbă interfața.
 - Decorator adaugă funcționalitate nouă, păstrând interfața.
 
-**Cod relevant:** `Curs/src/cts/curs/c08/adapter/clase/` și `c08/adapter/obiecte/` (context: `EvaluareClientFirmaA`/`EvaluareClientFirmaB`). În seminar: `AdapterEuropaToAmerica` (priza Europa→America), `Adaptor` (MicroUSB→USBc) — G1093.
+![Adapter](https://refactoring.guru/images/patterns/content/adapter/adapter-en.png?id=11ef6ae6177291834323e3f918c47cd2)
+![Adapter — Structură UML](https://refactoring.guru/images/patterns/diagrams/adapter/structure-object-adapter.png?id=33dffbe3aece294162440c7ddd3d5d4f)
+
+> **Analogie reală (refactoring.guru):** Când călătorești din SUA în Europa, constați că priza americană nu se potrivește în socketul german. Problema se rezolvă cu un adaptor de priză — care are socketul american pe o parte și ștecherul european pe cealaltă. Exact ca pattern-ul: adaptorul face ca două interfețe incompatibile să poată colabora.
+
+**Cod relevant:** [`Curs/src/cts/curs/c08/adapter/clase/`](CTS_Curs_Complet.md#curssrcctscursc08adapterclaseimplementareadapterjava) și [`c08/adapter/obiecte/`](CTS_Curs_Complet.md#curssrcctscursc08adapterobiecteimplementareadapterjava) (context: `EvaluareClientFirmaA`/`EvaluareClientFirmaB`). În seminar: [`AdapterEuropaToAmerica`](CTS_Seminar_Complet.md#g1093s10srcctsg1093s10adapterimplementareadaptereuropatoamericajava) (priza Europa→America), [`Adaptor`](CTS_Seminar_Complet.md#g1093s11srcctss11adapterimplementareadaptorjava) (MicroUSB→USBc) — G1093.
 
 ---
 
@@ -357,7 +387,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Asemănarea Facade ↔ Adapter:** **ambele sunt wrappere** (ambele „înfășoară" alt cod, fără a-l modifica).
 
-**Cod relevant:** `Curs/src/cts/curs/c07/facade/` — context restaurant: `Facade` coordonează `GestiuneBucatari` și `GestiuneSali` pentru rezervarea unei petreceri.
+![Facade](https://refactoring.guru/images/patterns/content/facade/facade.png?id=1f4be17305b6316fbd548edf1937ac3b)
+![Facade — Structură UML](https://refactoring.guru/images/patterns/diagrams/facade/structure.png?id=258401362234ac77a2aaf1cde62339e7)
+
+> **Analogie reală (refactoring.guru):** Când suni la un magazin pentru a plasa o comandă, operatorul telefonic este Facade-ul tău. El îți oferă o interfață simplă (vocea) către sistemul de comandă, gateway-urile de plată și diferitele servicii de livrare ale magazinului — tu nu interacționezi direct cu niciunul dintre acestea.
+
+**Cod relevant:** [`Curs/src/cts/curs/c07/facade/`](CTS_Curs_Complet.md#curssrcctscursc07facadeimplementarebucatarjava) — context restaurant: `Facade` coordonează `GestiuneBucatari` și `GestiuneSali` pentru rezervarea unei petreceri.
 
 ---
 
@@ -372,7 +407,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 - Pentru metoda din interfață se oferă o implementare, **dar nu se adaugă noi funcții abstracte** la nivelul decoratorului abstract.
 - Decoratorii concreți implementează noile metode care extind funcționalitatea.
 
-**Cod relevant:** `Curs/src/cts/curs/c07/decorator/` — context pizza: `APizza` (abstract), `ADecoratorPizza`, `DecoratorCrown`, `DecoratorPicant`. Seminar: `ABonDecorator`/`DecoratorPrimavara` (bonuri cu reduceri sezoniere).
+![Decorator](https://refactoring.guru/images/patterns/content/decorator/decorator.png?id=710c66670c7123e0928d3b3758aea79e)
+![Decorator — Structură UML](https://refactoring.guru/images/patterns/diagrams/decorator/structure.png?id=8c95d894aecce5315cc1b12093a7ea0c)
+
+> **Analogie reală (refactoring.guru):** Îmbrăcarea hainelor este un exemplu clasic de Decorator. Când ți-e frig, te înfășori într-un pulover. Dacă tot ți-e frig, pui o jachetă deasupra. Dacă plouă, adaugi o impermeabilă. Fiecare haină „extinde" comportamentul tău de bază, dar nu face parte din tine — și o poți da jos oricând.
+
+**Cod relevant:** [`Curs/src/cts/curs/c07/decorator/`](CTS_Curs_Complet.md#curssrcctscursc07decoratorimplementareadecoratorpizzajava) — context pizza: `APizza` (abstract), `ADecoratorPizza`, `DecoratorCrown`, `DecoratorPicant`. Seminar: [`ABonDecorator`](CTS_Seminar_Complet.md#g1091s08srcctsmatracaruanamariag1091decoratorimplementareabondecoratorjava)/`DecoratorPrimavara` (bonuri cu reduceri sezoniere).
 
 ---
 
@@ -386,11 +426,16 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 - Clasele Composite (container) conțin o **listă** cu elemente de tipul componentei abstracte; permit `adaugaNod()`/`eliminaNod()`.
 - Clasele Frunză **NU implementează** metodele de adăugare/ștergere a nodurilor (de obicei aruncă `UnsupportedOperationException`).
 
+![Composite](https://refactoring.guru/images/patterns/content/composite/composite.png?id=73bcf0d94db360b636cd745f710d19db)
+![Composite — Structură UML](https://refactoring.guru/images/patterns/diagrams/composite/structure-en.png?id=b7f114558b594dfb220d225398b2b744)
+
+> **Analogie reală (refactoring.guru):** Ierarhia militară. O armată este compusă din divizii; o divizie e formată din brigăzi; o brigadă conține plutoane, care sunt alcătuite din echipe de soldați. Ordinele sunt date la vârful ierarhiei și transmise în jos, nivel cu nivel, până când fiecare soldat știe ce trebuie să facă — indiferent dacă ești la nivel de armată sau de soldat individual, interfața de „execută ordine" e aceeași.
+
 **Utilizare practică:** meniurile aplicațiilor, meniurile de restaurant (structuri ierarhice de categorii/produse).
 
 **Corelația Composite ↔ Decorator:** „Nodurile Composite pot fi privite ca Noduri Frunză decorate" — ambele „înfășoară" alte obiecte într-un mod recursiv/extensibil.
 
-**Cod relevant:** `Curs/src/cts/curs/c09/composite/` — context meniu restaurant: `ANod` (abstract), `Structura` (composite), `Produs` (frunză), folosit pentru `Meniu`/`Pizzeria ASE`.
+**Cod relevant:** [`Curs/src/cts/curs/c09/composite/`](CTS_Curs_Complet.md#curssrcctscursc09compositeimplementareanodjava) — context meniu restaurant: `ANod` (abstract), `Structura` (composite), `Produs` (frunză), folosit pentru `Meniu`/`Pizzeria ASE`.
 
 ---
 
@@ -405,9 +450,14 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Asemănarea Flyweight ↔ Factory:** construirea de obiecte este gestionată de o clasă (factory pattern comun ca structură).
 
+![Flyweight](https://refactoring.guru/images/patterns/content/flyweight/flyweight.png?id=e34fbacb847dd609b5e68aaf252c4db0)
+![Flyweight — Structură UML](https://refactoring.guru/images/patterns/diagrams/flyweight/structure.png?id=c1e7e1748f957a4792822f902bc1d420)
+
+> **Analogie reală (refactoring.guru):** Un joc video cu mii de particule/gloanțe/explozii pe ecran. Dacă fiecare particulă și-ar stoca toate datele (culoare, textură, formă), memoria RAM ar fi rapid epuizată. Flyweight separă starea comună (textura, culoarea — **intrinsecă**, stocată o singură dată și partajată) de starea unică per-instanță (poziție, viteză — **extrinsecă**, transmisă la apelul metodei). Astfel, mii de particule partajează același obiect Flyweight.
+
 **Diferența cheie Flyweight vs. Prototype** (vezi și secțiunea Prototype): Flyweight optimizează **memoria** prin reutilizare; Prototype optimizează **viteza de creare** prin clonare.
 
-**Cod relevant:** `Curs/src/cts/curs/c08/flyweight/` — `MesajPrintareFactory` (cu HashMap), `Bon`. Seminar: `FabricaDeRecomandari`/`Recomandare` (G1093/S11), `FlyweightFactory`/`Monstru`/`Vrajitor` (G1093/S12).
+**Cod relevant:** [`Curs/src/cts/curs/c08/flyweight/`](CTS_Curs_Complet.md#curssrcctscursc08flyweightimplementarebonjava) — `MesajPrintareFactory` (cu HashMap), `Bon`. Seminar: [`FabricaDeRecomandari`](CTS_Seminar_Complet.md#g1093s11srcctss11flyweightimplementarefabricaderecomandarijava)/`Recomandare` (G1093/S11), [`FlyweightFactory`](CTS_Seminar_Complet.md#g1093s12srcctss12g1093flyweightimplementareflyweightfactoryjava)/`Monstru`/`Vrajitor` (G1093/S12).
 
 ---
 
@@ -428,7 +478,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 - **Proxy** → permite/restricționează accesul la funcționalități existente.
 - **Decorator** → adaugă funcționalități noi.
 
-**Cod relevant:** `Curs/src/cts/curs/c07/proxy/` — `Petrecere`/`PetrecereProxy` (verificare vârstă). Seminar: `PesteraProxy` (G1089/S08), `SpitalProxy`/`ProxySpital` (G1090–G1094/S08).
+![Proxy](https://refactoring.guru/images/patterns/content/proxy/proxy.png?id=efece4647fb11e3f7539291796327666)
+![Proxy — Structură UML](https://refactoring.guru/images/patterns/diagrams/proxy/structure.png?id=f2478a82a84e1a1e512a8414bf1abd1c)
+
+> **Analogie reală (refactoring.guru):** Un card de credit este un Proxy pentru un cont bancar, care la rândul lui este un Proxy pentru o sumă de bani fizică. Ambele implementează aceeași interfață: pot fi folosite pentru a face o plată. Cardul elimină necesitatea de a purta bani cash, iar magazinul beneficiază de securitatea tranzacțiilor electronice.
+
+**Cod relevant:** [`Curs/src/cts/curs/c07/proxy/`](CTS_Curs_Complet.md#curssrcctscursc07proxyimplementareclientjava) — `Petrecere`/`PetrecereProxy` (verificare vârstă). Seminar: [`PesteraProxy`](CTS_Seminar_Complet.md#g1089s08srcpestera_proxyimplementare_proxypesteraproxyjava) (G1089/S08), [`SpitalProxy`](CTS_Seminar_Complet.md#g1090s08srcproxylayer_intermediarspitalproxyjava)/`ProxySpital` (G1090–G1094/S08).
 
 ---
 
@@ -447,7 +502,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Diferența Strategy vs. State** (capcană extrem de frecventă — vezi cheat sheet): la **Strategy**, **clientul** alege explicit algoritmul; la **State**, schimbarea e **internă/automată**, declanșată de starea obiectului.
 
-**Cod relevant:** `Curs/src/cts/curs/c10/strategy/` — `IProcesabil`, `StrategieCaloriiMinim`, `StrategieCarbohidratiMinim`, client `MeniuRestaurant`/`OfertaMeniu`. Seminar: `StrategiePlataCard`/`StrategiePlataCash` (G1089, G1090, G1091, G1094 — plată cash vs. card), `Vizualizare2D`/`Vizualizare3D` (G1090/S10).
+![Strategy](https://refactoring.guru/images/patterns/content/strategy/strategy.png?id=379bfba335380500375881a3da6507e0)
+![Strategy — Structură UML](https://refactoring.guru/images/patterns/diagrams/strategy/structure.png?id=c6aa910c94960f35d100bfca02810ea1)
+
+> **Analogie reală (refactoring.guru):** Vrei să ajungi la aeroport. Poți lua autobuzul, comanda un taxi sau merge cu bicicleta. Acestea sunt strategiile tale de transport. Alegi una în funcție de factori ca bugetul sau constrângerile de timp — scopul (ajungerea la aeroport) rămâne același, doar algoritmul (mijlocul de transport) se schimbă.
+
+**Cod relevant:** [`Curs/src/cts/curs/c10/strategy/`](CTS_Curs_Complet.md#curssrcctscursc10strategyimplementareiprocesabiljava) — `IProcesabil`, `StrategieCaloriiMinim`, `StrategieCarbohidratiMinim`, client `MeniuRestaurant`/`OfertaMeniu`. Seminar: [`StrategiePlataCard`](CTS_Seminar_Complet.md#g1089s10srcctserculescuraresg1089strategyimplementarestrategieplatacardjava)/`StrategiePlataCash` (G1089, G1090, G1091, G1094 — plată cash vs. card), [`Vizualizare2D`](CTS_Seminar_Complet.md#g1090s10srcctss10strategyimplementarevizualizare2djava)/`Vizualizare3D` (G1090/S10).
 
 ---
 
@@ -457,12 +517,17 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Relația este 1:n** (NU 1:1!) — un subiect notifică **mai mulți** observatori simultan.
 
+![Observer](https://refactoring.guru/images/patterns/content/observer/observer.png?id=6088e31e1b0d4a417506a66614dcf065)
+![Observer — Structură UML](https://refactoring.guru/images/patterns/diagrams/observer/structure.png?id=365b7e2b8fbecc8948f34b9f8f16f33c)
+
+> **Analogie reală (refactoring.guru):** Abonamentele la reviste și ziare. În loc să mergi zilnic la chioșc să verifici dacă a apărut numărul nou, te abonezi și primești revista direct la cutia poștală după publicare. Editorul menține lista abonaților și știe interesele acestora; abonații pot renunța oricând la abonament.
+
 **Participanți:**
 - `ISubiect`/interfață observabilă — gestionează lista de observatori (clasa **ObservabilConcret** = clasa CONCRETĂ care gestionează lista de observatori — capcană: nu e clasa abstractă).
 - `IObserver` — interfață abstractă pentru obiectele care vor fi notificate.
 - **ObservatorConcret** = clasele concrete care definesc la nivel concret observatorii.
 
-**Cod relevant:** `Curs/src/cts/curs/c10/observer/` — `Restaurant` (subiect) notifică `Client` (observer) la schimbări. Seminar: `ServiciuMeteo`/`ServiciuPolitiaRomana` ca observeri (G1089, G1090, G1091, G1092, G1093/S10).
+**Cod relevant:** [`Curs/src/cts/curs/c10/observer/`](CTS_Curs_Complet.md#curssrcctscursc10observerimplementareclientjava) — `Restaurant` (subiect) notifică `Client` (observer) la schimbări. Seminar: [`ServiciuMeteo`](CTS_Seminar_Complet.md#g1089s10srcctserculescuraresg1089observerimplementareserviciumeteojava)/`ServiciuPolitiaRomana` ca observeri (G1089, G1090, G1091, G1092, G1093/S10).
 
 ---
 
@@ -475,7 +540,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 - Dacă un handler concret **nu poate rezolva** problema, apelează la **următorul handler** din lanț.
 - Participantul **Handler** = clasă abstractă care definește interfața obiectelor ce vor gestiona cererea de procesare/rezolvare.
 
-**Cod relevant:** `Curs/src/cts/curs/c09/chain_of_responsability/` — `AHandler`, `Bucatar`/`BucatarSef` (escaladare comandă). Seminar: `HandlerANAF`/`HandlerVechime`/`HandlerNivelSalariu` (verificare eligibilitate credit, în majoritatea grupelor S09), `FiltrarePret`/`FiltrareProcentReducere`/`FiltrareRecenzii` (G1093/S09).
+![Chain of Responsibility](https://refactoring.guru/images/patterns/content/chain-of-responsibility/chain-of-responsibility.png?id=56c10d0dc712546cc283cfb3fb463458)
+![Chain of Responsibility — Structură UML](https://refactoring.guru/images/patterns/diagrams/chain-of-responsibility/structure.png?id=848f0fc8dca57a44974d63f8181f5406)
+
+> **Analogie reală (refactoring.guru):** Suportul tehnic telefonic. Când suni, apelul trece printr-un sistem automat, apoi la un operator general, și în final la un inginer specializat. Fiecare nivel încearcă să rezolve problema sau o transferă nivelului următor — exact ca un lanț de handlere care procesează sau pasează cererea.
+
+**Cod relevant:** [`Curs/src/cts/curs/c09/chain_of_responsability/`](CTS_Curs_Complet.md#curssrcctscursc09chain_of_responsabilityimplementareahandlerjava) — `AHandler`, `Bucatar`/`BucatarSef` (escaladare comandă). Seminar: [`HandlerANAF`](CTS_Seminar_Complet.md#g1089s09srcchain_of_responsabilityimplementarehandleranafjava)/`HandlerVechime`/`HandlerNivelSalariu` (verificare eligibilitate credit, în majoritatea grupelor S09), [`FiltrarePret`](CTS_Seminar_Complet.md#g1093s09srcctss09g1093corimplementarefiltrarepretjava)/`FiltrareProcentReducere`/`FiltrareRecenzii` (G1093/S09).
 
 ---
 
@@ -491,7 +561,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Caracteristici:** Command **nu ascunde** aplicarea de comenzi — se știe concret ce presupune acea comandă. Util la: macro-uri, lucrul cu fișiere, oriunde se dorește revenirea la o stare anterioară prin comenzi (deși Undo propriu-zis se face de regulă combinat cu Memento).
 
-**Cod relevant:** `Curs/src/cts/curs/c10/command/` — `IComanda`, `ComandaPizza`/`ComandaPaste`, `Ospatar` (invoker), `Bucatar` (receiver). `Curs/src/cts/curs/c11/Command_telecomanda/` — telecomandă TV/jaluzele (`Telecomanda` = invoker, `Televizor`/`Jaluzele` = receivers). Seminar: `ComandaBuy`/`ComandaSell` cu `Broker` (G1093/S12, G1094/S11 — tranzacții bursă).
+![Command](https://refactoring.guru/images/patterns/content/command/command-en.png?id=80fbadc666cf3b9b1958c546d2746ca4)
+![Command — Structură UML](https://refactoring.guru/images/patterns/diagrams/command/structure.png?id=1cd7833638f4c43630f4a84017d31195)
+
+> **Analogie reală (refactoring.guru):** Într-un restaurant, chelnerul preia comanda ta și o notează pe hârtie. Biletul de comandă este obiectul Command — conține toate detaliile necesare și rămâne în coadă până bucătarul este gata să prepare. Hârtia îi permite bucătarului să înceapă imediat, fără a necesita clarificări directe de la tine.
+
+**Cod relevant:** [`Curs/src/cts/curs/c10/command/`](CTS_Curs_Complet.md#curssrcctscursc10commandimplementarebucatarjava) — `IComanda`, `ComandaPizza`/`ComandaPaste`, `Ospatar` (invoker), `Bucatar` (receiver). [`Curs/src/cts/curs/c11/Command_telecomanda/`](CTS_Curs_Complet.md#curssrcctscursc11command_telecomandaimplementarecomandacoboarajaluzelejava) — telecomandă TV/jaluzele (`Telecomanda` = invoker, `Televizor`/`Jaluzele` = receivers). Seminar: [`ComandaBuy`](CTS_Seminar_Complet.md#g1093s12srcctss12g1093commandimplementarecomandabuyjava)/[`ComandaSell`](CTS_Seminar_Complet.md#g1093s12srcctss12g1093commandimplementarecomandaselljava) cu `Broker` (G1093/S12, [`G1094/S11`](CTS_Seminar_Complet.md#g1094s11srcctscommandimplementareactiunebursajava) — tranzacții bursă).
 
 ---
 
@@ -506,7 +581,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Detaliu de implementare:** clasa Memento poate fi inclusă (clasă imbricată) în cadrul clasei Originator, sau poate fi externă. Memento e folosit atât de Originator cât și de CareTaker.
 
-**Cod relevant:** `Curs/src/cts/curs/c12/memento/` — `Contract` (Originator), `VersiuneContract` (Memento), `ManagerContracte` (CareTaker).
+![Memento](https://refactoring.guru/images/patterns/content/memento/memento-en.png?id=e51abf6a98a5b1f91e0f3a000f113e1a)
+![Memento — Structură UML](https://refactoring.guru/images/patterns/diagrams/memento/structure1.png?id=4b4a42363a005b617d4df06689787385)
+
+> **Analogie reală (refactoring.guru):** Un editor de text cu funcție Undo. Înainte de a efectua o operație, editorul salvează un „instantaneu" (snapshot) al stării curente. Dacă utilizatorul vrea să anuleze operația, editorul restaurează starea din snapshot. Provocarea e să nu expui detaliile interne ale editorului altor obiecte care gestionează istoricul.
+
+**Cod relevant:** [`Curs/src/cts/curs/c12/memento/`](CTS_Curs_Complet.md#curssrcctscursc12mementoimplementarecontractjava) — `Contract` (Originator), `VersiuneContract` (Memento), `ManagerContracte` (CareTaker).
 
 ---
 
@@ -516,7 +596,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **Diferența State vs. Strategy** (capcană foarte frecventă — repetată intenționat aici): la **State**, schimbarea comportamentului e **internă/automată** (declanșată de tranziții de stare); la **Strategy**, clientul **alege explicit** algoritmul din exterior.
 
-**Cod relevant:** `Curs/src/cts/curs/c12/state/` — `AStare` (interfață/abstract), `StareLiber`/`StareOcupat`, context `Bucatar` (comportament diferit în funcție de disponibilitate).
+![State](https://refactoring.guru/images/patterns/content/state/state-en.png?id=c323fb8c54e2d57bebf4806c087afb07)
+![State — Structură UML](https://refactoring.guru/images/patterns/diagrams/state/structure-en.png?id=caac48afbc4b2d95829cd7c7eb0dcacf)
+
+> **Analogie reală (refactoring.guru):** Comportamentul unui smartphone în funcție de stare: când telefonul e deblocat, apăsarea butoanelor execută funcții diverse; când e blocat, orice buton duce la ecranul de deblocare; când bateria e descărcată, orice buton afișează ecranul de încărcare. Același obiect, comportament complet diferit în funcție de starea internă.
+
+**Cod relevant:** [`Curs/src/cts/curs/c12/state/`](CTS_Curs_Complet.md#curssrcctscursc12stateimplementareastarejava) — `AStare` (interfață/abstract), `StareLiber`/`StareOcupat`, context `Bucatar` (comportament diferit în funcție de disponibilitate).
 
 ---
 
@@ -531,7 +616,12 @@ Un nume bun trebuie să răspundă la 3 întrebări: **De ce există? (WHY?)**, 
 
 **De ce e `final` metoda template?** — Pentru a **împiedica modificarea structurii algoritmului** (a ordinii pașilor) de către subclase. Capcană: NU e despre performanță, NU e despre Singleton, ci strict despre protejarea secvenței de pași.
 
-**Cod relevant:** `Curs/src/cts/curs/c12/template/` — `Preparat` (clasă abstractă cu metodă template), `Paste`/`Pizza` (subclase concrete care implementează pașii).
+![Template Method](https://refactoring.guru/images/patterns/content/template-method/template-method.png?id=eee9461742f832814f19612ccf472819)
+![Template Method — Structură UML](https://refactoring.guru/images/patterns/diagrams/template-method/structure.png?id=924692f994bff6578d8408d90f6fc459)
+
+> **Analogie reală (refactoring.guru):** Construcția în serie a locuințelor. Un plan arhitectural tipic poate fi ușor modificat pentru a se potrivi nevoilor clientului. Fiecare fază — turnarea fundației, ridicarea structurii, construirea pereților, instalarea sistemelor — poate fi personalizată individual, dar ordinea și structura generală rămân fixe.
+
+**Cod relevant:** [`Curs/src/cts/curs/c12/template/`](CTS_Curs_Complet.md#curssrcctscursc12templateimplementarepastejava) — `Preparat` (clasă abstractă cu metodă template), `Paste`/`Pizza` (subclase concrete care implementează pașii).
 
 ---
 
@@ -696,7 +786,7 @@ fail(message)
 - Adnotările specifice unei suite JUnit 4: **`@RunWith(Suite.class)`**, **`@Suite.SuiteClasses({...})`**, și pentru filtrare pe categorii: **`@RunWith(Categories.class)`** + **`@Categories.IncludeCategory(X.class)`**.
 - **`@Category(X.class)`** se aplică pe metode de test individuale, pentru a le grupa logic (ex: categoria `A` vs. categoria `B`), astfel încât o suită să poată rula **doar** testele dintr-o categorie specifică.
 
-**Cod relevant din proiect:** `Curs_JUnit/src/cts/junit/c14/suite/AllTestsSuita1.java`, `Suita2.java`, `categories/A.java`, `categories/AA.java`, `categories/B.java`, `testare/AutostradaTestMock.java` (folosește `@Category(A.class)` și `@Category(B.class)` pe metode diferite din aceeași clasă).
+**Cod relevant din proiect:** [`Curs_JUnit/src/cts/junit/c14/suite/AllTestsSuita1.java`](CTS_Curs_Complet.md#curs_junitsrcctsjunitc14suitealltestssuita1java), `Suita2.java`, `categories/A.java`, `categories/AA.java`, `categories/B.java`, `testare/AutostradaTestMock.java` (folosește `@Category(A.class)` și `@Category(B.class)` pe metode diferite din aceeași clasă).
 
 ### 5.4 WhiteBox vs. BlackBox Testing
 
@@ -833,7 +923,7 @@ Citat din curs: *„În testarea automată este obișnuită folosirea obiectelor
 | **Fake** | Un obiect care se comportă **asemănător cu unul real**, dar are o versiune **simplificată**, cu valori configurabile. |
 | **Mock Object** | „Diferit de toate celelalte" — comportament **controlat**, folosit pentru **Mock Testing**: metoda testată NU trebuie să fie influențată de dependențe externe reale (bază de date, rețea, etc.). |
 
-**Cod relevant din proiect:** `Curs_JUnit/src/cts/junit/c14/mock/` — `MasinaMock`, `VremeMock`, `IMasina`/`IVreme` (interfețe), `TestareCuMock.java`, `AutostradaTestMock.java`.
+**Cod relevant din proiect:** [`Curs_JUnit/src/cts/junit/c14/mock/`](CTS_Curs_Complet.md#curs_junitsrcctsjunitc14mockautostradajava) — `MasinaMock`, `VremeMock`, `IMasina`/`IVreme` (interfețe), `TestareCuMock.java`, `AutostradaTestMock.java`.
 
 ---
 
